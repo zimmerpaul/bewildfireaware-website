@@ -25,6 +25,10 @@ npm run build        # production build into dist/
 
 **Manual data refresh/deploy**: run the "Build and deploy" workflow from the GitHub Actions tab (workflow_dispatch).
 
+**Update map boundaries**: `npm run update-map` re-exports FDRA polygons from the Google My Maps map (source of truth), simplifies them, and rewrites `src/data/fdra_boundaries.json`. Only needed when boundaries change. The dispatch-areas map colors each polygon with that day's danger rating at build time (Leaflet + CARTO basemap, `public/map.js`).
+
+**Pocket card rollover**: `public/pocket-card.js` adds crosshair + daily-value tooltips (mouse and touch) over the build-time SVG chart. Chart renders fully without JS.
+
 ## Data source
 
 The Google Sheets are populated from FEMS by a Google Apps Script (legacy pipeline). Planned evolution: pull the FEMS API directly in the Actions workflow and retire the sheets — only `scripts/fetch-data.mjs` needs to change; page templates consume the intermediate JSON and stay untouched.

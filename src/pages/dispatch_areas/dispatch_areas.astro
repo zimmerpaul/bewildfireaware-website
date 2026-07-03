@@ -1,18 +1,50 @@
 ---
 import Base from '../../layouts/Base.astro';
+import areas from '../../data/dispatch_areas.json';
+import boundaries from '../../data/fdra_boundaries.json';
+
+// Attach today's danger rating (from the daily data bake) to each boundary
+const dataFiles = import.meta.glob('../../data/areas/*.json', { eager: true });
+const byASlug = Object.fromEntries(areas.map((a) => [a.slug, a]));
+
+const features = boundaries.features.map((f) => {
+  const slug = f.properties.slug;
+  const d = dataFiles[`../../data/areas/${slug}.json`];
+  const data = d?.default ?? d ?? {};
+  return {
+    ...f,
+    properties: {
+      slug,
+      name: byASlug[slug]?.name ?? f.properties.name,
+      danger: data.danger ?? 'Unknown',
+      updated: data.dateLabel ?? '',
+      url: `/dispatch_areas/${slug}.html`,
+    },
+  };
+});
+const mapData = { type: 'FeatureCollection', features };
 ---
 <Base title="BeWildfireAware - Dispatch Areas" active="dispatch">
   <main>
     <section class="dispatch-areas" id="dispatch-areas">
       <h2>Dispatch Areas</h2>
-      <p>Explore the current wildfire danger in your area by selecting a specific region from the Dispatch Areas dropdown menu above.</p>
+      <p>Today's fire danger by Fire Danger Rating Area. Click an area on the map for details, or choose one from the Dispatch Areas menu above.</p>
     </section>
   </main>
-  <div class="iframe-container">
-    <iframe
-      src="https://www.google.com/maps/d/embed?mid=1-J_VEIRPmFNzhZ6BDQoWzloPLUTQ2us&ehbc=2E312F&noprof=1"
-      width="640"
-      height="480"
-      title="Dispatch Area Map"></iframe>
+
+  <div id="danger-map">
+    <noscript>
+      <p class="map-noscript">
+        The interactive map requires JavaScript. You can still open any dispatch area
+        from the Dispatch Areas menu at the top of the page.
+      </p>
+    </noscript>
   </div>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script is:inline type="application/json" id="map-data" set:html={JSON.stringify(mapData)}></script>
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+  <script is:inline src="/map.js" defer></script>
 </Base>

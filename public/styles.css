@@ -621,3 +621,82 @@ main {
     font-size: 0.95em;
     margin: 4px 0;
 }
+
+/* Pocket card rollover tooltip */
+.pocket-card {
+    position: relative;
+}
+
+.pc-tooltip {
+    position: absolute;
+    background: #fff;
+    color: #222;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+    padding: 8px 12px;
+    font-size: 0.85em;
+    line-height: 1.6;
+    pointer-events: none;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.pc-tooltip .pc-date {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 4px;
+}
+
+.pc-tooltip .pc-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Dispatch area danger map */
+#danger-map {
+    height: 78vh;
+    margin: 0 20px 30px;
+    border-radius: 8px;
+    background: #0B3D12;
+}
+
+.map-noscript {
+    padding: 20px;
+    text-align: center;
+}
+
+.map-legend {
+    background: #fff;
+    color: #222;
+    padding: 10px 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    font-size: 0.9em;
+    line-height: 1.7;
+}
+
+.map-legend-swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.map-popup a {
+    color: #c2410c;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    #danger-map {
+        height: 65vh;
+        margin: 0 10px 20px;
+    }
+}

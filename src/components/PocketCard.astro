@@ -53,6 +53,17 @@ const ticks = [
 const yStep = card.yMax > 100 ? 40 : 20;
 const yTicks = [];
 for (let v = 0; v <= card.yMax; v += yStep) yTicks.push(v);
+// Data island for the hover/touch tooltip enhancement (pocket-card.js).
+// Chart still renders fully without JS; this only adds rollover values.
+const hoverData = {
+  geo: { W, H, ml: M.l, mt: M.t, pw, ph, yMax: card.yMax },
+  series: [
+    { label: 'Max', color: '#d32f2f', points: card.series.max ?? [] },
+    { label: `${yr}Observed`, color: '#1e3fd0', points: card.series.observed ?? [] },
+    { label: `${yr}Forecasted`, color: '#6fa8dc', points: card.series.forecasted ?? [] },
+    ...comparisons.map((c) => ({ label: c.label, color: c.color, points: c.points })),
+  ].filter((s) => s.points.length),
+};
 ---
 <figure class="pocket-card">
   <svg viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg" role="img" aria-label={card.title}>
@@ -101,4 +112,6 @@ for (let v = 0; v <= card.yMax; v += yStep) yTicks.push(v);
       <path d={path(card.series.forecasted)} fill="none" stroke="#6fa8dc" stroke-width="5" stroke-linejoin="round" />
     )}
   </svg>
+  <script type="application/json" data-pocket-card set:html={JSON.stringify(hoverData)}></script>
 </figure>
+<script is:inline src="/pocket-card.js" defer></script>
