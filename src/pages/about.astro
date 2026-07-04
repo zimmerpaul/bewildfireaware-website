@@ -1,23 +1,57 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="About BeWildfireAware" active="about">
+<Base title="Who We Are - BeWildfireAware" active="about"
+  description="BeWildfireAware was started in 2024 by a retired wildland firefighter and a technologist to make professional fire danger information accessible to Western Colorado.">
   <main class="content">
-    <section class="about">
-      <h2>Who We Are</h2>
-      <img src="/images/bwa_logo_150x150px.webp" alt="BeWildfireAware Logo" />
-      <p>BeWildfireAware gathers data from Remote Automated Weather Stations (RAWS) from around the dispatch areas, through WIMS, then takes the current Fire Danger Operating Plan (FDOP) to calculate the Fire Danger Rating, ERC and BI percentile and pocket cards. The Fire Danger Rating Areas (FDRA) come directly from the FDOP. This service allows for easy access to forecasted NFDRS data.</p>
-      <p>We welcome comments and suggestions about the BeWildfireAware (BWA) website, so we can continue to improve the site and applications. BWA strives to provide information to fire professionals and other agencies that could be effective by Wildfires. The BWA is just one of many tools that are available to help share information about wildfires.</p>
-      <p>Jim Ramirez, 38 North LLC</p>
-      <p>gunnisonbc71@gmail.com</p>
-      <p>307-690-6619</p>
-    </section>
+    <h1>Who We Are</h1>
+
+    <div class="mission">
+      <h2>Our mission</h2>
+      <p>
+        Wildfire danger shouldn't be hard to find or hard to understand. BeWildfireAware translates the
+        National Fire Danger Rating System — the same data federal fire managers use to make daily staffing
+        and response decisions — into a clear picture anyone can use: today's danger where you live,
+        the conditions driving it, and what the next seven days look like. Built in Western Colorado,
+        for Western Colorado, and updated every morning.
+      </p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="/images/team/jim.webp" alt="Jim Ramirez on the fireline" />
+        <div class="team-body">
+          <h3>Jim Ramirez</h3>
+          <p class="team-role">Co-founder · Fire</p>
+          <p>Jim spent over 20 years as a wildland firefighter with the U.S. Forest Service, from 1998 until retiring in 2022 — working engine crews, hand crews, hotshot crews, and heli-rappel crews, then serving as a Fire Module Crew Supervisor and finishing his career as a Zone Battalion Chief.</p>
+          <p>One of the most rewarding parts of his career was training new firefighters and helping people understand how wildfire behaves and spreads. In 2024 he started BeWildfireAware to bring fire danger information — long confined to Smokey Bear signs along the road — into an accessible, real-time format.</p>
+          <p class="team-caption">Terry Ranch Fire, New Mexico — July 2011</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <img src="/images/team/paul.webp" alt="Paul Zimmer in Gunnison, Colorado" />
+        <div class="team-body">
+          <h3>Paul Zimmer</h3>
+          <p class="team-role">Co-founder · Technology</p>
+          <p>Paul is the other half of the team. He doesn't come from a wildland fire background — his work is in technology and product development, with over 25 years of programming, product management, and entrepreneurial experience. He lives in Gunnison, Colorado, where wildfire isn't an abstract concern; it's part of what it means to live here.</p>
+          <p>Jim brings decades of hard-earned experience from the fireline; Paul builds the tools — pulling in real-time data and presenting it in a way that's genuinely useful to neighbors, visitors, and anyone making decisions about their property or their day.</p>
+          <p class="team-caption">At home in Gunnison — 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>How the site works</h2>
+    <p>BeWildfireAware gathers data from Remote Automated Weather Stations (RAWS) across the dispatch areas through FEMS, then applies each area's Fire Danger Operating Plan (FDOP) to calculate the Fire Danger Rating, ERC and BI percentiles, and pocket cards. The Fire Danger Rating Areas come directly from the FDOP. Everything updates automatically each morning.</p>
+    <p>We welcome comments and suggestions — BWA is one of many tools available to help share information about wildfire, and we want to keep making it better.</p>
+    <p><strong>Contact:</strong> Jim Ramirez, 38 North LLC · gunnisonbc71@gmail.com · 307-690-6619</p>
+
     <section class="disclaimer">
-      <p class="small-font">
+      <p>
         Disclaimer: The information contained herein is provided as a public service and is for NONCOMMERCIAL PURPOSES ONLY, with the understanding that the BeWildfireAware and 38 North LLC make no warranties, either expressed or implied, concerning the accuracy, completeness, reliability, or suitability of the information. Nor does the BeWildfireAware and 38 North LLC warrant that the use of this information is free of any claims of copyright infringement. THE INFORMATION IS BEING PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
         Users also should note that property boundaries included in any product do not represent an on-the-ground survey suitable for legal, engineering, or surveying purposes. They represent only the approximate relative locations.
-        By accessing this website and/or data contained within the databases, you hereby release the BeWildfireAware and 38 North LLC , their employees, agents, contractors, and suppliers (collectively, "BWA") from any and all responsibility and liability associated with its use. In no event shall BWA be liable for any damages arising in any way out of the use of the website, or use of the information contained in the databases herein including, but not limited to the BeWildfireAware products.
-        The user assumes the entire risk related to their use of this information, including but not limited to the BeWildfireAware and either the published or derived products from theis data. IN NO EVENT WILL BWA\ BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES OR LOST PROFIT RESULTING FROM ANY USE OR MISUSE OF THESE DATA, EVEN IF THE USER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+        By accessing this website and/or data contained within the databases, you hereby release the BeWildfireAware and 38 North LLC, their employees, agents, contractors, and suppliers (collectively, "BWA") from any and all responsibility and liability associated with its use. In no event shall BWA be liable for any damages arising in any way out of the use of the website, or use of the information contained in the databases herein including, but not limited to the BeWildfireAware products.
+        The user assumes the entire risk related to their use of this information. IN NO EVENT WILL BWA BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES OR LOST PROFIT RESULTING FROM ANY USE OR MISUSE OF THESE DATA, EVEN IF THE USER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
       </p>
     </section>
   </main>

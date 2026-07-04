@@ -1,24 +1,80 @@
 ---
 import Base from '../layouts/Base.astro';
+import areas from '../data/dispatch_areas.json';
+
+const dataFiles = import.meta.glob('../data/areas/*.json', { eager: true });
+const areaCards = areas.map((a) => {
+  const d = dataFiles[`../data/areas/${a.slug}.json`];
+  const data = d?.default ?? d ?? {};
+  return { ...a, danger: data.danger ?? 'Unknown', dateLabel: data.dateLabel ?? '' };
+});
+const dangerClass = (level) => 'danger-' + (level ?? 'unknown').toLowerCase().replace(/\s+/g, '-');
+const dateLabel = areaCards.find((a) => a.dateLabel)?.dateLabel;
 ---
-<Base title="BeWildfireAware" active="home">
+<Base title="BeWildfireAware — Daily Wildfire Danger for Western Colorado" active="home">
   <main>
     <section class="hero">
-      <h1>Be Wildfire Aware</h1>
-      <p>Stay informed and stay safe</p>
+      <h1>Know today's fire danger</h1>
+      <p>Daily wildfire danger ratings and 7-day forecasts for Western Colorado — the same National Fire Danger Rating System data fire managers use, made clear for everyone.</p>
+      <a href="#local" class="cta">Check your area</a>
     </section>
 
-    <section class="dispatch-areas" id="dispatch-areas">
-      <h2>Dispatch Areas</h2>
-      <p>Explore the current wildfire danger in your area.</p>
-      <a href="/dispatch_areas/dispatch_areas.html" class="cta">Explore Dispatch Areas</a>
+    <section class="section" id="local">
+      <div class="locate-card">
+        <div>
+          <h3>Your local fire danger</h3>
+          <p>Find the rating where you're standing. Your location is matched on your device — it's never sent to us or anyone else.</p>
+        </div>
+        <button class="btn" id="locate-btn">Use my location</button>
+        <div class="locate-result" id="locate-result"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Today across Western Colorado</h2>
+      <p class="section-sub">{dateLabel ? `Fire danger for ${dateLabel}. ` : ''}Tap an area on the map for today's conditions, or jump straight to your area below.</p>
+    </section>
+    <div class="map-wrap">
+      <div id="danger-map">
+        <noscript><p class="map-noscript">The interactive map requires JavaScript — use the area links below instead.</p></noscript>
+      </div>
+    </div>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="area-chips">
+        {areaCards.map((a) => (
+          <a class="area-chip" href={`/dispatch_areas/${a.slug}.html`}>
+            <span>{a.name}</span>
+            <span class={`danger-chip ${dangerClass(a.danger)}`}>{a.danger}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="mission">
+        <h2>Why we built this</h2>
+        <p>
+          For most people, fire danger information has meant a Smokey Bear sign glimpsed from the road.
+          BeWildfireAware brings the professional picture — today's danger rating, the conditions driving it,
+          and the week ahead — to everyone who lives, works, and plays in Western Colorado, updated every morning.
+          <a href="/about.html" style="color:#ffb703; font-weight:700;">Meet the team &rarr;</a>
+        </p>
+      </div>
     </section>
   </main>
 
   <section class="fems-attribution">
     <div class="fems-content">
       <img src="/Data/FEMS_logo.png" alt="FEMS Logo" class="fems-logo" />
-      <p><strong>Weather and NFDRS data now coming from FEMS</strong></p>
+      <p><strong>Weather and NFDRS data from FEMS</strong> — the interagency Fire Environment Mapping System</p>
     </div>
   </section>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+  <script is:inline src="/map.js" defer></script>
+  <script is:inline src="/geolocate.js" defer></script>
 </Base>

@@ -1,6 +1,7 @@
 ---
 import NavLinks from '../components/NavLinks.astro';
-const { title, active = '' } = Astro.props;
+import Logo from '../components/Logo.astro';
+const { title, active = '', description = 'Daily wildfire danger ratings and 7-day forecasts for Western Colorado, powered by National Fire Danger Rating System data.' } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +9,7 @@ const { title, active = '' } = Astro.props;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
+  <meta name="description" content={description} />
   <link rel="stylesheet" href="/styles.css" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <!-- Google tag (gtag.js) -->
@@ -22,7 +24,7 @@ const { title, active = '' } = Astro.props;
 <body>
   <header>
     <div class="logo">
-      <a href="/index.html"><img src="/images/bwa_logo_150x150px.webp" alt="BeWildfireAware Logo" /></a>
+      <a href="/index.html" aria-label="BeWildfireAware home"><Logo /></a>
     </div>
     <button class="menu-toggle" aria-label="Toggle navigation menu">&#9776;</button>
     <nav>

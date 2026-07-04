@@ -1,0 +1,27 @@
+---
+// BWA logo: pine-green badge with mountain ridge + flame, plus two-tone wordmark.
+// Pure SVG — crisp at every size, no image request.
+const { showWordmark = true, size = 40 } = Astro.props;
+---
+<span class="logo-lockup">
+  <svg width={size} height={size} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BeWildfireAware logo">
+    <defs>
+      <linearGradient id="bwa-flame" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffb703" />
+        <stop offset="55%" stop-color="#f77f00" />
+        <stop offset="100%" stop-color="#d62828" />
+      </linearGradient>
+    </defs>
+    <rect width="100" height="100" rx="22" fill="#0f2a1d" />
+    <!-- flame rising behind the ridge -->
+    <path d="M63 10 C70 21 80 25 80 38 C80 49 72 56 63 56 C54 56 46 49 46 38 C46 30 51 26 55 18 C56 25 60 28 60 23 C60 19 61 14 63 10 Z" fill="url(#bwa-flame)" />
+    <path d="M63 28 C66 33 70 35 70 41 C70 46 67 49 63 49 C59 49 56 46 56 41 C56 37 59 35 60 31 C61 34 62 35 63 33 Z" fill="#ffd166" />
+    <!-- mountain ridge -->
+    <path d="M6 82 L32 48 L45 63 L58 46 L94 82 Z" fill="#2d6a4f" />
+    <path d="M32 48 L39 56 L34 58 L28 53 Z" fill="#e9f5ee" opacity="0.9" />
+    <path d="M58 46 L66 54 L59 57 L52 52 Z" fill="#e9f5ee" opacity="0.9" />
+  </svg>
+  {showWordmark && (
+    <span class="logo-word">Be<span class="logo-word-wild">Wildfire</span>Aware</span>
+  )}
+</span>

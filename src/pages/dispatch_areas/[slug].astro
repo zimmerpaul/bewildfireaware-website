@@ -18,6 +18,18 @@ const dangerClass = (level) =>
   'danger-' + (level ?? '').toLowerCase().replace(/\s+/g, '-');
 
 const DANGER_LEVELS = ['Low', 'Moderate', 'High', 'Very High', 'Extreme'];
+
+// Local fire information linkouts. Same core set for all areas today;
+// add a `links` array to an area in dispatch_areas.json to extend/override.
+const localLinks = [
+  { name: 'Watch Duty', url: 'https://app.watchduty.org/', desc: 'Live wildfire tracking and real-time incident updates.' },
+  { name: 'Fire Restrictions', url: data.restrictions?.url ?? 'https://westslopefireinfo.com/', desc: 'Current restrictions across the Western Slope — check before you burn.' },
+  { name: 'NWS Fire Weather', url: 'https://www.weather.gov/wrh/fire?wfo=gjt', desc: 'Red flag warnings and fire weather forecasts for Western Colorado.' },
+  { name: 'Protect Your Property', url: 'https://csfs.colostate.edu/wildfire-mitigation/', desc: 'Wildfire mitigation guidance from the Colorado State Forest Service.' },
+  { name: 'InciWeb', url: 'https://inciweb.wildfire.gov/', desc: 'Official interagency information on active large incidents.' },
+  { name: 'AirNow Fire & Smoke', url: 'https://fire.airnow.gov/', desc: 'Smoke plumes and air quality near you.' },
+  ...(area.links ?? []),
+];
 ---
 <Base title={`Be Wildfire Aware - ${area.name}`} active="dispatch">
   <main class="area-page">
@@ -120,6 +132,16 @@ const DANGER_LEVELS = ['Low', 'Moderate', 'High', 'Very High', 'Extreme'];
         </div>
       </>
     )}
+
+    <h2>Local Fire Information</h2>
+    <div class="local-links">
+      {localLinks.map((l) => (
+        <a class="local-link" href={l.url} target="_blank" rel="noopener">
+          <strong>{l.name} ↗</strong>
+          <span>{l.desc}</span>
+        </a>
+      ))}
+    </div>
 
     {data.raws && <p class="raws-note">{data.raws}</p>}
 
