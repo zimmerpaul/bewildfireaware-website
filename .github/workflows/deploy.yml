@@ -39,8 +39,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/areas
-          git diff --cached --quiet || git commit -m "Daily data refresh"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily data refresh"
+            # Re-runs/manual runs may have checked out an older commit; rebase onto
+            # the current tip so the push can't fail as non-fast-forward.
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          else
+            echo "No data changes — nothing to commit."
+          fi
 
       - run: npm run build
 

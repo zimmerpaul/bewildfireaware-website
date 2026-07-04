@@ -43,8 +43,10 @@ const findRow = (rows, pred, from = 0) => {
   return -1;
 };
 
+// Note: no fetch timestamp in the output — identical data must produce identical
+// files so the workflow only commits (and the git history only grows) on real changes.
 function parseArea(rows, area) {
-  const data = { slug: area.slug, name: area.name, fetchedAt: new Date().toISOString() };
+  const data = { slug: area.slug, name: area.name };
 
   data.dispatchTitle = firstNonEmpty(rows[0]);
   data.dateLabel = firstNonEmpty(rows[1]);
