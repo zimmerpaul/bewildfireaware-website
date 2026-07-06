@@ -100,10 +100,13 @@ async function generate(area, data, geo) {
 
   // The final answer is the text after the last tool interaction — earlier
   // text blocks are "I'll search for…" narration and must not be published.
+  // Join with '' — the API splits the answer into multiple text blocks at each
+  // citation boundary, so these are contiguous fragments of the same passage.
   let lastToolIdx = -1;
   msg.content.forEach((b, i) => { if (b.type !== 'text') lastToolIdx = i; });
   let text = msg.content.slice(lastToolIdx + 1)
-    .filter((b) => b.type === 'text').map((b) => b.text).join('\n').trim();
+    .filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
+  text = text.replace(/\n{3,}/g, '\n\n');
   // Extra guard: drop any lines before the bold lead sentence.
   const boldStart = text.indexOf('**');
   if (boldStart > 0) text = text.slice(boldStart).trim();

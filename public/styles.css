@@ -657,3 +657,81 @@ footer p { margin: 10px 0 0; font-size: 0.9em; }
 .locate-overview li { margin-bottom: 5px; line-height: 1.55; }
 .locate-overview .overview-meta { margin: 0; font-size: 0.78em; color: var(--ink-soft); }
 .locate-overview .overview-meta a { color: var(--ink-soft); }
+
+/* --- overview v2: collapsible card, sources list, homepage exec summary --- */
+
+/* fix: card intro max-width was leaking into overview text */
+.locate-overview p { max-width: none; }
+
+.overview > summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+
+.overview > summary::-webkit-details-marker { display: none; }
+.overview > summary h2 { margin: 0 !important; }
+
+.ov-chevron {
+    color: var(--pine-mid);
+    font-size: 1.1em;
+    transition: transform 0.15s;
+}
+
+.overview[open] .ov-chevron { transform: rotate(180deg); }
+.overview[open] > summary { margin-bottom: 10px; }
+
+.overview-sources {
+    list-style: none;
+    margin: 12px 0 10px;
+    padding: 10px 0 0;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 6px 18px;
+}
+
+.overview-sources li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85em;
+    min-width: 0;
+}
+
+.overview-sources img { border-radius: 3px; flex: none; }
+
+.overview-sources a,
+.overview-sources .ov-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--ink);
+}
+
+.overview-sources a:hover { color: var(--flame-dark); }
+.ov-host { color: var(--ink-soft); font-size: 0.9em; flex: none; }
+
+/* homepage executive summary + expand */
+.ov-lead { margin: 0 0 6px; line-height: 1.6; }
+
+.ov-details summary {
+    cursor: pointer;
+    color: var(--flame-dark);
+    font-weight: 700;
+    font-size: 0.9em;
+    list-style: none;
+    display: inline-block;
+    margin: 2px 0 4px;
+}
+
+.ov-details summary::-webkit-details-marker { display: none; }
+.ov-details summary::after { content: " ▾"; font-size: 0.85em; }
+.ov-details[open] summary::after { content: " ▴"; }
+
+/* town label tiers */
+.town-label { font-weight: 600; font-size: 11px; }
+.town-label-minor { display: none; font-weight: 500; font-size: 10.5px; color: #444; }
+.show-minor-towns .town-label-minor { display: block; }

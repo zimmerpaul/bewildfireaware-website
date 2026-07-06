@@ -14,30 +14,32 @@
     return 'danger-' + String(level || 'unknown').toLowerCase().replace(/\s+/g, '-');
   }
 
-  // Western Colorado towns, always labeled regardless of zoom so people can
-  // orient themselves (basemap labels drop out at region-wide zoom levels).
+  // Western Colorado towns for orientation. Tier 1 is always labeled;
+  // tier 2 labels appear once zoomed past MINOR_LABEL_ZOOM (declutters the
+  // region-wide view where 21 labels collide).
+  var MINOR_LABEL_ZOOM = 9;
   var TOWNS = [
-    ['Grand Junction', 39.0639, -108.5506],
-    ['Montrose', 38.4783, -107.8762],
-    ['Gunnison', 38.5458, -106.9253],
-    ['Crested Butte', 38.8697, -106.9878],
-    ['Durango', 37.2753, -107.8801],
-    ['Telluride', 37.9375, -107.8123],
-    ['Ouray', 38.0228, -107.6714],
-    ['Ridgway', 38.1525, -107.7568],
-    ['Delta', 38.7422, -108.0690],
-    ['Paonia', 38.8683, -107.5920],
-    ['Cortez', 37.3489, -108.5859],
-    ['Pagosa Springs', 37.2694, -107.0098],
-    ['Silverton', 37.8117, -107.6645],
-    ['Lake City', 38.0300, -107.3150],
-    ['Glenwood Springs', 39.5505, -107.3248],
-    ['Aspen', 39.1911, -106.8175],
-    ['Rifle', 39.5347, -107.7831],
-    ['Carbondale', 39.4022, -107.2112],
-    ['Norwood', 38.1319, -108.2929],
-    ['Nucla', 38.2678, -108.5484],
-    ['Hotchkiss', 38.7994, -107.7176],
+    ['Grand Junction', 39.0639, -108.5506, 1],
+    ['Montrose', 38.4783, -107.8762, 1],
+    ['Gunnison', 38.5458, -106.9253, 1],
+    ['Durango', 37.2753, -107.8801, 1],
+    ['Cortez', 37.3489, -108.5859, 1],
+    ['Glenwood Springs', 39.5505, -107.3248, 1],
+    ['Aspen', 39.1911, -106.8175, 1],
+    ['Telluride', 37.9375, -107.8123, 1],
+    ['Pagosa Springs', 37.2694, -107.0098, 1],
+    ['Delta', 38.7422, -108.0690, 2],
+    ['Crested Butte', 38.8697, -106.9878, 2],
+    ['Ouray', 38.0228, -107.6714, 2],
+    ['Ridgway', 38.1525, -107.7568, 2],
+    ['Paonia', 38.8683, -107.5920, 2],
+    ['Silverton', 37.8117, -107.6645, 2],
+    ['Lake City', 38.0300, -107.3150, 2],
+    ['Rifle', 39.5347, -107.7831, 2],
+    ['Carbondale', 39.4022, -107.2112, 2],
+    ['Norwood', 38.1319, -108.2929, 2],
+    ['Nucla', 38.2678, -108.5484, 2],
+    ['Hotchkiss', 38.7994, -107.7176, 2],
   ];
 
   function popupHtml(p) {
@@ -98,17 +100,25 @@
       // (tiles are z200, our pane z350, overlay polygons z400) so the danger
       // colors and hover effects sit on top of the labels.
       map.createPane('towns');
-      map.getPane('towns').style.zIndex = 350;
-      map.getPane('towns').style.pointerEvents = 'none';
+      var townsPane = map.getPane('towns');
+      townsPane.style.zIndex = 350;
+      townsPane.style.pointerEvents = 'none';
       TOWNS.forEach(function (t) {
         L.circleMarker([t[1], t[2]], {
           pane: 'towns',
-          radius: 3.5, color: '#333', weight: 1.5, fillColor: '#fff', fillOpacity: 1, interactive: false,
+          radius: t[3] === 1 ? 3.5 : 2.5,
+          color: '#444', weight: 1.25, fillColor: '#fff', fillOpacity: 1, interactive: false,
         }).addTo(map).bindTooltip(t[0], {
           pane: 'towns',
-          permanent: true, direction: 'right', offset: [6, 0], className: 'town-label', interactive: false,
+          permanent: true, direction: 'right', offset: [6, 0], interactive: false,
+          className: t[3] === 1 ? 'town-label' : 'town-label town-label-minor',
         }).openTooltip();
       });
+      function updateTownLabels() {
+        townsPane.classList.toggle('show-minor-towns', map.getZoom() >= MINOR_LABEL_ZOOM);
+      }
+      map.on('zoomend', updateTownLabels);
+      updateTownLabels();
 
       var legend = L.control({ position: 'bottomleft' });
       legend.onAdd = function () {
