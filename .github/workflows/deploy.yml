@@ -52,17 +52,56 @@ jobs:
 
       - run: npm run build
 
+      - name: Record build fingerprint
+        id: fingerprint
+        run: echo "datelabel=$(node -p "require('./src/data/areas/montrose_montrose.json').dateLabel")" >> "$GITHUB_OUTPUT"
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+    outputs:
+      datelabel: ${{ steps.fingerprint.outputs.datelabel }}
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
+      # Pages deployments occasionally fail transiently ("try again later") —
+      # retry once in-run before letting the workflow fail.
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before retrying failed deployment
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+
+  verify:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify live site serves this build's data
+        run: |
+          URL="${{ needs.deploy.outputs.page_url }}"
+          WANT="${{ needs.build.outputs.datelabel }}"
+          echo "Checking $URL against expected date label: $WANT"
+          for i in $(seq 1 12); do
+            GOT=$(curl -fsS "${URL%/}/map-data.json" | jq -r '.features[0].properties.updated' || echo "")
+            echo "attempt $i: deployed data is '$GOT'"
+            if [ "$GOT" = "$WANT" ]; then
+              curl -fsS -o /dev/null "${URL%/}/" && echo "Homepage OK — deployment verified." && exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::Deployed site does not match this build after 3 minutes."
+          exit 1
