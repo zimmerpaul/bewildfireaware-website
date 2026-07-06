@@ -109,11 +109,22 @@ async function generate(area, data, geo) {
   if (boldStart > 0) text = text.slice(boldStart).trim();
   if (text.length < 80) throw new Error(`overview too short (${text.length} chars)`);
 
-  // Sources: the structured inputs, plus any web pages Claude actually cited
+  // Sources: the structured inputs, plus web pages Claude cited. When it
+  // paraphrases without direct citations, fall back to the pages its
+  // searches actually retrieved so readers always get reference linkouts.
   const cited = new Map();
   for (const b of msg.content) {
     if (b.type === 'text' && b.citations) {
       for (const c of b.citations) if (c.url) cited.set(c.url, c.title || c.url);
+    }
+  }
+  if (cited.size === 0) {
+    for (const b of msg.content) {
+      if (b.type === 'web_search_tool_result' && Array.isArray(b.content)) {
+        for (const r of b.content) {
+          if (r.type === 'web_search_result' && r.url && cited.size < 4) cited.set(r.url, r.title || r.url);
+        }
+      }
     }
   }
   const sources = [

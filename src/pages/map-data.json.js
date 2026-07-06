@@ -31,7 +31,9 @@ export function GET() {
         updated: data.dateLabel ?? '',
         watchout: data.watchout ?? null,
         obs,
-        overview: ov?.lead ?? ov?.overview ?? null,
+        overview: ov?.overview ?? null,
+        overviewSources: ov?.sources ?? null,
+        overviewGenerated: ov?.generated ?? null,
         url: `/dispatch_areas/${slug}.html`,
       },
     };

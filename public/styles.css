@@ -649,3 +649,11 @@ footer p { margin: 10px 0 0; font-size: 0.9em; }
 .overview-body p strong { font-size: 1.05em; }
 .overview-body ul { margin: 0 0 12px; padding-left: 22px; }
 .overview-body li { margin-bottom: 6px; line-height: 1.55; }
+
+/* full overview inside the homepage locate card */
+.locate-overview p { margin: 0 0 8px; }
+.locate-overview p strong { font-size: 1.02em; }
+.locate-overview ul { margin: 0 0 8px; padding-left: 22px; }
+.locate-overview li { margin-bottom: 5px; line-height: 1.55; }
+.locate-overview .overview-meta { margin: 0; font-size: 0.78em; color: var(--ink-soft); }
+.locate-overview .overview-meta a { color: var(--ink-soft); }
