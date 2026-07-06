@@ -1,8 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PocketCard from '../../components/PocketCard.astro';
+import Overview from '../../components/Overview.astro';
 import areas from '../../data/dispatch_areas.json';
 import fdraGeo from '../../data/fdra_geo.json';
+
+const overviewFiles = import.meta.glob('../../data/overviews/*.json', { eager: true });
 
 export function getStaticPaths() {
   const dataFiles = import.meta.glob('../../data/areas/*.json', { eager: true });
@@ -60,6 +63,8 @@ const localLinks = [
         </span>
       )}
     </div>
+
+    <Overview ov={(overviewFiles[`../../data/overviews/${area.slug}.json`] ?? {}).default ?? overviewFiles[`../../data/overviews/${area.slug}.json`]} />
 
     {data.pocketCard && <PocketCard card={data.pocketCard} />}
 

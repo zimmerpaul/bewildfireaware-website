@@ -592,3 +592,41 @@ footer p { margin: 10px 0 0; font-size: 0.9em; }
     color: var(--danger-extreme);
     font-weight: 700;
 }
+
+/* AI Overview */
+.overview {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--pine-mid);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 18px 22px;
+    margin: 18px 0 6px;
+}
+
+.overview h2 {
+    margin: 0 0 8px !important;
+    font-size: 1.1em !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--pine-mid);
+}
+
+.overview .overview-text { margin: 0 0 10px; line-height: 1.65; }
+
+.overview .overview-meta,
+.overview-credit {
+    font-size: 0.78em;
+    color: var(--ink-soft);
+}
+
+.overview .overview-meta { margin: 0; }
+.overview .overview-meta a { color: var(--ink-soft); }
+
+.locate-overview {
+    width: 100%;
+    margin: 6px 0 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: var(--ink);
+}

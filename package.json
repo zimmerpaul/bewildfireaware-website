@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "update-map": "node scripts/update-map.mjs",
-    "derive-counties": "node scripts/derive-counties.mjs"
+    "derive-counties": "node scripts/derive-counties.mjs",
+    "generate-overviews": "node scripts/generate-overviews.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0"

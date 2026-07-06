@@ -37,7 +37,9 @@
     if (!el || typeof L === 'undefined') return;
 
     fetch('/map-data.json').then(function (r) { return r.json(); }).then(function (geojson) {
-      var map = L.map(el, { scrollWheelZoom: false });
+      // zoomSnap 0.25 lets fitBounds land much closer to the areas instead of
+      // rounding down to a distant whole zoom level
+      var map = L.map(el, { scrollWheelZoom: false, zoomSnap: 0.25, zoomDelta: 0.5 });
 
       // Voyager basemap: towns, roads, and terrain labels so people can find
       // themselves, while staying muted enough for danger colors to read.
@@ -62,7 +64,9 @@
         },
       }).addTo(map);
 
-      map.fitBounds(layer.getBounds(), { padding: [10, 10] });
+      map.fitBounds(layer.getBounds(), { padding: [6, 6] });
+      map.setMinZoom(map.getZoom() - 1); // keep people from getting lost zooming out
+      L.control.scale({ imperial: true, metric: false }).addTo(map);
 
       var legend = L.control({ position: 'bottomleft' });
       legend.onAdd = function () {

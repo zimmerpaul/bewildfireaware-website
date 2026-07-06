@@ -33,6 +33,11 @@ jobs:
       - name: Fetch latest fire danger data
         run: npm run fetch-data
 
+      - name: Generate AI overviews (script self-skips when no API key is configured)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run generate-overviews
+
       - name: Commit refreshed data (scheduled runs keep last-good data in git)
         # Primary repo only — preview/mirror repos build with fresh data but
         # never write commits, so pushes to them stay fast-forward.
@@ -40,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/areas
+          git add src/data/areas src/data/overviews 2>/dev/null || git add src/data/areas
           if ! git diff --cached --quiet; then
             git commit -m "Daily data refresh"
             # Re-runs/manual runs may have checked out an older commit; rebase onto
