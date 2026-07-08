@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="About the Data - BeWildfireAware"
+  description="Where BeWildfireAware's fire danger data comes from: FEMS/NFDRS, the National Weather Service, the NICC situation report, and how our AI overviews are generated.">
+  <main class="content">
+    <h1>About the Data</h1>
+    <p>Everything on this site traces back to official sources, refreshed automatically every morning. Here's exactly where each piece comes from.</p>
+
+    <h2>Fire danger ratings &amp; forecasts</h2>
+    <p>Daily danger ratings, observations, thresholds, and 7-day forecasts come from the interagency <strong>Fire Environment Mapping System (FEMS)</strong>, which processes Remote Automated Weather Station (RAWS) data through the <strong>National Fire Danger Rating System (NFDRS)</strong>. Each area's Fire Danger Operating Plan defines its rating breakpoints and local watchout thresholds. This is the same data federal fire managers use for daily staffing and response decisions. Ratings update each morning around 3am; this site rebuilds shortly after.</p>
+
+    <h2>Weather &amp; air quality</h2>
+    <p>Weather forecasts load live from the <a href="https://www.weather.gov/" target="_blank" rel="noopener">National Weather Service</a> each time you visit a page — U.S. Government data in the public domain. Air quality (US AQI and PM2.5) loads live from <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>, used under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> license. Red Flag Warnings and other alerts come from the NWS alerts service.</p>
+
+    <h2>National situation report</h2>
+    <p>Preparedness levels and large-incident summaries come from the <a href="https://www.nifc.gov/nicc-files/sitreprt.pdf" target="_blank" rel="noopener">NICC Incident Management Situation Report</a>, published daily by the National Interagency Coordination Center.</p>
+
+    <h2 id="ai-overviews">AI overviews</h2>
+    <p>Each area's "Overview" is written once daily by <strong>Claude</strong> (Anthropic's AI model). It is grounded in that morning's official inputs — the area's FEMS/NFDRS data, the NWS forecast and active alerts for the area, and the NICC situation report — plus a small number of web searches for current fire restrictions and local incident news. Claude is instructed to state only what those sources support and to prefer information from the last 48 hours. Every overview lists its sources.</p>
+    <p>AI-generated summaries can contain mistakes. For decisions about safety, evacuations, or burning, always rely on official sources: your county sheriff, local fire authorities, and the agencies linked in each overview.</p>
+
+    <h2>Maps</h2>
+    <p>Fire Danger Rating Area boundaries come from each dispatch center's Fire Danger Operating Plan. County references are derived from U.S. Census Bureau boundaries (public domain). Base maps © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>; maps rendered with <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>.</p>
+
+    <h2>Update schedule</h2>
+    <p>The site rebuilds automatically every morning (~3:20am MT) after the day's NFDRS data publishes. Weather and air quality load live on every visit. The "Last updated" stamp on each area page reflects the fire danger data; the weather strip shows its own timestamps.</p>
+
+    <p>Questions about the data? <a href="/about.html">Get in touch</a> — we welcome corrections and suggestions.</p>
+  </main>
+</Base>

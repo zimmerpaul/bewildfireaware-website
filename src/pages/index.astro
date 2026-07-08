@@ -10,12 +10,17 @@ const areaCards = areas.map((a) => {
 });
 const dangerClass = (level) => 'danger-' + (level ?? 'unknown').toLowerCase().replace(/\s+/g, '-');
 const dateLabel = areaCards.find((a) => a.dateLabel)?.dateLabel;
+
+// Seasonal calm: when every area is Low (typically winter), lead with
+// reassurance instead of urgency.
+const allLow = areaCards.length > 0 && areaCards.every((a) => a.danger === 'Low');
 ---
 <Base title="BeWildfireAware — Daily Wildfire Danger for Western Colorado" active="home">
   <main>
     <section class="hero">
       <h1>Know today's fire danger</h1>
       <p>Daily wildfire danger ratings and 7-day forecasts for Western Colorado — the same National Fire Danger Rating System data fire managers use, made clear for everyone.</p>
+      {allLow && <p class="hero-calm">Good news: fire danger is currently Low across all nine areas.</p>}
       <a href="#local" class="cta">Check your area</a>
     </section>
 

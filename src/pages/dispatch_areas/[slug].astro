@@ -65,6 +65,10 @@ const localLinks = [
     </div>
 
     <div class="area-meta">
+      <button class="share-btn" id="share-btn" type="button"
+        data-share-text={`${area.name} fire danger today: ${data.danger}. 7-day forecast, conditions, and local fire info:`}>
+        Share this forecast
+      </button>
       {data.lastUpdated && <span>Last updated: {data.lastUpdated}</span>}
       {counties.length > 0 && <span>Covers parts of: {counties.join(', ')} {counties.length === 1 ? 'county' : 'counties'}</span>}
       {data.restrictions?.url && (
@@ -208,6 +212,24 @@ const localLinks = [
   <script is:inline src="/map.js" defer></script>
   <script is:inline src="/weather.js" defer></script>
   <script is:inline>
+    // Share: native share sheet where available, clipboard fallback
+    (function () {
+      var btn = document.getElementById('share-btn');
+      if (!btn) return;
+      btn.addEventListener('click', function () {
+        var payload = { title: document.title, text: btn.getAttribute('data-share-text'), url: location.href };
+        if (navigator.share) {
+          navigator.share(payload).catch(function () {});
+        } else {
+          navigator.clipboard.writeText(payload.text + ' ' + payload.url).then(function () {
+            var old = btn.textContent;
+            btn.textContent = 'Link copied!';
+            setTimeout(function () { btn.textContent = old; }, 2000);
+          });
+        }
+      });
+    })();
+
     // "?" info popovers on condition cards
     document.addEventListener('click', function (e) {
       if (e.target.closest('.info-pop a')) return;

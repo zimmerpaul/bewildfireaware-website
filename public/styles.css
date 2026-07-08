@@ -830,3 +830,29 @@ a.wx-chip:hover .wx-ext { opacity: 1; }
 
 .info-pop p { margin: 0 0 8px; }
 .info-pop a { font-weight: 700; }
+
+/* share button + hero calm note + credit links */
+.share-btn {
+    background: none;
+    border: 1.5px solid var(--line);
+    border-radius: 999px;
+    padding: 4px 14px;
+    font-size: 0.88em;
+    font-weight: 700;
+    color: var(--flame-dark);
+    cursor: pointer;
+}
+
+.share-btn:hover { border-color: var(--flame); background: #fff4ec; }
+
+.hero-calm {
+    display: inline-block;
+    background: rgba(46, 125, 50, 0.85);
+    border-radius: 999px;
+    padding: 6px 18px;
+    font-size: 1em !important;
+    margin-top: 16px !important;
+}
+
+.overview-credit a { color: var(--ink-soft); }
+.overview-credit a:hover { color: var(--flame-dark); }
