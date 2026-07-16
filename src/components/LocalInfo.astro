@@ -1,0 +1,33 @@
+---
+// "Current Local Info": curated incident feeds/links for an FDRA
+// (configured in src/data/local_info.json). Renders nothing when empty.
+const { items } = Astro.props;
+---
+{items?.length > 0 && (
+  <section class="local-info-section">
+    <h2>Current Local Info</h2>
+    {items.map((item) => (
+      <div class="local-info-card">
+        <h3>{item.title}</h3>
+        {item.note && <p class="local-info-note">{item.note}</p>}
+        {item.playlist && (
+          <div class="video-embed">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/videoseries?list=${item.playlist}`}
+              title={item.title}
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"></iframe>
+          </div>
+        )}
+        {item.links?.length > 0 && (
+          <ul class="local-info-links">
+            {item.links.map((l) => (
+              <li><a href={l.url} target="_blank" rel="noopener">{l.name} ↗</a></li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+  </section>
+)}

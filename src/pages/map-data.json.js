@@ -5,6 +5,7 @@
 import areas from '../data/dispatch_areas.json';
 import boundaries from '../data/fdra_boundaries.json';
 import fdraGeo from '../data/fdra_geo.json';
+import localInfo from '../data/local_info.json';
 
 const dataFiles = import.meta.glob('../data/areas/*.json', { eager: true });
 const overviewFiles = import.meta.glob('../data/overviews/*.json', { eager: true });
@@ -36,6 +37,7 @@ export function GET() {
         overviewSources: ov?.sources ?? null,
         overviewGenerated: ov?.generated ?? null,
         centroid: fdraGeo[slug]?.centroid ?? null,
+        localInfo: Array.isArray(localInfo[slug]) ? localInfo[slug] : null,
         url: `/dispatch_areas/${slug}.html`,
       },
     };

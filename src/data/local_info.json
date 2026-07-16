@@ -1,0 +1,23 @@
+{
+  "_comment": "Curated 'Current Local Info' per FDRA slug — Jim-approved sources only. Each item: title, note, optional 'playlist' (YouTube uploads playlist ID, UU..., always shows the channel's latest video), optional links[]. Remove an item (or a whole slug) when the incident ends.",
+  "montrose_high": [
+    {
+      "title": "Gold Mountain Fire",
+      "note": "Burning north of Ouray on the GMUG National Forest. The incident team posts a video briefing most mornings (around 10am) — the player always shows the latest.",
+      "playlist": "UU40LFMH7yfPz8tzQkXoRixg",
+      "links": [
+        { "name": "InciWeb — Gold Mountain Fire", "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire" },
+        { "name": "All briefings on YouTube", "url": "https://www.youtube.com/@GoldMountainFire" }
+      ]
+    },
+    {
+      "title": "Elk Fire",
+      "note": "Burning in the Uncompahgre Wilderness north of Lake City, near the Gunnison–Hinsdale county line. A video feed will appear here if the incident team publishes one.",
+      "links": [
+        { "name": "InciWeb — Elk Fire", "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire" },
+        { "name": "West Slope Fire Info — Elk Fire updates", "url": "https://westslopefireinfo.com/" },
+        { "name": "Town of Lake City — News & Notices", "url": "https://www.townoflakecityco.gov/news-and-notices" }
+      ]
+    }
+  ]
+}

@@ -87,6 +87,35 @@
   function saved() { try { return localStorage.getItem(STORE_KEY); } catch (e) { return null; } }
   function clearSaved() { try { localStorage.removeItem(STORE_KEY); } catch (e) {} }
 
+  // Curated "Current Local Info" (feeds/links from local_info.json via map-data)
+  function localInfoHtml(p) {
+    if (!p.localInfo || !p.localInfo.length) return '';
+    var html = '<div class="locate-localinfo"><h4>Current Local Info</h4>';
+    p.localInfo.forEach(function (item) {
+      html += '<div class="local-info-card"><h3>' + esc(item.title) + '</h3>' +
+        (item.note ? '<p class="local-info-note">' + esc(item.note) + '</p>' : '') +
+        (item.playlist
+          ? '<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=' +
+            esc(item.playlist) + '" title="' + esc(item.title) + '" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div>'
+          : '') +
+        ((item.links || []).length
+          ? '<ul class="local-info-links">' + item.links.map(function (l) {
+              return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + ' ↗</a></li>';
+            }).join('') + '</ul>'
+          : '') +
+        '</div>';
+    });
+    return html + '</div>';
+  }
+
+  function setLocating(active) {
+    var btn = document.getElementById('locate-btn');
+    if (!btn) return;
+    btn.disabled = !!active;
+    btn.classList.toggle('btn-disabled', !!active);
+    btn.textContent = active ? 'Using your location ✓' : 'Use my location';
+  }
+
   function renderHit(out, p, opts, coords) {
     out.innerHTML =
       '<div class="locate-hit">' +
@@ -96,12 +125,16 @@
         ? '<span class="locate-note">▲ ' + p.watchout.met + ' of ' + p.watchout.total + ' watchout thresholds met</span>' : '') +
       '<a class="btn" style="margin-top:0" href="' + p.url + '">Your full forecast &rarr;</a>' +
       (p.overview ? overviewHtml(p) : '') +
+      localInfoHtml(p) +
       '<div class="wx-strip wx-strip-home"></div>' +
       (opts && opts.remembered
-        ? '<span class="locate-note">Location remembered from last visit · <a href="#" id="locate-clear">forget</a></span>' : '') +
+        ? '<span class="locate-remembered">Location remembered from last visit · <a href="#" id="locate-clear">forget</a></span>' : '') +
       '</div>';
+    setLocating(true);
     var clear = document.getElementById('locate-clear');
-    if (clear) clear.addEventListener('click', function (e) { e.preventDefault(); clearSaved(); out.innerHTML = ''; });
+    if (clear) clear.addEventListener('click', function (e) {
+      e.preventDefault(); clearSaved(); out.innerHTML = ''; setLocating(false);
+    });
 
     // Live weather + AQI: at the visitor's precise location when available,
     // otherwise the area centroid (remembered visits).

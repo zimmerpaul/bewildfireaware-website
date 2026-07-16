@@ -41,7 +41,7 @@ const sources = (ov?.sources ?? []).map((s) => ({ ...s, host: s.url ? host(s.url
     <ul class="overview-sources">
       {sources.map((s) => (
         <li>
-          <img src={s.host ? `https://www.google.com/s2/favicons?domain=${s.host}&sz=32` : '/logo.svg'}
+          <img src={s.host ? `https://www.google.com/s2/favicons?domain=${s.host}&sz=32` : '/images/bwa_logo_60x60px.png'}
             alt="" width="16" height="16" loading="lazy" />
           {s.url
             ? <a href={s.url} target="_blank" rel="noopener" title={s.name}>{s.name}</a>
