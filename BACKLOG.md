@@ -30,6 +30,38 @@ Note: Smokey Bear himself is protected (Smokey Bear Act) — sign motif only.
 Bonus option: needle position rebuilt daily to reflect the region's actual
 danger (site + favicon).
 
+## Fires to Remember → Research page
+New "Research" page in the Learn More dropdown housing the "Fires to
+Remember" program: for each notable historical fire, publish the ERC
+research (what the ERC/BI/weather looked like at ignition and during major
+growth) used to determine local ERC cutoffs/breakpoints.
+
+- Data model: per-fire entries (name, date, FDRA, acreage, ERC/BI/RH/wind
+  at ignition + at major runs, narrative, sources) in a JSON/markdown
+  collection — same authoring pattern as local_info.json so Jim can add
+  fires easily.
+- Cross-link: each FDRA page's existing "Fires to Remember" table (parsed
+  from the sheets when present) links into the Research page entries.
+- Could reuse the pocket-card chart component to plot each fire's year with
+  ignition markers — visualizing WHY the cutoff sits where it does.
+- Nav: Learn More → Research (between Fuel Models and Terminology?).
+
+## WFIGS layer for fire.ai (researched July 2026 — viable)
+WFDSS itself is authenticated-only (no public API), but its data flows via
+IRWIN into NIFC Open Data / WFIGS — free public ArcGIS services, verified
+by live query (returned Gold Mountain 37,734 ac / 13% / Ouray County with
+WFDSS StrategicDecisionPublishDate):
+- Incident locations: services3.arcgis.com/T4QMspbfLg3qTGWY/.../
+  WFIGS_Incident_Locations_Current — query by POOState/POOCounty; fields:
+  IncidentName, IncidentSize, PercentContained, FireDiscoveryDateTime, etc.
+- Incident perimeters service: actual fire polygons.
+Uses: (1) feed authoritative incident facts into AI overview generation
+(replaces web-search guesswork for acreage/containment); (2) live fire
+perimeter overlay on the danger map, auto-appearing/clearing; (3) could
+auto-populate Current Local Info incident cards.
+Also: FEMS public REST API is coming/partial — pairs with the FEMS-direct
+item below.
+
 ## Data pipeline
 - FEMS-direct: pull the FEMS API in Actions, retire the Google Sheets +
   Apps Script. Enables pocket-card data without published tabs.
