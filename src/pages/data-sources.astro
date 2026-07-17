@@ -23,6 +23,15 @@ import Base from '../layouts/Base.astro';
     <h2>Maps</h2>
     <p>Fire Danger Rating Area boundaries come from each dispatch center's Fire Danger Operating Plan. County references are derived from U.S. Census Bureau boundaries (public domain). Base maps © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>; maps rendered with <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>.</p>
 
+    <h2 id="api">For developers: public data API</h2>
+    <p>The daily fire danger data behind this site is available as machine-readable JSON, free to use:</p>
+    <p>
+      <a href="/api/v1/fire-danger.json">/api/v1/fire-danger.json</a> — per-FDRA danger rating (with a numeric 1–5 index), indicators with thresholds, watchout status, 7-day forecast, counties, centroid, and the day's overview. Regenerates each morning.<br />
+      <a href="/api/v1/fdra-boundaries.json">/api/v1/fdra-boundaries.json</a> — FDRA polygons as GeoJSON (join on <code>slug</code>; changes rarely, cache it).<br />
+      <a href="/api/v1/index.json">/api/v1/index.json</a> — discovery document with update schedule.
+    </p>
+    <p>CORS is open, no key required. Within v1, fields are append-only — we won't rename or remove them. Underlying NFDRS data is U.S. Government work in the public domain; we appreciate attribution to BeWildfireAware. Please don't use this feed for emergency decision-making — verify with official sources.</p>
+
     <h2>Update schedule</h2>
     <p>The site rebuilds automatically every morning (~3:20am MT) after the day's NFDRS data publishes. Weather and air quality load live on every visit. The "Last updated" stamp on each area page reflects the fire danger data; the weather strip shows its own timestamps.</p>
 

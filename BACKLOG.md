@@ -46,6 +46,11 @@ growth) used to determine local ERC cutoffs/breakpoints.
   ignition markers — visualizing WHY the cutoff sits where it does.
 - Nav: Learn More → Research (between Fuel Models and Terminology?).
 
+## Public data API — SHIPPED July 2026
+/api/v1/fire-danger.json (daily per-FDRA danger + indicators + forecast +
+overview), /api/v1/fdra-boundaries.json (GeoJSON), /api/v1/index.json.
+Documented at /data-sources.html#api. v1 fields are append-only.
+
 ## WFIGS layer for fire.ai (researched July 2026 — viable)
 WFDSS itself is authenticated-only (no public API), but its data flows via
 IRWIN into NIFC Open Data / WFIGS — free public ArcGIS services, verified
