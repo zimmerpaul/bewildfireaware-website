@@ -42,9 +42,9 @@ jobs:
         run: npm run generate-overviews
 
       - name: Commit refreshed data (scheduled runs keep last-good data in git)
-        # Primary repo only — preview/mirror repos build with fresh data but
-        # never write commits, so pushes to them stay fast-forward.
-        if: github.repository == 'zimmerpaul/bewildfireaware' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        # Production repo only — other copies build with fresh data but never
+        # write commits, so pushes to them stay fast-forward.
+        if: github.repository == 'zimmerpaul/bewildfireaware-website' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
