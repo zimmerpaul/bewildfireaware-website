@@ -2,10 +2,10 @@
   "slug": "montrose_high",
   "name": "Montrose (High Elevation)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Saturday, July 18",
+  "dateLabel": "Sunday, July 19",
   "areaTitle": "Montrose - High Elevation",
   "danger": "Very High",
-  "lastUpdated": "7/18/2026 03:11",
+  "lastUpdated": "7/19/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -35,29 +35,29 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.02"
+      "value": "0.00"
     },
     {
       "label": "Max Temp",
-      "value": "74",
+      "value": "77",
       "limit": "> 86",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "28",
+      "value": "23",
       "limit": "< 25",
-      "triggered": false
-    },
-    {
-      "label": "1000hr Fuels",
-      "value": "11",
-      "limit": "< 12",
       "triggered": true
     },
     {
+      "label": "1000hr Fuels",
+      "value": "12",
+      "limit": "< 12",
+      "triggered": false
+    },
+    {
       "label": "Max Rh",
-      "value": "84",
+      "value": "71",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "High Elevation FDRA Extended Forecast",
     "dates": [
-      "18-Jul",
       "19-Jul",
       "20-Jul",
       "21-Jul",
       "22-Jul",
       "23-Jul",
-      "24-Jul"
+      "24-Jul",
+      "25-Jul"
     ],
     "rows": [
       {
@@ -81,7 +81,7 @@
           "Very High",
           "Very High",
           "Very High",
-          "Very High",
+          "High",
           "High",
           "High",
           "High"
@@ -91,18 +91,18 @@
         "label": "ERC-Y Percentile",
         "values": [
           "91%",
-          "93%",
-          "93%",
           "92%",
-          "84%",
-          "78%",
-          "78%"
+          "92%",
+          "89%",
+          "82%",
+          "82%",
+          "80%"
         ],
         "hits": [
           true,
           true,
           true,
-          true,
+          false,
           false,
           false,
           false
@@ -112,10 +112,10 @@
         "label": "BI-Y Percentile",
         "values": [
           "69%",
+          "75%",
+          "86%",
           "69%",
-          "81%",
-          "83%",
-          "66%",
+          "69%",
           "66%",
           "64%"
         ],
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "74",
           "77",
+          "80",
           "78",
-          "76",
-          "73",
+          "75",
           "72",
-          "72"
+          "73",
+          "74"
         ],
         "hits": [
           false,
@@ -153,17 +153,17 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "28",
-          "25",
+          "23",
+          "23",
           "26",
-          "30",
+          "34",
           "38",
-          "38",
-          "36"
+          "37",
+          "32"
         ],
         "hits": [
-          false,
-          false,
+          true,
+          true,
           false,
           false,
           false,
@@ -175,11 +175,11 @@
         "label": "Winds",
         "values": [
           "5",
-          "5",
-          "8",
-          "9",
+          "6",
+          "10",
           "7",
-          "9",
+          "8",
+          "7",
           "7"
         ],
         "hits": [
@@ -197,7 +197,7 @@
         "values": [
           "NE",
           "NE",
-          "ENE",
+          "NE",
           "NE",
           "NE",
           "NE",
@@ -207,28 +207,28 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.02",
           "0.00",
-          "0.01",
-          "0.11",
+          "0.00",
+          "0.02",
+          "0.08",
+          "0.12",
           "0.15",
-          "0.17",
-          "0.19"
+          "0.17"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "11",
           "12",
-          "12",
-          "12",
-          "12",
-          "12",
+          "13",
+          "13",
+          "13",
+          "13",
+          "13",
           "13"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -240,12 +240,12 @@
       {
         "label": "Max Rh",
         "values": [
-          "84",
-          "72",
-          "67",
-          "68",
-          "79",
-          "77",
+          "71",
+          "64",
+          "62",
+          "76",
+          "78",
+          "78",
           "75"
         ],
         "hits": [
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-66)",
         "values": [
-          "42.4",
+          "42.6",
           "44",
-          "45",
           "44",
-          "39",
-          "35",
-          "35"
+          "41",
+          "38",
+          "37",
+          "37"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-52)",
         "values": [
           "23",
-          "24",
-          "27",
-          "28",
+          "26",
+          "30",
+          "23",
           "23",
           "22",
-          "21"
+          "22"
         ]
       }
     ]
@@ -2577,20 +2577,20 @@
         [
           197,
           44
+        ],
+        [
+          198,
+          43
         ]
       ],
       "forecasted": [
         [
-          198,
-          42
-        ],
-        [
           199,
-          44
+          43
         ],
         [
           200,
-          45
+          44
         ],
         [
           201,
@@ -2598,15 +2598,19 @@
         ],
         [
           202,
-          39
+          41
         ],
         [
           203,
-          35
+          38
         ],
         [
           204,
-          35
+          37
+        ],
+        [
+          205,
+          37
         ]
       ]
     },

@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger continues today, driven by critically dry fuels — ERC at 91% and 1000-hour fuels at 11%, both above local thresholds.**\n\n- Danger stays Very High through Monday before easing to High Tuesday-Thursday as rain chances build.\n- Hot, dry pattern persists with afternoon storm chances (40% today) but little meaningful rain until midweek.\n- 2 of 7 local watchout thresholds are currently met (ERC and 1000-hr fuels); no Red Flag Warning is active today, though a Hydrologic Outlook is posted for the area.\n- Montrose and Ouray counties remain under Stage 2 fire restrictions, with BLM lands in Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties under Stage 1 restrictions, and the Tres Rios and Gunnison Field Offices under Stage 2.\n- The Gold Mountain Fire, burning in southwest Colorado, originating just two miles north of the City of Ouray, has burned 37,734 acres and remains 13% contained, with closures and evacuations still active in Ouray and Gunnison counties.",
-  "lead": "Very High fire danger continues today, driven by critically dry fuels — ERC at 91% and 1000-hour fuels at 11%, both above local thresholds.",
+  "overview": "**Very High fire danger holds today across the Montrose High Elevation area, driven by low humidity (23%) and elevated energy release (91st percentile).**\n\n- Danger stays Very High through Tuesday, then eases to High Wednesday–Saturday as ERC and burning index percentiles gradually decline.\n- Watchout status: 2 of 7 thresholds met (ERC and min RH), with light NE winds near 5 mph, 77°F, and no rain in the last 24 hours.\n- No Red Flag Warning is posted for this area; NWS Grand Junction has only issued Hydrologic Outlooks (July 17–18).\n- Montrose County remains under Stage 2 Fire Restrictions, in effect since July 1, 2026. BLM's Uncompahgre Field Office (Montrose, Delta, Mesa, Gunnison, Ouray, San Juan counties) is also under Stage 2 restrictions.\n- Nearby: the Gold Mountain Fire near Ouray has burned about 37,734 acres and is 13% contained, with evacuations still active in Ouray and Gunnison counties.\n- The Ferris Fire near Cahone has burned 64,881 acres and is 71% contained after merging with the Doe Canyon Fire, with evacuation status downgraded from Level 3 to Level 1 on July 17.",
+  "lead": "Very High fire danger holds today across the Montrose High Elevation area, driven by low humidity (23%) and elevated energy release (91st percentile).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "Emergency Management | Montrose County - Official Website",
+      "url": "https://www.montrosecounty.net/85/Emergency-Management"
+    },
+    {
       "name": "Southwest District Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "Gold Mountain Fire Map | Ouray, Colorado | WildFire Explorer",
+      "url": "https://fires.cornea.is/fire/colorado_gold-mountain_2026-06-27-235355"
     },
     {
       "name": "Wildfire Map Spotlight: Snyder, Babylon, Ferris, and Gold Mountain Fires in Colorado and Utah | IQAir USA",
       "url": "https://www.iqair.com/newsroom/wildfire-map-spotlight-snyder-babylon-ferris-and-gold-mountain-wildfires-in-colorado-and-utah"
     }
   ],
-  "generated": "Saturday, July 18"
+  "generated": "Sunday, July 19"
 }
