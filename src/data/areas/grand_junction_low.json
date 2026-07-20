@@ -2,10 +2,10 @@
   "slug": "grand_junction_low",
   "name": "Grand Junction (Low)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Sunday, July 19",
+  "dateLabel": "Monday, July 20",
   "areaTitle": "Grand Junction - Low Elevation",
-  "danger": "Moderate",
-  "lastUpdated": "7/19/2026 02:38",
+  "danger": "Very High",
+  "lastUpdated": "7/20/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,19 +13,19 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "77%",
+      "value": "89%",
       "limit": "> 86%",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "BI %",
-      "value": "47%",
+      "value": "56%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "6",
+      "value": "7",
       "limit": "> 10",
       "triggered": false
     },
@@ -35,17 +35,17 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.04"
+      "value": "0.01"
     },
     {
       "label": "Max Temp",
-      "value": "88",
+      "value": "93",
       "limit": "> 85",
       "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "26",
+      "value": "20",
       "limit": "< 15",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "53",
+      "value": "51",
       "limit": "< 45",
       "triggered": false
     }
@@ -66,40 +66,40 @@
   "forecast": {
     "title": "Low Elevation FDRA Extended Forecast",
     "dates": [
-      "19-Jul",
       "20-Jul",
       "21-Jul",
       "22-Jul",
       "23-Jul",
       "24-Jul",
-      "25-Jul"
+      "25-Jul",
+      "26-Jul"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Moderate",
+          "Very High",
           "High",
           "High",
           "Moderate",
           "Moderate",
           "Moderate",
-          "Moderate"
+          "High"
         ]
       },
       {
         "label": "ERC-X Percentile",
         "values": [
+          "89%",
+          "86%",
+          "68%",
+          "50%",
+          "68%",
           "77%",
-          "83%",
-          "80%",
-          "61%",
-          "55%",
-          "65%",
-          "74%"
+          "80%"
         ],
         "hits": [
-          false,
+          true,
           false,
           false,
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-X Percentile",
         "values": [
-          "47%",
+          "56%",
           "54%",
-          "60%",
+          "56%",
+          "39%",
+          "45%",
           "52%",
-          "42%",
-          "47%",
-          "54%"
+          "58%"
         ],
         "hits": [
           false,
@@ -132,12 +132,12 @@
       {
         "label": "Temperature",
         "values": [
-          "88",
-          "90",
-          "89",
-          "84",
+          "93",
+          "93",
+          "87",
+          "80",
           "82",
-          "83",
+          "84",
           "85"
         ],
         "hits": [
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "26",
-          "24",
-          "24",
+          "20",
+          "21",
+          "30",
+          "41",
           "34",
-          "36",
-          "31",
-          "26"
+          "29",
+          "25"
         ],
         "hits": [
           false,
@@ -174,11 +174,11 @@
       {
         "label": "Winds",
         "values": [
-          "6",
           "7",
-          "9",
+          "7",
           "8",
           "7",
+          "6",
           "7",
           "7"
         ],
@@ -196,10 +196,10 @@
         "label": "Wind Direction",
         "values": [
           "NE",
+          "ENE",
+          "ENE",
+          "ENE",
           "NE",
-          "ENE",
-          "ENE",
-          "ENE",
           "NE",
           "NE"
         ]
@@ -207,13 +207,13 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.04",
-          "0.00",
-          "0.12",
-          "0.14",
-          "0.13",
-          "0.04",
-          "0.06"
+          "0.01",
+          "0.11",
+          "0.17",
+          "0.18",
+          "0.01",
+          "0.01",
+          "0.01"
         ]
       },
       {
@@ -222,7 +222,7 @@
           "9",
           "9",
           "9",
-          "9",
+          "10",
           "10",
           "10",
           "10"
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "53",
-          "50",
-          "52",
-          "59",
+          "51",
+          "54",
           "60",
-          "57",
-          "51"
+          "65",
+          "62",
+          "53",
+          "50"
         ],
         "hits": [
           false,
@@ -261,33 +261,33 @@
       {
         "label": "ERC-X (Actual Number 1-110)",
         "values": [
+          "88",
+          "87",
+          "74",
+          "62",
+          "75",
           "80",
-          "84",
-          "83",
-          "72",
-          "66",
-          "73",
-          "79"
+          "83"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-352)",
         "values": [
-          "130",
-          "145",
-          "157",
-          "142",
-          "116",
-          "129",
-          "146"
+          "152",
+          "146",
+          "150",
+          "111",
+          "128",
+          "143",
+          "153"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 2,
+    "met": 3,
     "total": 7,
-    "isWatchout": false
+    "isWatchout": true
   },
   "raws": "The Low Elevation Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model X (Brush) incorporating data years 2005-2024 are:  \n52407: Pine Ridge, 52410: Little Dolores, 51504: Rifle, 51507: Demaree",
   "pocketCard": {
@@ -2313,33 +2313,37 @@
         ],
         [
           199,
-          80
+          86
+        ],
+        [
+          200,
+          88
         ]
       ],
       "forecasted": [
         [
-          199,
-          80
-        ],
-        [
           200,
-          84
+          88
         ],
         [
           201,
-          83
+          87
         ],
         [
           202,
-          72
+          74
         ],
         [
           203,
-          66
+          62
         ],
         [
           204,
-          73
+          75
+        ],
+        [
+          205,
+          80
         ]
       ]
     },

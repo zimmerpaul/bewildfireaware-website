@@ -2,10 +2,10 @@
   "slug": "montrose_montrose",
   "name": "Montrose (Montrose)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Sunday, July 19",
+  "dateLabel": "Monday, July 20",
   "areaTitle": "Montrose - Montrose",
   "danger": "Very High",
-  "lastUpdated": "7/19/2026 03:11",
+  "lastUpdated": "7/20/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "85%",
+      "value": "88%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "60%",
+      "value": "62%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -35,29 +35,29 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.01"
+      "value": "0.03"
     },
     {
       "label": "Max Temp",
-      "value": "90",
+      "value": "95",
       "limit": "> 90",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "22",
+      "value": "17",
       "limit": "< 15",
       "triggered": false
     },
     {
       "label": "1000-Hour",
-      "value": "8",
+      "value": "9",
       "limit": "< 13",
       "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "53",
+      "value": "51",
       "limit": "< 55",
       "triggered": true
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Montrose FDRA Extended Forecast",
     "dates": [
-      "19-Jul",
       "20-Jul",
       "21-Jul",
       "22-Jul",
       "23-Jul",
       "24-Jul",
-      "25-Jul"
+      "25-Jul",
+      "26-Jul"
     ],
     "rows": [
       {
@@ -80,7 +80,7 @@
         "values": [
           "Very High",
           "Very High",
-          "Very High",
+          "High",
           "High",
           "High",
           "High",
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "85%",
-          "86%",
+          "88%",
           "86%",
           "79%",
+          "64%",
           "74%",
-          "77%",
-          "75%"
+          "79%",
+          "80%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "60%",
-          "57%",
+          "62%",
           "65%",
-          "54%",
+          "57%",
+          "37%",
           "44%",
-          "49%",
-          "49%"
+          "54%",
+          "57%"
         ],
         "hits": [
           false,
@@ -132,18 +132,18 @@
       {
         "label": "Max Temperature",
         "values": [
-          "90",
-          "90",
-          "91",
-          "84",
+          "95",
+          "96",
+          "88",
+          "80",
           "82",
           "84",
           "85"
         ],
         "hits": [
-          false,
-          false,
           true,
+          true,
+          false,
           false,
           false,
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Min Relative Humidity",
         "values": [
-          "22",
-          "23",
-          "21",
-          "31",
-          "35",
-          "31",
-          "27"
+          "17",
+          "17",
+          "27",
+          "40",
+          "33",
+          "29",
+          "25"
         ],
         "hits": [
           false,
@@ -176,11 +176,11 @@
         "values": [
           "7",
           "7",
-          "9",
           "8",
           "6",
           "6",
-          "7"
+          "7",
+          "8"
         ],
         "hits": [
           false,
@@ -196,33 +196,33 @@
         "label": "Wind Direction",
         "values": [
           "NE",
-          "ENE",
           "E",
           "ENE",
-          "ENE",
-          "ENE",
-          "ENE"
+          "NE",
+          "NE",
+          "NE",
+          "NE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.03",
+          "0.04",
+          "0.27",
+          "0.19",
           "0.01",
           "0.00",
-          "0.10",
-          "0.18",
-          "0.10",
-          "0.05",
-          "0.08"
+          "0.01"
         ]
       },
       {
         "label": "1000-Hour Fuels",
         "values": [
-          "8",
           "9",
           "9",
-          "9",
+          "10",
+          "10",
           "10",
           "10",
           "10"
@@ -240,18 +240,18 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "53",
-          "50",
-          "49",
+          "51",
+          "54",
           "57",
-          "57",
+          "66",
+          "61",
           "55",
           "52"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -261,33 +261,33 @@
       {
         "label": "ERC-Y (Actual Number 1-78)",
         "values": [
+          "57",
           "56",
-          "57",
-          "57",
           "52",
-          "48",
+          "43",
+          "49",
           "51",
-          "50"
+          "52"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-74)",
         "values": [
-          "30",
-          "30",
+          "32",
           "32",
           "29",
-          "24",
-          "26",
-          "26"
+          "22",
+          "25",
+          "29",
+          "29"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 2,
+    "met": 3,
     "total": 7,
-    "isWatchout": false
+    "isWatchout": true
   },
   "raws": "The Montrsoe Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nCottonwood (53805), Jay (52704)",
   "pocketCard": {
@@ -2554,20 +2554,20 @@
         [
           198,
           59
+        ],
+        [
+          199,
+          57
         ]
       ],
       "forecasted": [
-        [
-          199,
-          56
-        ],
         [
           200,
           57
         ],
         [
           201,
-          57
+          56
         ],
         [
           202,
@@ -2575,15 +2575,19 @@
         ],
         [
           203,
-          48
+          43
         ],
         [
           204,
-          51
+          49
         ],
         [
           205,
-          50
+          51
+        ],
+        [
+          206,
+          52
         ]
       ]
     },
