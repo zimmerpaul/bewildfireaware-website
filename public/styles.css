@@ -940,3 +940,8 @@ a.wx-chip:hover .wx-ext { opacity: 1; }
     background: #b9b3a8 !important;
     cursor: default;
 }
+
+/* Facebook page embed in local info cards */
+.fb-embed { max-width: 500px; margin: 10px 0 4px; }
+.fb-embed iframe { border: 0; max-width: 100%; border-radius: 8px; border: 1px solid var(--line); }
+.fb-fallback { font-size: 0.78em; color: var(--ink-soft); margin: 6px 0 0; }

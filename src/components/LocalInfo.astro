@@ -20,6 +20,19 @@ const { items } = Astro.props;
               loading="lazy"></iframe>
           </div>
         )}
+        {item.facebook && (
+          <div class="fb-embed">
+            <iframe
+              src={`https://www.facebook.com/plugins/page.php?href=${encodeURIComponent(item.facebook)}&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false`}
+              width="500" height="600" scrolling="no" frameborder="0"
+              allow="encrypted-media" loading="lazy"
+              title={`${item.title} on Facebook`}></iframe>
+            <p class="fb-fallback">
+              Feed not loading? Some browsers block Facebook embeds —
+              <a href={item.facebook} target="_blank" rel="noopener"> view updates on Facebook ↗</a>
+            </p>
+          </div>
+        )}
         {item.links?.length > 0 && (
           <ul class="local-info-links">
             {item.links.map((l) => (

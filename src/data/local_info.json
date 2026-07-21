@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated 'Current Local Info' per FDRA slug — Jim-approved sources only. Each item: title, note, optional 'playlist' (YouTube uploads playlist ID, UU..., always shows the channel's latest video), optional links[]. Remove an item (or a whole slug) when the incident ends.",
+  "_comment": "Curated 'Current Local Info' per FDRA slug — Jim-approved sources only. Each item: title, note, optional 'playlist' (YouTube uploads playlist ID, UU..., always shows the channel's latest video), optional 'facebook' (public Facebook PAGE url — embeds its live timeline), optional links[]. Remove an item (or a whole slug) when the incident ends.",
   "montrose_high": [
     {
       "title": "Gold Mountain Fire",

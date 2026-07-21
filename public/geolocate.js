@@ -98,6 +98,12 @@
           ? '<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=' +
             esc(item.playlist) + '" title="' + esc(item.title) + '" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div>'
           : '') +
+        (item.facebook
+          ? '<div class="fb-embed"><iframe src="https://www.facebook.com/plugins/page.php?href=' +
+            encodeURIComponent(item.facebook) + '&tabs=timeline&width=500&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false" ' +
+            'width="500" height="600" scrolling="no" frameborder="0" allow="encrypted-media" loading="lazy" title="' + esc(item.title) + ' on Facebook"></iframe>' +
+            '<p class="fb-fallback">Feed not loading? Some browsers block Facebook embeds — <a href="' + esc(item.facebook) + '" target="_blank" rel="noopener">view updates on Facebook ↗</a></p></div>'
+          : '') +
         ((item.links || []).length
           ? '<ul class="local-info-links">' + item.links.map(function (l) {
               return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + ' ↗</a></li>';
