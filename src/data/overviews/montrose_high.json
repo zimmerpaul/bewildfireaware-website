@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger persists today, driven by critically dry fuels (ERC at 92%, exceeding local thresholds) and very low overnight humidity.**\n- Danger eases to High from Tuesday onward as afternoon showers return later this week, per the 7-day forecast.\n- Winds stay light (7-11 mph, NE), but dry fuels and low humidity (18-23%) keep afternoon fire growth likely.\n- Watchout status: 2 of 7 local thresholds tripped today (ERC and min RH); no Red Flag Warning currently posted for this area.\n- Montrose County remains under Stage 2 Fire Restrictions effective since Wednesday, July 1, 2026, due to extreme fire danger and ongoing wildfire activity across Colorado.\n- Nearby: the Gold Mountain Fire near Ouray was estimated at 37,809 acres and 13% contained Saturday morning; the Elk Fire north of Lake City was estimated at 2,274 acres with no containment estimate available as of Saturday, after \"somewhere between a quarter inch and a half-inch of rain\" helped slow growth on both fires.",
-  "lead": "Very High fire danger persists today, driven by critically dry fuels (ERC at 92%, exceeding local thresholds) and very low overnight humidity.",
+  "overview": "**Very High fire danger today, driven by critically dry fuels — ERC at 91% (exceeding the local threshold) and minimum humidity down to 23%.**\n- 2 of 7 local watchout thresholds are met today (ERC and minimum RH); danger eases to High tomorrow through the week as ERC and BI trend down into the 60s-80s.\n- Afternoon/evening thunderstorm chances (30%) with light NE winds around 11 mph should bring scattered showers today and most of the week, per NWS.\n- No active Red Flag Warning is posted for the area as of this morning.\n- Stage 2 fire restrictions remain in force on BLM Uncompahgre/Gunnison/Tres Rios lands and GMUG National Forest, covering Montrose, Ouray, San Miguel, Delta, Gunnison and Dolores counties — no campfires or charcoal grills.\n- The Gold Mountain Fire near Ouray has burned about 37,809 acres and is 13% contained; the Elk Fire north of Lake City was estimated at 2,274 acres Saturday with no containment estimate available.",
+  "lead": "Very High fire danger today, driven by critically dry fuels — ERC at 91% (exceeding the local threshold) and minimum humidity down to 23%.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County Implements Stage 2 Fire Restrictions Beginning July 1 • Montrose County",
-      "url": "https://www.montrosecounty.net/CivicAlerts.aspx?AID=1255"
+      "name": "Gold Mountain Fire Map | Ouray, Colorado | WildFire Explorer",
+      "url": "https://fires.cornea.is/fire/colorado_gold-mountain_2026-06-27-235355"
     },
     {
       "name": "Aspen Acres fire surpasses 100,000 acres as crews increase containment to more than 60%",
       "url": "https://coloradosun.com/2026/07/18/colorado-wildfires-aspen-acres-gold-mountain-ferris/"
     }
   ],
-  "generated": "Monday, July 20"
+  "generated": "Tuesday, July 21"
 }
