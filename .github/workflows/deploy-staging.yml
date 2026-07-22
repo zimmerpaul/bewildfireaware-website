@@ -1,0 +1,47 @@
+name: Deploy staging site
+
+on:
+  push:
+    branches: [staging]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: staging-pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    # Production repo only, and only when the deploy token is configured.
+    if: github.repository == 'zimmerpaul/bewildfireaware-website'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Staging builds from the data committed on this branch (deterministic);
+      # merge dev -> staging to refresh both code and data.
+      - run: npm run build
+
+      - name: Point this build at the staging domain, keep it out of search
+        run: |
+          echo "staging.bewildfireaware.com" > dist/CNAME
+          printf "User-agent: *\nDisallow: /\n" > dist/robots.txt
+
+      - name: Publish to bewildfireaware-staging (gh-pages)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.STAGING_DEPLOY_TOKEN }}
+          external_repository: zimmerpaul/bewildfireaware-staging
+          publish_branch: gh-pages
+          publish_dir: dist
+          force_orphan: true
+          commit_message: "Staging deploy from ${{ github.sha }}"
