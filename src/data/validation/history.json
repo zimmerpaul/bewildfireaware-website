@@ -153,5 +153,124 @@
    "pctDelta": -1.5,
    "status": "warn"
   }
+ },
+ "2026-07-22": {
+  "gj_high": {
+   "fdra": "gj_high",
+   "siteSlug": "grand_junction_high",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "High",
+    "ercPct": 92
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "gj_middle": {
+   "fdra": "gj_middle",
+   "siteSlug": "grand_junction_middle",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "Moderate",
+    "ercPct": 81
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "gj_low": {
+   "fdra": "gj_low",
+   "siteSlug": "grand_junction_low",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "Moderate",
+    "ercPct": 61
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "drc_upper": {
+   "fdra": "drc_upper",
+   "siteSlug": "durango_upper",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "Moderate",
+    "ercPct": 43
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "drc_lower": {
+   "fdra": "drc_lower",
+   "siteSlug": "durango_lower",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "Moderate",
+    "ercPct": 38
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "mtc_high": {
+   "fdra": "mtc_high",
+   "siteSlug": "montrose_high",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "High",
+    "ercPct": 86
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "mtc_uncompahgre": {
+   "fdra": "mtc_uncompahgre",
+   "siteSlug": "montrose_uncompaghre",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "High",
+    "ercPct": 59
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "mtc_montrose": {
+   "fdra": "mtc_montrose",
+   "siteSlug": "montrose_montrose",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "High",
+    "ercPct": 75
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  },
+  "mtc_west": {
+   "fdra": "mtc_west",
+   "siteSlug": "montrose_west",
+   "date": "2026-07-22",
+   "sheets": {
+    "adjective": "Moderate",
+    "ercPct": 43
+   },
+   "fems": null,
+   "adjectiveMatch": null,
+   "pctDelta": null,
+   "status": "nodata"
+  }
  }
 }
