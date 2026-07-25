@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today, driven by warm, dry fuels (ERC 80%, BI 66%) despite calm winds.**\n- Adjective fire danger is forecast to stay High through July 30, with ERC/BI easing slightly by midweek as rain chances rise into next week.\n- Winds stay light (NE 5-7 mph), with a 30% chance of afternoon showers/storms today and highs near 85; no Red Flag Warning is in effect.\n- Local watchout status: 0 of 7 thresholds met.\n- Grand Mesa, Uncompahgre and Gunnison National Forests are under Stage 2 Fire Restrictions; BLM Gunnison Field Office has Stage 1 restrictions in Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties.\n- Nearby: Gold Mountain Fire near Ouray is 38,044 acres, 24% contained; Elk Fire, 7 miles northwest of Lake City, is 2,307 acres and 0% contained.",
-  "lead": "High fire danger continues today, driven by warm, dry fuels (ERC 80%, BI 66%) despite calm winds.",
+  "overview": "**Fire danger remains High today across the Montrose (High Elevation) area, driven by dry fuels — ERC at 78% and a Burning Index at 64%.**\n- Danger stays High all week (through July 31), with ERC easing slightly to 72–76% and BI holding 60–69%.\n- Light ENE-to-NE winds (5–8 mph) and highs in the upper 70s continue, with scattered afternoon shower/thunderstorm chances easing fuel dryness slightly.\n- 0 of 7 local watchout thresholds are currently met, and no Red Flag Warning is posted for this area today.\n-",
+  "lead": "Fire danger remains High today across the Montrose (High Elevation) area, driven by dry fuels — ERC at 78% and a Burning Index at 64%.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -17,19 +17,7 @@
     {
       "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Grand Mesa, Uncompahgre and Gunnison National Forests Stage 2 Fire Restrictions | Forest Service",
       "url": "https://www.fs.usda.gov/r02/gmug/alerts/grand-mesa-uncompahgre-and-gunnison-national-forests-stage-2-fire-restrictions"
-    },
-    {
-      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
-      "name": "Gold Mountain Fire incident information - InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire"
-    },
-    {
-      "name": "Aspen Acres fire crews patrol western edge, after hot, dry conditions test defenses",
-      "url": "https://coloradosun.com/2026/07/21/colorado-wildfires-aspen-acres-fire-gold-mountain-elk-tuesday-update/"
     }
   ],
-  "generated": "Friday, July 24"
+  "generated": "Saturday, July 25"
 }
