@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger remains High today across the Montrose (High Elevation) area, driven by dry fuels — ERC at 78% and a Burning Index at 64%.**\n- Danger stays High all week (through July 31), with ERC easing slightly to 72–76% and BI holding 60–69%.\n- Light ENE-to-NE winds (5–8 mph) and highs in the upper 70s continue, with scattered afternoon shower/thunderstorm chances easing fuel dryness slightly.\n- 0 of 7 local watchout thresholds are currently met, and no Red Flag Warning is posted for this area today.\n-",
-  "lead": "Fire danger remains High today across the Montrose (High Elevation) area, driven by dry fuels — ERC at 78% and a Burning Index at 64%.",
+  "overview": "**Today's fire danger is High, driven mainly by elevated energy release component (ERC 78%) despite scattered afternoon storms.**\n- Danger stays High through August 1, with ERC easing to ~70% midweek before climbing back to 86% as humidity drops to 24% and winds shift NE.\n- Sunday brings a 80% chance of showers/thunderstorms and a high near 88°, which should keep fuels temporarily damp despite today's 6 mph east wind.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\n- Montrose County remains under Stage 2 fire restrictions; BLM's Gunnison and Uncompahgre Field Offices (covering Gunnison, Hinsdale, Montrose, Ouray, Saguache, San Juan) are under Stage 1, with some areas at Stage 2.\n- The Gold Mountain Fire near Ouray is 38,052 acres and 27% contained, with area, road and evacuation restrictions still in place nearby.",
+  "lead": "Today's fire danger is High, driven mainly by elevated energy release component (ERC 78%) despite scattered afternoon storms.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Grand Mesa, Uncompahgre and Gunnison National Forests Stage 2 Fire Restrictions | Forest Service",
-      "url": "https://www.fs.usda.gov/r02/gmug/alerts/grand-mesa-uncompahgre-and-gunnison-national-forests-stage-2-fire-restrictions"
+      "name": "Gold Mountain Fire incident information - InciWeb",
+      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire"
     }
   ],
-  "generated": "Saturday, July 25"
+  "generated": "Sunday, July 26"
 }
