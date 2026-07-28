@@ -1,6 +1,6 @@
 {
-  "overview": "**Today's fire danger is High, driven mainly by elevated energy release component (ERC 78%) despite scattered afternoon storms.**\n- Danger stays High through August 1, with ERC easing to ~70% midweek before climbing back to 86% as humidity drops to 24% and winds shift NE.\n- Sunday brings a 80% chance of showers/thunderstorms and a high near 88°, which should keep fuels temporarily damp despite today's 6 mph east wind.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\n- Montrose County remains under Stage 2 fire restrictions; BLM's Gunnison and Uncompahgre Field Offices (covering Gunnison, Hinsdale, Montrose, Ouray, Saguache, San Juan) are under Stage 1, with some areas at Stage 2.\n- The Gold Mountain Fire near Ouray is 38,052 acres and 27% contained, with area, road and evacuation restrictions still in place nearby.",
-  "lead": "Today's fire danger is High, driven mainly by elevated energy release component (ERC 78%) despite scattered afternoon storms.",
+  "overview": "**Fire danger is High today across the Montrose (High Elevation) area, driven by warm temps and dropping humidity as fuels continue to dry out.**\n- Danger climbs through the week, reaching Very High by Saturday, Aug 3, as ERC and BI percentiles rise steadily.\n- Afternoon storms are possible today, but humidity falls into the high-teens by the weekend with winds picking up to 9-10 mph from the NNE.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\nStage 1 fire restrictions remain in effect on BLM-administered public lands in Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties, plus Delta, Mesa and San Miguel counties.\n- The Gold Mountain Fire near Ouray is at 38,063 acres and 37% contained, with the Elk Fire smoldering near Lake City and the Ferris Fire holding near Cahone.",
+  "lead": "Fire danger is High today across the Montrose (High Elevation) area, driven by warm temps and dropping humidity as fuels continue to dry out.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Gold Mountain Fire incident information - InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire"
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "Gold Mountain Fire | Emergency Management",
+      "url": "https://emergency.gunnisoncounty.org/gold-mountain-fire/"
     }
   ],
-  "generated": "Sunday, July 26"
+  "generated": "Tuesday, July 28"
 }
