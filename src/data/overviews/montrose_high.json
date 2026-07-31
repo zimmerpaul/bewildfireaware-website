@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, but drying fuels and warming temperatures are driving a rapid climb toward Very High by early next week.**\n\n- Danger rises from Moderate today to High Thursday–Friday and Very High Aug 2–4, with ERC climbing from 64% to a peak of 93%.\n- Today's wet, unsettled pattern (70% storm chance, gusty outflow) gives way to hot, dry, breezy NE winds later this week.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning is posted for the area.\n- Montrose County has been under Stage 2 Fire Restrictions since July 1, and Black Canyon and Curecanti moved to Stage 2 restrictions on July 1; BLM's Tres Rios, Uncompahgre, and Gunnison field offices remain in Stage 2.\n- The Gold Mountain Fire near Ouray",
-  "lead": "Fire danger is Moderate today, but drying fuels and warming temperatures are driving a rapid climb toward Very High by early next week.",
+  "overview": "**High fire danger today across the Montrose (High Elevation) FDRA, driven by low humidity (17%) and warm, dry fuels — and it's forecast to climb to Very High by Monday.**\n- Danger rises steadily through next week: High today and Saturday, Very High from Sunday, Aug 2 through at least Aug 6.\n- Key driver is dropping humidity (down to 13-14% midweek) and rising ERC/BI percentiles (climbing into the 90s by Tuesday).\n- One of seven local watchout thresholds is currently triggered: minimum relative humidity (17%) exceeds the local limit; no Red Flag Warning is posted for today.\n- Stage 2 fire restrictions remain in effect on BLM lands across the Tres Rios, Uncompahgre, and Gunnison field offices, plus unincorporated Montrose County — Stage 2 fire restrictions are in effect on all BLM-administered public lands within the Tres Rios, Uncompahgre, and Gunnison field offices.\n- Nearby fires: Gold Mountain Fire two miles north of Ouray is 39,506 acres and 62% contained; Elk Fire seven miles northwest of Lake City is 2,317 acres and 37% contained, with command transferring today.\n- Both incidents still have area,",
+  "lead": "High fire danger today across the Montrose (High Elevation) FDRA, driven by low humidity (17%) and warm, dry fuels — and it's forecast to climb to Very High by Monday.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County Implements Stage 2 Fire Restrictions Beginning July 1 • Montrose County",
-      "url": "https://www.montrosecounty.net/m/newsflash/home/detail/1255"
-    },
-    {
-      "name": "Stage 2 Fire Restrictions - Black Canyon Of The Gunnison National Park (U.S. National Park Service)",
-      "url": "https://www.nps.gov/blca/learn/news/stage-2-fire-restrictions.htm"
-    },
-    {
       "name": "BLM Colorado Southwest District Raises Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/announcement/blm-colorado-southwest-district-raises-fire-restrictions"
-    },
-    {
-      "name": "Wildfire Map Spotlight: Snyder, Babylon, Ferris, and Gold Mountain Fires in Colorado and Utah | IQAir USA",
-      "url": "https://www.iqair.com/newsroom/wildfire-map-spotlight-snyder-babylon-ferris-and-gold-mountain-wildfires-in-colorado-and-utah"
     }
   ],
-  "generated": "Wednesday, July 29"
+  "generated": "Friday, July 31"
 }
