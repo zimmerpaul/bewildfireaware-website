@@ -1,167 +1,5 @@
 [
   {
-    "name": "Denver",
-    "lat": 39.76185,
-    "lon": -104.88111,
-    "pop": 715522,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Colorado Springs",
-    "lat": 38.86726,
-    "lon": -104.76075,
-    "pop": 478961,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Aurora",
-    "lat": 39.6883,
-    "lon": -104.6894,
-    "pop": 386261,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Fort Collins",
-    "lat": 40.5484,
-    "lon": -105.06499,
-    "pop": 169810,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Lakewood",
-    "lat": 39.69894,
-    "lon": -105.11757,
-    "pop": 155984,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Thornton",
-    "lat": 39.91942,
-    "lon": -104.94281,
-    "pop": 141867,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Arvada",
-    "lat": 39.83377,
-    "lon": -105.15027,
-    "pop": 124402,
-    "fdras": [
-      "pbc_north_pike"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Westminster",
-    "lat": 39.88012,
-    "lon": -105.06151,
-    "pop": 116317,
-    "fdras": [
-      "ftc_foothills",
-      "pbc_north_pike"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Pueblo",
-    "lat": 38.26993,
-    "lon": -104.61082,
-    "pop": 111876,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Centennial",
-    "lat": 39.59057,
-    "lon": -104.86912,
-    "pop": 108418,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Boulder",
-    "lat": 40.02453,
-    "lon": -105.25276,
-    "pop": 108250,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Highlands Ranch",
-    "lat": 39.54131,
-    "lon": -104.97072,
-    "pop": 103444,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Longmont",
-    "lat": 40.1682,
-    "lon": -105.10052,
-    "pop": 98885,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Loveland",
-    "lat": 40.41691,
-    "lon": -105.06311,
-    "pop": 76378,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Broomfield",
-    "lat": 39.95388,
-    "lon": -105.0509,
-    "pop": 74112,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Castle Rock",
-    "lat": 39.37625,
-    "lon": -104.85348,
-    "pop": 73158,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
     "name": "Grand Junction",
     "lat": 39.08906,
     "lon": -108.56745,
@@ -169,199 +7,9 @@
     "fdras": [
       "grand_junction_low"
     ],
-    "tier": 1
-  },
-  {
-    "name": "Commerce City",
-    "lat": 39.88279,
-    "lon": -104.79491,
-    "pop": 62418,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Parker",
-    "lat": 39.4788,
-    "lon": -104.80096,
-    "pop": 58512,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Littleton",
-    "lat": 39.59038,
-    "lon": -105.02008,
-    "pop": 45652,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Brighton",
-    "lat": 39.96568,
-    "lon": -104.79406,
-    "pop": 40083,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Security-Widefield",
-    "lat": 38.75113,
-    "lon": -104.71602,
-    "pop": 38639,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Northglenn",
-    "lat": 39.91163,
-    "lon": -104.98215,
-    "pop": 38131,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Dakota Ridge",
-    "lat": 39.61959,
-    "lon": -105.13265,
-    "pop": 33892,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_north_pike"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Ken Caryl",
-    "lat": 39.57674,
-    "lon": -105.1137,
-    "pop": 33811,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Englewood",
-    "lat": 39.64698,
-    "lon": -104.99447,
-    "pop": 33659,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Pueblo West",
-    "lat": 38.31583,
-    "lon": -104.78497,
-    "pop": 33086,
-    "fdras": [
-      "pbc_front_range"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Wheat Ridge",
-    "lat": 39.77268,
-    "lon": -105.1048,
-    "pop": 32398,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_north_pike"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Lafayette",
-    "lat": 39.99481,
-    "lon": -105.09968,
-    "pop": 30411,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Erie",
-    "lat": 40.04038,
-    "lon": -105.03937,
-    "pop": 30038,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Fountain",
-    "lat": 38.68938,
-    "lon": -104.68052,
-    "pop": 29802,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Columbine",
-    "lat": 39.58859,
-    "lon": -105.06918,
-    "pop": 25229,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Four Square Mile",
-    "lat": 39.68072,
-    "lon": -104.88792,
-    "pop": 22872,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Louisville",
-    "lat": 39.9693,
-    "lon": -105.14269,
-    "pop": 21226,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Clifton",
-    "lat": 39.07599,
-    "lon": -108.46078,
-    "pop": 20413,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Golden",
-    "lat": 39.74248,
-    "lon": -105.21056,
-    "pop": 20399,
-    "fdras": [
-      "pbc_north_pike"
-    ],
-    "tier": 1
+    "tier": 1,
+    "curated": true,
+    "map": true
   },
   {
     "name": "Montrose",
@@ -371,7 +19,9 @@
     "fdras": [
       "montrose_montrose"
     ],
-    "tier": 1
+    "tier": 1,
+    "curated": true,
+    "map": true
   },
   {
     "name": "Durango",
@@ -382,204 +32,9 @@
       "durango_lower",
       "durango_upper"
     ],
-    "tier": 1
-  },
-  {
-    "name": "Craig",
-    "lat": 40.51706,
-    "lon": -107.5554,
-    "pop": 9060,
-    "fdras": [
-      "crc_zone1",
-      "crc_zone2"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Kremmling",
-    "lat": 40.05655,
-    "lon": -106.37821,
-    "pop": 1509,
-    "fdras": [
-      "crc_zone3"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Cimarron Hills",
-    "lat": 38.85848,
-    "lon": -104.70018,
-    "pop": 19311,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Sherrelwood",
-    "lat": 39.83825,
-    "lon": -105.00232,
-    "pop": 19228,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Fort Carson",
-    "lat": 38.68742,
-    "lon": -104.74893,
-    "pop": 17693,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Cañon City",
-    "lat": 38.44189,
-    "lon": -105.2209,
-    "pop": 17141,
-    "fdras": [
-      "pbc_front_range"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Greenwood Village",
-    "lat": 39.61593,
-    "lon": -104.91169,
-    "pop": 15691,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Welby",
-    "lat": 39.84022,
-    "lon": -104.96551,
-    "pop": 15553,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Black Forest",
-    "lat": 39.06365,
-    "lon": -104.67961,
-    "pop": 15097,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Federal Heights",
-    "lat": 39.86497,
-    "lon": -105.01534,
-    "pop": 14382,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Lone Tree",
-    "lat": 39.53085,
-    "lon": -104.87096,
-    "pop": 14253,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Fruita",
-    "lat": 39.15596,
-    "lon": -108.73077,
-    "pop": 13395,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Steamboat Springs",
-    "lat": 40.47558,
-    "lon": -106.82292,
-    "pop": 13224,
-    "fdras": [
-      "crc_zone2",
-      "crc_zone3"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Superior",
-    "lat": 39.93119,
-    "lon": -105.15909,
-    "pop": 13094,
-    "fdras": [
-      "ftc_foothills",
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Berkley",
-    "lat": 39.80659,
-    "lon": -105.02877,
-    "pop": 12536,
-    "fdras": [
-      "ftc_foothills",
-      "pbc_high_plains",
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Cherry Creek",
-    "lat": 39.60947,
-    "lon": -104.86447,
-    "pop": 11488,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "The Pinery",
-    "lat": 39.4484,
-    "lon": -104.74953,
-    "pop": 11311,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Edwards",
-    "lat": 39.61182,
-    "lon": -106.6197,
-    "pop": 11246,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Castle Pines",
-    "lat": 39.46249,
-    "lon": -104.87058,
-    "pop": 11036,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
+    "tier": 1,
+    "curated": true,
+    "map": true
   },
   {
     "name": "Rifle",
@@ -589,18 +44,9 @@
     "fdras": [
       "grand_junction_low"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Monument",
-    "lat": 39.07471,
-    "lon": -104.83714,
-    "pop": 10399,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": true,
+    "map": true
   },
   {
     "name": "Glenwood Springs",
@@ -611,7 +57,338 @@
       "grand_junction_low",
       "grand_junction_middle"
     ],
-    "tier": 2
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Delta",
+    "lat": 38.75738,
+    "lon": -108.08799,
+    "pop": 9035,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Cortez",
+    "lat": 37.3498,
+    "lon": -108.5761,
+    "pop": 8766,
+    "fdras": [
+      "durango_lower"
+    ],
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Aspen",
+    "lat": 39.19513,
+    "lon": -106.83676,
+    "pop": 7004,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Gunnison",
+    "lat": 38.54798,
+    "lon": -106.9246,
+    "pop": 6560,
+    "fdras": [
+      "montrose_high"
+    ],
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Carbondale",
+    "lat": 39.39497,
+    "lon": -107.21478,
+    "pop": 6434,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Telluride",
+    "lat": 37.93966,
+    "lon": -107.81815,
+    "pop": 2607,
+    "fdras": [
+      "montrose_high"
+    ],
+    "tier": 2,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Crested Butte",
+    "lat": 38.86759,
+    "lon": -106.97723,
+    "pop": 1639,
+    "fdras": [
+      "montrose_high"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Pagosa Springs",
+    "lat": 37.26344,
+    "lon": -107.00346,
+    "pop": 1571,
+    "fdras": [
+      "durango_upper"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Paonia",
+    "lat": 38.86981,
+    "lon": -107.59197,
+    "pop": 1447,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Ridgway",
+    "lat": 38.15718,
+    "lon": -107.7546,
+    "pop": 1183,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Ouray",
+    "lat": 38.02754,
+    "lon": -107.67335,
+    "pop": 898,
+    "fdras": [
+      "montrose_high"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Hotchkiss",
+    "lat": 38.79899,
+    "lon": -107.71338,
+    "pop": 875,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Silverton",
+    "lat": 37.81087,
+    "lon": -107.66474,
+    "pop": 622,
+    "fdras": [
+      "durango_upper"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Nucla",
+    "lat": 38.26667,
+    "lon": -108.5487,
+    "pop": 585,
+    "fdras": [
+      "montrose_west"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Norwood",
+    "lat": 38.12904,
+    "lon": -108.29181,
+    "pop": 535,
+    "fdras": [
+      "montrose_west"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Lake City",
+    "lat": 38.02313,
+    "lon": -107.3113,
+    "pop": 432,
+    "fdras": [
+      "montrose_high"
+    ],
+    "tier": 3,
+    "curated": true,
+    "map": true
+  },
+  {
+    "name": "Denver",
+    "lat": 39.76185,
+    "lon": -104.88111,
+    "pop": 715522,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Fort Collins",
+    "lat": 40.5484,
+    "lon": -105.06499,
+    "pop": 169810,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Thornton",
+    "lat": 39.91942,
+    "lon": -104.94281,
+    "pop": 141867,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Arvada",
+    "lat": 39.83377,
+    "lon": -105.15027,
+    "pop": 124402,
+    "fdras": [
+      "pbc_north_pike"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Pueblo",
+    "lat": 38.26993,
+    "lon": -104.61082,
+    "pop": 111876,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Pueblo West",
+    "lat": 38.31583,
+    "lon": -104.78497,
+    "pop": 33086,
+    "fdras": [
+      "pbc_front_range"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Golden",
+    "lat": 39.74248,
+    "lon": -105.21056,
+    "pop": 20399,
+    "fdras": [
+      "pbc_north_pike"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Craig",
+    "lat": 40.51706,
+    "lon": -107.5554,
+    "pop": 9060,
+    "fdras": [
+      "crc_zone1",
+      "crc_zone2"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Kremmling",
+    "lat": 40.05655,
+    "lon": -106.37821,
+    "pop": 1509,
+    "fdras": [
+      "crc_zone3"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Steamboat Springs",
+    "lat": 40.47558,
+    "lon": -106.82292,
+    "pop": 13224,
+    "fdras": [
+      "crc_zone2",
+      "crc_zone3"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Edwards",
+    "lat": 39.61182,
+    "lon": -106.6197,
+    "pop": 11246,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Alamosa",
@@ -621,7 +398,9 @@
     "fdras": [
       "pbc_continental"
     ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Woodmoor",
@@ -633,120 +412,9 @@
       "pbc_high_plains",
       "pbc_pike"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Roxborough Park",
-    "lat": 39.44476,
-    "lon": -105.07688,
-    "pop": 9416,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Fairmount",
-    "lat": 39.79257,
-    "lon": -105.17116,
-    "pop": 9324,
-    "fdras": [
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Evergreen",
-    "lat": 39.63561,
-    "lon": -105.33809,
-    "pop": 9307,
-    "fdras": [
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Stonegate",
-    "lat": 39.53378,
-    "lon": -104.79984,
-    "pop": 9072,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Redlands",
-    "lat": 39.08496,
-    "lon": -108.65496,
-    "pop": 9061,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Delta",
-    "lat": 38.75738,
-    "lon": -108.08799,
-    "pop": 9035,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Cortez",
-    "lat": 37.3498,
-    "lon": -108.5761,
-    "pop": 8766,
-    "fdras": [
-      "durango_lower"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Trinidad",
-    "lat": 37.17316,
-    "lon": -104.49033,
-    "pop": 8329,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Fruitvale",
-    "lat": 39.09328,
-    "lon": -108.47891,
-    "pop": 8271,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Twin Lakes",
-    "lat": 39.82272,
-    "lon": -105.00397,
-    "pop": 8226,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Gypsum",
-    "lat": 39.61895,
-    "lon": -106.95955,
-    "pop": 8040,
-    "fdras": [
-      "grand_junction_low",
-      "grand_junction_middle"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Woodland Park",
@@ -756,164 +424,9 @@
     "fdras": [
       "pbc_pike"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Applewood",
-    "lat": 39.74748,
-    "lon": -105.17297,
-    "pop": 7833,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Lamar",
-    "lat": 38.07597,
-    "lon": -102.61472,
-    "pop": 7687,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Eagle",
-    "lat": 39.64193,
-    "lon": -106.81607,
-    "pop": 7511,
-    "fdras": [
-      "grand_junction_low",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "La Junta",
-    "lat": 37.97941,
-    "lon": -103.54734,
-    "pop": 7322,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Aspen",
-    "lat": 39.19513,
-    "lon": -106.83676,
-    "pop": 7004,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Orchard Mesa",
-    "lat": 39.03739,
-    "lon": -108.52284,
-    "pop": 6688,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Gleneagle",
-    "lat": 39.03987,
-    "lon": -104.82535,
-    "pop": 6649,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Air Force Academy",
-    "lat": 38.99419,
-    "lon": -104.86392,
-    "pop": 6608,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Gunnison",
-    "lat": 38.54798,
-    "lon": -106.9246,
-    "pop": 6560,
-    "fdras": [
-      "montrose_high"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Stratmoor",
-    "lat": 38.77196,
-    "lon": -104.77777,
-    "pop": 6518,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Cherry Hills Village",
-    "lat": 39.63742,
-    "lon": -104.94747,
-    "pop": 6442,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Carbondale",
-    "lat": 39.39497,
-    "lon": -107.21478,
-    "pop": 6434,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Sheridan",
-    "lat": 39.64712,
-    "lon": -105.01935,
-    "pop": 6105,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Avon",
-    "lat": 39.64189,
-    "lon": -106.51581,
-    "pop": 6072,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Estes Park",
-    "lat": 40.36891,
-    "lon": -105.53121,
-    "pop": 5904,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Salida",
@@ -923,146 +436,9 @@
     "fdras": [
       "pbc_continental"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Dove Valley",
-    "lat": 39.57516,
-    "lon": -104.83084,
-    "pop": 5640,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Battlement Mesa",
-    "lat": 39.45277,
-    "lon": -108.00394,
-    "pop": 5438,
-    "fdras": [
-      "grand_junction_low",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Shaw Heights",
-    "lat": 39.85753,
-    "lon": -105.03909,
-    "pop": 5185,
-    "fdras": [
-      "ftc_foothills",
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Breckenridge",
-    "lat": 39.49948,
-    "lon": -106.04324,
-    "pop": 5078,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Edgewater",
-    "lat": 39.75085,
-    "lon": -105.06262,
-    "pop": 5005,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "New Castle",
-    "lat": 39.58171,
-    "lon": -107.52885,
-    "pop": 4923,
-    "fdras": [
-      "grand_junction_low",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Manitou Springs",
-    "lat": 38.85754,
-    "lon": -104.91286,
-    "pop": 4858,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Vail",
-    "lat": 39.63778,
-    "lon": -106.36246,
-    "pop": 4835,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Meridian",
-    "lat": 39.54569,
-    "lon": -104.85332,
-    "pop": 4786,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Glendale",
-    "lat": 39.70305,
-    "lon": -104.93616,
-    "pop": 4613,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Silverthorne",
-    "lat": 39.65449,
-    "lon": -106.09437,
-    "pop": 4402,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Castle Pines Village",
-    "lat": 39.4418,
-    "lon": -104.89704,
-    "pop": 4327,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "West Pleasant View",
-    "lat": 39.73188,
-    "lon": -105.17843,
-    "pop": 4327,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_north_pike"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Monte Vista",
@@ -1072,253 +448,9 @@
     "fdras": [
       "pbc_continental"
     ],
-    "tier": 2
-  },
-  {
-    "name": "El Jebel",
-    "lat": 39.40678,
-    "lon": -107.09396,
-    "pop": 4130,
-    "fdras": [
-      "grand_junction_low",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Basalt",
-    "lat": 39.36858,
-    "lon": -107.04876,
-    "pop": 3984,
-    "fdras": [
-      "grand_junction_low",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Lincoln Park",
-    "lat": 38.42518,
-    "lon": -105.21308,
-    "pop": 3934,
-    "fdras": [
-      "pbc_front_range"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Rocky Ford",
-    "lat": 38.04988,
-    "lon": -103.7221,
-    "pop": 3876,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Florence",
-    "lat": 38.37962,
-    "lon": -105.10023,
-    "pop": 3822,
-    "fdras": [
-      "pbc_front_range"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Penrose",
-    "lat": 38.4213,
-    "lon": -105.0004,
-    "pop": 3685,
-    "fdras": [
-      "pbc_front_range"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Genesee",
-    "lat": 39.6879,
-    "lon": -105.2712,
-    "pop": 3610,
-    "fdras": [
-      "pbc_north_pike"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Silt",
-    "lat": 39.54798,
-    "lon": -107.65274,
-    "pop": 3536,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Sierra Ridge",
-    "lat": 39.52859,
-    "lon": -104.81725,
-    "pop": 3490,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Ponderosa Park",
-    "lat": 39.39867,
-    "lon": -104.6355,
-    "pop": 3334,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Strasburg",
-    "lat": 39.72071,
-    "lon": -104.31819,
-    "pop": 3307,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Meridian Village",
-    "lat": 39.52805,
-    "lon": -104.82578,
-    "pop": 3202,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Orchard City",
-    "lat": 38.81815,
-    "lon": -107.96725,
-    "pop": 3142,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Snowmass Village",
-    "lat": 39.21688,
-    "lon": -106.94397,
-    "pop": 3096,
-    "fdras": [
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Walsenburg",
-    "lat": 37.6306,
-    "lon": -104.78172,
-    "pop": 3049,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Park Center",
-    "lat": 38.48518,
-    "lon": -105.22614,
-    "pop": 2953,
-    "fdras": [
-      "pbc_front_range"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Acres Green",
-    "lat": 39.55574,
-    "lon": -104.89582,
-    "pop": 2922,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Frisco",
-    "lat": 39.57848,
-    "lon": -106.09097,
-    "pop": 2913,
-    "fdras": [
-      "grand_junction_high",
-      "grand_junction_middle"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Bennett",
-    "lat": 39.74552,
-    "lon": -104.44453,
-    "pop": 2862,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Buena Vista",
-    "lat": 38.83184,
-    "lon": -106.13866,
-    "pop": 2855,
-    "fdras": [
-      "pbc_continental"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Bayfield",
-    "lat": 37.23406,
-    "lon": -107.59515,
-    "pop": 2838,
-    "fdras": [
-      "durango_lower",
-      "durango_upper"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Stepping Stone",
-    "lat": 39.51475,
-    "lon": -104.82216,
-    "pop": 2780,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Holly Hills",
-    "lat": 39.66773,
-    "lon": -104.92162,
-    "pop": 2683,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Palmer Lake",
-    "lat": 39.11377,
-    "lon": -104.90606,
-    "pop": 2636,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_pike"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Leadville",
@@ -1328,27 +460,9 @@
     "fdras": [
       "pbc_high_peaks"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Telluride",
-    "lat": 37.93966,
-    "lon": -107.81815,
-    "pop": 2607,
-    "fdras": [
-      "montrose_high"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Palisade",
-    "lat": 39.10793,
-    "lon": -108.35733,
-    "pop": 2565,
-    "fdras": [
-      "grand_junction_low"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Coal Creek",
@@ -1360,17 +474,9 @@
       "ftc_foothills",
       "pbc_north_pike"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Laporte",
-    "lat": 40.63886,
-    "lon": -105.14346,
-    "pop": 2409,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Meeker",
@@ -1380,17 +486,9 @@
     "fdras": [
       "crc_zone2"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Las Animas",
-    "lat": 38.06967,
-    "lon": -103.22323,
-    "pop": 2300,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Rangely",
@@ -1400,109 +498,9 @@
     "fdras": [
       "crc_zone1"
     ],
-    "tier": 2
-  },
-  {
-    "name": "Cedaredge",
-    "lat": 38.8941,
-    "lon": -107.92549,
-    "pop": 2279,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Colorado City",
-    "lat": 37.93938,
-    "lon": -104.84308,
-    "pop": 2237,
-    "fdras": [
-      "pbc_front_range",
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Inverness",
-    "lat": 39.57583,
-    "lon": -104.86532,
-    "pop": 2226,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Lyons",
-    "lat": 40.22305,
-    "lon": -105.26866,
-    "pop": 2209,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Granby",
-    "lat": 40.0648,
-    "lon": -105.91939,
-    "pop": 2079,
-    "fdras": [
-      "crc_zone3"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Limon",
-    "lat": 39.26507,
-    "lon": -103.68591,
-    "pop": 2043,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Olathe",
-    "lat": 38.60843,
-    "lon": -107.98324,
-    "pop": 2019,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Hayden",
-    "lat": 40.49222,
-    "lon": -107.26432,
-    "pop": 1941,
-    "fdras": [
-      "crc_zone2"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Perry Park",
-    "lat": 39.26046,
-    "lon": -104.96784,
-    "pop": 1932,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_pike"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Center",
-    "lat": 37.75124,
-    "lon": -106.11056,
-    "pop": 1929,
-    "fdras": [
-      "pbc_continental"
-    ],
-    "tier": 3
+    "tier": 2,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Leadville North",
@@ -1512,18 +510,9 @@
     "fdras": [
       "pbc_high_peaks"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Sterling Ranch",
-    "lat": 39.49323,
-    "lon": -105.04751,
-    "pop": 1789,
-    "fdras": [
-      "pbc_high_plains",
-      "pbc_pike"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Idaho Springs",
@@ -1533,27 +522,9 @@
     "fdras": [
       "ftc_east_divide"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Elizabeth",
-    "lat": 39.36507,
-    "lon": -104.60388,
-    "pop": 1675,
-    "fdras": [
-      "pbc_high_plains"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Crested Butte",
-    "lat": 38.86759,
-    "lon": -106.97723,
-    "pop": 1639,
-    "fdras": [
-      "montrose_high"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Cascade-Chipita Park",
@@ -1563,67 +534,9 @@
     "fdras": [
       "pbc_pike"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Pagosa Springs",
-    "lat": 37.26344,
-    "lon": -107.00346,
-    "pop": 1571,
-    "fdras": [
-      "durango_upper"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Indian Hills",
-    "lat": 39.62988,
-    "lon": -105.24746,
-    "pop": 1474,
-    "fdras": [
-      "pbc_north_pike"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Nederland",
-    "lat": 39.96381,
-    "lon": -105.50586,
-    "pop": 1471,
-    "fdras": [
-      "ftc_foothills"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Del Norte",
-    "lat": 37.67846,
-    "lon": -106.35394,
-    "pop": 1458,
-    "fdras": [
-      "pbc_continental"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Alamosa East",
-    "lat": 37.47666,
-    "lon": -105.83972,
-    "pop": 1453,
-    "fdras": [
-      "pbc_continental"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Paonia",
-    "lat": 38.86981,
-    "lon": -107.59197,
-    "pop": 1447,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": true
   },
   {
     "name": "Fraser",
@@ -1634,7 +547,1592 @@
       "crc_zone3",
       "ftc_west_divide"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Keystone",
+    "lat": 39.57439,
+    "lon": -105.93477,
+    "pop": 1369,
+    "fdras": [
+      "grand_junction_high"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Towaoc",
+    "lat": 37.2126,
+    "lon": -108.72646,
+    "pop": 1120,
+    "fdras": [
+      "durango_lower"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Georgetown",
+    "lat": 39.71789,
+    "lon": -105.69449,
+    "pop": 1118,
+    "fdras": [
+      "ftc_east_divide"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Winter Park",
+    "lat": 39.87847,
+    "lon": -105.78275,
+    "pop": 1033,
+    "fdras": [
+      "ftc_west_divide"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Fairplay",
+    "lat": 39.22546,
+    "lon": -105.99711,
+    "pop": 724,
+    "fdras": [
+      "pbc_high_peaks"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Naturita",
+    "lat": 38.2183,
+    "lon": -108.56634,
+    "pop": 485,
+    "fdras": [
+      "montrose_west"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Dinosaur",
+    "lat": 40.23986,
+    "lon": -109.0068,
+    "pop": 243,
+    "fdras": [
+      "crc_zone1"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Sawpit",
+    "lat": 37.99472,
+    "lon": -108.00214,
+    "pop": 38,
+    "fdras": [
+      "montrose_uncompaghre"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": true
+  },
+  {
+    "name": "Colorado Springs",
+    "lat": 38.86726,
+    "lon": -104.76075,
+    "pop": 478961,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Aurora",
+    "lat": 39.6883,
+    "lon": -104.6894,
+    "pop": 386261,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lakewood",
+    "lat": 39.69894,
+    "lon": -105.11757,
+    "pop": 155984,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Westminster",
+    "lat": 39.88012,
+    "lon": -105.06151,
+    "pop": 116317,
+    "fdras": [
+      "ftc_foothills",
+      "pbc_north_pike"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Centennial",
+    "lat": 39.59057,
+    "lon": -104.86912,
+    "pop": 108418,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Boulder",
+    "lat": 40.02453,
+    "lon": -105.25276,
+    "pop": 108250,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Highlands Ranch",
+    "lat": 39.54131,
+    "lon": -104.97072,
+    "pop": 103444,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Longmont",
+    "lat": 40.1682,
+    "lon": -105.10052,
+    "pop": 98885,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Loveland",
+    "lat": 40.41691,
+    "lon": -105.06311,
+    "pop": 76378,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Broomfield",
+    "lat": 39.95388,
+    "lon": -105.0509,
+    "pop": 74112,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Castle Rock",
+    "lat": 39.37625,
+    "lon": -104.85348,
+    "pop": 73158,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Commerce City",
+    "lat": 39.88279,
+    "lon": -104.79491,
+    "pop": 62418,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Parker",
+    "lat": 39.4788,
+    "lon": -104.80096,
+    "pop": 58512,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Littleton",
+    "lat": 39.59038,
+    "lon": -105.02008,
+    "pop": 45652,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Brighton",
+    "lat": 39.96568,
+    "lon": -104.79406,
+    "pop": 40083,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Security-Widefield",
+    "lat": 38.75113,
+    "lon": -104.71602,
+    "pop": 38639,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Northglenn",
+    "lat": 39.91163,
+    "lon": -104.98215,
+    "pop": 38131,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Dakota Ridge",
+    "lat": 39.61959,
+    "lon": -105.13265,
+    "pop": 33892,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_north_pike"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Ken Caryl",
+    "lat": 39.57674,
+    "lon": -105.1137,
+    "pop": 33811,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Englewood",
+    "lat": 39.64698,
+    "lon": -104.99447,
+    "pop": 33659,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Wheat Ridge",
+    "lat": 39.77268,
+    "lon": -105.1048,
+    "pop": 32398,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_north_pike"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lafayette",
+    "lat": 39.99481,
+    "lon": -105.09968,
+    "pop": 30411,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Erie",
+    "lat": 40.04038,
+    "lon": -105.03937,
+    "pop": 30038,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Fountain",
+    "lat": 38.68938,
+    "lon": -104.68052,
+    "pop": 29802,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Columbine",
+    "lat": 39.58859,
+    "lon": -105.06918,
+    "pop": 25229,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Four Square Mile",
+    "lat": 39.68072,
+    "lon": -104.88792,
+    "pop": 22872,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Louisville",
+    "lat": 39.9693,
+    "lon": -105.14269,
+    "pop": 21226,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Clifton",
+    "lat": 39.07599,
+    "lon": -108.46078,
+    "pop": 20413,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 1,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Cimarron Hills",
+    "lat": 38.85848,
+    "lon": -104.70018,
+    "pop": 19311,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Sherrelwood",
+    "lat": 39.83825,
+    "lon": -105.00232,
+    "pop": 19228,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Fort Carson",
+    "lat": 38.68742,
+    "lon": -104.74893,
+    "pop": 17693,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Cañon City",
+    "lat": 38.44189,
+    "lon": -105.2209,
+    "pop": 17141,
+    "fdras": [
+      "pbc_front_range"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Greenwood Village",
+    "lat": 39.61593,
+    "lon": -104.91169,
+    "pop": 15691,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Welby",
+    "lat": 39.84022,
+    "lon": -104.96551,
+    "pop": 15553,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Black Forest",
+    "lat": 39.06365,
+    "lon": -104.67961,
+    "pop": 15097,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Federal Heights",
+    "lat": 39.86497,
+    "lon": -105.01534,
+    "pop": 14382,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lone Tree",
+    "lat": 39.53085,
+    "lon": -104.87096,
+    "pop": 14253,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Fruita",
+    "lat": 39.15596,
+    "lon": -108.73077,
+    "pop": 13395,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Superior",
+    "lat": 39.93119,
+    "lon": -105.15909,
+    "pop": 13094,
+    "fdras": [
+      "ftc_foothills",
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Berkley",
+    "lat": 39.80659,
+    "lon": -105.02877,
+    "pop": 12536,
+    "fdras": [
+      "ftc_foothills",
+      "pbc_high_plains",
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Cherry Creek",
+    "lat": 39.60947,
+    "lon": -104.86447,
+    "pop": 11488,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "The Pinery",
+    "lat": 39.4484,
+    "lon": -104.74953,
+    "pop": 11311,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Castle Pines",
+    "lat": 39.46249,
+    "lon": -104.87058,
+    "pop": 11036,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Monument",
+    "lat": 39.07471,
+    "lon": -104.83714,
+    "pop": 10399,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Roxborough Park",
+    "lat": 39.44476,
+    "lon": -105.07688,
+    "pop": 9416,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Fairmount",
+    "lat": 39.79257,
+    "lon": -105.17116,
+    "pop": 9324,
+    "fdras": [
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Evergreen",
+    "lat": 39.63561,
+    "lon": -105.33809,
+    "pop": 9307,
+    "fdras": [
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Stonegate",
+    "lat": 39.53378,
+    "lon": -104.79984,
+    "pop": 9072,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Redlands",
+    "lat": 39.08496,
+    "lon": -108.65496,
+    "pop": 9061,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Trinidad",
+    "lat": 37.17316,
+    "lon": -104.49033,
+    "pop": 8329,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Fruitvale",
+    "lat": 39.09328,
+    "lon": -108.47891,
+    "pop": 8271,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Twin Lakes",
+    "lat": 39.82272,
+    "lon": -105.00397,
+    "pop": 8226,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Gypsum",
+    "lat": 39.61895,
+    "lon": -106.95955,
+    "pop": 8040,
+    "fdras": [
+      "grand_junction_low",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Applewood",
+    "lat": 39.74748,
+    "lon": -105.17297,
+    "pop": 7833,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lamar",
+    "lat": 38.07597,
+    "lon": -102.61472,
+    "pop": 7687,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Eagle",
+    "lat": 39.64193,
+    "lon": -106.81607,
+    "pop": 7511,
+    "fdras": [
+      "grand_junction_low",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "La Junta",
+    "lat": 37.97941,
+    "lon": -103.54734,
+    "pop": 7322,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Orchard Mesa",
+    "lat": 39.03739,
+    "lon": -108.52284,
+    "pop": 6688,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Gleneagle",
+    "lat": 39.03987,
+    "lon": -104.82535,
+    "pop": 6649,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Air Force Academy",
+    "lat": 38.99419,
+    "lon": -104.86392,
+    "pop": 6608,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Stratmoor",
+    "lat": 38.77196,
+    "lon": -104.77777,
+    "pop": 6518,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Cherry Hills Village",
+    "lat": 39.63742,
+    "lon": -104.94747,
+    "pop": 6442,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Sheridan",
+    "lat": 39.64712,
+    "lon": -105.01935,
+    "pop": 6105,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Avon",
+    "lat": 39.64189,
+    "lon": -106.51581,
+    "pop": 6072,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Estes Park",
+    "lat": 40.36891,
+    "lon": -105.53121,
+    "pop": 5904,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Dove Valley",
+    "lat": 39.57516,
+    "lon": -104.83084,
+    "pop": 5640,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Battlement Mesa",
+    "lat": 39.45277,
+    "lon": -108.00394,
+    "pop": 5438,
+    "fdras": [
+      "grand_junction_low",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Shaw Heights",
+    "lat": 39.85753,
+    "lon": -105.03909,
+    "pop": 5185,
+    "fdras": [
+      "ftc_foothills",
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Breckenridge",
+    "lat": 39.49948,
+    "lon": -106.04324,
+    "pop": 5078,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Edgewater",
+    "lat": 39.75085,
+    "lon": -105.06262,
+    "pop": 5005,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "New Castle",
+    "lat": 39.58171,
+    "lon": -107.52885,
+    "pop": 4923,
+    "fdras": [
+      "grand_junction_low",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Manitou Springs",
+    "lat": 38.85754,
+    "lon": -104.91286,
+    "pop": 4858,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Vail",
+    "lat": 39.63778,
+    "lon": -106.36246,
+    "pop": 4835,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Meridian",
+    "lat": 39.54569,
+    "lon": -104.85332,
+    "pop": 4786,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Glendale",
+    "lat": 39.70305,
+    "lon": -104.93616,
+    "pop": 4613,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Silverthorne",
+    "lat": 39.65449,
+    "lon": -106.09437,
+    "pop": 4402,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Castle Pines Village",
+    "lat": 39.4418,
+    "lon": -104.89704,
+    "pop": 4327,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "West Pleasant View",
+    "lat": 39.73188,
+    "lon": -105.17843,
+    "pop": 4327,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "El Jebel",
+    "lat": 39.40678,
+    "lon": -107.09396,
+    "pop": 4130,
+    "fdras": [
+      "grand_junction_low",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Basalt",
+    "lat": 39.36858,
+    "lon": -107.04876,
+    "pop": 3984,
+    "fdras": [
+      "grand_junction_low",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lincoln Park",
+    "lat": 38.42518,
+    "lon": -105.21308,
+    "pop": 3934,
+    "fdras": [
+      "pbc_front_range"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Rocky Ford",
+    "lat": 38.04988,
+    "lon": -103.7221,
+    "pop": 3876,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Florence",
+    "lat": 38.37962,
+    "lon": -105.10023,
+    "pop": 3822,
+    "fdras": [
+      "pbc_front_range"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Penrose",
+    "lat": 38.4213,
+    "lon": -105.0004,
+    "pop": 3685,
+    "fdras": [
+      "pbc_front_range"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Genesee",
+    "lat": 39.6879,
+    "lon": -105.2712,
+    "pop": 3610,
+    "fdras": [
+      "pbc_north_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Silt",
+    "lat": 39.54798,
+    "lon": -107.65274,
+    "pop": 3536,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Sierra Ridge",
+    "lat": 39.52859,
+    "lon": -104.81725,
+    "pop": 3490,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Ponderosa Park",
+    "lat": 39.39867,
+    "lon": -104.6355,
+    "pop": 3334,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Strasburg",
+    "lat": 39.72071,
+    "lon": -104.31819,
+    "pop": 3307,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Meridian Village",
+    "lat": 39.52805,
+    "lon": -104.82578,
+    "pop": 3202,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Orchard City",
+    "lat": 38.81815,
+    "lon": -107.96725,
+    "pop": 3142,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Snowmass Village",
+    "lat": 39.21688,
+    "lon": -106.94397,
+    "pop": 3096,
+    "fdras": [
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Walsenburg",
+    "lat": 37.6306,
+    "lon": -104.78172,
+    "pop": 3049,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Park Center",
+    "lat": 38.48518,
+    "lon": -105.22614,
+    "pop": 2953,
+    "fdras": [
+      "pbc_front_range"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Acres Green",
+    "lat": 39.55574,
+    "lon": -104.89582,
+    "pop": 2922,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Frisco",
+    "lat": 39.57848,
+    "lon": -106.09097,
+    "pop": 2913,
+    "fdras": [
+      "grand_junction_high",
+      "grand_junction_middle"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Bennett",
+    "lat": 39.74552,
+    "lon": -104.44453,
+    "pop": 2862,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Buena Vista",
+    "lat": 38.83184,
+    "lon": -106.13866,
+    "pop": 2855,
+    "fdras": [
+      "pbc_continental"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Bayfield",
+    "lat": 37.23406,
+    "lon": -107.59515,
+    "pop": 2838,
+    "fdras": [
+      "durango_lower",
+      "durango_upper"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Stepping Stone",
+    "lat": 39.51475,
+    "lon": -104.82216,
+    "pop": 2780,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Holly Hills",
+    "lat": 39.66773,
+    "lon": -104.92162,
+    "pop": 2683,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Palmer Lake",
+    "lat": 39.11377,
+    "lon": -104.90606,
+    "pop": 2636,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_pike"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Palisade",
+    "lat": 39.10793,
+    "lon": -108.35733,
+    "pop": 2565,
+    "fdras": [
+      "grand_junction_low"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Laporte",
+    "lat": 40.63886,
+    "lon": -105.14346,
+    "pop": 2409,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Las Animas",
+    "lat": 38.06967,
+    "lon": -103.22323,
+    "pop": 2300,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Cedaredge",
+    "lat": 38.8941,
+    "lon": -107.92549,
+    "pop": 2279,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Colorado City",
+    "lat": 37.93938,
+    "lon": -104.84308,
+    "pop": 2237,
+    "fdras": [
+      "pbc_front_range",
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Inverness",
+    "lat": 39.57583,
+    "lon": -104.86532,
+    "pop": 2226,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lyons",
+    "lat": 40.22305,
+    "lon": -105.26866,
+    "pop": 2209,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Granby",
+    "lat": 40.0648,
+    "lon": -105.91939,
+    "pop": 2079,
+    "fdras": [
+      "crc_zone3"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Limon",
+    "lat": 39.26507,
+    "lon": -103.68591,
+    "pop": 2043,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Olathe",
+    "lat": 38.60843,
+    "lon": -107.98324,
+    "pop": 2019,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 2,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Hayden",
+    "lat": 40.49222,
+    "lon": -107.26432,
+    "pop": 1941,
+    "fdras": [
+      "crc_zone2"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Perry Park",
+    "lat": 39.26046,
+    "lon": -104.96784,
+    "pop": 1932,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_pike"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Center",
+    "lat": 37.75124,
+    "lon": -106.11056,
+    "pop": 1929,
+    "fdras": [
+      "pbc_continental"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Sterling Ranch",
+    "lat": 39.49323,
+    "lon": -105.04751,
+    "pop": 1789,
+    "fdras": [
+      "pbc_high_plains",
+      "pbc_pike"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Elizabeth",
+    "lat": 39.36507,
+    "lon": -104.60388,
+    "pop": 1675,
+    "fdras": [
+      "pbc_high_plains"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Indian Hills",
+    "lat": 39.62988,
+    "lon": -105.24746,
+    "pop": 1474,
+    "fdras": [
+      "pbc_north_pike"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Nederland",
+    "lat": 39.96381,
+    "lon": -105.50586,
+    "pop": 1471,
+    "fdras": [
+      "ftc_foothills"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Del Norte",
+    "lat": 37.67846,
+    "lon": -106.35394,
+    "pop": 1458,
+    "fdras": [
+      "pbc_continental"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Alamosa East",
+    "lat": 37.47666,
+    "lon": -105.83972,
+    "pop": 1453,
+    "fdras": [
+      "pbc_continental"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Parachute",
@@ -1645,17 +2143,9 @@
       "grand_junction_low",
       "grand_junction_middle"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Keystone",
-    "lat": 39.57439,
-    "lon": -105.93477,
-    "pop": 1369,
-    "fdras": [
-      "grand_junction_high"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Loma",
@@ -1665,7 +2155,9 @@
     "fdras": [
       "grand_junction_low"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Kittredge",
@@ -1675,7 +2167,9 @@
     "fdras": [
       "pbc_north_pike"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Mountain Village",
@@ -1685,7 +2179,9 @@
     "fdras": [
       "montrose_high"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Mancos",
@@ -1696,17 +2192,9 @@
       "durango_lower",
       "durango_upper"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Ridgway",
-    "lat": 38.15718,
-    "lon": -107.7546,
-    "pop": 1183,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Dotsero",
@@ -1717,7 +2205,9 @@
       "grand_junction_low",
       "grand_junction_middle"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Cripple Creek",
@@ -1727,27 +2217,9 @@
     "fdras": [
       "pbc_front_range"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Towaoc",
-    "lat": 37.2126,
-    "lon": -108.72646,
-    "pop": 1120,
-    "fdras": [
-      "durango_lower"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Georgetown",
-    "lat": 39.71789,
-    "lon": -105.69449,
-    "pop": 1118,
-    "fdras": [
-      "ftc_east_divide"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Dillon",
@@ -1758,7 +2230,9 @@
       "grand_junction_high",
       "grand_junction_middle"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Floyd Hill",
@@ -1768,7 +2242,9 @@
     "fdras": [
       "ftc_east_divide"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Minturn",
@@ -1778,17 +2254,9 @@
     "fdras": [
       "grand_junction_high"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Winter Park",
-    "lat": 39.87847,
-    "lon": -105.78275,
-    "pop": 1033,
-    "fdras": [
-      "ftc_west_divide"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Upper Bear Creek",
@@ -1798,7 +2266,9 @@
     "fdras": [
       "pbc_north_pike"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Paragon Estates",
@@ -1808,7 +2278,9 @@
     "fdras": [
       "ftc_foothills"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Pine Brook Hill",
@@ -1818,7 +2290,9 @@
     "fdras": [
       "ftc_foothills"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Mount Crested Butte",
@@ -1828,7 +2302,9 @@
     "fdras": [
       "montrose_high"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Oak Creek",
@@ -1839,7 +2315,9 @@
       "crc_zone2",
       "crc_zone3"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Dolores",
@@ -1850,17 +2328,9 @@
       "durango_lower",
       "durango_upper"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Hotchkiss",
-    "lat": 38.79899,
-    "lon": -107.71338,
-    "pop": 875,
-    "fdras": [
-      "montrose_montrose"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "La Veta",
@@ -1870,7 +2340,21 @@
     "fdras": [
       "pbc_front_range"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Ignacio",
+    "lat": 37.118,
+    "lon": -107.63756,
+    "pop": 852,
+    "fdras": [
+      "durango_upper"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Williamsburg",
@@ -1880,17 +2364,9 @@
     "fdras": [
       "pbc_front_range"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Fairplay",
-    "lat": 39.22546,
-    "lon": -105.99711,
-    "pop": 724,
-    "fdras": [
-      "pbc_high_peaks"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Hot Sulphur Springs",
@@ -1901,37 +2377,33 @@
       "crc_zone3",
       "ftc_west_divide"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
-    "name": "Nucla",
-    "lat": 38.26667,
-    "lon": -108.5487,
-    "pop": 585,
+    "name": "Loghill Village",
+    "lat": 38.19941,
+    "lon": -107.77534,
+    "pop": 617,
     "fdras": [
-      "montrose_west"
+      "montrose_montrose"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
-    "name": "Norwood",
-    "lat": 38.12904,
-    "lon": -108.29181,
-    "pop": 535,
+    "name": "Crawford",
+    "lat": 38.70504,
+    "lon": -107.6096,
+    "pop": 403,
     "fdras": [
-      "montrose_west"
+      "montrose_montrose"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Naturita",
-    "lat": 38.2183,
-    "lon": -108.56634,
-    "pop": 485,
-    "fdras": [
-      "montrose_west"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Yampa",
@@ -1941,7 +2413,9 @@
     "fdras": [
       "crc_zone2"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Placerville",
@@ -1949,9 +2423,12 @@
     "lon": -108.03983,
     "pop": 362,
     "fdras": [
+      "montrose_high",
       "montrose_uncompaghre"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Alma",
@@ -1961,17 +2438,33 @@
     "fdras": [
       "pbc_high_peaks"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
-    "name": "Dinosaur",
-    "lat": 40.23986,
-    "lon": -109.0068,
-    "pop": 243,
+    "name": "Redvale",
+    "lat": 38.17606,
+    "lon": -108.41251,
+    "pop": 172,
     "fdras": [
-      "crc_zone1"
+      "montrose_west"
     ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
+  },
+  {
+    "name": "Lazear",
+    "lat": 38.77879,
+    "lon": -107.7804,
+    "pop": 168,
+    "fdras": [
+      "montrose_montrose"
+    ],
+    "tier": 3,
+    "curated": false,
+    "map": false
   },
   {
     "name": "Maybell",
@@ -1981,16 +2474,8 @@
     "fdras": [
       "crc_zone1"
     ],
-    "tier": 3
-  },
-  {
-    "name": "Sawpit",
-    "lat": 37.99472,
-    "lon": -108.00214,
-    "pop": 38,
-    "fdras": [
-      "montrose_uncompaghre"
-    ],
-    "tier": 3
+    "tier": 3,
+    "curated": false,
+    "map": false
   }
 ]

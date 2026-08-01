@@ -12,11 +12,9 @@
     'Unknown': '#9e9e9e',
   };
 
-  // Zoom at/above which each tier's labels become eligible on the interactive
-  // region map. Tier 1 (cities / dispatch centers) is always eligible; a
-  // collision pass (below) then thins whatever still overlaps at the current
-  // zoom, so the statewide view stays legible even in the dense Front Range.
-  var TIER_ZOOM = { 1: 0, 2: 8, 3: 9.25 };
+  // Locator (per-FDRA) maps cap how many towns they draw so a single area stays
+  // legible: curated landmarks first, then the largest by population.
+  var LOCATOR_CAP = 8;
 
   function dangerClass(level) {
     return 'danger-' + String(level || 'unknown').toLowerCase().replace(/\s+/g, '-');
@@ -33,14 +31,26 @@
   // overlay pane at 400, below markers at 600) so the white-halo text stays
   // crisp instead of being tinted by the danger colors.
   //
-  // towns: array of {name, lat, lon, pop, fdras:[slug], tier} from /towns.json.
-  // opts.fdra — locator maps pass a slug: only that FDRA's towns are drawn, and
-  //   every tier is eligible (it's zoomed in on one area).
-  // Otherwise (region map) a tier→zoom gate plus a greedy collision pass decide
-  //   which LABELS render; dots for eligible towns always show.
+  // towns: array of {name, lat, lon, pop, fdras:[slug], tier, curated, map}
+  //   from /towns.json.
+  // opts.fdra — locator maps pass a slug: draw that FDRA's towns (curated first,
+  //   then largest, capped at LOCATOR_CAP), every one eligible to label since
+  //   it's zoomed in on one area.
+  // Otherwise (region/main map) only map:true towns are drawn (max ~3 per FDRA,
+  //   chosen in build-towns.mjs); a greedy collision pass then thins whatever
+  //   still overlaps so the statewide view stays legible.
   function addTowns(map, towns, opts) {
     opts = opts || {};
-    if (opts.fdra) towns = towns.filter(function (t) { return t.fdras.indexOf(opts.fdra) !== -1; });
+    if (opts.fdra) {
+      towns = towns
+        .filter(function (t) { return t.fdras.indexOf(opts.fdra) !== -1; })
+        .sort(function (a, b) {
+          return (a.curated ? 0 : 1) - (b.curated ? 0 : 1) || b.pop - a.pop;
+        })
+        .slice(0, LOCATOR_CAP);
+    } else {
+      towns = towns.filter(function (t) { return t.map; });
+    }
     if (!towns.length) return;
 
     map.createPane('towns');
@@ -68,12 +78,14 @@
     // approximate on-screen box clears every label already kept. Bigger, more
     // important places win the space.
     function update() {
-      var z = map.getZoom();
-      var eligible = items.filter(function (it) {
-        return opts.fdra ? true : z >= (TIER_ZOOM[it.t.tier] || 0);
-      });
+      // Every drawn town is label-eligible (the main-map set is already thinned
+      // to map:true, the locator set to LOCATOR_CAP); the collision pass below
+      // decides which survive at the current zoom. Curated landmarks and bigger
+      // places win the space.
+      var eligible = items.slice();
       eligible.sort(function (a, b) {
-        return a.t.tier - b.t.tier || b.t.pop - a.t.pop;
+        return (a.t.curated ? 0 : 1) - (b.t.curated ? 0 : 1) ||
+          a.t.tier - b.t.tier || b.t.pop - a.t.pop;
       });
       var placed = [];
       var keepLabel = new Set();

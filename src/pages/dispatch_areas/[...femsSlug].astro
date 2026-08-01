@@ -42,12 +42,13 @@ const geo = fdraGeo[fdra.slug] ?? {};
 const [lat, lon] = geo.centroid ?? [];
 const counties = geo.counties ?? [];
 
-// Towns/cities inside (or bordering) this FDRA, largest first — a subtle
-// orientation line beside the map. Source: src/data/towns.json (build-towns.mjs).
+// Towns/cities inside (or bordering) this FDRA — a subtle orientation line
+// beside the map: curated landmarks first, then largest by population, capped
+// at 5. Source: src/data/towns.json (build-towns.mjs).
 const communities = towns
   .filter((t) => t.fdras.includes(fdra.slug))
-  .sort((a, b) => b.pop - a.pop)
-  .slice(0, 8)
+  .sort((a, b) => (a.curated ? 0 : 1) - (b.curated ? 0 : 1) || b.pop - a.pop)
+  .slice(0, 5)
   .map((t) => t.name);
 
 // ---- Season ERC chart (inline SVG, PocketCard-style) ----
