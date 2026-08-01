@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger today across the Montrose (High Elevation) FDRA, driven by low humidity (17%) and warm, dry fuels — and it's forecast to climb to Very High by Monday.**\n- Danger rises steadily through next week: High today and Saturday, Very High from Sunday, Aug 2 through at least Aug 6.\n- Key driver is dropping humidity (down to 13-14% midweek) and rising ERC/BI percentiles (climbing into the 90s by Tuesday).\n- One of seven local watchout thresholds is currently triggered: minimum relative humidity (17%) exceeds the local limit; no Red Flag Warning is posted for today.\n- Stage 2 fire restrictions remain in effect on BLM lands across the Tres Rios, Uncompahgre, and Gunnison field offices, plus unincorporated Montrose County — Stage 2 fire restrictions are in effect on all BLM-administered public lands within the Tres Rios, Uncompahgre, and Gunnison field offices.\n- Nearby fires: Gold Mountain Fire two miles north of Ouray is 39,506 acres and 62% contained; Elk Fire seven miles northwest of Lake City is 2,317 acres and 37% contained, with command transferring today.\n- Both incidents still have area,",
-  "lead": "High fire danger today across the Montrose (High Elevation) FDRA, driven by low humidity (17%) and warm, dry fuels — and it's forecast to climb to Very High by Monday.",
+  "overview": "**Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity (14%) and dry fuels (ERC 82%, BI 78%).**",
+  "lead": "Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity (14%) and dry fuels (ERC 82%, BI 78%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "BLM Colorado Southwest District Raises Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-colorado-southwest-district-raises-fire-restrictions"
+      "name": "Gunnison Field Office enters Stage 2 fire restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/gunnison-field-office-enters-stage-2-fire-restrictions"
+    },
+    {
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
+      "name": "Wildfire Information | Gunnison County, CO - Official Website",
+      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
     }
   ],
-  "generated": "Friday, July 31"
+  "generated": "Saturday, August 01"
 }
