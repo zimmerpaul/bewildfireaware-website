@@ -12,30 +12,11 @@
     'Unknown': '#9e9e9e',
   };
 
-  var MINOR_LABEL_ZOOM = 9;
-  var TOWNS = [
-    ['Grand Junction', 39.0639, -108.5506, 1],
-    ['Montrose', 38.4783, -107.8762, 1],
-    ['Gunnison', 38.5458, -106.9253, 1],
-    ['Durango', 37.2753, -107.8801, 1],
-    ['Cortez', 37.3489, -108.5859, 1],
-    ['Glenwood Springs', 39.5505, -107.3248, 1],
-    ['Aspen', 39.1911, -106.8175, 1],
-    ['Telluride', 37.9375, -107.8123, 1],
-    ['Pagosa Springs', 37.2694, -107.0098, 1],
-    ['Delta', 38.7422, -108.0690, 2],
-    ['Crested Butte', 38.8697, -106.9878, 2],
-    ['Ouray', 38.0228, -107.6714, 2],
-    ['Ridgway', 38.1525, -107.7568, 2],
-    ['Paonia', 38.8683, -107.5920, 2],
-    ['Silverton', 37.8117, -107.6645, 2],
-    ['Lake City', 38.0300, -107.3150, 2],
-    ['Rifle', 39.5347, -107.7831, 2],
-    ['Carbondale', 39.4022, -107.2112, 2],
-    ['Norwood', 38.1319, -108.2929, 2],
-    ['Nucla', 38.2678, -108.5484, 2],
-    ['Hotchkiss', 38.7994, -107.7176, 2],
-  ];
+  // Zoom at/above which each tier's labels become eligible on the interactive
+  // region map. Tier 1 (cities / dispatch centers) is always eligible; a
+  // collision pass (below) then thins whatever still overlaps at the current
+  // zoom, so the statewide view stays legible even in the dense Front Range.
+  var TIER_ZOOM = { 1: 0, 2: 8, 3: 9.25 };
 
   function dangerClass(level) {
     return 'danger-' + String(level || 'unknown').toLowerCase().replace(/\s+/g, '-');
@@ -50,28 +31,72 @@
 
   // Town dots + labels in a pane ABOVE the polygon fills (z450: above the
   // overlay pane at 400, below markers at 600) so the white-halo text stays
-  // crisp instead of being tinted by the danger colors. Minor towns label
-  // only when zoomed in.
-  function addTowns(map) {
+  // crisp instead of being tinted by the danger colors.
+  //
+  // towns: array of {name, lat, lon, pop, fdras:[slug], tier} from /towns.json.
+  // opts.fdra — locator maps pass a slug: only that FDRA's towns are drawn, and
+  //   every tier is eligible (it's zoomed in on one area).
+  // Otherwise (region map) a tier→zoom gate plus a greedy collision pass decide
+  //   which LABELS render; dots for eligible towns always show.
+  function addTowns(map, towns, opts) {
+    opts = opts || {};
+    if (opts.fdra) towns = towns.filter(function (t) { return t.fdras.indexOf(opts.fdra) !== -1; });
+    if (!towns.length) return;
+
     map.createPane('towns');
     var pane = map.getPane('towns');
     pane.style.zIndex = 450;
     pane.style.pointerEvents = 'none';
-    TOWNS.forEach(function (t) {
-      L.circleMarker([t[1], t[2]], {
+
+    var items = towns.map(function (t) {
+      var m = L.circleMarker([t.lat, t.lon], {
         pane: 'towns',
-        radius: t[3] === 1 ? 3 : 2.25,
+        radius: t.tier === 1 ? 3 : 2.25,
         color: '#3a3a3a', weight: 1.25, fillColor: '#fff', fillOpacity: 1, interactive: false,
-      }).addTo(map).bindTooltip(t[0], {
+      }).addTo(map);
+      m.bindTooltip(t.name, {
         pane: 'towns',
         permanent: true, direction: 'right', offset: [6, 0], interactive: false,
-        className: t[3] === 1 ? 'town-label' : 'town-label town-label-minor',
+        className: 'town-label town-tier-' + t.tier,
       }).openTooltip();
+      return { t: t, marker: m };
     });
+
+    function toggle(el, on) { if (el) el.classList.toggle('town-hidden', !on); }
+
+    // Greedy, priority-ordered label placement: keep a label only if its
+    // approximate on-screen box clears every label already kept. Bigger, more
+    // important places win the space.
     function update() {
-      pane.classList.toggle('show-minor-towns', map.getZoom() >= MINOR_LABEL_ZOOM);
+      var z = map.getZoom();
+      var eligible = items.filter(function (it) {
+        return opts.fdra ? true : z >= (TIER_ZOOM[it.t.tier] || 0);
+      });
+      eligible.sort(function (a, b) {
+        return a.t.tier - b.t.tier || b.t.pop - a.t.pop;
+      });
+      var placed = [];
+      var keepLabel = new Set();
+      eligible.forEach(function (it) {
+        var p = map.latLngToLayerPoint([it.t.lat, it.t.lon]);
+        var w = it.t.name.length * 6.2 + 12;
+        var box = { x1: p.x, y1: p.y - 8, x2: p.x + w, y2: p.y + 8 };
+        var hit = placed.some(function (b) {
+          return !(box.x2 < b.x1 || box.x1 > b.x2 || box.y2 < b.y1 || box.y1 > b.y2);
+        });
+        if (!hit) { placed.push(box); keepLabel.add(it); }
+      });
+      items.forEach(function (it) {
+        // Region map: show a dot only where its label survives, so dense metros
+        // don't pile up unlabelled dots. Locator: every town gets a dot.
+        var dotOn = opts.fdra ? true : keepLabel.has(it);
+        toggle(it.marker._path, dotOn);
+        var lbl = it.marker.getTooltip();
+        toggle(lbl && lbl.getElement(), keepLabel.has(it));
+      });
     }
     map.on('zoomend', update);
+    map.on('moveend', update);
     update();
   }
 
@@ -93,7 +118,7 @@
     return html;
   }
 
-  function initRegionMap(el, geojson) {
+  function initRegionMap(el, geojson, towns) {
     var map = L.map(el, { scrollWheelZoom: false, zoomSnap: 0.25, zoomDelta: 0.5 });
     baseTiles().addTo(map);
 
@@ -116,7 +141,7 @@
     map.fitBounds(layer.getBounds(), { padding: [6, 6] });
     map.setMinZoom(map.getZoom() - 1);
     L.control.scale({ imperial: true, metric: false }).addTo(map);
-    addTowns(map);
+    if (towns) addTowns(map, towns);
 
     var legend = L.control({ position: 'bottomleft' });
     legend.onAdd = function () {
@@ -131,7 +156,7 @@
     legend.addTo(map);
   }
 
-  function initAreaMap(el, geojson) {
+  function initAreaMap(el, geojson, towns) {
     var slug = el.getAttribute('data-slug');
     var map = L.map(el, {
       dragging: false, zoomControl: false, scrollWheelZoom: false, doubleClickZoom: false,
@@ -152,7 +177,7 @@
 
     if (target) map.fitBounds(target.getBounds().pad(0.4));
     L.control.scale({ imperial: true, metric: false }).addTo(map);
-    addTowns(map);
+    if (towns) addTowns(map, towns, { fdra: slug });
   }
 
   function init() {
@@ -160,9 +185,14 @@
     var region = document.getElementById('danger-map');
     var area = document.getElementById('area-map');
     if (!region && !area) return;
-    fetch('/map-data.json').then(function (r) { return r.json(); }).then(function (geojson) {
-      if (region) initRegionMap(region, geojson);
-      if (area) initAreaMap(area, geojson);
+    Promise.all([
+      fetch('/map-data.json').then(function (r) { return r.json(); }),
+      fetch('/towns.json').then(function (r) { return r.json(); }).catch(function () { return []; }),
+    ]).then(function (res) {
+      var geojson = res[0];
+      var towns = res[1];
+      if (region) initRegionMap(region, geojson, towns);
+      if (area) initAreaMap(area, geojson, towns);
     });
   }
 

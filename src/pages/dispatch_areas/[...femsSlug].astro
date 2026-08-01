@@ -10,6 +10,7 @@ import Base from '../../layouts/Base.astro';
 import config from '../../data/fdra_config.json';
 import climatology from '../../data/fems_climatology.json';
 import fdraGeo from '../../data/fdra_geo.json';
+import towns from '../../data/towns.json';
 
 export function getStaticPaths() {
   const dataFiles = import.meta.glob('../../data/fems_current/*.json', { eager: true });
@@ -40,6 +41,14 @@ const dateLabel = new Date(`${today.date}T12:00:00Z`).toLocaleDateString('en-US'
 const geo = fdraGeo[fdra.slug] ?? {};
 const [lat, lon] = geo.centroid ?? [];
 const counties = geo.counties ?? [];
+
+// Towns/cities inside (or bordering) this FDRA, largest first — a subtle
+// orientation line beside the map. Source: src/data/towns.json (build-towns.mjs).
+const communities = towns
+  .filter((t) => t.fdras.includes(fdra.slug))
+  .sort((a, b) => b.pop - a.pop)
+  .slice(0, 8)
+  .map((t) => t.name);
 
 // ---- Season ERC chart (inline SVG, PocketCard-style) ----
 // X axis is leap-calendar day-of-year (366 slots) so the climatology mean and
@@ -227,6 +236,9 @@ const localLinks = [
           The {fdra.displayName} Fire Danger Rating Area
           {counties.length > 0 && `, spanning parts of ${counties.join(', ')} ${counties.length === 1 ? 'county' : 'counties'}`}.
         </p>
+        {communities.length > 0 && (
+          <p class="wx-credit">Communities: {communities.join(', ')}.</p>
+        )}
       </>
     )}
 
