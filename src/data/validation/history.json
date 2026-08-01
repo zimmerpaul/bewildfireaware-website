@@ -10,11 +10,11 @@
    },
    "fems": {
     "adjective": "Very High",
-    "erc": 44.6,
-    "pctile": 93.4
+    "erc": 44.7,
+    "pctile": 93.6
    },
    "adjectiveMatch": true,
-   "pctDelta": -2.6,
+   "pctDelta": -2.4,
    "status": "pass"
   },
   "gj_middle": {
@@ -61,12 +61,12 @@
    },
    "fems": {
     "adjective": "High",
-    "erc": 37.1,
-    "pctile": 58
+    "erc": 40.2,
+    "pctile": 65
    },
    "adjectiveMatch": true,
-   "pctDelta": 0,
-   "status": "pass"
+   "pctDelta": 7,
+   "status": "warn"
   },
   "drc_lower": {
    "fdra": "drc_lower",
@@ -78,11 +78,11 @@
    },
    "fems": {
     "adjective": "High",
-    "erc": 76.5,
-    "pctile": 79.7
+    "erc": 76.7,
+    "pctile": 80
    },
    "adjectiveMatch": true,
-   "pctDelta": 5.7,
+   "pctDelta": 6,
    "status": "warn"
   },
   "mtc_high": {
@@ -95,11 +95,11 @@
    },
    "fems": {
     "adjective": "Very High",
-    "erc": 42.6,
-    "pctile": 90.1
+    "erc": 42.5,
+    "pctile": 90
    },
    "adjectiveMatch": true,
-   "pctDelta": -0.9,
+   "pctDelta": -1,
    "status": "pass"
   },
   "mtc_uncompahgre": {
@@ -112,11 +112,11 @@
    },
    "fems": {
     "adjective": "High",
-    "erc": 39.7,
-    "pctile": 66.8
+    "erc": 39.3,
+    "pctile": 66
    },
    "adjectiveMatch": true,
-   "pctDelta": -5.2,
+   "pctDelta": -6,
    "status": "warn"
   },
   "mtc_montrose": {
@@ -129,11 +129,11 @@
    },
    "fems": {
     "adjective": "Very High",
-    "erc": 55,
-    "pctile": 83.5
+    "erc": 54.9,
+    "pctile": 83.3
    },
    "adjectiveMatch": true,
-   "pctDelta": 0.5,
+   "pctDelta": 0.3,
    "status": "pass"
   },
   "mtc_west": {
@@ -152,125 +152,6 @@
    "adjectiveMatch": true,
    "pctDelta": -1.5,
    "status": "pass"
-  }
- },
- "2026-07-22": {
-  "gj_high": {
-   "fdra": "gj_high",
-   "siteSlug": "grand_junction_high",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "High",
-    "ercPct": 92
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "gj_middle": {
-   "fdra": "gj_middle",
-   "siteSlug": "grand_junction_middle",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "Moderate",
-    "ercPct": 81
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "gj_low": {
-   "fdra": "gj_low",
-   "siteSlug": "grand_junction_low",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "Moderate",
-    "ercPct": 61
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "drc_upper": {
-   "fdra": "drc_upper",
-   "siteSlug": "durango_upper",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "Moderate",
-    "ercPct": 43
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "drc_lower": {
-   "fdra": "drc_lower",
-   "siteSlug": "durango_lower",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "Moderate",
-    "ercPct": 38
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "mtc_high": {
-   "fdra": "mtc_high",
-   "siteSlug": "montrose_high",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "High",
-    "ercPct": 86
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "mtc_uncompahgre": {
-   "fdra": "mtc_uncompahgre",
-   "siteSlug": "montrose_uncompaghre",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "High",
-    "ercPct": 59
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "mtc_montrose": {
-   "fdra": "mtc_montrose",
-   "siteSlug": "montrose_montrose",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "High",
-    "ercPct": 75
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
-  },
-  "mtc_west": {
-   "fdra": "mtc_west",
-   "siteSlug": "montrose_west",
-   "date": "2026-07-22",
-   "sheets": {
-    "adjective": "Moderate",
-    "ercPct": 43
-   },
-   "fems": null,
-   "adjectiveMatch": null,
-   "pctDelta": null,
-   "status": "nodata"
   }
  }
 }

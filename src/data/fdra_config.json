@@ -525,5 +525,341 @@
       "end": "10-31"
     },
     "backend": "fems"
+  },
+  {
+    "slug": "ftc_east_divide",
+    "displayName": "Fort Collins (East Divide)",
+    "fdopGroup": "Fort Collins",
+    "stations": [
+      {
+        "id": "50507",
+        "name": "ESTES PARK"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        19,
+        27,
+        38,
+        46
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 47
+  },
+  {
+    "slug": "ftc_foothills",
+    "displayName": "Fort Collins (Foothills)",
+    "fdopGroup": "Fort Collins",
+    "stations": [
+      {
+        "id": "50508",
+        "name": "REDSTONE"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        27,
+        32,
+        43,
+        51
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 48
+  },
+  {
+    "slug": "pbc_front_range",
+    "displayName": "Pueblo (Front Range)",
+    "fdopGroup": "Pueblo",
+    "stations": [
+      {
+        "id": "53903",
+        "name": "FOUR MILE"
+      },
+      {
+        "id": "54001",
+        "name": "RED CREEK"
+      },
+      {
+        "id": "55601",
+        "name": "BLACK MOUNTAIN"
+      },
+      {
+        "id": "56203",
+        "name": "BOSQUE"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        29,
+        35,
+        45,
+        52
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 52
+  },
+  {
+    "slug": "pbc_pike",
+    "displayName": "Pueblo (Pike)",
+    "fdopGroup": "Pueblo",
+    "stations": [
+      {
+        "id": "52001",
+        "name": "BAILEY"
+      },
+      {
+        "id": "53103",
+        "name": "POLHEMUS"
+      },
+      {
+        "id": "53102",
+        "name": "CHEESMAN"
+      },
+      {
+        "id": "53002",
+        "name": "LAKE GEORGE"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        22,
+        29,
+        39,
+        46
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 47
+  },
+  {
+    "slug": "pbc_north_pike",
+    "displayName": "Pueblo (North Pike)",
+    "fdopGroup": "Pueblo",
+    "stations": [
+      {
+        "id": "52001",
+        "name": "BAILEY"
+      },
+      {
+        "id": "53102",
+        "name": "CHEESMAN"
+      },
+      {
+        "id": "53004",
+        "name": "JONES HILL"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        21,
+        30,
+        41,
+        48
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 47
+  },
+  {
+    "slug": "pbc_high_peaks",
+    "displayName": "Pueblo (High Peaks)",
+    "fdopGroup": "Pueblo",
+    "stations": [
+      {
+        "id": "53005",
+        "name": "KENOSHA PASS"
+      },
+      {
+        "id": "53004",
+        "name": "JONES HILL"
+      },
+      {
+        "id": "56501",
+        "name": "LODGE POLE FLATS"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        9,
+        21,
+        35,
+        43
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 42
+  },
+  {
+    "slug": "pbc_continental",
+    "displayName": "Pueblo (Continental)",
+    "fdopGroup": "Pueblo",
+    "stations": [
+      {
+        "id": "52902",
+        "name": "RED DEER"
+      },
+      {
+        "id": "53905",
+        "name": "BEAR CREEK"
+      },
+      {
+        "id": "55305",
+        "name": "BLUE PARK"
+      },
+      {
+        "id": "55503",
+        "name": "SAND DUNES"
+      },
+      {
+        "id": "56005",
+        "name": "BIG HORN"
+      }
+    ],
+    "fuelModel": "Y",
+    "breakpoints": {
+      "values": [
+        18,
+        29,
+        40,
+        50
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 48
+  },
+  {
+    "slug": "pbc_high_plains",
+    "displayName": "Pueblo (High Plains)",
+    "fdopGroup": "Pueblo",
+    "stations": [
+      {
+        "id": "56202",
+        "name": "PINION CANYON"
+      },
+      {
+        "id": "56301",
+        "name": "UTE CANYON"
+      },
+      {
+        "id": "148601",
+        "name": "CIMARRON"
+      }
+    ],
+    "fuelModel": "X",
+    "breakpoints": {
+      "values": [
+        63,
+        73,
+        85,
+        94
+      ],
+      "source": "provisional_ladder",
+      "adjectives": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very High",
+        "Extreme"
+      ]
+    },
+    "seasonWindow": {
+      "start": "05-01",
+      "end": "10-31"
+    },
+    "backend": "fems",
+    "card90": 83
   }
 ]

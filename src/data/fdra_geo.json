@@ -196,5 +196,134 @@
       40.1055,
       -105.8871
     ]
+  },
+  "ftc_east_divide": {
+    "counties": [
+      "Larimer",
+      "Boulder",
+      "Grand",
+      "Jackson",
+      "Jefferson",
+      "Clear Creek",
+      "Gilpin",
+      "Summit",
+      "Park"
+    ],
+    "centroid": [
+      40.3363,
+      -105.6774
+    ]
+  },
+  "ftc_foothills": {
+    "counties": [
+      "Larimer",
+      "Boulder",
+      "Gilpin",
+      "Adams",
+      "Jefferson",
+      "Broomfield",
+      "Denver"
+    ],
+    "centroid": [
+      40.4214,
+      -105.4953
+    ]
+  },
+  "pbc_front_range": {
+    "counties": [
+      "Fremont",
+      "El Paso",
+      "Huerfano",
+      "Park",
+      "Costilla",
+      "Teller",
+      "Custer",
+      "Pueblo",
+      "Las Animas"
+    ],
+    "centroid": [
+      38.2181,
+      -105.2267
+    ]
+  },
+  "pbc_pike": {
+    "counties": [
+      "Park",
+      "Douglas",
+      "Teller",
+      "Jefferson",
+      "El Paso"
+    ],
+    "centroid": [
+      39.0528,
+      -105.3382
+    ]
+  },
+  "pbc_north_pike": {
+    "counties": [
+      "Park",
+      "Jefferson",
+      "Douglas",
+      "Teller",
+      "Boulder",
+      "Denver",
+      "Chaffee"
+    ],
+    "centroid": [
+      39.3512,
+      -105.439
+    ]
+  },
+  "pbc_high_peaks": {
+    "counties": [
+      "Park",
+      "Chaffee",
+      "Pitkin",
+      "Lake",
+      "Clear Creek",
+      "Summit"
+    ],
+    "centroid": [
+      39.241,
+      -106.1366
+    ]
+  },
+  "pbc_continental": {
+    "counties": [
+      "Chaffee",
+      "Saguache",
+      "Hinsdale",
+      "Park",
+      "Conejos",
+      "Fremont",
+      "Mineral",
+      "Costilla",
+      "Huerfano",
+      "San Juan",
+      "Archuleta",
+      "Custer",
+      "Gunnison",
+      "Rio Grande"
+    ],
+    "centroid": [
+      38.0574,
+      -106.3598
+    ]
+  },
+  "pbc_high_plains": {
+    "counties": [
+      "Jefferson",
+      "Denver",
+      "Adams",
+      "El Paso",
+      "Pueblo",
+      "Las Animas",
+      "Douglas",
+      "Washington"
+    ],
+    "centroid": [
+      39.0989,
+      -104.6185
+    ]
   }
 }
