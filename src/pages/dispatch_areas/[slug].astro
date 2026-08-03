@@ -111,16 +111,18 @@ const pipelineSlug = fdraConfig.find((f) => f.siteSlug === area.slug)?.slug;
     <h1>{data.areaTitle ?? area.name}</h1>
     <p class="area-date">{data.dateLabel}</p>
 
-    <div class={`danger-banner ${dangerClass(data.danger)}`} role="status">
+    <a class={`danger-banner ${dangerClass(data.danger)}`} href="#extended-forecast"
+      title="Jump to the extended forecast">
       <span class="danger-label">Today's Fire Danger is</span>
       <span class="danger-value">{data.danger}</span>
-    </div>
+    </a>
 
     <div class="area-meta">
       <button class="share-btn" id="share-btn" type="button"
         data-share-text={`${area.name} fire danger today: ${data.danger}. 7-day forecast, conditions, and local fire info:`}>
         Share this forecast
       </button>
+      <a class="share-btn" href="#extended-forecast">Jump to Extended Forecast ↓</a>
       {data.lastUpdated && <span>Last updated: {data.lastUpdated}</span>}
       {data.restrictions?.url && (
         <span>
@@ -206,21 +208,15 @@ const pipelineSlug = fdraConfig.find((f) => f.siteSlug === area.slug)?.slug;
     )}
 
     {data.forecast?.rows?.length > 0 && (
-      <details class="fc-details" id="fc-details" open>
-        <summary>
-          <h2>{data.forecast.title ?? 'Extended Forecast'}</h2>
-          <span class="fc-toggle" aria-hidden="true">
-            <span class="fc-when-closed">Show &#9662;</span>
-            <span class="fc-when-open">Hide &#9652;</span>
-          </span>
-        </summary>
+      <section id="extended-forecast">
+        <h2>{data.forecast.title ?? 'Extended Forecast'}</h2>
         {data.fuelModel && <p class="area-date">{data.fuelModel}</p>}
         <div class="table-shell">
           <div class="table-wrap">
             <table class="forecast-table">
               <thead>
                 <tr>
-                  <th scope="col"><span class="lbl-full">Indicator</span><span class="lbl-abbr">Ind.</span></th>
+                  <th scope="col">Indicator</th>
                   {data.forecast.dates.map((d) => <th scope="col">{d}</th>)}
                 </tr>
               </thead>
@@ -250,7 +246,7 @@ const pipelineSlug = fdraConfig.find((f) => f.siteSlug === area.slug)?.slug;
           </div>
           <span class="swipe-hint" aria-hidden="true">swipe for more days &rarr;</span>
         </div>
-      </details>
+      </section>
     )}
 
     {data.firesToRemember && (
@@ -359,9 +355,7 @@ const pipelineSlug = fdraConfig.find((f) => f.siteSlug === area.slug)?.slug;
       });
     })();
 
-    // Wide tables: edge-fade + swipe hint while there's more to scroll, and
-    // start the Extended Forecast collapsed on small screens so the page still
-    // scrolls vertically without fighting the table.
+    // Wide tables: edge-fade + swipe hint while there's more to scroll.
     (function () {
       document.querySelectorAll('.table-shell').forEach(function (shell) {
         var wrap = shell.querySelector('.table-wrap');
@@ -372,16 +366,8 @@ const pipelineSlug = fdraConfig.find((f) => f.siteSlug === area.slug)?.slug;
         }
         wrap.addEventListener('scroll', function () { shell.classList.add('scrolled'); upd(); }, { passive: true });
         window.addEventListener('resize', upd);
-        shell.__upd = upd;
         upd();
       });
-      var fc = document.getElementById('fc-details');
-      if (fc) {
-        if (window.matchMedia('(max-width: 640px)').matches) fc.removeAttribute('open');
-        fc.addEventListener('toggle', function () {
-          fc.querySelectorAll('.table-shell').forEach(function (s) { if (s.__upd) s.__upd(); });
-        });
-      }
     })();
 
     // Print the pocket card chart
