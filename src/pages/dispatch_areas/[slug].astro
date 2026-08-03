@@ -122,7 +122,6 @@ const pipelineSlug = fdraConfig.find((f) => f.siteSlug === area.slug)?.slug;
         Share this forecast
       </button>
       {data.lastUpdated && <span>Last updated: {data.lastUpdated}</span>}
-      {counties.length > 0 && <span>Covers parts of: {counties.join(', ')} {counties.length === 1 ? 'county' : 'counties'}</span>}
       {data.restrictions?.url && (
         <span>
           {(data.restrictions.text ?? 'Fire restrictions info:').replace(/:$/, '')}:
