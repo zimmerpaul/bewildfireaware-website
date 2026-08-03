@@ -435,7 +435,9 @@ header nav ul li .dropdown-toggle.active { color: var(--flame-dark); }
     border-radius: var(--radius);
     z-index: 5;
 }
-.table-shell::before { left: 0; background: linear-gradient(to right, rgba(15, 42, 29, 0.16), transparent); }
+/* the left fade starts after the sticky first column (width measured into
+   --sticky-w by the page script) so it sits over the date columns */
+.table-shell::before { left: var(--sticky-w, 0px); background: linear-gradient(to right, rgba(15, 42, 29, 0.16), transparent); }
 .table-shell::after  { right: 0; background: linear-gradient(to left, rgba(15, 42, 29, 0.16), transparent); }
 .table-shell.can-left::before  { opacity: 1; }
 .table-shell.can-right::after  { opacity: 1; }

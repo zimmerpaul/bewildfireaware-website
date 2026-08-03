@@ -350,6 +350,8 @@ const localLinks = [
         var wrap = shell.querySelector('.table-wrap');
         if (!wrap) return;
         function upd() {
+          var th = wrap.querySelector('th:first-child');
+          shell.style.setProperty('--sticky-w', (th ? th.offsetWidth : 0) + 'px');
           shell.classList.toggle('can-left', wrap.scrollLeft > 4);
           shell.classList.toggle('can-right', wrap.scrollLeft + wrap.clientWidth < wrap.scrollWidth - 4);
         }
