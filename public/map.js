@@ -6,7 +6,7 @@
   var DANGER_COLORS = {
     'Low': '#2e7d32',
     'Moderate': '#1565c0',
-    'High': '#f9a825',
+    'High': '#ffd60a',
     'Very High': '#ef6c00',
     'Extreme': '#c62828',
     'Unknown': '#9e9e9e',

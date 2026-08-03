@@ -17,7 +17,7 @@
     --shadow: 0 1px 3px rgba(20, 30, 25, 0.08), 0 4px 14px rgba(20, 30, 25, 0.06);
     --danger-low: #2e7d32;
     --danger-moderate: #1565c0;
-    --danger-high: #f9a825;
+    --danger-high: #ffd60a; /* true "sign yellow" — High on the Smokey arm is yellow, not amber */
     --danger-very-high: #ef6c00;
     --danger-extreme: #c62828;
 }
@@ -410,8 +410,66 @@ header nav ul li .dropdown-toggle.active { color: var(--flame-dark); }
 }
 
 .forecast-table thead th { background: #f1efe9; color: var(--pine-deep); }
+.forecast-table th:first-child { z-index: 2; }
 .forecast-table td.danger-low, .forecast-table td.danger-moderate, .forecast-table td.danger-high,
 .forecast-table td.danger-very-high, .forecast-table td.danger-extreme { font-weight: 700; }
+
+/* Horizontal-scroll affordance: edge fades + a one-time swipe hint while
+   there's still content off-screen (classes toggled in the page script). */
+.table-shell { position: relative; }
+.table-shell::before, .table-shell::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 26px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: var(--radius);
+    z-index: 5;
+}
+.table-shell::before { left: 0; background: linear-gradient(to right, rgba(15, 42, 29, 0.16), transparent); }
+.table-shell::after  { right: 0; background: linear-gradient(to left, rgba(15, 42, 29, 0.16), transparent); }
+.table-shell.can-left::before  { opacity: 1; }
+.table-shell.can-right::after  { opacity: 1; }
+
+.swipe-hint {
+    display: none;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(15, 42, 29, 0.85);
+    color: #fff;
+    font-size: 0.72em;
+    font-weight: 600;
+    padding: 4px 11px;
+    border-radius: 999px;
+    pointer-events: none;
+    z-index: 6;
+}
+
+/* Collapsible Extended Forecast (starts closed on small screens) */
+.fc-details > summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 1.2em 0 0.4em;
+}
+.fc-details > summary::-webkit-details-marker { display: none; }
+.fc-details > summary h2 { margin: 0; display: inline; }
+.fc-toggle { color: var(--flame-dark); font-size: 0.9em; font-weight: 600; white-space: nowrap; }
+.fc-details[open] .fc-when-closed { display: none; }
+.fc-details:not([open]) .fc-when-open { display: none; }
+
+/* Short row labels swap in on small screens */
+.lbl-abbr { display: none; }
+
+/* Communities list under the locator map */
+.area-towns { font-size: 0.92em; margin: 10px 0 4px; }
+.area-towns-note { display: block; color: var(--ink-soft); font-size: 0.88em; margin-top: 4px; }
 
 .raws-note { font-size: 0.85em; color: var(--ink-soft); white-space: pre-line; line-height: 1.5; margin-top: 26px; }
 .pdf-note { font-size: 0.85em; color: var(--ink-soft); }
@@ -495,7 +553,7 @@ header nav ul li .dropdown-toggle.active { color: var(--flame-dark); }
 
 .fire-danger-level.green  { color: var(--danger-low); }
 .fire-danger-level.blue   { color: var(--danger-moderate); }
-.fire-danger-level.yellow { color: #b28704; }
+.fire-danger-level.yellow { color: #9c8500; } /* darkest readable pure yellow for text on white */
 .fire-danger-level.orange { color: var(--danger-very-high); }
 .fire-danger-level.red    { color: var(--danger-extreme); }
 
@@ -584,6 +642,23 @@ footer p { margin: 10px 0 0; font-size: 0.9em; }
     .hero { padding: 64px 20px 58px; }
     #danger-map { height: 62vh; margin: 0 12px 28px; }
     .team-card img { height: 280px; }
+}
+
+/* Compact forecast table on phones: short labels + a narrow sticky column so
+   several date columns fit, smaller cells, and the swipe hint visible until
+   the first horizontal scroll. */
+@media (max-width: 640px) {
+    .forecast-table { font-size: 0.8em; }
+    .forecast-table th, .forecast-table td { padding: 7px 8px; }
+    .forecast-table th:first-child, .forecast-table td:first-child {
+        white-space: normal;
+        min-width: 74px;
+        max-width: 100px;
+        line-height: 1.25;
+    }
+    .lbl-full { display: none; }
+    .lbl-abbr { display: inline; }
+    .table-shell.can-right:not(.scrolled) .swipe-hint { display: block; }
 }
 
 /* forecast cells exceeding local watchout thresholds */
@@ -766,7 +841,7 @@ footer p { margin: 10px 0 0; font-size: 0.9em; }
 
 /* AQI category coloring (EPA scale) */
 .wx-aqi.aqi-good          { border-left: 5px solid #2e7d32; }
-.wx-aqi.aqi-moderate      { border-left: 5px solid #f9a825; }
+.wx-aqi.aqi-moderate      { border-left: 5px solid #ffd60a; }
 .wx-aqi.aqi-usg           { border-left: 5px solid #ef6c00; }
 .wx-aqi.aqi-unhealthy     { border-left: 5px solid #c62828; }
 .wx-aqi.aqi-veryunhealthy { border-left: 5px solid #7b1fa2; }
