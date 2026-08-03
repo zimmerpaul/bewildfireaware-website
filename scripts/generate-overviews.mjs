@@ -97,8 +97,7 @@ FORMAT (exactly this structure, under 150 words total):
 - Output ONLY the overview itself. No preamble, no narration (never "I'll search…"), no headers, nothing after the last bullet.`;
 }
 
-async function generate(area, data, geo) {
-  const nws = await nwsContext(...(geo.centroid ?? [39, -107.5]));
+async function callClaude(messages) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -108,39 +107,55 @@ async function generate(area, data, geo) {
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 1200,
+      max_tokens: 2000,
       tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: MAX_SEARCHES }],
-      messages: [{ role: 'user', content: buildPrompt(area, data, geo, nws) }],
+      messages,
     }),
   });
   if (!res.ok) throw new Error(`API ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  const msg = await res.json();
+  return res.json();
+}
+
+async function generate(area, data, geo) {
+  const nws = await nwsContext(...(geo.centroid ?? [39, -107.5]));
+  const messages = [{ role: 'user', content: buildPrompt(area, data, geo, nws) }];
+  let msg = await callClaude(messages);
+
+  // Long web-search turns can come back paused (stop_reason "pause_turn") with
+  // no final text yet: continue the same turn by passing the assistant content
+  // back, keeping every response's blocks for parsing/citations.
+  const content = [...msg.content];
+  for (let i = 0; i < 3 && msg.stop_reason === 'pause_turn'; i++) {
+    messages.push({ role: 'assistant', content: msg.content });
+    msg = await callClaude(messages);
+    content.push(...msg.content);
+  }
 
   // The final answer is the text after the last tool interaction — earlier
   // text blocks are "I'll search for…" narration and must not be published.
   // Join with '' — the API splits the answer into multiple text blocks at each
   // citation boundary, so these are contiguous fragments of the same passage.
   let lastToolIdx = -1;
-  msg.content.forEach((b, i) => { if (b.type !== 'text') lastToolIdx = i; });
-  let text = msg.content.slice(lastToolIdx + 1)
+  content.forEach((b, i) => { if (b.type !== 'text') lastToolIdx = i; });
+  let text = content.slice(lastToolIdx + 1)
     .filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
   text = text.replace(/\n{3,}/g, '\n\n');
   // Extra guard: drop any lines before the bold lead sentence.
   const boldStart = text.indexOf('**');
   if (boldStart > 0) text = text.slice(boldStart).trim();
-  if (text.length < 80) throw new Error(`overview too short (${text.length} chars)`);
+  if (text.length < 80) throw new Error(`overview too short (${text.length} chars, stop_reason=${msg.stop_reason})`);
 
   // Sources: the structured inputs, plus web pages Claude cited. When it
   // paraphrases without direct citations, fall back to the pages its
   // searches actually retrieved so readers always get reference linkouts.
   const cited = new Map();
-  for (const b of msg.content) {
+  for (const b of content) {
     if (b.type === 'text' && b.citations) {
       for (const c of b.citations) if (c.url) cited.set(c.url, c.title || c.url);
     }
   }
   if (cited.size === 0) {
-    for (const b of msg.content) {
+    for (const b of content) {
       if (b.type === 'web_search_tool_result' && Array.isArray(b.content)) {
         for (const r of b.content) {
           if (r.type === 'web_search_result' && r.url && cited.size < 4) cited.set(r.url, r.title || r.url);
