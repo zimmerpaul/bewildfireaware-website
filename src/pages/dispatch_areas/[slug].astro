@@ -6,6 +6,7 @@ import LocalInfo from '../../components/LocalInfo.astro';
 import areas from '../../data/dispatch_areas.json';
 import fdraGeo from '../../data/fdra_geo.json';
 import localInfo from '../../data/local_info.json';
+import towns from '../../data/towns.json';
 
 const overviewFiles = import.meta.glob('../../data/overviews/*.json', { eager: true });
 
@@ -58,6 +59,27 @@ const infoFor = (label, table) => {
   return hit ? INFO[hit[1]] : null;
 };
 
+// Short row labels for the forecast table on small screens, so the sticky
+// indicator column doesn't crowd out the date columns.
+const FC_ABBR = {
+  danger: 'Danger', erc: 'ERC %', bi: 'BI %', ercActual: 'ERC', biActual: 'BI',
+  maxT: 'Temp', minRh: 'Min RH', maxRh: 'Max RH', wind: 'Wind', windDir: 'Wind Dir',
+  rain: 'Rain', fuels: '1000-hr Fuels',
+};
+const abbrFor = (label) => {
+  const hit = FC_MATCH.find(([re]) => re.test(label));
+  return (hit && FC_ABBR[hit[1]]) ?? label;
+};
+
+// Communities inside this FDRA (from src/data/towns.json) — helps people whose
+// town doesn't match the area's name (e.g. Gunnison sits in "Montrose (High
+// Elevation)").
+const TOWN_CAP = 12;
+const areaTowns = towns
+  .filter((t) => (t.fdras ?? []).includes(area.slug))
+  .sort((a, b) => (a.curated ? 0 : 1) - (b.curated ? 0 : 1) || (b.pop ?? 0) - (a.pop ?? 0))
+  .map((t) => t.name);
+
 // Per-FDRA geography (derived from boundary polygons by scripts/derive-counties.mjs)
 const geo = fdraGeo[area.slug] ?? {};
 const [lat, lon] = geo.centroid ?? [];
@@ -104,10 +126,6 @@ const localLinks = [
       )}
     </div>
 
-    <Overview ov={(overviewFiles[`../../data/overviews/${area.slug}.json`] ?? {}).default ?? overviewFiles[`../../data/overviews/${area.slug}.json`]} />
-
-    <LocalInfo items={localInfo[area.slug]} />
-
     {lat && (
       <>
         <h2>Where Is This Area?</h2>
@@ -116,8 +134,22 @@ const localLinks = [
           The {data.areaTitle ?? area.name} Fire Danger Rating Area
           {counties.length > 0 && `, spanning parts of ${counties.join(', ')} ${counties.length === 1 ? 'county' : 'counties'}`}.
         </p>
+        {areaTowns.length > 0 && (
+          <p class="area-towns">
+            <strong>Communities in this area include:</strong>{' '}
+            {areaTowns.slice(0, TOWN_CAP).join(', ')}{areaTowns.length > TOWN_CAP ? ', and more' : ''}.
+            <span class="area-towns-note">
+              Rating areas are grouped by fire environment — elevation, fuels, and climate — not by town,
+              so your community may sit in an area named for a different place.
+            </span>
+          </p>
+        )}
       </>
     )}
+
+    <Overview ov={(overviewFiles[`../../data/overviews/${area.slug}.json`] ?? {}).default ?? overviewFiles[`../../data/overviews/${area.slug}.json`]} />
+
+    <LocalInfo items={localInfo[area.slug]} />
 
     {data.pocketCard && (
       <div class="pc-head">
@@ -170,46 +202,57 @@ const localLinks = [
     )}
 
     {data.forecast?.rows?.length > 0 && (
-      <>
-        <h2>{data.forecast.title ?? 'Extended Forecast'}</h2>
+      <details class="fc-details" id="fc-details" open>
+        <summary>
+          <h2>{data.forecast.title ?? 'Extended Forecast'}</h2>
+          <span class="fc-toggle" aria-hidden="true">
+            <span class="fc-when-closed">Show &#9662;</span>
+            <span class="fc-when-open">Hide &#9652;</span>
+          </span>
+        </summary>
         {data.fuelModel && <p class="area-date">{data.fuelModel}</p>}
-        <div class="table-wrap">
-          <table class="forecast-table">
-            <thead>
-              <tr>
-                <th scope="col">Indicator</th>
-                {data.forecast.dates.map((d) => <th scope="col">{d}</th>)}
-              </tr>
-            </thead>
-            <tbody>
-              {data.forecast.rows.map((row) => {
-                const fcInfo = infoFor(row.label, FC_MATCH);
-                return (
+        <div class="table-shell">
+          <div class="table-wrap">
+            <table class="forecast-table">
+              <thead>
                 <tr>
-                  <th scope="row">
-                    {row.label}
-                    {fcInfo && (
-                      <button class="info-btn info-btn-inline" type="button" data-info={fcInfo.text} data-href={fcInfo.href}
-                        aria-label={`What is ${row.label}?`}>?</button>
-                    )}
-                  </th>
-                  {row.values.map((v, i) => (
-                    <td class={DANGER_LEVELS.includes(v) ? dangerClass(v) : (row.hits?.[i] ? 'cell-hit' : undefined)}>
-                      {v}{row.hits?.[i] ? ' ▲' : ''}
-                    </td>
-                  ))}
+                  <th scope="col"><span class="lbl-full">Indicator</span><span class="lbl-abbr">Ind.</span></th>
+                  {data.forecast.dates.map((d) => <th scope="col">{d}</th>)}
                 </tr>
-                );
-              })}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {data.forecast.rows.map((row) => {
+                  const fcInfo = infoFor(row.label, FC_MATCH);
+                  return (
+                  <tr>
+                    <th scope="row">
+                      <span class="lbl-full">{row.label}</span>
+                      <span class="lbl-abbr">{abbrFor(row.label)}</span>
+                      {fcInfo && (
+                        <button class="info-btn info-btn-inline" type="button" data-info={fcInfo.text} data-href={fcInfo.href}
+                          aria-label={`What is ${row.label}?`}>?</button>
+                      )}
+                    </th>
+                    {row.values.map((v, i) => (
+                      <td class={DANGER_LEVELS.includes(v) ? dangerClass(v) : (row.hits?.[i] ? 'cell-hit' : undefined)}>
+                        {v}{row.hits?.[i] ? ' ▲' : ''}
+                      </td>
+                    ))}
+                  </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <span class="swipe-hint" aria-hidden="true">swipe for more days &rarr;</span>
         </div>
-      </>
+      </details>
     )}
 
     {data.firesToRemember && (
       <>
         <h2>Fires to Remember</h2>
+        <div class="table-shell">
         <div class="table-wrap">
           <table class="forecast-table">
             <thead>
@@ -227,6 +270,8 @@ const localLinks = [
               ))}
             </tbody>
           </table>
+        </div>
+        <span class="swipe-hint" aria-hidden="true">swipe &rarr;</span>
         </div>
       </>
     )}
@@ -302,6 +347,31 @@ const localLinks = [
         pop.style.left = left + 'px';
         pop.style.top = (r.bottom + window.scrollY + 8) + 'px';
       });
+    })();
+
+    // Wide tables: edge-fade + swipe hint while there's more to scroll, and
+    // start the Extended Forecast collapsed on small screens so the page still
+    // scrolls vertically without fighting the table.
+    (function () {
+      document.querySelectorAll('.table-shell').forEach(function (shell) {
+        var wrap = shell.querySelector('.table-wrap');
+        if (!wrap) return;
+        function upd() {
+          shell.classList.toggle('can-left', wrap.scrollLeft > 4);
+          shell.classList.toggle('can-right', wrap.scrollLeft + wrap.clientWidth < wrap.scrollWidth - 4);
+        }
+        wrap.addEventListener('scroll', function () { shell.classList.add('scrolled'); upd(); }, { passive: true });
+        window.addEventListener('resize', upd);
+        shell.__upd = upd;
+        upd();
+      });
+      var fc = document.getElementById('fc-details');
+      if (fc) {
+        if (window.matchMedia('(max-width: 640px)').matches) fc.removeAttribute('open');
+        fc.addEventListener('toggle', function () {
+          fc.querySelectorAll('.table-shell').forEach(function (s) { if (s.__upd) s.__upd(); });
+        });
+      }
     })();
 
     // Print the pocket card chart

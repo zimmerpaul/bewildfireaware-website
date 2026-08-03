@@ -2,10 +2,10 @@
   "slug": "montrose_west",
   "name": "Montrose (West)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Tuesday, July 21",
+  "dateLabel": "Monday, August 03",
   "areaTitle": "Montrose - West",
-  "danger": "Moderate",
-  "lastUpdated": "7/21/2026 03:12",
+  "danger": "Very High",
+  "lastUpdated": "8/3/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,132 +13,132 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "54%",
+      "value": "91%",
       "limit": "> 90%",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "BI %",
-      "value": "45%",
+      "value": "96%",
       "limit": "> 90%",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "Winds",
-      "value": "10",
+      "value": "14",
       "limit": "> 15",
       "triggered": false
     },
     {
       "label": "Wind Dir",
-      "value": "ENE"
+      "value": "N"
     },
     {
       "label": "24hr Rain",
-      "value": "0.11"
+      "value": "0.00"
     },
     {
       "label": "Max Temp",
-      "value": "92",
+      "value": "99",
       "limit": "> 85",
       "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "26",
+      "value": "8",
       "limit": "< 20",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "1000-Hour",
-      "value": "12",
+      "value": "10",
       "limit": "< 13",
       "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "61",
+      "value": "28",
       "limit": "< 55",
-      "triggered": false
+      "triggered": true
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 85, Min Rh < 20, 1000-hr Fuels <13, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "West FDRA Extended Forecast",
     "dates": [
-      "21-Jul",
-      "22-Jul",
-      "23-Jul",
-      "24-Jul",
-      "25-Jul",
-      "26-Jul",
-      "27-Jul"
+      "3-Aug",
+      "4-Aug",
+      "5-Aug",
+      "6-Aug",
+      "7-Aug",
+      "8-Aug",
+      "9-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Moderate",
-          "Moderate",
-          "Moderate",
-          "Moderate",
-          "High",
-          "High",
-          "High"
+          "Very High",
+          "Very High",
+          "Very High",
+          "Very High",
+          "Extreme",
+          "Extreme",
+          "Extreme"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "54%",
-          "49%",
-          "52%",
-          "59%",
-          "67%",
-          "71%",
-          "76%"
+          "91%",
+          "92%",
+          "94%",
+          "95%",
+          "96%",
+          "96%",
+          "97%"
         ],
         "hits": [
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
         ]
       },
       {
         "label": "BI-Y Percentile",
         "values": [
-          "45%",
-          "39%",
-          "39%",
-          "45%",
-          "52%",
-          "58%",
-          "68%"
+          "96%",
+          "96%",
+          "96%",
+          "98%",
+          "97%",
+          "94%",
+          "94%"
         ],
         "hits": [
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
         ]
       },
       {
         "label": "Temperature",
         "values": [
-          "92",
-          "87",
-          "86",
-          "87",
-          "89",
-          "89",
-          "90"
+          "99",
+          "97",
+          "97",
+          "95",
+          "96",
+          "95",
+          "93"
         ],
         "hits": [
           true,
@@ -153,34 +153,34 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "26",
-          "36",
-          "37",
-          "32",
-          "27",
-          "25",
-          "23"
+          "8",
+          "8",
+          "7",
+          "6",
+          "6",
+          "8",
+          "11"
         ],
         "hits": [
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
         ]
       },
       {
         "label": "Winds",
         "values": [
-          "10",
-          "9",
-          "9",
-          "8",
-          "8",
-          "8",
-          "10"
+          "14",
+          "13",
+          "13",
+          "15",
+          "13",
+          "11",
+          "12"
         ],
         "hits": [
           false,
@@ -195,21 +195,21 @@
       {
         "label": "Wind Direction",
         "values": [
-          "ENE",
-          "ENE",
-          "ENE",
+          "N",
+          "N",
+          "N",
+          "N",
+          "N",
           "NNE",
-          "NNE",
-          "NNE",
-          "NE"
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.11",
-          "0.13",
-          "0.07",
+          "0.00",
+          "0.00",
+          "0.00",
           "0.00",
           "0.00",
           "0.00",
@@ -219,13 +219,13 @@
       {
         "label": "1000-Hour Fuels",
         "values": [
-          "12",
-          "12",
-          "12",
-          "12",
-          "12",
-          "12",
-          "11"
+          "10",
+          "10",
+          "9",
+          "9",
+          "9",
+          "8",
+          "8"
         ],
         "hits": [
           true,
@@ -240,20 +240,20 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "61",
-          "67",
-          "72",
-          "59",
-          "55",
-          "51",
-          "49"
+          "28",
+          "28",
+          "27",
+          "24",
+          "26",
+          "25",
+          "27"
         ],
         "hits": [
-          false,
-          false,
-          false,
-          false,
-          false,
+          true,
+          true,
+          true,
+          true,
+          true,
           true,
           true
         ]
@@ -261,33 +261,33 @@
       {
         "label": "ERC-Y (Actual Number 1-81)",
         "values": [
-          "43",
-          "41",
-          "41",
-          "45",
-          "47",
-          "50",
-          "52"
+          "61",
+          "63",
+          "64",
+          "66",
+          "67",
+          "68",
+          "68"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-66)",
         "values": [
-          "26",
-          "25",
-          "25",
-          "27",
-          "29",
-          "30",
-          "33"
+          "48",
+          "47",
+          "48",
+          "51",
+          "48",
+          "44",
+          "45"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 2,
+    "met": 6,
     "total": 7,
-    "isWatchout": false
+    "isWatchout": true
   },
   "raws": "The West Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nMockingbird (55710), Nucla (53807)",
   "pocketCard": {
@@ -2028,6 +2028,18 @@
           37
         ],
         [
+          67,
+          39
+        ],
+        [
+          68,
+          39
+        ],
+        [
+          69,
+          40
+        ],
+        [
           70,
           41
         ],
@@ -2550,36 +2562,88 @@
         [
           200,
           45
+        ],
+        [
+          201,
+          42
+        ],
+        [
+          202,
+          35
+        ],
+        [
+          203,
+          35
+        ],
+        [
+          204,
+          39
+        ],
+        [
+          205,
+          44
+        ],
+        [
+          206,
+          46
+        ],
+        [
+          207,
+          45
+        ],
+        [
+          208,
+          46
+        ],
+        [
+          209,
+          47
+        ],
+        [
+          210,
+          48
+        ],
+        [
+          211,
+          53
+        ],
+        [
+          212,
+          56
+        ],
+        [
+          213,
+          59
         ]
       ],
       "forecasted": [
         [
-          200,
-          43
+          213,
+          61
         ],
         [
-          201,
-          41
+          214,
+          63
         ],
         [
-          202,
-          41
+          215,
+          64
         ],
         [
-          203,
-          45
+          216,
+          66
         ],
         [
-          204,
-          47
+          217,
+          67
         ],
         [
-          205,
-          50
+          218,
+          68
         ],
         [
-          206,
-          52
+          219,
+          68
         ]
       ]
     },

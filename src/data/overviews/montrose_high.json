@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger today, driven by critically dry fuels — ERC at 91% (exceeding the local threshold) and minimum humidity down to 23%.**\n- 2 of 7 local watchout thresholds are met today (ERC and minimum RH); danger eases to High tomorrow through the week as ERC and BI trend down into the 60s-80s.\n- Afternoon/evening thunderstorm chances (30%) with light NE winds around 11 mph should bring scattered showers today and most of the week, per NWS.\n- No active Red Flag Warning is posted for the area as of this morning.\n- Stage 2 fire restrictions remain in force on BLM Uncompahgre/Gunnison/Tres Rios lands and GMUG National Forest, covering Montrose, Ouray, San Miguel, Delta, Gunnison and Dolores counties — no campfires or charcoal grills.\n- The Gold Mountain Fire near Ouray has burned about 37,809 acres and is 13% contained; the Elk Fire north of Lake City was estimated at 2,274 acres Saturday with no containment estimate available.",
-  "lead": "Very High fire danger today, driven by critically dry fuels — ERC at 91% (exceeding the local threshold) and minimum humidity down to 23%.",
+  "overview": "**Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity (14%) and dry fuels (ERC 82%, BI 78%).**",
+  "lead": "Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity (14%) and dry fuels (ERC 82%, BI 78%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Gold Mountain Fire Map | Ouray, Colorado | WildFire Explorer",
-      "url": "https://fires.cornea.is/fire/colorado_gold-mountain_2026-06-27-235355"
+      "name": "Gunnison Field Office enters Stage 2 fire restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/gunnison-field-office-enters-stage-2-fire-restrictions"
     },
     {
-      "name": "Aspen Acres fire surpasses 100,000 acres as crews increase containment to more than 60%",
-      "url": "https://coloradosun.com/2026/07/18/colorado-wildfires-aspen-acres-gold-mountain-ferris/"
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
+      "name": "Wildfire Information | Gunnison County, CO - Official Website",
+      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
     }
   ],
-  "generated": "Tuesday, July 21"
+  "generated": "Saturday, August 01"
 }
