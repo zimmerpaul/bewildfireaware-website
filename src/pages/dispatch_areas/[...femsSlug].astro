@@ -42,13 +42,13 @@ const geo = fdraGeo[fdra.slug] ?? {};
 const [lat, lon] = geo.centroid ?? [];
 const counties = geo.counties ?? [];
 
-// Towns/cities inside (or bordering) this FDRA — a subtle orientation line
-// beside the map: curated landmarks first, then largest by population, capped
-// at 5. Source: src/data/towns.json (build-towns.mjs).
-const communities = towns
-  .filter((t) => t.fdras.includes(fdra.slug))
-  .sort((a, b) => (a.curated ? 0 : 1) - (b.curated ? 0 : 1) || b.pop - a.pop)
-  .slice(0, 5)
+// Communities inside this FDRA (same treatment as the sheets-backed pages):
+// curated landmarks first, then largest by population. Source:
+// src/data/towns.json (build-towns.mjs).
+const TOWN_CAP = 12;
+const areaTowns = towns
+  .filter((t) => (t.fdras ?? []).includes(fdra.slug))
+  .sort((a, b) => (a.curated ? 0 : 1) - (b.curated ? 0 : 1) || (b.pop ?? 0) - (a.pop ?? 0))
   .map((t) => t.name);
 
 // ---- Season ERC chart (inline SVG, PocketCard-style) ----
@@ -75,7 +75,7 @@ const x = (d) => M.l + (d / 365) * pw;
 const y = (v) => M.t + ph - (v / yMax) * ph;
 const path = (pts) => (pts?.length ? 'M' + pts.map(([d, v]) => `${x(d).toFixed(1)},${y(v).toFixed(1)}`).join('L') : '');
 
-const BAND_COLORS = ['#2e7d32', '#1565c0', '#f9a825', '#ef6c00', '#c62828'];
+const BAND_COLORS = ['#2e7d32', '#1565c0', '#ffd60a', '#ef6c00', '#c62828'];
 const bands = [0, ...bounds, yMax]; // class edges, bottom to top
 const ticks = [[0, '1-Jan'], [60, '1-Mar'], [121, '1-May'], [182, '1-Jul'], [244, '1-Sep'], [305, '1-Nov']];
 const yStep = yMax > 100 ? 40 : 20;
@@ -119,6 +119,27 @@ const localLinks = [
       {counties.length > 0 && <span>Covers parts of: {counties.join(', ')} {counties.length === 1 ? 'county' : 'counties'}</span>}
       <span>Fuel model {data.fuelModel}</span>
     </div>
+
+    {lat && (
+      <>
+        <h2>Where Is This Area?</h2>
+        <div id="area-map" data-slug={fdra.slug}></div>
+        <p class="wx-credit">
+          The {fdra.displayName} Fire Danger Rating Area
+          {counties.length > 0 && `, spanning parts of ${counties.join(', ')} ${counties.length === 1 ? 'county' : 'counties'}`}.
+        </p>
+        {areaTowns.length > 0 && (
+          <p class="area-towns">
+            <strong>Communities in this area include:</strong>{' '}
+            {areaTowns.slice(0, TOWN_CAP).join(', ')}{areaTowns.length > TOWN_CAP ? ', and more' : ''}.
+            <span class="area-towns-note">
+              Rating areas are grouped by fire environment — elevation, fuels, and climate — not by town,
+              so your community may sit in an area named for a different place.
+            </span>
+          </p>
+        )}
+      </>
+    )}
 
     <h2>Today's Conditions</h2>
     <div class="obs-grid">
@@ -228,20 +249,6 @@ const localLinks = [
         </tbody>
       </table>
     </div>
-
-    {lat && (
-      <>
-        <h2>Where Is This Area?</h2>
-        <div id="area-map" data-slug={fdra.slug}></div>
-        <p class="wx-credit">
-          The {fdra.displayName} Fire Danger Rating Area
-          {counties.length > 0 && `, spanning parts of ${counties.join(', ')} ${counties.length === 1 ? 'county' : 'counties'}`}.
-        </p>
-        {communities.length > 0 && (
-          <p class="wx-credit">Communities: {communities.join(', ')}.</p>
-        )}
-      </>
-    )}
 
     <h2>Weather Stations</h2>
     <p class="area-date">Daily ERC is the average of these NFDRS stations (fuel model {data.fuelModel}):</p>
