@@ -2,10 +2,10 @@
   "slug": "montrose_uncompaghre",
   "name": "Montrose (Uncompaghre)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Monday, August 03",
+  "dateLabel": "Tuesday, August 04",
   "areaTitle": "Montrose - Uncompahgre",
   "danger": "Very High",
-  "lastUpdated": "8/3/2026 03:11",
+  "lastUpdated": "8/4/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,7 +13,7 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "91%",
+      "value": "93%",
       "limit": "> 90%",
       "triggered": true
     },
@@ -51,13 +51,13 @@
     },
     {
       "label": "1000-Hour",
-      "value": "12",
+      "value": "11",
       "limit": "< 13",
       "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "30",
+      "value": "26",
       "limit": "< 55",
       "triggered": true
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Uncompahgre FDRA Extended Forecast",
     "dates": [
-      "3-Aug",
       "4-Aug",
       "5-Aug",
       "6-Aug",
       "7-Aug",
       "8-Aug",
-      "9-Aug"
+      "9-Aug",
+      "10-Aug"
     ],
     "rows": [
       {
@@ -90,11 +90,11 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "91%",
           "93%",
-          "95%",
+          "94%",
           "96%",
           "97%",
+          "98%",
           "98%",
           "98%"
         ],
@@ -112,12 +112,12 @@
         "label": "BI-Y Percentile",
         "values": [
           "94%",
+          "94%",
+          "100%",
+          "100%",
+          "99%",
           "97%",
-          "99%",
-          "99%",
-          "99%",
-          "98%",
-          "97%"
+          "95%"
         ],
         "hits": [
           true,
@@ -133,12 +133,12 @@
         "label": "Temperature",
         "values": [
           "91",
-          "89",
-          "87",
-          "87",
-          "87",
-          "87",
-          "86"
+          "88",
+          "88",
+          "88",
+          "88",
+          "86",
+          "85"
         ],
         "hits": [
           true,
@@ -147,19 +147,19 @@
           true,
           true,
           true,
-          true
+          false
         ]
       },
       {
         "label": "Relative Humidity",
         "values": [
           "10",
-          "11",
           "8",
-          "7",
-          "7",
-          "10",
-          "14"
+          "6",
+          "6",
+          "8",
+          "12",
+          "16"
         ],
         "hits": [
           true,
@@ -175,10 +175,10 @@
         "label": "Winds",
         "values": [
           "7",
-          "8",
-          "9",
+          "6",
           "10",
-          "9",
+          "10",
+          "8",
           "8",
           "8"
         ],
@@ -197,11 +197,11 @@
         "values": [
           "N",
           "N",
+          "N",
+          "N",
           "NNE",
-          "N",
-          "N",
-          "N",
-          "NNE"
+          "NNE",
+          "NE"
         ]
       },
       {
@@ -213,19 +213,19 @@
           "0.00",
           "0.00",
           "0.00",
-          "0.00"
+          "0.01"
         ]
       },
       {
         "label": "1000-Hour Fuels",
         "values": [
-          "12",
           "11",
           "11",
           "11",
           "10",
           "10",
-          "10"
+          "10",
+          "9"
         ],
         "hits": [
           true,
@@ -240,13 +240,13 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "30",
-          "27",
           "26",
           "24",
-          "27",
-          "26",
-          "29"
+          "21",
+          "19",
+          "24",
+          "28",
+          "41"
         ],
         "hits": [
           true,
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-72)",
         "values": [
-          "53",
           "55",
           "57",
           "59",
-          "60",
           "61",
-          "62"
+          "62",
+          "62",
+          "61"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-49)",
         "values": [
           "34",
-          "35",
-          "39",
+          "33",
+          "42",
           "41",
-          "40",
-          "37",
-          "36"
+          "39",
+          "36",
+          "35"
         ]
       }
     ]
@@ -2614,13 +2614,13 @@
         [
           213,
           50
-        ]
-      ],
-      "forecasted": [
+        ],
         [
           214,
           53
-        ],
+        ]
+      ],
+      "forecasted": [
         [
           215,
           55
@@ -2635,15 +2635,19 @@
         ],
         [
           218,
-          60
+          61
         ],
         [
           219,
-          61
+          62
         ],
         [
           220,
           62
+        ],
+        [
+          221,
+          61
         ]
       ]
     },

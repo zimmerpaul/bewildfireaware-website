@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity (14%) and dry fuels (ERC 82%, BI 78%).**",
-  "lead": "Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity (14%) and dry fuels (ERC 82%, BI 78%).",
+  "overview": "**Very High fire danger holds today across the Montrose High Elevation zone, driven by critically dry fuels — ERC at 92% and BI at 94%, both above local thresholds.**\n- Danger climbs further this week, reaching Extreme by Saturday as ERC rises toward the 98th percentile and humidity drops into single digits.\n- Hot, dry, breezy conditions continue, with winds shifting N-NNE and afternoon relative humidity as low as 7-15% through the weekend.\n- WATCHOUT conditions are active (4 of 7 thresholds exceeded); no Red Flag Warning is currently posted for the area.\n- Montrose County entered Stage 1 fire restrictions Friday, August 2, while Ouray County has stage 2 fire restrictions in effect for all unincorporated areas; BLM Stage 1 restrictions also cover Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties.\n- Nearby: the Gold Mountain Fire has burned 39,507 acres and remains 67% contained near Ouray; the Elk Fire near Lake City is at 2,349 acres and 49% contained.",
+  "lead": "Very High fire danger holds today across the Montrose High Elevation zone, driven by critically dry fuels — ERC at 92% and BI at 94%, both above local thresholds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Gunnison Field Office enters Stage 2 fire restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/gunnison-field-office-enters-stage-2-fire-restrictions"
+      "name": "Stage 1 Fire Restrictions Beginning in Montrose County | Montrose County Sheriff's Office",
+      "url": "https://montrosecountysheriffsoffice.com/mcso-news/stage-1-fire-restrictions-beginning-in-montrose-county-2/"
+    },
+    {
+      "name": "Sheriff Enacts Stage 2 Fire Restrictions in Ouray County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/fire-news/sheriff-enacts-stage-2-fire-restrictions-in-ouray-county/"
     },
     {
       "name": "Southwest District Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
     {
-      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
-      "name": "Wildfire Information | Gunnison County, CO - Official Website",
-      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
+      "name": "Wildfire Map Spotlight: Snyder, Babylon, Ferris, and Gold Mountain Fires in Colorado and Utah | IQAir USA",
+      "url": "https://www.iqair.com/newsroom/wildfire-map-spotlight-snyder-babylon-ferris-and-gold-mountain-wildfires-in-colorado-and-utah"
     }
   ],
-  "generated": "Saturday, August 01"
+  "generated": "Tuesday, August 04"
 }
