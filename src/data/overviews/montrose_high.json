@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger today, with critically low humidity (9%) and high ERC/BI (94–98%) pushing the area toward Extreme by Thursday.**\n- Danger climbs to Extreme August 7 and holds through August 11 as ERC rises to 96–98% and fuels stay bone-dry.\n- A Red Flag Warning is in effect today until 8:00 PM MDT for gusty winds and low humidity.\n- Watchout status: 4 of 7 local thresholds met (ERC, BI, min and max RH) — heightened fire behavior potential.\n- Stage 2 Fire Restrictions are in effect in unincorporated Montrose County starting on July 1, 2026; Ouray County implemented Stage 2 restrictions for all unincorporated areas effective June 28, 2026; Gunnison County is currently in Stage 2 Fire Restrictions, with no open burning or campfires allowed.\n- Nearby: the Gold Mountain Fire near Ouray is 39,507 acres and 72% contained; the Elk Fire near Lake City is 2,406 acres and 47% contained, per today's federal incident report.",
-  "lead": "Very High fire danger today, with critically low humidity (9%) and high ERC/BI (94–98%) pushing the area toward Extreme by Thursday.",
+  "overview": "**Fire danger is Very High today in the Montrose High Elevation area, driven by parched fuels (ERC 97%, BI 99%) and single-digit humidity.**\n- Danger climbs to Extreme from Friday through Monday, easing back to Very High by next Wednesday as afternoon humidity stays in the teens or lower most of that stretch.\n- A Red Flag Warning is in effect until 8 PM tonight for gusty winds and low humidity; patchy smoke is expected after 3 PM.\n- Watchout conditions are active — 4 of 7 local thresholds are exceeded, including ERC, BI, minimum RH (7%), and max RH (32%).\n- Gunnison County is currently in Stage 2 Fire Restrictions, with no open burning or campfires allowed. BLM lands in Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties remain under Stage 1 restrictions.\n- The Gold Mountain Fire near Ouray stands at 39,507 acres and 89% contained; the Elk Fire near Lake City has grown to 2,785 acres and is 44% contained.",
+  "lead": "Fire danger is Very High today in the Montrose High Elevation area, driven by parched fuels (ERC 97%, BI 99%) and single-digit humidity.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
-      "name": "Stage 2 Fire Restrictions • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash/home/detail/953"
-    },
-    {
       "name": "Emergency Response Services | Fire Restrictions",
       "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+    },
+    {
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Wednesday, August 05"
+  "generated": "Thursday, August 06"
 }
