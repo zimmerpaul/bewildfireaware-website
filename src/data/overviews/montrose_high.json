@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Very High today in the Montrose High Elevation area, driven by parched fuels (ERC 97%, BI 99%) and single-digit humidity.**\n- Danger climbs to Extreme from Friday through Monday, easing back to Very High by next Wednesday as afternoon humidity stays in the teens or lower most of that stretch.\n- A Red Flag Warning is in effect until 8 PM tonight for gusty winds and low humidity; patchy smoke is expected after 3 PM.\n- Watchout conditions are active — 4 of 7 local thresholds are exceeded, including ERC, BI, minimum RH (7%), and max RH (32%).\n- Gunnison County is currently in Stage 2 Fire Restrictions, with no open burning or campfires allowed. BLM lands in Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties remain under Stage 1 restrictions.\n- The Gold Mountain Fire near Ouray stands at 39,507 acres and 89% contained; the Elk Fire near Lake City has grown to 2,785 acres and is 44% contained.",
-  "lead": "Fire danger is Very High today in the Montrose High Elevation area, driven by parched fuels (ERC 97%, BI 99%) and single-digit humidity.",
+  "overview": "**Extreme fire danger holds today, driven by bone-dry fuels and single-digit humidity across the high country.**\n- Extreme danger persists through Tuesday, easing to Very High by Aug 12–13 as humidity recovers late next week.\n- Stage 1 fire restrictions are in effect on all BLM-administered public lands within Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties, with San Miguel County under countywide Stage 2 restrictions.\n- Key drivers: ERC and BI both near record-high percentiles (98%/94%), min RH at 8%, and NNE winds around 10 mph.\n- 4 of 7 local watchout thresholds are met today; no Red Flag Warning is posted, but a wildfire-smoke Air Quality Alert remains active for the region.\n- Nearby fires: the Gold Mountain Fire two miles north of Ouray is 39,507 acres and 89% contained; the Elk Fire in the Gunnison/GMUG area is 2,911 acres and 40% contained, both with active fire behavior and area closures.",
+  "lead": "Extreme fire danger holds today, driven by bone-dry fuels and single-digit humidity across the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Emergency Response Services | Fire Restrictions",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
-    },
-    {
       "name": "Southwest District Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Thursday, August 06"
+  "generated": "Friday, August 07"
 }
