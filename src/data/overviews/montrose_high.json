@@ -1,6 +1,6 @@
 {
-  "overview": "**Extreme fire danger holds today, driven by bone-dry fuels and single-digit humidity across the high country.**\n- Extreme danger persists through Tuesday, easing to Very High by Aug 12–13 as humidity recovers late next week.\n- Stage 1 fire restrictions are in effect on all BLM-administered public lands within Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties, with San Miguel County under countywide Stage 2 restrictions.\n- Key drivers: ERC and BI both near record-high percentiles (98%/94%), min RH at 8%, and NNE winds around 10 mph.\n- 4 of 7 local watchout thresholds are met today; no Red Flag Warning is posted, but a wildfire-smoke Air Quality Alert remains active for the region.\n- Nearby fires: the Gold Mountain Fire two miles north of Ouray is 39,507 acres and 89% contained; the Elk Fire in the Gunnison/GMUG area is 2,911 acres and 40% contained, both with active fire behavior and area closures.",
-  "lead": "Extreme fire danger holds today, driven by bone-dry fuels and single-digit humidity across the high country.",
+  "overview": "**Extreme fire danger continues across the Montrose High Elevation area today, driven by critically dry fuels (98% ERC) and single-digit humidity.**\n- Danger holds at Extreme through Monday, then eases to Very High Tuesday–Wednesday and High by next weekend as afternoon humidity slowly recovers.\n- Northeast winds near 8 mph and a high near 92°F will keep afternoons hot, with patchy morning smoke clearing by midday.\n- 4 of 7 local watchout thresholds are exceeded (ERC, BI, min/max RH) — WATCHOUT conditions in effect; no Red Flag Warning is posted today, but NWS Grand Junction Air Quality Alerts remain active for wildfire smoke.\n- Gunnison County has been in Stage 2 Fire Restrictions since June 30, and Ouray County implemented Stage 2 restrictions for unincorporated areas effective June 28, 2026; Montrose County remains under Stage 1 restrictions on BLM lands.\n- Nearby fires: Gold Mountain Fire near Ouray is 39,507 acres, 90% contained; Elk Fire in the Gunnison National Forest is 5,117 acres, 40% contained.",
+  "lead": "Extreme fire danger continues across the Montrose High Elevation area today, driven by critically dry fuels (98% ERC) and single-digit humidity.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "Wildfire Information | Gunnison County, CO - Official Website",
+      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
+    },
+    {
+      "name": "Sheriff Enacts Stage 2 Fire Restrictions in Ouray County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/fire-news/sheriff-enacts-stage-2-fire-restrictions-in-ouray-county/"
+    },
+    {
       "name": "Southwest District Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Friday, August 07"
+  "generated": "Saturday, August 08"
 }

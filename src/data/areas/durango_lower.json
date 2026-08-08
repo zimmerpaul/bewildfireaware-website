@@ -2,32 +2,32 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Friday, August 07",
+  "dateLabel": "Saturday, August 08",
   "areaTitle": "DRC Lower",
-  "danger": "Extreme",
-  "lastUpdated": "8/7/2026 2:53:49",
+  "danger": "Very High",
+  "lastUpdated": "8/8/2026 2:53:58",
   "observations": [
     {
       "label": "ERC %",
-      "value": "97%",
+      "value": "93%",
       "limit": "> 90%",
       "triggered": true
     },
     {
       "label": "BI %",
-      "value": "96%",
+      "value": "90%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Winds",
-      "value": "12",
+      "value": "9",
       "limit": "> 11",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Direction",
-      "value": "N"
+      "value": "NNE"
     },
     {
       "label": "24hr Rain",
@@ -35,15 +35,15 @@
     },
     {
       "label": "Max Temp",
-      "value": "93",
+      "value": "91",
       "limit": "> 89",
       "triggered": true
     },
     {
       "label": "Min Rh %",
-      "value": "8",
+      "value": "11",
       "limit": "< 9",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "1000hr Fuels",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "43",
+      "value": "49",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,41 +62,41 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "7-Aug",
       "8-Aug",
       "9-Aug",
       "10-Aug",
       "11-Aug",
       "12-Aug",
-      "13-Aug"
+      "13-Aug",
+      "14-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Extreme",
           "Very High",
           "Very High",
           "High",
           "High",
           "High",
+          "Moderate",
           "Moderate"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "97%",
           "93%",
-          "89%",
+          "86%",
           "77%",
           "70%",
           "63%",
-          "40%"
+          "42%",
+          "44%"
         ],
         "hits": [
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -107,19 +107,19 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "96%",
-          "96%",
-          "95%",
+          "90%",
+          "92%",
           "93%",
-          "84%",
-          "82%",
-          "66%"
+          "86%",
+          "81%",
+          "62%",
+          "64%"
         ],
         "hits": [
+          false,
           true,
           true,
-          true,
-          true,
+          false,
           false,
           false,
           false
@@ -128,18 +128,18 @@
       {
         "label": "Temperature",
         "values": [
-          "93",
           "91",
-          "90",
-          "86",
-          "84",
+          "89",
+          "87",
+          "85",
           "81",
-          "78"
+          "76",
+          "76"
         ],
         "hits": [
           true,
-          true,
-          true,
+          false,
+          false,
           false,
           false,
           false,
@@ -149,16 +149,16 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "8",
-          "12",
-          "14",
+          "11",
+          "15",
           "20",
-          "24",
+          "22",
           "28",
-          "32"
+          "35",
+          "33"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -170,19 +170,19 @@
       {
         "label": "Winds",
         "values": [
-          "12",
-          "13",
-          "11",
+          "9",
+          "10",
           "12",
           "10",
-          "11",
-          "11"
+          "10",
+          "10",
+          "10"
         ],
         "hits": [
-          true,
-          true,
+          false,
           false,
           true,
+          false,
           false,
           false,
           false
@@ -191,12 +191,12 @@
       {
         "label": "Wind Direction",
         "values": [
-          "N",
           "NNE",
           "NNE",
           "NE",
-          "NE",
-          "NE",
+          "ENE",
+          "ENE",
+          "ENE",
           "NE"
         ]
       },
@@ -205,11 +205,11 @@
         "values": [
           "0.00",
           "0.00",
-          "0.00",
+          "0.01",
           "0.03",
-          "0.02",
-          "0.05",
-          "0.12"
+          "0.12",
+          "0.24",
+          "0.17"
         ]
       },
       {
@@ -236,16 +236,16 @@
       {
         "label": "Max Rh",
         "values": [
-          "22",
           "34",
-          "34",
-          "43",
-          "54",
-          "59",
-          "64"
+          "35",
+          "47",
+          "49",
+          "55",
+          "62",
+          "65"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -257,34 +257,34 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
-          "93",
-          "88",
-          "85",
-          "77",
-          "72",
+          "89",
+          "83",
+          "76",
+          "74",
           "68",
-          "53"
+          "55",
+          "57"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "197",
-          "200",
-          "192",
-          "183",
-          "162",
-          "158",
-          "134"
+          "175",
+          "182",
+          "186",
+          "164",
+          "154",
+          "127",
+          "131"
         ]
       }
     ]
   },
   "fuelModel": "Fuel Model - X",
   "watchout": {
-    "met": 5,
+    "met": 2,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The Lower Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Z (Slash) incorporating data years 2005-2024 are:  \nNucla (55807), Chapin (55704), Mockingbird (55710), Mesa Mtn (55805).",
   "pocketCard": {
@@ -2627,28 +2627,28 @@
         [
           217,
           93
+        ],
+        [
+          218,
+          91
         ]
       ],
       "forecasted": [
         [
-          218,
-          93
-        ],
-        [
           219,
-          88
+          89
         ],
         [
           220,
-          85
+          83
         ],
         [
           221,
-          77
+          76
         ],
         [
           222,
-          72
+          74
         ],
         [
           223,
@@ -2656,7 +2656,11 @@
         ],
         [
           224,
-          53
+          55
+        ],
+        [
+          225,
+          57
         ]
       ]
     },
