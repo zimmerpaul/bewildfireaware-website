@@ -1,6 +1,6 @@
 {
-  "overview": "**Extreme fire danger continues across the Montrose High Elevation area today, driven by critically dry fuels (98% ERC) and single-digit humidity.**\n- Danger holds at Extreme through Monday, then eases to Very High Tuesday–Wednesday and High by next weekend as afternoon humidity slowly recovers.\n- Northeast winds near 8 mph and a high near 92°F will keep afternoons hot, with patchy morning smoke clearing by midday.\n- 4 of 7 local watchout thresholds are exceeded (ERC, BI, min/max RH) — WATCHOUT conditions in effect; no Red Flag Warning is posted today, but NWS Grand Junction Air Quality Alerts remain active for wildfire smoke.\n- Gunnison County has been in Stage 2 Fire Restrictions since June 30, and Ouray County implemented Stage 2 restrictions for unincorporated areas effective June 28, 2026; Montrose County remains under Stage 1 restrictions on BLM lands.\n- Nearby fires: Gold Mountain Fire near Ouray is 39,507 acres, 90% contained; Elk Fire in the Gunnison National Forest is 5,117 acres, 40% contained.",
-  "lead": "Extreme fire danger continues across the Montrose High Elevation area today, driven by critically dry fuels (98% ERC) and single-digit humidity.",
+  "overview": "**Extreme fire danger continues today, driven by critically dry fuels (ERC 98%, BI 93%) and afternoon humidity near 15%.**\n- Danger trend: eases from Extreme today/Monday to Very High midweek, then High by Thursday as rain chances rise.\n- Weather driver: light NE winds around 9 mph, patchy smoke, and only a slight chance of afternoon storms; no Red Flag Warning is currently posted.\n- Watchout status: 4 of 7 local thresholds exceeded (ERC, BI, min RH, max RH) — expect erratic, wind-driven fire behavior.\n- Restrictions: Stage 1 fire restrictions remain in effect on BLM/USFS lands across Gunnison, Delta, Mesa, Montrose, Ouray, Hinsdale, Saguache and San Juan counties; San Miguel County is under Stage 2.\n- Nearby incidents: Gold Mountain Fire near Ouray is 39,532 acres and 90% contained; Elk Fire on the Grand Mesa, Uncompahgre & Gunnison National Forest is 5,763 acres and 39% contained, with incident command transferring today.",
+  "lead": "Extreme fire danger continues today, driven by critically dry fuels (ERC 98%, BI 93%) and afternoon humidity near 15%.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Wildfire Information | Gunnison County, CO - Official Website",
-      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
-    },
-    {
-      "name": "Sheriff Enacts Stage 2 Fire Restrictions in Ouray County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/fire-news/sheriff-enacts-stage-2-fire-restrictions-in-ouray-county/"
+      "name": "Gunnison Field Office enters Stage 2 fire restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/gunnison-field-office-enters-stage-2-fire-restrictions"
     },
     {
       "name": "Southwest District Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
+      "name": "sAN mIGUEL cOUNTY FIRE PREVENTION ORDER FOR STAGE II FIRE RESTRICTIONS - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/san-miguel-county/san-miguel-county-fire-prevention-order-for-stage-ii-fire-restrictions/"
     }
   ],
-  "generated": "Saturday, August 08"
+  "generated": "Sunday, August 09"
 }
