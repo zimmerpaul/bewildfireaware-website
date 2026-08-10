@@ -1,6 +1,6 @@
 {
-  "overview": "**Extreme fire danger continues today, driven by critically dry fuels (ERC 98%, BI 93%) and afternoon humidity near 15%.**\n- Danger trend: eases from Extreme today/Monday to Very High midweek, then High by Thursday as rain chances rise.\n- Weather driver: light NE winds around 9 mph, patchy smoke, and only a slight chance of afternoon storms; no Red Flag Warning is currently posted.\n- Watchout status: 4 of 7 local thresholds exceeded (ERC, BI, min RH, max RH) — expect erratic, wind-driven fire behavior.\n- Restrictions: Stage 1 fire restrictions remain in effect on BLM/USFS lands across Gunnison, Delta, Mesa, Montrose, Ouray, Hinsdale, Saguache and San Juan counties; San Miguel County is under Stage 2.\n- Nearby incidents: Gold Mountain Fire near Ouray is 39,532 acres and 90% contained; Elk Fire on the Grand Mesa, Uncompahgre & Gunnison National Forest is 5,763 acres and 39% contained, with incident command transferring today.",
-  "lead": "Extreme fire danger continues today, driven by critically dry fuels (ERC 98%, BI 93%) and afternoon humidity near 15%.",
+  "overview": "**Extreme fire danger continues today across the Montrose (High Elevation) zone, driven by bone-dry fuels (ERC 97%) and low humidity.**\n- Danger eases through the week: Extreme today, dropping to Very High Tue–Wed, then High Thu–Sun as ERC falls from 97% toward the upper 60s-80s.\n- Hot, breezy conditions persist: NE winds near 9 mph, min humidity 22%, high near 87°F, with only a slight afternoon storm chance.\n- 2 of 7 local watchout thresholds are met (ERC and minimum RH); no Red Flag Warning is currently posted for this area per NWS.\n- Stage 2 Fire Restrictions remain in effect across Gunnison County, Montrose County, Ouray County, and San Miguel County, plus Grand Mesa, Uncompahgre and Gunnison National Forests and BLM Uncompahgre Field Office lands — no campfires, charcoal grills, or open burning.\n- Nearby fire activity: the Gold Mountain Fire near Ouray is at 39,532 acres and 90% contained; the Elk Fire on the GMUG is 6,760 acres and 36% contained, with a command team transition underway.",
+  "lead": "Extreme fire danger continues today across the Montrose (High Elevation) zone, driven by bone-dry fuels (ERC 97%) and low humidity.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Gunnison Field Office enters Stage 2 fire restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/gunnison-field-office-enters-stage-2-fire-restrictions"
+      "name": "Wildfire Information | Gunnison County, CO - Official Website",
+      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
     },
     {
-      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Montrose County Implements Stage 2 Fire Restrictions Beginning July 1 • Montrose County",
+      "url": "https://www.montrosecounty.net/CivicAlerts.aspx?AID=1255"
     },
     {
-      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+      "name": "News Flash • Stage 2 Fire Restrictions",
+      "url": "https://ouraycountyco.gov/CivicAlerts.aspx?AID=949&ARC=1355"
     },
     {
-      "name": "sAN mIGUEL cOUNTY FIRE PREVENTION ORDER FOR STAGE II FIRE RESTRICTIONS - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/san-miguel-county/san-miguel-county-fire-prevention-order-for-stage-ii-fire-restrictions/"
+      "name": "Fire Information | San Miguel County, CO - Official Website",
+      "url": "https://www.sanmiguelcountyco.gov/471/Fire-Information"
     }
   ],
-  "generated": "Sunday, August 09"
+  "generated": "Monday, August 10"
 }
