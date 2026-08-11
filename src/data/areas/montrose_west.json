@@ -2,10 +2,10 @@
   "slug": "montrose_west",
   "name": "Montrose (West)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Monday, August 10",
+  "dateLabel": "Tuesday, August 11",
   "areaTitle": "Montrose - West",
   "danger": "Extreme",
-  "lastUpdated": "8/10/2026 03:11",
+  "lastUpdated": "8/11/2026 03:12",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -25,7 +25,7 @@
     },
     {
       "label": "Winds",
-      "value": "12",
+      "value": "11",
       "limit": "> 15",
       "triggered": false
     },
@@ -39,13 +39,13 @@
     },
     {
       "label": "Max Temp",
-      "value": "95",
+      "value": "97",
       "limit": "> 85",
       "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "15",
+      "value": "14",
       "limit": "< 20",
       "triggered": true
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "44",
+      "value": "48",
       "limit": "< 55",
       "triggered": true
     }
@@ -66,21 +66,21 @@
   "forecast": {
     "title": "West FDRA Extended Forecast",
     "dates": [
-      "10-Aug",
       "11-Aug",
       "12-Aug",
       "13-Aug",
       "14-Aug",
       "15-Aug",
-      "16-Aug"
+      "16-Aug",
+      "17-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
           "Extreme",
-          "Extreme",
           "Very High",
+          "High",
           "High",
           "High",
           "High",
@@ -91,17 +91,17 @@
         "label": "ERC-Y Percentile",
         "values": [
           "96%",
-          "96%",
-          "91%",
-          "78%",
-          "69%",
-          "71%",
-          "74%"
+          "93%",
+          "83%",
+          "76%",
+          "74%",
+          "74%",
+          "78%"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -112,12 +112,12 @@
         "label": "BI-Y Percentile",
         "values": [
           "90%",
-          "86%",
-          "75%",
+          "80%",
+          "71%",
           "58%",
-          "55%",
-          "65%",
-          "68%"
+          "62%",
+          "62%",
+          "71%"
         ],
         "hits": [
           false,
@@ -132,18 +132,18 @@
       {
         "label": "Temperature",
         "values": [
-          "95",
-          "95",
-          "90",
-          "79",
-          "79",
+          "97",
+          "91",
+          "84",
+          "78",
           "81",
-          "83"
+          "83",
+          "85"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -153,33 +153,33 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "15",
-          "16",
-          "24",
-          "39",
+          "14",
+          "21",
+          "32",
           "34",
-          "25",
-          "21"
+          "26",
+          "20",
+          "18"
         ],
         "hits": [
           true,
-          true,
           false,
           false,
           false,
           false,
-          false
+          false,
+          true
         ]
       },
       {
         "label": "Winds",
         "values": [
+          "11",
+          "11",
           "12",
           "10",
-          "11",
           "10",
-          "10",
-          "10",
+          "9",
           "10"
         ],
         "hits": [
@@ -196,10 +196,10 @@
         "label": "Wind Direction",
         "values": [
           "NNE",
-          "NNE",
           "NE",
           "ENE",
-          "NE",
+          "ENE",
+          "NNE",
           "NE",
           "NE"
         ]
@@ -208,10 +208,10 @@
         "label": "Precipitation 24hr rain",
         "values": [
           "0.00",
+          "0.10",
+          "0.05",
+          "0.03",
           "0.00",
-          "0.11",
-          "0.13",
-          "0.07",
           "0.00",
           "0.00"
         ]
@@ -223,7 +223,7 @@
           "8",
           "8",
           "8",
-          "8",
+          "9",
           "10",
           "10"
         ],
@@ -240,46 +240,46 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "44",
-          "50",
-          "65",
+          "48",
+          "63",
+          "79",
           "77",
-          "84",
-          "66",
-          "56"
+          "74",
+          "57",
+          "49"
         ],
         "hits": [
           true,
-          true,
           false,
           false,
           false,
           false,
-          false
+          false,
+          true
         ]
       },
       {
         "label": "ERC-Y (Actual Number 1-81)",
         "values": [
-          "67",
-          "67",
-          "62",
-          "52",
-          "48",
-          "49",
-          "51"
+          "68",
+          "64",
+          "55",
+          "51",
+          "50",
+          "51",
+          "53"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-66)",
         "values": [
-          "42",
-          "40",
-          "36",
-          "30",
-          "29",
+          "43",
+          "38",
+          "34",
+          "31",
           "32",
-          "33"
+          "32",
+          "35"
         ]
       }
     ]
@@ -2642,36 +2642,40 @@
         [
           220,
           69
+        ],
+        [
+          221,
+          68
         ]
       ],
       "forecasted": [
         [
-          220,
-          67
-        ],
-        [
           221,
-          67
+          68
         ],
         [
           222,
-          62
+          64
         ],
         [
           223,
-          52
+          55
         ],
         [
           224,
-          48
+          51
         ],
         [
           225,
-          49
+          50
         ],
         [
           226,
           51
+        ],
+        [
+          227,
+          53
         ]
       ]
     },
