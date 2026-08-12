@@ -1,6 +1,6 @@
 {
-  "overview": "**Extreme fire danger holds today across the Montrose High Elevation zone, driven by critically dry fuels (ERC at 97%) and low humidity.**\n- Danger eases slightly to Very High Wednesday, then holds at High the rest of the week as humidity partially recovers.\n- Afternoon isolated storms are possible today, but with only 0.04\" rain and winds shifting NE at 7 mph, they add lightning risk more than relief.\n- Watchout status: 3 of 7 local thresholds exceeded (ERC, minimum humidity, 1000-hr fuels) — no active Red Flag Warning is posted for the area right now.\n- Stage 2 Fire Restrictions are in effect across all of Montrose County as of August 8, with fire danger rated extreme; Ouray and Delta counties are also under Stage 2, and BLM's Uncompahgre/Gunnison Gorge lands remain under Stage 1.\n- Nearby: the Gold Mountain fire two miles north of Ouray, CO, is 39,532 acres and 90% contained; the Elk fire seven miles northwest of Lake City is 7,071 acres, 33% contained, with evacuations still active.",
-  "lead": "Extreme fire danger holds today across the Montrose High Elevation zone, driven by critically dry fuels (ERC at 97%) and low humidity.",
+  "overview": "**Very High fire danger today in the Montrose High Elevation area, driven by critically dry fuels (ERC at 92%, the top local threshold).**\n- Danger eases to High for the rest of the week as ERC drops into the 70–82% range through August 18.\n- Afternoon storms are possible today (50% chance) with gusty, shifting winds, but little cooling relief follows.\n- 1 of 7 local watchout thresholds is currently tripped — the ERC benchmark.\n- Stage 2 fire restrictions remain active across Montrose and Gunnison counties, limiting campfires, smoking, and open burning. Stage 2 Fire Restrictions will take effect across all of Montrose County, including all state lands, starting at 0001 a.m. on Friday, August 8. Gunnison County has been in Stage 2 Fire Restrictions since June 30, 2026.\n- Nearby: the Gold Mountain Fire continues burning two miles north of Ouray with active uphill runs and closures in place, and the Elk Fire near Lake City is holding at roughly 7,226 acres, about 33% contained.",
+  "lead": "Very High fire danger today in the Montrose High Elevation area, driven by critically dry fuels (ERC at 92%, the top local threshold).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -16,12 +16,12 @@
     },
     {
       "name": "Stage 2 Fire Restrictions Going Into Effect • Montrose County",
-      "url": "https://www.montrosecounty.net/m/newsflash/home/detail/1122"
+      "url": "https://www.montrosecounty.net/m/newsflash/Home/Detail/1122"
     },
     {
-      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Wildfire Information | Gunnison County, CO - Official Website",
+      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
     }
   ],
-  "generated": "Tuesday, August 11"
+  "generated": "Wednesday, August 12"
 }

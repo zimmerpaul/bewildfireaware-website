@@ -2,10 +2,10 @@
   "slug": "durango_upper",
   "name": "Durango (Upper)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Tuesday, August 11",
+  "dateLabel": "Wednesday, August 12",
   "areaTitle": "Durango - UPPER",
   "danger": "Very High",
-  "lastUpdated": "8/11/2026 2:53:44",
+  "lastUpdated": "8/12/2026 2:53:44",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "95%",
+      "value": "90%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "BI %",
-      "value": "78%",
+      "value": "67%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -31,33 +31,33 @@
     },
     {
       "label": "Direction",
-      "value": "NE"
+      "value": "ENE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.05"
+      "value": "0.08"
     },
     {
       "label": "Max Temp",
-      "value": "89",
+      "value": "82",
       "limit": "> 83",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Min Rh %",
-      "value": "20",
+      "value": "30",
       "limit": "< 10",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "9",
+      "value": "10",
       "limit": "< 11",
       "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "57",
+      "value": "69",
       "limit": "< 31",
       "triggered": false
     }
@@ -66,20 +66,20 @@
   "forecast": {
     "title": "Upper FDRA Extended Forecast",
     "dates": [
-      "11-Aug",
       "12-Aug",
       "13-Aug",
       "14-Aug",
       "15-Aug",
       "16-Aug",
-      "17-Aug"
+      "17-Aug",
+      "18-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
           "Very High",
-          "Very High",
+          "High",
           "High",
           "High",
           "High",
@@ -90,17 +90,17 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "95%",
-          "91%",
+          "90%",
           "80%",
           "74%",
-          "84%",
-          "86%",
-          "84%"
+          "78%",
+          "78%",
+          "76%",
+          "80%"
         ],
         "hits": [
-          true,
-          true,
+          false,
+          false,
           false,
           false,
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "78%",
           "67%",
-          "60%",
           "52%",
-          "71%",
-          "71%",
-          "63%"
+          "56%",
+          "63%",
+          "56%",
+          "56%",
+          "60%"
         ],
         "hits": [
           false,
@@ -132,16 +132,16 @@
       {
         "label": "Temperature",
         "values": [
-          "89",
-          "83",
+          "82",
+          "75",
+          "76",
+          "76",
           "77",
-          "74",
           "77",
-          "79",
           "79"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "20",
+          "30",
+          "40",
+          "35",
+          "28",
           "29",
-          "38",
-          "36",
-          "27",
-          "21",
-          "21"
+          "29",
+          "26"
         ],
         "hits": [
           false,
@@ -177,9 +177,9 @@
           "7",
           "7",
           "8",
-          "8",
-          "8",
           "7",
+          "6",
+          "6",
           "7"
         ],
         "hits": [
@@ -195,35 +195,35 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NE",
           "ENE",
           "ENE",
+          "ENE",
           "NE",
           "NE",
-          "NE",
-          "NE"
+          "ENE",
+          "ENE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.05",
           "0.08",
-          "0.13",
-          "0.15",
+          "0.09",
+          "0.14",
           "0.00",
-          "0.04",
-          "0.07"
+          "0.02",
+          "0.07",
+          "0.02"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "9",
           "10",
           "10",
           "10",
-          "10",
+          "11",
+          "11",
           "11",
           "11"
         ],
@@ -231,8 +231,8 @@
           true,
           true,
           true,
-          true,
-          true,
+          false,
+          false,
           false,
           false
         ]
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "57",
-          "67",
-          "78",
-          "72",
           "69",
-          "57",
-          "53"
+          "80",
+          "80",
+          "72",
+          "60",
+          "62",
+          "60"
         ],
         "hits": [
           false,
@@ -261,24 +261,24 @@
       {
         "label": "ERC-Y (Actual Number 1-70)",
         "values": [
-          "59",
           "53",
-          "47",
-          "44",
-          "49",
-          "49",
-          "49"
+          "46",
+          "43",
+          "46",
+          "46",
+          "45",
+          "47"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-55)",
         "values": [
-          "31",
-          "28",
-          "25",
+          "27",
           "24",
-          "29",
-          "29",
+          "24",
+          "26",
+          "24",
+          "25",
           "26"
         ]
       }
@@ -286,9 +286,9 @@
   },
   "fuelModel": "Fuel Model - Y",
   "watchout": {
-    "met": 3,
+    "met": 1,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The Upper Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Z (Slash) incorporating data years 2005-2024 are:  \nSalter (055205), Devil Mtn. (055901), Sandoval (055902), Log Chute (055808)",
   "pocketCard": {
@@ -2647,36 +2647,40 @@
         [
           221,
           60
+        ],
+        [
+          222,
+          57
         ]
       ],
       "forecasted": [
-        [
-          222,
-          59
-        ],
         [
           223,
           53
         ],
         [
           224,
-          47
+          46
         ],
         [
           225,
-          44
+          43
         ],
         [
           226,
-          49
+          46
         ],
         [
           227,
-          49
+          46
         ],
         [
           228,
-          49
+          45
+        ],
+        [
+          229,
+          47
         ]
       ]
     },
