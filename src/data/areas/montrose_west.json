@@ -2,10 +2,10 @@
   "slug": "montrose_west",
   "name": "Montrose (West)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Wednesday, August 12",
+  "dateLabel": "Thursday, August 13",
   "areaTitle": "Montrose - West",
-  "danger": "Very High",
-  "lastUpdated": "8/12/2026 03:11",
+  "danger": "High",
+  "lastUpdated": "8/13/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,19 +13,19 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "91%",
+      "value": "80%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "BI %",
-      "value": "75%",
+      "value": "68%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "11",
+      "value": "12",
       "limit": "> 15",
       "triggered": false
     },
@@ -35,17 +35,17 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.11"
+      "value": "0.06"
     },
     {
       "label": "Max Temp",
-      "value": "90",
+      "value": "83",
       "limit": "> 85",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "23",
+      "value": "33",
       "limit": "< 20",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "65",
+      "value": "78",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,19 +66,19 @@
   "forecast": {
     "title": "West FDRA Extended Forecast",
     "dates": [
-      "12-Aug",
       "13-Aug",
       "14-Aug",
       "15-Aug",
       "16-Aug",
       "17-Aug",
-      "18-Aug"
+      "18-Aug",
+      "19-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Very High",
+          "High",
           "High",
           "High",
           "High",
@@ -90,16 +90,16 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "91%",
           "80%",
           "71%",
           "69%",
           "71%",
           "71%",
-          "74%"
+          "74%",
+          "78%"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -111,12 +111,12 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "75%",
           "68%",
           "62%",
           "58%",
           "55%",
           "62%",
+          "71%",
           "71%"
         ],
         "hits": [
@@ -132,34 +132,34 @@
       {
         "label": "Temperature",
         "values": [
-          "90",
           "83",
           "83",
           "81",
           "82",
           "83",
-          "84"
+          "84",
+          "88"
         ],
         "hits": [
-          true,
           false,
           false,
           false,
           false,
           false,
-          false
+          false,
+          true
         ]
       },
       {
         "label": "Relative Humidity",
         "values": [
-          "23",
           "33",
           "31",
           "25",
           "25",
           "23",
-          "21"
+          "21",
+          "17"
         ],
         "hits": [
           false,
@@ -168,19 +168,19 @@
           false,
           false,
           false,
-          false
+          true
         ]
       },
       {
         "label": "Winds",
         "values": [
-          "11",
           "12",
           "11",
           "9",
           "8",
           "9",
-          "11"
+          "11",
+          "12"
         ],
         "hits": [
           false,
@@ -196,24 +196,24 @@
         "label": "Wind Direction",
         "values": [
           "ENE",
-          "ENE",
           "NE",
           "NNE",
           "NE",
           "NE",
-          "NE"
+          "NE",
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.11",
           "0.06",
           "0.03",
           "0.00",
           "0.00",
           "0.01",
-          "0.00"
+          "0.00",
+          "0.01"
         ]
       },
       {
@@ -221,9 +221,9 @@
         "values": [
           "8",
           "8",
-          "8",
           "10",
           "10",
+          "11",
           "11",
           "11"
         ],
@@ -240,13 +240,13 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "65",
           "78",
           "79",
           "75",
           "61",
           "57",
-          "55"
+          "55",
+          "46"
         ],
         "hits": [
           false,
@@ -255,39 +255,39 @@
           false,
           false,
           false,
-          false
+          true
         ]
       },
       {
         "label": "ERC-Y (Actual Number 1-81)",
         "values": [
-          "62",
           "54",
           "50",
           "49",
           "50",
           "50",
-          "50"
+          "50",
+          "52"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-66)",
         "values": [
-          "36",
           "34",
           "31",
           "30",
           "30",
           "31",
-          "34"
+          "34",
+          "35"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 3,
+    "met": 1,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The West Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nMockingbird (55710), Nucla (53807)",
   "pocketCard": {
@@ -2650,13 +2650,13 @@
         [
           222,
           67
+        ],
+        [
+          223,
+          61
         ]
       ],
       "forecasted": [
-        [
-          222,
-          62
-        ],
         [
           223,
           54
@@ -2680,6 +2680,10 @@
         [
           228,
           50
+        ],
+        [
+          229,
+          52
         ]
       ]
     },

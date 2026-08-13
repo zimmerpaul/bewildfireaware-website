@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger today in the Montrose High Elevation area, driven by critically dry fuels (ERC at 92%, the top local threshold).**\n- Danger eases to High for the rest of the week as ERC drops into the 70–82% range through August 18.\n- Afternoon storms are possible today (50% chance) with gusty, shifting winds, but little cooling relief follows.\n- 1 of 7 local watchout thresholds is currently tripped — the ERC benchmark.\n- Stage 2 fire restrictions remain active across Montrose and Gunnison counties, limiting campfires, smoking, and open burning. Stage 2 Fire Restrictions will take effect across all of Montrose County, including all state lands, starting at 0001 a.m. on Friday, August 8. Gunnison County has been in Stage 2 Fire Restrictions since June 30, 2026.\n- Nearby: the Gold Mountain Fire continues burning two miles north of Ouray with active uphill runs and closures in place, and the Elk Fire near Lake City is holding at roughly 7,226 acres, about 33% contained.",
-  "lead": "Very High fire danger today in the Montrose High Elevation area, driven by critically dry fuels (ERC at 92%, the top local threshold).",
+  "overview": "**High fire danger continues today, driven by persistently dry fuels (ERC 82%) despite scattered thunderstorm chances.**\n- Danger stays High all seven days, with ERC easing to the low-70s midweek before climbing back to 82% by August 19 as humidity trends downward.\n- Key driver this week is fading moisture: max humidity drops from 84% today to 60% by August 19, with winds shifting from ENE to NE.\n- No Red Flag Warning is active for this area today, and 0 of 7 local watchout thresholds are currently met.\n- Stage 2 Fire Restrictions are in effect on the Grand Mesa, Uncompahgre and Gunnison National Forests, alongside Stage 2 restrictions in Montrose, San Miguel, and Delta counties.\n- The Gold Mountain Fire near Ouray is 39,605 acres and 90% contained; the Elk Fire near Lake City continues to be managed with an incident management team assigned, now at 7,404 acres and 35% contained per today's report.",
+  "lead": "High fire danger continues today, driven by persistently dry fuels (ERC 82%) despite scattered thunderstorm chances.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Stage 2 Fire Restrictions Going Into Effect • Montrose County",
-      "url": "https://www.montrosecounty.net/m/newsflash/Home/Detail/1122"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Grand Mesa, Uncompahgre and Gunnison National Forests Stage 2 Fire Restrictions | Forest Service",
+      "url": "https://www.fs.usda.gov/r02/gmug/alerts/grand-mesa-uncompahgre-and-gunnison-national-forests-stage-2-fire-restrictions"
     },
     {
-      "name": "Wildfire Information | Gunnison County, CO - Official Website",
-      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
+      "name": "Cogmf Gold Mountain Fire Information | InciWeb",
+      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire"
+    },
+    {
+      "name": "Elk Fire Update - 7/30/2026 - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/hinsdale-county/elk-fire-update-7-30-2026/"
     }
   ],
-  "generated": "Wednesday, August 12"
+  "generated": "Thursday, August 13"
 }

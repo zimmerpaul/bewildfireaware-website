@@ -2,10 +2,10 @@
   "slug": "grand_junction_middle",
   "name": "Grand Junction (Middle)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Wednesday, August 12",
+  "dateLabel": "Thursday, August 13",
   "areaTitle": "Grand Junction - Middle Elevation",
-  "danger": "Very High",
-  "lastUpdated": "8/12/2026 02:38",
+  "danger": "Moderate",
+  "lastUpdated": "8/13/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "95%",
+      "value": "82%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "BI %",
-      "value": "50%",
+      "value": "34%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -31,21 +31,21 @@
     },
     {
       "label": "Wind Dir",
-      "value": "ENE"
+      "value": "E"
     },
     {
       "label": "24hr Rain",
-      "value": "0.16"
+      "value": "0.11"
     },
     {
       "label": "Max Temp",
-      "value": "82",
+      "value": "77",
       "limit": "> 80",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "28",
+      "value": "38",
       "limit": "< 15",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "69",
+      "value": "86",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,40 +66,40 @@
   "forecast": {
     "title": "Middle Elevation FDRA Extended Forecast",
     "dates": [
-      "12-Aug",
       "13-Aug",
       "14-Aug",
       "15-Aug",
       "16-Aug",
       "17-Aug",
-      "18-Aug"
+      "18-Aug",
+      "19-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Very High",
           "Moderate",
           "Moderate",
           "Moderate",
           "Moderate",
           "High",
-          "High"
+          "High",
+          "Very High"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "95%",
           "82%",
           "73%",
           "79%",
           "81%",
           "82%",
-          "84%"
+          "84%",
+          "86%"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "50%",
           "34%",
           "31%",
           "37%",
           "41%",
           "50%",
-          "59%"
+          "59%",
+          "50%"
         ],
         "hits": [
           false,
@@ -132,16 +132,16 @@
       {
         "label": "Temperature",
         "values": [
-          "82",
           "77",
           "76",
           "74",
           "75",
           "77",
-          "78"
+          "78",
+          "80"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "28",
           "38",
           "37",
           "30",
           "29",
           "26",
-          "24"
+          "24",
+          "20"
         ],
         "hits": [
           false,
@@ -175,12 +175,12 @@
         "label": "Winds",
         "values": [
           "7",
-          "7",
           "8",
           "7",
           "7",
           "8",
-          "9"
+          "9",
+          "7"
         ],
         "hits": [
           false,
@@ -195,9 +195,9 @@
       {
         "label": "Wind Direction",
         "values": [
-          "ENE",
           "E",
           "ENE",
+          "NE",
           "NE",
           "NE",
           "NE",
@@ -207,24 +207,24 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.16",
           "0.11",
           "0.16",
           "0.03",
           "0.01",
           "0.01",
-          "0.01"
+          "0.01",
+          "0.05"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
           "9",
-          "9",
           "10",
           "11",
           "11",
           "11",
+          "12",
           "12"
         ],
         "hits": [
@@ -233,20 +233,20 @@
           true,
           true,
           true,
-          true,
+          false,
           false
         ]
       },
       {
         "label": "Max Rh",
         "values": [
-          "69",
           "86",
           "89",
           "79",
           "64",
           "62",
-          "58"
+          "58",
+          "50"
         ],
         "hits": [
           false,
@@ -255,39 +255,39 @@
           false,
           false,
           false,
-          false
+          true
         ]
       },
       {
         "label": "ERC-Y (Actual Number 1-69)",
         "values": [
-          "55",
           "45",
           "41",
           "43",
           "45",
           "46",
+          "47",
           "47"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-58)",
         "values": [
-          "27",
           "24",
           "22",
           "25",
           "26",
           "27",
-          "29"
+          "29",
+          "27"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 3,
+    "met": 1,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The Middle Elevation Fire Danger Rating Area uses the folMiddleing Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \n51506: Crown, 51607: Gypsum, 52409: Dominguez/Jacks Canyon",
   "pocketCard": {
@@ -2653,14 +2653,14 @@
         ],
         [
           223,
-          55
+          54
+        ],
+        [
+          224,
+          45
         ]
       ],
       "forecasted": [
-        [
-          223,
-          55
-        ],
         [
           224,
           45
@@ -2683,6 +2683,10 @@
         ],
         [
           229,
+          47
+        ],
+        [
+          230,
           47
         ]
       ]
