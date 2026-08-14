@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today, driven by persistently dry fuels (ERC 82%) despite scattered thunderstorm chances.**\n- Danger stays High all seven days, with ERC easing to the low-70s midweek before climbing back to 82% by August 19 as humidity trends downward.\n- Key driver this week is fading moisture: max humidity drops from 84% today to 60% by August 19, with winds shifting from ENE to NE.\n- No Red Flag Warning is active for this area today, and 0 of 7 local watchout thresholds are currently met.\n- Stage 2 Fire Restrictions are in effect on the Grand Mesa, Uncompahgre and Gunnison National Forests, alongside Stage 2 restrictions in Montrose, San Miguel, and Delta counties.\n- The Gold Mountain Fire near Ouray is 39,605 acres and 90% contained; the Elk Fire near Lake City continues to be managed with an incident management team assigned, now at 7,404 acres and 35% contained per today's report.",
-  "lead": "High fire danger continues today, driven by persistently dry fuels (ERC 82%) despite scattered thunderstorm chances.",
+  "overview": "**High fire danger holds today with dry fuels and rising indices, climbing to Very High by August 20.**\n- ERC and BI percentiles trend upward all week, reaching 91% and 83% by Aug 20 as humidity drops to near 21%.\n- Isolated afternoon thunderstorms are possible today, but winds shift NE and strengthen into next week, drying fuels further.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is active for this area.\n- Stage 2 fire restrictions remain in effect on BLM Uncompahgre Field Office lands across Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties; Montrose County itself also remains under Stage 2 restrictions.\n- Nearby fires: the Elk Fire near Lake City (Hinsdale Co.) is 7,404 acres and 35% contained; the Gold Mountain Fire near Ouray is roughly 39,500 acres and about 90% contained, with critically dry fuels, lightning and erratic outflow winds remaining concerns despite recent rain over both fire areas.",
+  "lead": "High fire danger holds today with dry fuels and rising indices, climbing to Very High by August 20.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Grand Mesa, Uncompahgre and Gunnison National Forests Stage 2 Fire Restrictions | Forest Service",
-      "url": "https://www.fs.usda.gov/r02/gmug/alerts/grand-mesa-uncompahgre-and-gunnison-national-forests-stage-2-fire-restrictions"
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
     {
       "name": "Cogmf Gold Mountain Fire Information | InciWeb",
       "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire"
-    },
-    {
-      "name": "Elk Fire Update - 7/30/2026 - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/hinsdale-county/elk-fire-update-7-30-2026/"
     }
   ],
-  "generated": "Thursday, August 13"
+  "generated": "Friday, August 14"
 }
