@@ -2,10 +2,10 @@
   "slug": "durango_upper",
   "name": "Durango (Upper)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Saturday, August 15",
+  "dateLabel": "Sunday, August 16",
   "areaTitle": "Durango - UPPER",
   "danger": "High",
-  "lastUpdated": "8/14/2026 2:53:45",
+  "lastUpdated": "8/16/2026 2:53:45",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "78%",
+      "value": "82%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "63%",
+      "value": "75%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -39,25 +39,25 @@
     },
     {
       "label": "Max Temp",
-      "value": "79",
+      "value": "84",
       "limit": "> 83",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "Min Rh %",
-      "value": "24",
+      "value": "15",
       "limit": "< 10",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "11",
+      "value": "12",
       "limit": "< 11",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "73",
+      "value": "49",
       "limit": "< 31",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Upper FDRA Extended Forecast",
     "dates": [
-      "15-Aug",
       "16-Aug",
       "17-Aug",
       "18-Aug",
       "19-Aug",
       "20-Aug",
-      "21-Aug"
+      "21-Aug",
+      "22-Aug"
     ],
     "rows": [
       {
@@ -81,22 +81,22 @@
           "High",
           "High",
           "High",
-          "High",
-          "High",
           "Very High",
-          "#DIV/0!"
+          "Very High",
+          "Very High",
+          "Very High"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "78%",
-          "80%",
-          "80%",
+          "82%",
+          "82%",
           "84%",
-          "86%",
           "89%",
-          "#DIV/0!"
+          "90%",
+          "91%",
+          "91%"
         ],
         "hits": [
           false,
@@ -104,20 +104,20 @@
           false,
           false,
           false,
-          false,
-          false
+          true,
+          true
         ]
       },
       {
         "label": "BI-Y Percentile",
         "values": [
-          "63%",
-          "71%",
-          "63%",
           "75%",
+          "67%",
+          "81%",
+          "87%",
+          "81%",
           "78%",
-          "84%",
-          "#DIV/0!"
+          "81%"
         ],
         "hits": [
           false,
@@ -132,33 +132,33 @@
       {
         "label": "Temperature",
         "values": [
-          "79",
-          "80",
-          "79",
-          "81",
-          "82",
-          "82",
+          "84",
+          "83",
+          "85",
+          "85",
+          "85",
+          "85",
           "83"
         ],
         "hits": [
+          true,
           false,
-          false,
-          false,
-          false,
-          false,
-          false,
+          true,
+          true,
+          true,
+          true,
           false
         ]
       },
       {
         "label": "Relative Humidity",
         "values": [
-          "24",
-          "23",
-          "26",
-          "21",
-          "20",
+          "15",
+          "19",
+          "18",
+          "16",
           "17",
+          "18",
           "19"
         ],
         "hits": [
@@ -175,12 +175,12 @@
         "label": "Winds",
         "values": [
           "7",
-          "7",
-          "7",
-          "8",
+          "6",
           "9",
           "9",
-          "7"
+          "7",
+          "7",
+          "8"
         ],
         "hits": [
           false,
@@ -196,12 +196,12 @@
         "label": "Wind Direction",
         "values": [
           "NNE",
+          "NNE",
+          "NNE",
+          "NNE",
           "NE",
           "NE",
-          "NE",
-          "NE",
-          "NE",
-          "NNE"
+          "NE"
         ]
       },
       {
@@ -209,23 +209,23 @@
         "values": [
           "0.00",
           "0.00",
-          "0.04",
           "0.00",
-          "0.02",
+          "0.00",
+          "0.00",
           "0.01",
-          "0.01"
+          "0.04"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "11",
           "12",
           "12",
           "12",
+          "12",
           "11",
           "11",
-          "#DIV/0!"
+          "11"
         ],
         "hits": [
           false,
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "73",
-          "56",
-          "53",
-          "56",
-          "48",
-          "46",
-          "46"
+          "49",
+          "47",
+          "51",
+          "43",
+          "41",
+          "43",
+          "48"
         ],
         "hits": [
           false,
@@ -261,32 +261,32 @@
       {
         "label": "ERC-Y (Actual Number 1-70)",
         "values": [
-          "45",
-          "47",
           "47",
           "48",
           "49",
-          "52",
-          "#DIV/0!"
+          "51",
+          "53",
+          "54",
+          "54"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-55)",
         "values": [
-          "26",
-          "28",
-          "26",
-          "30",
-          "30",
+          "29",
+          "27",
           "32",
-          "#DIV/0!"
+          "33",
+          "31",
+          "30",
+          "31"
         ]
       }
     ]
   },
   "fuelModel": "Fuel Model - Y",
   "watchout": {
-    "met": 0,
+    "met": 1,
     "total": 7,
     "isWatchout": false
   },
@@ -2659,9 +2659,7 @@
         [
           224,
           45
-        ]
-      ],
-      "forecasted": [
+        ],
         [
           225,
           45
@@ -2669,26 +2667,36 @@
         [
           226,
           45
-        ],
+        ]
+      ],
+      "forecasted": [
         [
           227,
           47
         ],
         [
           228,
-          47
-        ],
-        [
-          229,
           48
         ],
         [
-          230,
+          229,
           49
         ],
         [
+          230,
+          51
+        ],
+        [
           231,
-          52
+          53
+        ],
+        [
+          232,
+          54
+        ],
+        [
+          233,
+          54
         ]
       ]
     },

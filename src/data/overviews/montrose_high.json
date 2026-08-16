@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today across the Montrose (High Elevation) area, driven by dry fuels — ERC at 76% and climbing.**\n- Danger is forecast to rise through the week, reaching Very High by Thursday as ERC climbs to 93% and BI to 86%.\n- Winds stay northeasterly and increase to 11 mph by midweek while afternoon humidity drops into the low 20s—a drying trend to watch.\n- No local watchout thresholds are triggered (0 of 7), and no Red Flag Warning is active for today.\n- Montrose and San Miguel counties remain under Stage 2 fire restrictions, with BLM's Uncompahgre Field Office under Stage 1.\n- The Gold Mountain Fire, two miles northeast of Ouray, was reported Friday at 39,675 acres and 87% containment; crews continue structure and infrastructure protection along the Highway 550 corridor.",
-  "lead": "Fire danger is High today across the Montrose (High Elevation) area, driven by dry fuels — ERC at 76% and climbing.",
+  "overview": "**High fire danger today, driven by very low humidity (18%, exceeding the local watchout threshold) and warm, dry NE breezes.**\n- Danger climbs to Very High by Thursday-Friday as ERC rises toward the 90th percentile.\n- Watchout status: 1 of 7 local thresholds met (minimum relative humidity).\n- No rain expected through midweek; light showers possible Aug 21-22.\n- Fire restrictions remain active: Gunnison County is in Stage 2 Fire Restrictions, with no open burning or campfires allowed; BLM Uncompahgre Field Office restrictions cover Montrose, San Miguel, Ouray, and Delta counties.\n- Nearby: the Gold Mountain Fire is burning in southwest Colorado, originating two miles north of Ouray, now 39,674 acres and 87% contained with structure protection ongoing; the Elk Fire on the Grand Mesa, Uncompahgre and Gunnison NF is 7,374 acres and 35% contained.",
+  "lead": "High fire danger today, driven by very low humidity (18%, exceeding the local watchout threshold) and warm, dry NE breezes.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Cogmf Gold Mountain Fire Information | InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-gold-mountain-fire"
+      "name": "Emergency Response Services | Fire Restrictions",
+      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+    },
+    {
+      "name": "Fire Prevention Order COS05-26-01Stage 1 Fire Restrictions -uncompahgre field office - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/blm/fire-prevention-order-cos05-26-01stage-1-fire-restrictions-uncompahgre-field-office/"
+    },
+    {
+      "name": "Wildfire Map Spotlight: Snyder, Babylon, Ferris, and Gold Mountain Fires in Colorado and Utah | IQAir USA",
+      "url": "https://www.iqair.com/newsroom/wildfire-map-spotlight-snyder-babylon-ferris-and-gold-mountain-wildfires-in-colorado-and-utah"
     }
   ],
-  "generated": "Saturday, August 15"
+  "generated": "Sunday, August 16"
 }
