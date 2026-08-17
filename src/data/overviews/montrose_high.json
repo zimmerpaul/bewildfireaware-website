@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger today, driven by very low humidity (18%, exceeding the local watchout threshold) and warm, dry NE breezes.**\n- Danger climbs to Very High by Thursday-Friday as ERC rises toward the 90th percentile.\n- Watchout status: 1 of 7 local thresholds met (minimum relative humidity).\n- No rain expected through midweek; light showers possible Aug 21-22.\n- Fire restrictions remain active: Gunnison County is in Stage 2 Fire Restrictions, with no open burning or campfires allowed; BLM Uncompahgre Field Office restrictions cover Montrose, San Miguel, Ouray, and Delta counties.\n- Nearby: the Gold Mountain Fire is burning in southwest Colorado, originating two miles north of Ouray, now 39,674 acres and 87% contained with structure protection ongoing; the Elk Fire on the Grand Mesa, Uncompahgre and Gunnison NF is 7,374 acres and 35% contained.",
-  "lead": "High fire danger today, driven by very low humidity (18%, exceeding the local watchout threshold) and warm, dry NE breezes.",
+  "overview": "**High fire danger continues today, driven by very dry fuels (ERC 80%) and low afternoon humidity (18%, exceeding the local threshold).**\n- Danger climbs to Very High by Friday, Aug. 21, as ERC rises to 91% before easing back to High through the weekend.\n- Winds stay light from the NE (7 mph) with no rain expected until late week, keeping fuels critically dry.\n- Only 1 of 7 local watchout thresholds is met today (minimum relative humidity); no Red Flag Warning is currently posted for this area.\n- Gunnison County remains in Stage 2 Fire Restrictions as of Friday, August 15th, banning open fires and campfires; check municipal and BLM rules for Ouray, Montrose, and other local counties.\n- Nearby: the Gold Mountain Fire is burning in southwest Colorado, originating just two miles north of the City of Ouray, now roughly 39,700 acres and about 87% contained; the Elk Fire near Lake City (Hinsdale/Gunnison area) is about 7,400 acres and 35% contained.",
+  "lead": "High fire danger continues today, driven by very dry fuels (ERC 80%) and low afternoon humidity (18%, exceeding the local threshold).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Emergency Response Services | Fire Restrictions",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
-    },
-    {
-      "name": "Fire Prevention Order COS05-26-01Stage 1 Fire Restrictions -uncompahgre field office - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/blm/fire-prevention-order-cos05-26-01stage-1-fire-restrictions-uncompahgre-field-office/"
+      "name": "Current Restrictions | Gunnison County, CO - Official Website",
+      "url": "https://gunnisoncounty.org/1121/16016"
     },
     {
       "name": "Wildfire Map Spotlight: Snyder, Babylon, Ferris, and Gold Mountain Fires in Colorado and Utah | IQAir USA",
       "url": "https://www.iqair.com/newsroom/wildfire-map-spotlight-snyder-babylon-ferris-and-gold-mountain-wildfires-in-colorado-and-utah"
     }
   ],
-  "generated": "Sunday, August 16"
+  "generated": "Monday, August 17"
 }
