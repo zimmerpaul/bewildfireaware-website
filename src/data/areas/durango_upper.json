@@ -2,7 +2,7 @@
   "slug": "durango_upper",
   "name": "Durango (Upper)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Monday, August 17",
+  "dateLabel": "Tuesday, August 18",
   "areaTitle": "Durango - UPPER",
   "danger": "High",
   "lastUpdated": "8/17/2026 2:53:45",
@@ -19,13 +19,13 @@
     },
     {
       "label": "BI %",
-      "value": "67%",
+      "value": "71%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "6",
+      "value": "7",
       "limit": "> 13",
       "triggered": false
     },
@@ -39,7 +39,7 @@
     },
     {
       "label": "Max Temp",
-      "value": "84",
+      "value": "85",
       "limit": "> 83",
       "triggered": true
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "44",
+      "value": "51",
       "limit": "< 31",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Upper FDRA Extended Forecast",
     "dates": [
-      "17-Aug",
       "18-Aug",
       "19-Aug",
       "20-Aug",
       "21-Aug",
       "22-Aug",
-      "23-Aug"
+      "23-Aug",
+      "24-Aug"
     ],
     "rows": [
       {
@@ -80,23 +80,23 @@
         "values": [
           "High",
           "High",
-          "High",
           "Very High",
           "Very High",
           "Very High",
-          "Very High"
+          "Very High",
+          "#DIV/0!"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
           "84%",
-          "84%",
           "87%",
           "89%",
           "90%",
           "90%",
-          "90%"
+          "90%",
+          "#DIV/0!"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "67%",
           "71%",
           "84%",
           "75%",
           "75%",
           "75%",
-          "75%"
+          "75%",
+          "#DIV/0!"
         ],
         "hits": [
           false,
@@ -132,20 +132,20 @@
       {
         "label": "Temperature",
         "values": [
-          "84",
           "85",
           "87",
           "85",
           "84",
           "82",
-          "81"
+          "81",
+          "83"
         ],
         "hits": [
           true,
           true,
           true,
           true,
-          true,
+          false,
           false,
           false
         ]
@@ -154,12 +154,12 @@
         "label": "Relative Humidity",
         "values": [
           "18",
-          "18",
           "17",
           "19",
           "22",
           "23",
-          "21"
+          "21",
+          "20"
         ],
         "hits": [
           false,
@@ -174,13 +174,13 @@
       {
         "label": "Winds",
         "values": [
-          "6",
           "7",
           "9",
           "7",
           "7",
           "7",
-          "8"
+          "8",
+          "7"
         ],
         "hits": [
           false,
@@ -196,9 +196,9 @@
         "label": "Wind Direction",
         "values": [
           "NNE",
-          "NNE",
           "NE",
           "NNE",
+          "NE",
           "NE",
           "NE",
           "NE"
@@ -209,11 +209,11 @@
         "values": [
           "0.00",
           "0.00",
-          "0.00",
           "0.01",
           "0.02",
           "0.02",
-          "0.02"
+          "0.02",
+          "0.01"
         ]
       },
       {
@@ -221,11 +221,11 @@
         "values": [
           "12",
           "12",
-          "12",
           "11",
           "11",
           "11",
-          "11"
+          "11",
+          "#DIV/0!"
         ],
         "hits": [
           false,
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "44",
           "51",
           "44",
           "44",
           "50",
           "54",
-          "57"
+          "57",
+          "53"
         ],
         "hits": [
           false,
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-70)",
         "values": [
-          "48",
           "49",
           "51",
           "52",
           "52",
           "52",
-          "52"
+          "52",
+          "#DIV/0!"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-55)",
         "values": [
           "28",
-          "28",
           "32",
           "30",
           "30",
           "29",
-          "30"
+          "30",
+          "#DIV/0!"
         ]
       }
     ]

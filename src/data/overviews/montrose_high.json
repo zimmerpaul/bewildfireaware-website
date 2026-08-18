@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today, driven by very dry fuels (ERC 80%) and low afternoon humidity (18%, exceeding the local threshold).**\n- Danger climbs to Very High by Friday, Aug. 21, as ERC rises to 91% before easing back to High through the weekend.\n- Winds stay light from the NE (7 mph) with no rain expected until late week, keeping fuels critically dry.\n- Only 1 of 7 local watchout thresholds is met today (minimum relative humidity); no Red Flag Warning is currently posted for this area.\n- Gunnison County remains in Stage 2 Fire Restrictions as of Friday, August 15th, banning open fires and campfires; check municipal and BLM rules for Ouray, Montrose, and other local counties.\n- Nearby: the Gold Mountain Fire is burning in southwest Colorado, originating just two miles north of the City of Ouray, now roughly 39,700 acres and about 87% contained; the Elk Fire near Lake City (Hinsdale/Gunnison area) is about 7,400 acres and 35% contained.",
-  "lead": "High fire danger continues today, driven by very dry fuels (ERC 80%) and low afternoon humidity (18%, exceeding the local threshold).",
+  "overview": "**High fire danger holds today, driven by very low humidity and a climbing Energy Release Component.**\n- ERC keeps rising toward 89% by Thursday while Burning Index eases from 90% to the low-70s by next Monday.\n- Winds stay light from the NE (12 mph today, dropping to 7-8 mph later this week) with dry afternoons continuing.\n- Two of seven local watchout thresholds are met today (min RH 18%, max RH 46%); no Red Flag Warning is currently posted for this area.\n- Stage 1 fire restrictions remain in effect on BLM Uncompahgre Field Office lands across Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties through year-end, while San Miguel County is under Stage 2 restrictions on private and federal land.\n- The Gold Mountain Fire, northeast of Ouray, has burned 39,691 acres and is 87% contained; the Elk Fire near Grand Mesa/Uncompahgre/Gunnison National Forest sits at 7,374 acres, 35% contained.\n- Light rain (up to 0.09\") may arrive late week, but High danger persists through August 24.",
+  "lead": "High fire danger holds today, driven by very low humidity and a climbing Energy Release Component.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Current Restrictions | Gunnison County, CO - Official Website",
-      "url": "https://gunnisoncounty.org/1121/16016"
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
     {
-      "name": "Wildfire Map Spotlight: Snyder, Babylon, Ferris, and Gold Mountain Fires in Colorado and Utah | IQAir USA",
-      "url": "https://www.iqair.com/newsroom/wildfire-map-spotlight-snyder-babylon-ferris-and-gold-mountain-wildfires-in-colorado-and-utah"
+      "name": "Fire Information | San Miguel County, CO - Official Website",
+      "url": "https://www.sanmiguelcountyco.gov/471/Fire-Information"
+    },
+    {
+      "name": "Colorado Fires Map - WildFire Explorer - Cornea",
+      "url": "https://fires.cornea.is/state/colorado"
     }
   ],
-  "generated": "Monday, August 17"
+  "generated": "Tuesday, August 18"
 }
