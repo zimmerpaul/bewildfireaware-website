@@ -2,10 +2,10 @@
   "slug": "montrose_west",
   "name": "Montrose (West)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Tuesday, August 18",
+  "dateLabel": "Wednesday, August 19",
   "areaTitle": "Montrose - West",
   "danger": "High",
-  "lastUpdated": "8/18/2026 03:12",
+  "lastUpdated": "8/19/2026 03:12",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "76%",
+      "value": "81%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "77%",
+      "value": "80%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -35,29 +35,29 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.01"
     },
     {
       "label": "Max Temp",
-      "value": "94",
+      "value": "95",
       "limit": "> 85",
       "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "13",
+      "value": "14",
       "limit": "< 20",
       "triggered": true
     },
     {
       "label": "1000-Hour",
-      "value": "12",
+      "value": "11",
       "limit": "< 13",
       "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "36",
+      "value": "41",
       "limit": "< 55",
       "triggered": true
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "West FDRA Extended Forecast",
     "dates": [
-      "18-Aug",
       "19-Aug",
       "20-Aug",
       "21-Aug",
       "22-Aug",
       "23-Aug",
-      "24-Aug"
+      "24-Aug",
+      "25-Aug"
     ],
     "rows": [
       {
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "76%",
+          "81%",
+          "83%",
+          "83%",
           "80%",
-          "84%",
-          "84%",
-          "83%",
-          "83%",
-          "83%"
+          "78%",
+          "80%",
+          "81%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "77%",
-          "77%",
           "80%",
-          "77%",
           "75%",
+          "77%",
           "71%",
-          "71%"
+          "65%",
+          "65%",
+          "77%"
         ],
         "hits": [
           false,
@@ -132,40 +132,40 @@
       {
         "label": "Temperature",
         "values": [
+          "95",
+          "95",
           "94",
-          "94",
-          "96",
-          "91",
-          "87",
+          "86",
           "84",
-          "84"
+          "84",
+          "86"
         ],
         "hits": [
-          true,
           true,
           true,
           true,
           true,
           false,
-          false
+          false,
+          true
         ]
       },
       {
         "label": "Relative Humidity",
         "values": [
-          "13",
           "14",
-          "13",
-          "16",
-          "22",
-          "25",
-          "22"
+          "14",
+          "17",
+          "26",
+          "26",
+          "23",
+          "20"
         ],
         "hits": [
           true,
           true,
           true,
-          true,
+          false,
           false,
           false,
           false
@@ -175,12 +175,12 @@
         "label": "Winds",
         "values": [
           "11",
-          "11",
-          "11",
-          "10",
+          "9",
           "10",
           "11",
-          "10"
+          "9",
+          "9",
+          "11"
         ],
         "hits": [
           false,
@@ -200,18 +200,18 @@
           "NNE",
           "NE",
           "NE",
-          "NE",
+          "NNE",
           "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.00",
-          "0.00",
-          "0.00",
           "0.01",
+          "0.00",
           "0.02",
+          "0.06",
+          "0.00",
           "0.00",
           "0.00"
         ]
@@ -219,9 +219,9 @@
       {
         "label": "1000-Hour Fuels",
         "values": [
-          "12",
           "11",
           "11",
+          "10",
           "10",
           "10",
           "10",
@@ -240,20 +240,20 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "36",
-          "37",
-          "39",
-          "42",
-          "53",
+          "41",
+          "43",
+          "50",
+          "57",
+          "59",
           "58",
-          "54"
+          "52"
         ],
         "hits": [
           true,
           true,
           true,
-          true,
-          true,
+          false,
+          false,
           false,
           true
         ]
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-81)",
         "values": [
-          "52",
           "54",
-          "56",
-          "57",
-          "56",
           "55",
+          "56",
+          "54",
+          "53",
+          "53",
           "55"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-66)",
         "values": [
-          "37",
-          "37",
           "38",
           "36",
-          "35",
-          "35",
-          "34"
+          "36",
+          "34",
+          "32",
+          "32",
+          "36"
         ]
       }
     ]
@@ -2674,35 +2674,39 @@
         [
           228,
           49
+        ],
+        [
+          229,
+          52
         ]
       ],
       "forecasted": [
-        [
-          228,
-          52
-        ],
         [
           229,
           54
         ],
         [
           230,
-          56
-        ],
-        [
-          231,
-          57
-        ],
-        [
-          232,
-          56
-        ],
-        [
-          233,
           55
         ],
         [
+          231,
+          56
+        ],
+        [
+          232,
+          54
+        ],
+        [
+          233,
+          53
+        ],
+        [
           234,
+          53
+        ],
+        [
+          235,
           55
         ]
       ]

@@ -2,10 +2,10 @@
   "slug": "grand_junction_high",
   "name": "Grand Junction (High)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Tuesday, August 18",
+  "dateLabel": "Wednesday, August 19",
   "areaTitle": "Grand Junction - High Elevation",
   "danger": "High",
-  "lastUpdated": "8/18/2026 02:38",
+  "lastUpdated": "8/19/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,19 +13,19 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "85%",
+      "value": "83%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "94%",
+      "value": "83%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Winds",
-      "value": "11",
+      "value": "9",
       "limit": "> 15",
       "triggered": false
     },
@@ -35,17 +35,17 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.02"
     },
     {
       "label": "Max Temp",
-      "value": "75",
+      "value": "73",
       "limit": "> 75",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "20",
+      "value": "26",
       "limit": "< 20",
       "triggered": false
     },
@@ -57,32 +57,32 @@
     },
     {
       "label": "Max Rh",
-      "value": "50",
+      "value": "67",
       "limit": "< 55",
-      "triggered": true
+      "triggered": false
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 75, Min Rh < 20, 1000hr Fuels < 12, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "High Elevation FDRA Extended Forecast",
     "dates": [
-      "18-Aug",
       "19-Aug",
       "20-Aug",
       "21-Aug",
       "22-Aug",
       "23-Aug",
-      "24-Aug"
+      "24-Aug",
+      "25-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
           "High",
-          "Moderate",
           "High",
           "Very High",
-          "Very High",
+          "Moderate",
+          "Moderate",
           "Moderate",
           "Moderate"
         ]
@@ -90,20 +90,20 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "85%",
-          "85%",
+          "83%",
           "90%",
-          "92%",
           "91%",
-          "87%",
-          "87%"
+          "90%",
+          "85%",
+          "85%",
+          "85%"
         ],
         "hits": [
           false,
           false,
+          true,
           false,
-          true,
-          true,
+          false,
           false,
           false
         ]
@@ -111,16 +111,16 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "94%",
-          "80%",
-          "89%",
-          "87%",
           "83%",
+          "83%",
+          "87%",
           "80%",
-          "77%"
+          "77%",
+          "74%",
+          "74%"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -132,17 +132,17 @@
       {
         "label": "Temperature",
         "values": [
-          "75",
           "73",
-          "76",
-          "75",
+          "77",
+          "78",
           "72",
           "69",
-          "68"
+          "68",
+          "69"
         ],
         "hits": [
           false,
-          false,
+          true,
           true,
           false,
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "20",
           "26",
-          "21",
-          "23",
-          "31",
-          "40",
-          "40"
+          "20",
+          "20",
+          "34",
+          "42",
+          "41",
+          "37"
         ],
         "hits": [
           false,
@@ -174,13 +174,13 @@
       {
         "label": "Winds",
         "values": [
-          "11",
           "9",
-          "8",
+          "7",
           "8",
           "8",
           "9",
-          "8"
+          "7",
+          "7"
         ],
         "hits": [
           false,
@@ -198,22 +198,22 @@
           "NE",
           "NE",
           "NE",
-          "NE",
-          "NE",
           "ENE",
-          "ENE"
+          "ENE",
+          "ENE",
+          "NE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.00",
           "0.02",
           "0.00",
           "0.00",
-          "0.05",
-          "0.13",
-          "0.08"
+          "0.11",
+          "0.10",
+          "0.11",
+          "0.06"
         ]
       },
       {
@@ -224,8 +224,8 @@
           "14",
           "14",
           "14",
-          "13",
-          "13"
+          "14",
+          "14"
         ],
         "hits": [
           false,
@@ -240,16 +240,16 @@
       {
         "label": "Max Rh",
         "values": [
-          "50",
-          "63",
+          "67",
           "58",
-          "55",
+          "56",
           "68",
-          "75",
+          "80",
+          "77",
           "76"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -261,31 +261,31 @@
       {
         "label": "ERC-Y (Actual Number 1-60)",
         "values": [
-          "37",
-          "37",
-          "40",
+          "36",
+          "39",
           "41",
           "40",
-          "38",
-          "37"
+          "37",
+          "36",
+          "36"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-44)",
         "values": [
-          "28",
-          "23",
-          "27",
-          "26",
           "25",
-          "24",
-          "23"
+          "25",
+          "25",
+          "23",
+          "23",
+          "21",
+          "22"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 2,
+    "met": 0,
     "total": 7,
     "isWatchout": false
   },
@@ -2678,20 +2678,20 @@
         [
           229,
           37
+        ],
+        [
+          230,
+          36
         ]
       ],
       "forecasted": [
         [
-          229,
-          37
-        ],
-        [
           230,
-          37
+          36
         ],
         [
           231,
-          40
+          39
         ],
         [
           232,
@@ -2703,11 +2703,15 @@
         ],
         [
           234,
-          38
+          37
         ],
         [
           235,
-          37
+          36
+        ],
+        [
+          236,
+          36
         ]
       ]
     },
