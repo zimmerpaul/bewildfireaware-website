@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today across the Montrose (High Elevation) area, driven by very dry fuels — ERC at 84% and low minimum humidity (22%) tripping one of seven local watchout thresholds.**\n- High danger is forecast to persist through August 25, with ERC staying in the mid-80s to high-80s percentile all week.\n- Warm, breezy afternoons (mid-70s to near 80°F, NE winds 6–10 mph) will keep fuels stressed, though light rain chances build later in the week.\n- No Red Flag Warning is currently posted for the area, and NWS shows no active alerts, but gusts to 30 mph are possible today.\n- Gunnison County entered Stage 2 fire restrictions on August 15, banning open burning and campfires countywide. San Miguel County remains under Stage 2 restrictions, and BLM/Forest Service lands across Gunnison, Ouray, Montrose, San Miguel and Delta counties remain under Stage 1.\n- The Gold Mountain Fire, 2 miles northeast of Ouray, has burned 39,691 acres and is 87% contained.\n- The Elk Fire in Gunnison County's GMUG National Forest is at 7,337 acres and 35% contained per the latest situation report.",
-  "lead": "High fire danger continues today across the Montrose (High Elevation) area, driven by very dry fuels — ERC at 84% and low minimum humidity (22%) tripping one of seven local watchout thresholds.",
+  "overview": "**High fire danger continues today, driven by very low afternoon humidity (19%) and elevated fuel dryness (ERC 88%, BI 78%).**\n- Danger stays High through the full 7-day outlook, with ERC holding in the mid-80s to high-80s percentile all week.\n- Light NE winds (8 mph) and bone-dry air are the main drivers; NWS notes only a slight afternoon storm chance today, with better relief (higher RH, some rain) expected this weekend.\n- Watchout status: 1 of 7 local thresholds met — minimum relative humidity (19%) exceeds the local trigger.\n- Gunnison County is in Stage 2 Fire Restrictions, with no open burning or campfires allowed. Stage 1 restrictions remain in force on BLM Uncompahgre Field Office lands across Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties.\n- Nearby incidents: Gold Mountain Fire near Ouray is 39,691 acres and 87% contained; Elk Fire near Gunnison is 7,281 acres and 35% contained, both with area closures still active.",
+  "lead": "High fire danger continues today, driven by very low afternoon humidity (19%) and elevated fuel dryness (ERC 88%, BI 78%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Current Restrictions | Gunnison County, CO - Official Website",
-      "url": "https://gunnisoncounty.org/1121/16016"
-    },
-    {
       "name": "Emergency Response Services | Fire Restrictions",
       "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
     },
     {
-      "name": "Colorado Fires Map - WildFire Explorer - Cornea",
-      "url": "https://fires.cornea.is/state/colorado"
+      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
     },
     {
       "name": "Gold Mountain Fire Update - 08/16/2026 - West Slope Fire Info",
       "url": "https://westslopefireinfo.com/ouray-county/gold-mountain-fire-update-08-16-2026/"
     }
   ],
-  "generated": "Wednesday, August 19"
+  "generated": "Thursday, August 20"
 }
