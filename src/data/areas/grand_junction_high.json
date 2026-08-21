@@ -2,10 +2,10 @@
   "slug": "grand_junction_high",
   "name": "Grand Junction (High)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Thursday, August 20",
+  "dateLabel": "Friday, August 21",
   "areaTitle": "Grand Junction - High Elevation",
-  "danger": "High",
-  "lastUpdated": "8/20/2026 02:38",
+  "danger": "Very High",
+  "lastUpdated": "8/21/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,25 +13,25 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "88%",
+      "value": "91%",
       "limit": "> 90%",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "BI %",
-      "value": "89%",
+      "value": "92%",
       "limit": "> 90%",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "Winds",
-      "value": "9",
+      "value": "8",
       "limit": "> 15",
       "triggered": false
     },
     {
       "label": "Wind Dir",
-      "value": "NNE"
+      "value": "NE"
     },
     {
       "label": "24hr Rain",
@@ -39,111 +39,111 @@
     },
     {
       "label": "Max Temp",
-      "value": "78",
+      "value": "80",
       "limit": "> 75",
       "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "19",
+      "value": "18",
       "limit": "< 20",
       "triggered": true
     },
     {
       "label": "1000hr Fuels",
-      "value": "15",
+      "value": "14",
       "limit": "< 12",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "63",
+      "value": "54",
       "limit": "< 55",
-      "triggered": false
+      "triggered": true
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 75, Min Rh < 20, 1000hr Fuels < 12, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "High Elevation FDRA Extended Forecast",
     "dates": [
-      "20-Aug",
       "21-Aug",
       "22-Aug",
       "23-Aug",
       "24-Aug",
       "25-Aug",
-      "26-Aug"
+      "26-Aug",
+      "27-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
+          "Very High",
+          "Moderate",
+          "Moderate",
+          "Moderate",
+          "Moderate",
           "High",
-          "High",
-          "Moderate",
-          "Moderate",
-          "Moderate",
-          "Moderate",
-          "High"
+          "Very High"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
+          "91%",
           "88%",
+          "79%",
+          "83%",
+          "85%",
           "90%",
-          "88%",
-          "81%",
-          "85%",
-          "85%",
-          "88%"
+          "92%"
         ],
         "hits": [
+          true,
           false,
           false,
           false,
           false,
           false,
-          false,
-          false
+          true
         ]
       },
       {
         "label": "BI-Y Percentile",
         "values": [
-          "89%",
-          "87%",
-          "77%",
+          "92%",
           "77%",
           "74%",
           "77%",
-          "83%"
+          "77%",
+          "87%",
+          "92%"
         ],
         "hits": [
+          true,
           false,
           false,
           false,
           false,
           false,
-          false,
-          false
+          true
         ]
       },
       {
         "label": "Temperature",
         "values": [
-          "78",
           "80",
-          "76",
-          "69",
+          "77",
+          "73",
           "70",
-          "69",
+          "70",
+          "70",
           "70"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -153,17 +153,17 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "19",
-          "19",
-          "28",
-          "44",
-          "37",
-          "35",
-          "31"
+          "18",
+          "26",
+          "34",
+          "34",
+          "31",
+          "29",
+          "26"
         ],
         "hits": [
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -174,13 +174,13 @@
       {
         "label": "Winds",
         "values": [
-          "9",
           "8",
           "7",
-          "10",
+          "8",
+          "8",
           "7",
-          "7",
-          "8"
+          "8",
+          "10"
         ],
         "hits": [
           false,
@@ -195,11 +195,11 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NNE",
+          "NE",
           "ENE",
           "ENE",
           "ENE",
-          "ENE",
+          "NE",
           "NE",
           "NE"
         ]
@@ -208,24 +208,24 @@
         "label": "Precipitation 24hr rain",
         "values": [
           "0.00",
-          "0.00",
-          "0.16",
-          "0.05",
-          "0.06",
-          "0.03",
-          "0.01"
+          "0.31",
+          "0.04",
+          "0.04",
+          "0.02",
+          "0.01",
+          "0.00"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "15",
           "14",
           "14",
           "14",
           "14",
           "14",
-          "14"
+          "14",
+          "13"
         ],
         "hits": [
           false,
@@ -240,16 +240,16 @@
       {
         "label": "Max Rh",
         "values": [
-          "63",
-          "56",
-          "72",
-          "81",
-          "75",
-          "74",
-          "68"
+          "54",
+          "71",
+          "82",
+          "69",
+          "67",
+          "67",
+          "61"
         ],
         "hits": [
-          false,
+          true,
           false,
           false,
           false,
@@ -261,33 +261,33 @@
       {
         "label": "ERC-Y (Actual Number 1-60)",
         "values": [
-          "38",
           "40",
           "39",
+          "34",
           "35",
-          "36",
           "37",
-          "39"
+          "39",
+          "41"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-44)",
         "values": [
           "27",
+          "23",
+          "22",
+          "22",
+          "22",
           "25",
-          "23",
-          "23",
-          "22",
-          "22",
-          "24"
+          "28"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 2,
+    "met": 5,
     "total": 7,
-    "isWatchout": false
+    "isWatchout": true
   },
   "raws": "The High Elevation Fire Danger Rating Area uses the folHighing Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \n51510: Deep Creek, 51606: Dowd Jct, 51703: Soda Creek",
   "pocketCard": {
@@ -2685,14 +2685,14 @@
         ],
         [
           231,
-          38
+          39
+        ],
+        [
+          232,
+          40
         ]
       ],
       "forecasted": [
-        [
-          231,
-          38
-        ],
         [
           232,
           40
@@ -2703,11 +2703,11 @@
         ],
         [
           234,
-          35
+          34
         ],
         [
           235,
-          36
+          35
         ],
         [
           236,
@@ -2716,6 +2716,10 @@
         [
           237,
           39
+        ],
+        [
+          238,
+          41
         ]
       ]
     },

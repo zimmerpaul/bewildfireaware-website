@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today, driven by very low afternoon humidity (19%) and elevated fuel dryness (ERC 88%, BI 78%).**\n- Danger stays High through the full 7-day outlook, with ERC holding in the mid-80s to high-80s percentile all week.\n- Light NE winds (8 mph) and bone-dry air are the main drivers; NWS notes only a slight afternoon storm chance today, with better relief (higher RH, some rain) expected this weekend.\n- Watchout status: 1 of 7 local thresholds met — minimum relative humidity (19%) exceeds the local trigger.\n- Gunnison County is in Stage 2 Fire Restrictions, with no open burning or campfires allowed. Stage 1 restrictions remain in force on BLM Uncompahgre Field Office lands across Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties.\n- Nearby incidents: Gold Mountain Fire near Ouray is 39,691 acres and 87% contained; Elk Fire near Gunnison is 7,281 acres and 35% contained, both with area closures still active.",
-  "lead": "High fire danger continues today, driven by very low afternoon humidity (19%) and elevated fuel dryness (ERC 88%, BI 78%).",
+  "overview": "**Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity and dry fuels, with Very High danger expected by Sunday.**\n- Trend: danger stays High through Aug 26, then climbs to Very High on Aug 27 as ERC and BI percentiles rise toward the low-90s.\n- Weather driver: today's min humidity hit 19%, exceeding the local watchout threshold (1 of 7 watchouts met); afternoon shower/thunderstorm chances (30%) with gusty NE winds.\n- No Red Flag Warning is currently posted for this area.\n- BLM is reducing fire restrictions from Stage 2 to Stage 1 on public lands, effective Aug. 21 in the Uncompahgre and Gunnison field offices, while San Miguel County is moving into Stage 1 fire restrictions beginning Aug. 21, 2026.\n- Nearby incidents: Gold Mountain Fire near Ouray is 39,710 acres and 87% contained; Elk Fire in the Grand Mesa/Uncompahgre/Gunnison area is 7,257 acres and 33% contained, both with area/road closures in effect.",
+  "lead": "Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity and dry fuels, with Very High danger expected by Sunday.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Emergency Response Services | Fire Restrictions",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+      "name": "BLM reduces fire restrictions across parts of Colorado | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-reduces-fire-restrictions-across-parts-colorado"
     },
     {
-      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
-      "name": "Gold Mountain Fire Update - 08/16/2026 - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/ouray-county/gold-mountain-fire-update-08-16-2026/"
+      "name": "San Miguel County Going Into Stage 1 Fire Restrictions Beginning 08/21/2026 - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/san-miguel-county/san-miguel-county-going-into-stage-1-fire-restrictions-beginning-08-21-2026/"
     }
   ],
-  "generated": "Thursday, August 20"
+  "generated": "Friday, August 21"
 }
