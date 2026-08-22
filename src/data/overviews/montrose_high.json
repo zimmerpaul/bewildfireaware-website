@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity and dry fuels, with Very High danger expected by Sunday.**\n- Trend: danger stays High through Aug 26, then climbs to Very High on Aug 27 as ERC and BI percentiles rise toward the low-90s.\n- Weather driver: today's min humidity hit 19%, exceeding the local watchout threshold (1 of 7 watchouts met); afternoon shower/thunderstorm chances (30%) with gusty NE winds.\n- No Red Flag Warning is currently posted for this area.\n- BLM is reducing fire restrictions from Stage 2 to Stage 1 on public lands, effective Aug. 21 in the Uncompahgre and Gunnison field offices, while San Miguel County is moving into Stage 1 fire restrictions beginning Aug. 21, 2026.\n- Nearby incidents: Gold Mountain Fire near Ouray is 39,710 acres and 87% contained; Elk Fire in the Grand Mesa/Uncompahgre/Gunnison area is 7,257 acres and 33% contained, both with area/road closures in effect.",
-  "lead": "Fire danger is High today in the Montrose (High Elevation) area, driven by low humidity and dry fuels, with Very High danger expected by Sunday.",
+  "overview": "**High fire danger continues today, driven by elevated energy release component (ERC 88%) despite a chance of afternoon storms.**\n- Danger climbs to Very High by midweek (Aug 26-28) as humidity drops to 15% and winds build to 13 mph.\n- Stage 1 fire restrictions took effect Aug. 21 in the Uncompahgre and Gunnison BLM field offices, while unincorporated Montrose County remains under county-imposed Stage 2 restrictions.\n- Today's watchout status: 0 of 7 local fire-behavior thresholds met; no Red Flag Warning is posted, though scattered thunderstorms (60% chance) could bring gusty, erratic winds this afternoon.\n- The Gold Mountain Fire near Ouray sits at 39,691 acres| Containment: 87%, with area, road, and trail closures still in effect.\n- The Elk Fire on the Grand Mesa, Uncompahgre and Gunnison National Forest is holding at 7,257 acres and 33% contained.\n- Expect building smoke-cure conditions and drying fuels through the week; keep an eye on wind shifts near active fire perimeters.",
+  "lead": "High fire danger continues today, driven by elevated energy release component (ERC 88%) despite a chance of afternoon storms.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -19,9 +19,9 @@
       "url": "https://www.blm.gov/announcement/blm-reduces-fire-restrictions-across-parts-colorado"
     },
     {
-      "name": "San Miguel County Going Into Stage 1 Fire Restrictions Beginning 08/21/2026 - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/san-miguel-county/san-miguel-county-going-into-stage-1-fire-restrictions-beginning-08-21-2026/"
+      "name": "Gold Mountain Fire Update - 08/19/2026 - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/ouray-county/gold-mountain-fire-update-08-19-2026/"
     }
   ],
-  "generated": "Friday, August 21"
+  "generated": "Saturday, August 22"
 }

@@ -2,10 +2,10 @@
   "slug": "montrose_uncompaghre",
   "name": "Montrose (Uncompaghre)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Friday, August 21",
+  "dateLabel": "Saturday, August 22",
   "areaTitle": "Montrose - Uncompahgre",
-  "danger": "Very High",
-  "lastUpdated": "8/21/2026 03:11",
+  "danger": "High",
+  "lastUpdated": "8/22/2026 03:12",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,41 +13,41 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "85%",
+      "value": "79%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "85%",
+      "value": "60%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "7",
+      "value": "4",
       "limit": "> 15",
       "triggered": false
     },
     {
       "label": "Wind Dir",
-      "value": "NE"
+      "value": "ENE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.07"
     },
     {
       "label": "Max Temp",
-      "value": "89",
+      "value": "82",
       "limit": "> 85",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "18",
+      "value": "29",
       "limit": "< 20",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "1000-Hour",
@@ -57,31 +57,31 @@
     },
     {
       "label": "Max Rh",
-      "value": "50",
+      "value": "59",
       "limit": "< 55",
-      "triggered": true
+      "triggered": false
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 85, Min Rh < 20, 1000-hr Fuels <13, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "Uncompahgre FDRA Extended Forecast",
     "dates": [
-      "21-Aug",
       "22-Aug",
       "23-Aug",
       "24-Aug",
       "25-Aug",
       "26-Aug",
-      "27-Aug"
+      "27-Aug",
+      "28-Aug"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
+          "High",
+          "High",
+          "High",
           "Very High",
-          "High",
-          "High",
-          "High",
           "Very High",
           "Very High",
           "Very High"
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "85%",
-          "82%",
+          "79%",
           "81%",
           "82%",
-          "85%",
+          "83%",
           "87%",
-          "89%"
+          "89%",
+          "92%"
         ],
         "hits": [
           false,
@@ -105,19 +105,19 @@
           false,
           false,
           false,
-          false
+          true
         ]
       },
       {
         "label": "BI-Y Percentile",
         "values": [
-          "85%",
-          "67%",
-          "67%",
-          "67%",
-          "78%",
-          "85%",
-          "90%"
+          "60%",
+          "63%",
+          "71%",
+          "75%",
+          "82%",
+          "94%",
+          "98%"
         ],
         "hits": [
           false,
@@ -125,23 +125,23 @@
           false,
           false,
           false,
-          false,
-          false
+          true,
+          true
         ]
       },
       {
         "label": "Temperature",
         "values": [
-          "89",
-          "85",
           "82",
-          "79",
+          "83",
+          "82",
           "80",
           "81",
-          "81"
+          "82",
+          "83"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -153,16 +153,16 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "18",
-          "26",
-          "26",
-          "25",
-          "22",
-          "19",
-          "16"
+          "29",
+          "24",
+          "23",
+          "24",
+          "20",
+          "15",
+          "12"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -174,13 +174,13 @@
       {
         "label": "Winds",
         "values": [
+          "4",
+          "4",
+          "5",
+          "6",
           "7",
-          "6",
-          "6",
-          "6",
-          "6",
-          "7",
-          "8"
+          "9",
+          "11"
         ],
         "hits": [
           false,
@@ -195,22 +195,22 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NE",
-          "ENE",
           "ENE",
           "NE",
           "NE",
           "NE",
-          "NE"
+          "NE",
+          "NNE",
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.00",
-          "0.11",
-          "0.00",
+          "0.07",
           "0.01",
+          "0.00",
+          "0.00",
           "0.00",
           "0.00",
           "0.00"
@@ -222,7 +222,7 @@
           "12",
           "12",
           "12",
-          "12",
+          "11",
           "11",
           "11",
           "11"
@@ -240,19 +240,19 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "50",
+          "59",
           "64",
-          "70",
-          "56",
-          "51",
-          "45",
-          "42"
+          "54",
+          "53",
+          "48",
+          "42",
+          "35"
         ],
         "hits": [
+          false,
+          false,
           true,
-          false,
-          false,
-          false,
+          true,
           true,
           true,
           true
@@ -261,33 +261,33 @@
       {
         "label": "ERC-Y (Actual Number 1-72)",
         "values": [
-          "50",
-          "47",
           "46",
           "47",
+          "48",
           "49",
           "51",
-          "53"
+          "53",
+          "55"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-49)",
         "values": [
-          "29",
-          "25",
-          "25",
+          "22",
+          "24",
           "25",
           "27",
-          "30",
-          "32"
+          "29",
+          "34",
+          "37"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 4,
+    "met": 1,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The Uncompahgre Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nCarpenter Ridge (53808), Doniguez (Jacks Canyon) (52409), Sanborn Park (53804)",
   "pocketCard": {
@@ -2686,24 +2686,24 @@
         [
           231,
           48
+        ],
+        [
+          232,
+          49
         ]
       ],
       "forecasted": [
         [
-          232,
-          50
-        ],
-        [
           233,
-          47
-        ],
-        [
-          234,
           46
         ],
         [
-          235,
+          234,
           47
+        ],
+        [
+          235,
+          48
         ],
         [
           236,
@@ -2716,6 +2716,10 @@
         [
           238,
           53
+        ],
+        [
+          239,
+          55
         ]
       ]
     },
