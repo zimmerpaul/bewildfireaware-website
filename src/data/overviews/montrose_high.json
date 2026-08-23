@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today, driven by elevated energy release component (ERC 88%) despite a chance of afternoon storms.**\n- Danger climbs to Very High by midweek (Aug 26-28) as humidity drops to 15% and winds build to 13 mph.\n- Stage 1 fire restrictions took effect Aug. 21 in the Uncompahgre and Gunnison BLM field offices, while unincorporated Montrose County remains under county-imposed Stage 2 restrictions.\n- Today's watchout status: 0 of 7 local fire-behavior thresholds met; no Red Flag Warning is posted, though scattered thunderstorms (60% chance) could bring gusty, erratic winds this afternoon.\n- The Gold Mountain Fire near Ouray sits at 39,691 acres| Containment: 87%, with area, road, and trail closures still in effect.\n- The Elk Fire on the Grand Mesa, Uncompahgre and Gunnison National Forest is holding at 7,257 acres and 33% contained.\n- Expect building smoke-cure conditions and drying fuels through the week; keep an eye on wind shifts near active fire perimeters.",
-  "lead": "High fire danger continues today, driven by elevated energy release component (ERC 88%) despite a chance of afternoon storms.",
+  "overview": "**Fire danger is High today in the Montrose (High Elevation) area, driven by dry, receptive fuels (ERC 88%, BI 86%) even with light winds.**\n- Danger climbs to Very High by Wednesday (Aug 26) and holds there through Saturday as ERC/BI push toward the mid-90s and fuels keep drying.\n- Winds stay light (7–14 mph, ENE/NE) but afternoon humidity crashes into the teens by Friday, sharpening afternoon burn risk.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are currently met.\n- Unincorporated Gunnison County has been under Stage 2 fire restrictions since August 15, while GMUG National Forest lands moved from Stage 2 to Stage 1",
+  "lead": "Fire danger is High today in the Montrose (High Elevation) area, driven by dry, receptive fuels (ERC 88%, BI 86%) even with light winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "BLM reduces fire restrictions across parts of Colorado | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-reduces-fire-restrictions-across-parts-colorado"
+      "name": "Current Restrictions | Gunnison County, CO - Official Website",
+      "url": "https://gunnisoncounty.org/1121/16016"
     },
     {
-      "name": "Gold Mountain Fire Update - 08/19/2026 - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/ouray-county/gold-mountain-fire-update-08-19-2026/"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests Move to Stage 1 Fire Restrictions | News | montrosepress.com",
+      "url": "https://www.montrosepress.com/free_access/grand-mesa-uncompahgre-and-gunnison-national-forests-move-to-stage-1-fire-restrictions/article_eb1fb88a-9ffb-49fc-b7dd-313612f83e34.html"
     }
   ],
-  "generated": "Saturday, August 22"
+  "generated": "Sunday, August 23"
 }
