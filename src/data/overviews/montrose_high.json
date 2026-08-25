@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger today, driven by low humidity (24%) and elevated energy release (ERC 86%), with the outlook rising to Very High by midweek.**\n- Danger climbs through the week: ERC and BI percentiles trend upward daily, reaching Very High fire danger by Thursday (Aug 27) and staying there through the weekend.\n- Winds shift from light ENE (7 mph) today to steadier NE gusts up to 14 mph by Sunday, adding to drying conditions.\n- Only 1 of 7 local watchout thresholds is currently met (low afternoon humidity); no Red Flag Warning or NWS alerts are active, though a slight afternoon storm chance persists today.\n- Grand Mesa, Uncompahgre and Gunnison National Forests moved from Stage 2 to Stage 1 fire restrictions on August 20; Gunnison County itself remains in Stage 2 restrictions (no open burning).\n- Nearby: the Gold Mountain Fire near Ouray is at 39,718 acres and 87% contained, with area/road closures and energy infrastructure still threatened; the Elk Fire on the GMUG is 7,257 acres and 33% contained, with command transferring back to the local unit today.",
-  "lead": "High fire danger today, driven by low humidity (24%) and elevated energy release (ERC 86%), with the outlook rising to Very High by midweek.",
+  "overview": "**High fire danger continues today across the Montrose (High Elevation) zone, driven by dry fuels (ERC 82%, BI 72%) and low humidity.**\n- Danger climbs to Very High by Friday, Aug. 29, before easing back to High through the weekend.\n- Warm, breezy northeast winds and dropping humidity (Min RH near 21% by Thursday) will keep fuels receptive to ignition.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is currently posted for the area.\n- GMUG National Forest lands moved from Stage 2 to Stage 1 Fire Restrictions on August 20, and BLM Gunnison Field Office Stage 1 restrictions remain in place across Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties.\n- Nearby: the Elk Fire near Lake City (Hinsdale Co.) is 7,257 acres, 33% contained, with area/road closures; the Gold Mountain Fire near Ouray is 39,718 acres, 87% contained, with energy-infrastructure threats and closures still active.",
+  "lead": "High fire danger continues today across the Montrose (High Elevation) zone, driven by dry fuels (ERC 82%, BI 72%) and low humidity.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -17,7 +17,11 @@
     {
       "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Alerts | Forest Service",
       "url": "https://www.fs.usda.gov/r02/gmug/alerts"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
     }
   ],
-  "generated": "Monday, August 24"
+  "generated": "Tuesday, August 25"
 }
