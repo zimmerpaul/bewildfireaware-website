@@ -2,20 +2,20 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Wednesday, August 26",
+  "dateLabel": "Thursday, August 27",
   "areaTitle": "DRC Lower",
   "danger": "High",
-  "lastUpdated": "8/26/2026 2:53:52",
+  "lastUpdated": "8/27/2026 2:53:55",
   "observations": [
     {
       "label": "ERC %",
-      "value": "74%",
+      "value": "77%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "79%",
+      "value": "81%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -31,17 +31,17 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.01"
+      "value": "0.00"
     },
     {
       "label": "Max Temp",
-      "value": "85",
+      "value": "87",
       "limit": "> 89",
       "triggered": false
     },
     {
       "label": "Min Rh %",
-      "value": "19",
+      "value": "18",
       "limit": "< 9",
       "triggered": false
     },
@@ -53,7 +53,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "42",
+      "value": "69",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,13 +62,13 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "26-Aug",
       "27-Aug",
       "28-Aug",
       "29-Aug",
       "30-Aug",
       "31-Aug",
-      "1-Sep"
+      "1-Sep",
+      "2-Sep"
     ],
     "rows": [
       {
@@ -77,7 +77,7 @@
           "High",
           "High",
           "High",
-          "High",
+          "Low",
           "Moderate",
           "Moderate",
           "High"
@@ -86,13 +86,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "74%",
-          "74%",
           "77%",
-          "70%",
-          "49%",
+          "77%",
+          "67%",
+          "35%",
+          "44%",
           "55%",
-          "63%"
+          "67%"
         ],
         "hits": [
           false,
@@ -107,19 +107,19 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "79%",
-          "82%",
-          "90%",
-          "95%",
-          "78%",
           "81%",
-          "84%"
+          "84%",
+          "92%",
+          "55%",
+          "66%",
+          "81%",
+          "87%"
         ],
         "hits": [
           false,
           false,
-          false,
           true,
+          false,
           false,
           false,
           false
@@ -128,13 +128,13 @@
       {
         "label": "Temperature",
         "values": [
-          "85",
-          "85",
+          "87",
           "86",
-          "80",
-          "76",
+          "83",
+          "71",
+          "72",
           "75",
-          "77"
+          "76"
         ],
         "hits": [
           false,
@@ -149,13 +149,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "19",
-          "19",
-          "17",
-          "21",
-          "26",
-          "27",
-          "23"
+          "18",
+          "18",
+          "24",
+          "38",
+          "32",
+          "24",
+          "21"
         ],
         "hits": [
           false,
@@ -172,17 +172,17 @@
         "values": [
           "9",
           "10",
-          "11",
           "13",
-          "11",
+          "10",
+          "10",
           "11",
           "11"
         ],
         "hits": [
           false,
           false,
-          false,
           true,
+          false,
           false,
           false,
           false
@@ -193,35 +193,35 @@
         "values": [
           "NNE",
           "NNE",
-          "NNE",
           "NE",
           "ENE",
           "NE",
-          "NNE"
+          "NNE",
+          "NE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.01",
-          "0.01",
           "0.00",
-          "0.03",
-          "0.10",
-          "0.05",
-          "0.02"
+          "0.00",
+          "0.06",
+          "0.33",
+          "0.18",
+          "0.07",
+          "0.00"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
           "11",
+          "10",
+          "10",
+          "10",
+          "10",
           "11",
-          "11",
-          "10",
-          "10",
-          "10",
-          "10"
+          "11"
         ],
         "hits": [
           false,
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "48",
           "47",
-          "44",
-          "42",
-          "55",
+          "46",
+          "53",
+          "69",
+          "69",
           "59",
-          "54"
+          "48"
         ],
         "hits": [
           false,
@@ -257,25 +257,25 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
-          "75",
-          "75",
-          "78",
-          "73",
-          "62",
-          "66",
-          "69"
+          "77",
+          "77",
+          "70",
+          "46",
+          "57",
+          "65",
+          "71"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "152",
           "156",
-          "176",
-          "189",
-          "148",
-          "155",
-          "162"
+          "162",
+          "182",
+          "118",
+          "133",
+          "156",
+          "166"
         ]
       }
     ]
@@ -2703,36 +2703,40 @@
         [
           236,
           76
+        ],
+        [
+          237,
+          78
         ]
       ],
       "forecasted": [
         [
-          237,
-          75
-        ],
-        [
           238,
-          75
+          77
         ],
         [
           239,
-          78
+          77
         ],
         [
           240,
-          73
+          70
         ],
         [
           241,
-          62
+          46
         ],
         [
           242,
-          66
+          57
         ],
         [
           243,
-          69
+          65
+        ],
+        [
+          244,
+          71
         ]
       ]
     },

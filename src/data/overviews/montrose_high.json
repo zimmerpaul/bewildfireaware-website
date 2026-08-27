@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today, driven by dry fuels—ERC at 82% and 1000-hr fuels at just 14%.**\n- Danger climbs to Very High by Friday, Aug. 29, before easing back to High through the weekend.\n- Warm, breezy NE winds (8–12 mph) and low afternoon humidity (21–27%) will keep fuels receptive to ignition.\n- No Red Flag Warning is posted; 0 of 7 local watchout thresholds are currently met.\n- Stage 2 fire restrictions remain in effect for Montrose County, Gunnison County, and Ouray County—no open burning or campfires.\n- Nearby: the Elk Fire, 7 miles NW of Lake City, is 7,257 acres and 33% contained; the Gold Mountain Fire north of Ouray is 39,718 acres and 87% contained.",
-  "lead": "Fire danger is High today, driven by dry fuels—ERC at 82% and 1000-hr fuels at just 14%.",
+  "overview": "**High fire danger continues today with dry fuels and low humidity driving elevated fire behavior potential across the Montrose High Elevation zone.**\n- Danger stays High through the week ahead, with ERC/BI percentiles rising slightly Friday before easing over the weekend as moisture arrives.\n- Key driver today: light NE winds near 8 mph, minimal overnight rain (0.01\"), and Min RH dropping to 22% — the one local watchout threshold triggered today.\n- No Red Flag Warning is posted; NWS calls for a slight chance of Friday-afternoon showers/storms that should modestly boost humidity into the weekend.\n- Grand Mesa, Uncompahgre and Gunnison National Forests moved from Stage 2 to Stage 1 fire restrictions beginning August 20, matching Stage 1 now in effect on BLM Uncompahgre and Gunnison field offices as of Aug. 21.\n- Nearby incidents remain active but well-contained: the Elk Fire near Lake City (Hinsdale/Gunnison Co.) is at 7,257 acres, 46% contained, and the Gold Mountain Fire near Ouray is at 39,721 acres, 87% contained.",
+  "lead": "High fire danger continues today with dry fuels and low humidity driving elevated fire behavior potential across the Montrose High Elevation zone.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - Official Website | Official Website",
-      "url": "https://www.montrosecounty.net/"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Alerts | Forest Service",
+      "url": "https://www.fs.usda.gov/r02/gmug/alerts"
     },
     {
-      "name": "Wildfire Information | Gunnison County, CO - Official Website",
-      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
-    },
-    {
-      "name": "Sheriff Enacts Stage 2 Fire Restrictions in Ouray County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/fire-news/sheriff-enacts-stage-2-fire-restrictions-in-ouray-county/"
-    },
-    {
-      "name": "Cogmf Elk Fire Information | InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
+      "name": "BLM reduces fire restrictions across parts of Colorado | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-reduces-fire-restrictions-across-parts-colorado"
     }
   ],
-  "generated": "Tuesday, August 25"
+  "generated": "Thursday, August 27"
 }
