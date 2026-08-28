@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today with dry fuels and low humidity driving elevated fire behavior potential across the Montrose High Elevation zone.**\n- Danger stays High through the week ahead, with ERC/BI percentiles rising slightly Friday before easing over the weekend as moisture arrives.\n- Key driver today: light NE winds near 8 mph, minimal overnight rain (0.01\"), and Min RH dropping to 22% — the one local watchout threshold triggered today.\n- No Red Flag Warning is posted; NWS calls for a slight chance of Friday-afternoon showers/storms that should modestly boost humidity into the weekend.\n- Grand Mesa, Uncompahgre and Gunnison National Forests moved from Stage 2 to Stage 1 fire restrictions beginning August 20, matching Stage 1 now in effect on BLM Uncompahgre and Gunnison field offices as of Aug. 21.\n- Nearby incidents remain active but well-contained: the Elk Fire near Lake City (Hinsdale/Gunnison Co.) is at 7,257 acres, 46% contained, and the Gold Mountain Fire near Ouray is at 39,721 acres, 87% contained.",
-  "lead": "High fire danger continues today with dry fuels and low humidity driving elevated fire behavior potential across the Montrose High Elevation zone.",
+  "overview": "**High fire danger continues today, driven by low humidity (24%) and dry 1000-hr fuels, though scattered afternoon storms bring a slight cooling trend.**\n- Danger stays \"High\" through Sept. 3, with ERC easing midweek before climbing back to 88% by Sept. 3.\n- Minimum humidity of 24% met the local watchout threshold (1 of 7 flagged) despite 0.01\" of rain and light NE winds.\n- No Red Flag Warning is posted; NWS calls for 30–40% storm chances through Saturday with gusty winds.\n- Stage 1 fire restrictions remain active on BLM Uncompahgre-area lands covering Montrose, San Miguel, Ouray and Delta counties, plus part of Gunnison County.\n- Nearby: the Gold Mountain Fire two miles north of Ouray is 87% contained at 39,734 acres, with energy infrastructure threatened and area closures in place.\n- The Elk Fire near Lake City is 52% contained at 7,257 acres, with minimal fire behavior and structures still threatened.",
+  "lead": "High fire danger continues today, driven by low humidity (24%) and dry 1000-hr fuels, though scattered afternoon storms bring a slight cooling trend.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests | Alerts | Forest Service",
-      "url": "https://www.fs.usda.gov/r02/gmug/alerts"
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "Colorado Emergency Management: Fire Restrictions",
+      "url": "http://www.coemergency.com/p/fire-bans-danger.html"
     },
     {
       "name": "BLM reduces fire restrictions across parts of Colorado | Bureau of Land Management",
       "url": "https://www.blm.gov/announcement/blm-reduces-fire-restrictions-across-parts-colorado"
     }
   ],
-  "generated": "Thursday, August 27"
+  "generated": "Friday, August 28"
 }
