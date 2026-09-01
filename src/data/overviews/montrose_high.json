@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger remains High today, driven by dry fuels and rising energy release component (ERC) values despite recent rain.**\n- High danger holds through the week, with ERC climbing from 70% to near 80% by Wednesday as fuels dry out.\n- A Flood Watch is in effect through midnight tonight for slow-moving thunderstorms; expect a wetter Monday (80% storm chance) before a drier, breezier NE wind pattern sets in Tuesday–Wednesday.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are currently met.\n- BLM is reducing fire restrictions from Stage 2 to Stage 1 on public lands in the Uncompahgre and Gunnison field offices, covering Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties.\n- Nearby, the Elk Fire near Lake City is 7,257 acres and 52% contained per recent updates, with today's snapshot showing 66% containment; the Gold Mountain Fire near Ouray sits at 39,744 acres, 92% contained.",
-  "lead": "Fire danger remains High today, driven by dry fuels and rising energy release component (ERC) values despite recent rain.",
+  "overview": "**High fire danger continues today across the Montrose (High Elevation) zone, driven by warm, dry conditions and elevated energy release (ERC 72%, BI 64%).**\n- High danger holds all seven days, with ERC/BI percentiles peaking mid-week (78%) before easing slightly by the weekend as rain chances increase.\n- Light NE winds (6–10 mph) and dropping humidity—as low as 21% by Thursday—will keep fuels receptive to ignition.\n- 0 of 7 local watchout thresholds are currently met, and no Red Flag Warning is in effect for the area today.\n- Stage 2 Fire Restrictions are in effect in unincorporated Montrose County, and Gunnison County is in Stage 2 Fire Restrictions as well.\n- BLM Stage 1 Fire Restrictions remain in place on public lands within Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties.\n- The Elk Fire (Hinsdale County, 7 miles NW of Lake City) sits at 7,257 acres and 66% contained, with minimal fire behavior reported and area/road closures still active.",
+  "lead": "High fire danger continues today across the Montrose (High Elevation) zone, driven by warm, dry conditions and elevated energy release (ERC 72%, BI 64%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "BLM reduces fire restrictions across parts of Colorado | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/blm-reduces-fire-restrictions-across-parts-colorado"
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
-      "name": "Cogmf Elk Fire Information | InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
+      "name": "Wildfire Information | Gunnison County, CO - Official Website",
+      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
     }
   ],
-  "generated": "Monday, August 31"
+  "generated": "Tuesday, September 01"
 }
