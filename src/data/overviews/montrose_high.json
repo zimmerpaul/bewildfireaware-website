@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger continues today across the Montrose (High Elevation) zone, driven by warm, dry conditions and elevated energy release (ERC 72%, BI 64%).**\n- High danger holds all seven days, with ERC/BI percentiles peaking mid-week (78%) before easing slightly by the weekend as rain chances increase.\n- Light NE winds (6–10 mph) and dropping humidity—as low as 21% by Thursday—will keep fuels receptive to ignition.\n- 0 of 7 local watchout thresholds are currently met, and no Red Flag Warning is in effect for the area today.\n- Stage 2 Fire Restrictions are in effect in unincorporated Montrose County, and Gunnison County is in Stage 2 Fire Restrictions as well.\n- BLM Stage 1 Fire Restrictions remain in place on public lands within Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties.\n- The Elk Fire (Hinsdale County, 7 miles NW of Lake City) sits at 7,257 acres and 66% contained, with minimal fire behavior reported and area/road closures still active.",
-  "lead": "High fire danger continues today across the Montrose (High Elevation) zone, driven by warm, dry conditions and elevated energy release (ERC 72%, BI 64%).",
+  "overview": "**Fire danger is rated High today, driven by low humidity (27%) and elevated energy release (ERC 74%) despite calm NE winds.**\n- Danger stays High through Monday before easing to Moderate on Sept 8 as humidity recovers.\n- Warm, dry, breezy NE winds (9 mph) and afternoon temps near 69°F are the main drivers; no rain expected until midweek.\n- 0 of 7 local watchout thresholds are met today, and no Red Flag Warning is active per NWS.\n- Stage 1 fire restrictions remain in effect on BLM lands across Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties, with Gunnison and Hinsdale counties under stricter Stage 2 restrictions banning all outdoor fires.\n- The Elk Fire, 7 miles northwest of Lake City in Hinsdale County, is holding at 7,257 acres and 73% contained, with minimal fire behavior reported today.",
+  "lead": "Fire danger is rated High today, driven by low humidity (27%) and elevated energy release (ERC 74%) despite calm NE winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
-      "name": "Wildfire Information | Gunnison County, CO - Official Website",
-      "url": "https://www.gunnisoncounty.org/852/Wildfire-Information"
-    },
-    {
       "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions | Bureau of Land Management",
       "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
+      "name": "STAGE 2 FIRE RESTRICTIONS IN EFFECT FOR GUNNISON & HINSDALE COUNTIES - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/fire-news/gunnison-and-hinsdale-counties-enter-stage-2-fire-restrictions/"
     }
   ],
-  "generated": "Tuesday, September 01"
+  "generated": "Wednesday, September 02"
 }
