@@ -2,10 +2,10 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Wednesday, September 02",
+  "dateLabel": "Thursday, September 03",
   "areaTitle": "DRC Lower",
-  "danger": "High",
-  "lastUpdated": "9/2/2026 2:53:54",
+  "danger": "Moderate",
+  "lastUpdated": "9/3/2026 2:53:57",
   "observations": [
     {
       "label": "ERC %",
@@ -15,27 +15,27 @@
     },
     {
       "label": "BI %",
-      "value": "82%",
+      "value": "66%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "12",
+      "value": "10",
       "limit": "> 11",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Direction",
-      "value": "NNE"
+      "value": "N"
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.01"
     },
     {
       "label": "Max Temp",
-      "value": "77",
+      "value": "76",
       "limit": "> 89",
       "triggered": false
     },
@@ -47,13 +47,13 @@
     },
     {
       "label": "1000hr Fuels",
-      "value": "13",
+      "value": "14",
       "limit": "< 9",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "62",
+      "value": "54",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,37 +62,37 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "2-Sep",
       "3-Sep",
       "4-Sep",
       "5-Sep",
       "6-Sep",
       "7-Sep",
-      "8-Sep"
+      "8-Sep",
+      "9-Sep"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "High",
-          "High",
           "Moderate",
           "Moderate",
           "Moderate",
           "Moderate",
-          "Moderate"
+          "Moderate",
+          "Moderate",
+          "Low"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
           "59%",
-          "63%",
           "52%",
-          "52%",
-          "49%",
+          "55%",
+          "47%",
+          "38%",
           "44%",
-          "40%"
+          "35%"
         ],
         "hits": [
           false,
@@ -107,13 +107,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "82%",
-          "78%",
+          "66%",
+          "66%",
           "71%",
           "64%",
-          "62%",
-          "62%",
-          "52%"
+          "55%",
+          "57%",
+          "45%"
         ],
         "hits": [
           false,
@@ -128,13 +128,13 @@
       {
         "label": "Temperature",
         "values": [
-          "77",
-          "77",
-          "77",
-          "74",
+          "76",
+          "76",
           "75",
-          "74",
-          "74"
+          "75",
+          "72",
+          "73",
+          "73"
         ],
         "hits": [
           false,
@@ -150,12 +150,12 @@
         "label": "Relative Humidity",
         "values": [
           "25",
-          "24",
-          "30",
-          "32",
-          "34",
-          "38",
-          "36"
+          "28",
+          "28",
+          "31",
+          "39",
+          "35",
+          "34"
         ],
         "hits": [
           false,
@@ -170,16 +170,16 @@
       {
         "label": "Winds",
         "values": [
-          "12",
-          "11",
-          "11",
-          "9",
-          "9",
           "10",
+          "10",
+          "10",
+          "9",
+          "11",
+          "9",
           "9"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -191,32 +191,32 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NNE",
           "N",
-          "NE",
-          "NE",
+          "NNE",
+          "NNE",
           "ENE",
           "ENE",
-          "ENE"
+          "NE",
+          "NE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.00",
           "0.01",
           "0.00",
-          "0.02",
-          "0.00",
-          "0.06",
-          "0.14",
-          "0.28"
+          "0.17",
+          "0.21",
+          "0.11",
+          "0.51"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "13",
-          "13",
+          "14",
+          "14",
           "14",
           "13",
           "13",
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
+          "62",
+          "59",
           "57",
-          "62",
-          "56",
-          "62",
-          "62",
-          "67",
-          "68"
+          "54",
+          "66",
+          "68",
+          "62"
         ],
         "hits": [
           false,
@@ -257,32 +257,32 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
-          "68",
-          "68",
-          "63",
+          "66",
           "64",
+          "65",
           "60",
+          "51",
           "57",
-          "52"
+          "46"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "158",
-          "148",
-          "140",
+          "134",
+          "133",
+          "139",
           "130",
-          "128",
-          "127",
-          "115"
+          "119",
+          "121",
+          "106"
         ]
       }
     ]
   },
   "fuelModel": "Fuel Model - X",
   "watchout": {
-    "met": 1,
+    "met": 0,
     "total": 7,
     "isWatchout": false
   },
@@ -2731,24 +2731,24 @@
         [
           243,
           63
+        ],
+        [
+          244,
+          62
         ]
       ],
       "forecasted": [
         [
-          244,
-          68
-        ],
-        [
           245,
-          68
+          66
         ],
         [
           246,
-          63
+          64
         ],
         [
           247,
-          64
+          65
         ],
         [
           248,
@@ -2756,11 +2756,15 @@
         ],
         [
           249,
-          57
+          51
         ],
         [
           250,
-          52
+          57
+        ],
+        [
+          251,
+          46
         ]
       ]
     },
