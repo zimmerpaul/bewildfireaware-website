@@ -2,10 +2,10 @@
   "slug": "grand_junction_middle",
   "name": "Grand Junction (Middle)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Monday, August 03",
+  "dateLabel": "Thursday, September 03",
   "areaTitle": "Grand Junction - Middle Elevation",
-  "danger": "Very High",
-  "lastUpdated": "8/3/2026 02:38",
+  "danger": "Moderate",
+  "lastUpdated": "9/3/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,15 +13,15 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "94%",
+      "value": "61%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "BI %",
-      "value": "92%",
+      "value": "50%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Winds",
@@ -31,156 +31,156 @@
     },
     {
       "label": "Wind Dir",
-      "value": "NNE"
+      "value": "N"
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.01"
     },
     {
       "label": "Max Temp",
-      "value": "93",
+      "value": "74",
       "limit": "> 80",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "10",
+      "value": "23",
       "limit": "< 15",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "12",
+      "value": "15",
       "limit": "< 12",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "33",
+      "value": "67",
       "limit": "< 55",
-      "triggered": true
+      "triggered": false
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 80, Min Rh < 15, 1000hr Fuels < 12, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "Middle Elevation FDRA Extended Forecast",
     "dates": [
-      "3-Aug",
-      "4-Aug",
-      "5-Aug",
-      "6-Aug",
-      "7-Aug",
-      "8-Aug",
-      "9-Aug"
+      "3-Sep",
+      "4-Sep",
+      "5-Sep",
+      "6-Sep",
+      "7-Sep",
+      "8-Sep",
+      "9-Sep"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Very High",
-          "Extreme",
-          "Extreme",
-          "Extreme",
-          "Extreme",
-          "Extreme",
-          "Extreme"
+          "Moderate",
+          "Moderate",
+          "Moderate",
+          "Moderate",
+          "Moderate",
+          "Moderate",
+          "Moderate"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "94%",
-          "96%",
-          "97%",
-          "98%",
-          "99%",
-          "99%",
-          "99%"
+          "61%",
+          "65%",
+          "67%",
+          "63%",
+          "54%",
+          "65%",
+          "59%"
         ],
         "hits": [
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
         ]
       },
       {
         "label": "BI-Y Percentile",
         "values": [
-          "92%",
-          "96%",
-          "99%",
-          "99%",
-          "97%",
-          "95%",
-          "92%"
+          "50%",
+          "45%",
+          "37%",
+          "27%",
+          "31%",
+          "34%",
+          "29%"
         ],
         "hits": [
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
         ]
       },
       {
         "label": "Temperature",
         "values": [
-          "93",
-          "92",
-          "89",
-          "87",
-          "88",
-          "88",
-          "87"
+          "74",
+          "75",
+          "76",
+          "72",
+          "69",
+          "69",
+          "69"
         ],
         "hits": [
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
         ]
       },
       {
         "label": "Relative Humidity",
         "values": [
-          "10",
-          "10",
-          "7",
-          "6",
-          "6",
-          "8",
-          "11"
+          "23",
+          "26",
+          "26",
+          "36",
+          "46",
+          "38",
+          "39"
         ],
         "hits": [
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
         ]
       },
       {
         "label": "Winds",
         "values": [
           "11",
-          "12",
-          "14",
-          "14",
+          "10",
+          "8",
+          "7",
           "10",
           "9",
-          "9"
+          "8"
         ],
         "hits": [
           false,
@@ -195,99 +195,99 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NNE",
-          "NNE",
-          "NNE",
-          "N",
           "N",
           "NNE",
-          "NNE"
+          "NE",
+          "ENE",
+          "ENE",
+          "NE",
+          "NE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.01",
           "0.00",
           "0.00",
+          "0.17",
+          "0.16",
           "0.00",
-          "0.00",
-          "0.00",
-          "0.00",
-          "0.00"
+          "0.14"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "12",
-          "11",
-          "11",
-          "10",
-          "10",
-          "10",
-          "10"
+          "15",
+          "15",
+          "15",
+          "14",
+          "14",
+          "14",
+          "14"
         ],
         "hits": [
           false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
         ]
       },
       {
         "label": "Max Rh",
         "values": [
-          "33",
-          "36",
-          "32",
-          "23",
-          "25",
-          "23",
-          "26"
+          "67",
+          "59",
+          "60",
+          "61",
+          "71",
+          "74",
+          "65"
         ],
         "hits": [
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
         ]
       },
       {
         "label": "ERC-Y (Actual Number 1-69)",
         "values": [
-          "54",
-          "55",
-          "57",
-          "59",
-          "61",
-          "62",
-          "63"
+          "35",
+          "36",
+          "38",
+          "35",
+          "32",
+          "36",
+          "34"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-58)",
         "values": [
-          "39",
-          "41",
-          "46",
-          "47",
-          "42",
-          "40",
-          "39"
+          "27",
+          "27",
+          "24",
+          "21",
+          "23",
+          "24",
+          "21"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 5,
+    "met": 0,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The Middle Elevation Fire Danger Rating Area uses the folMiddleing Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \n51506: Crown, 51607: Gypsum, 52409: Dominguez/Jacks Canyon",
   "pocketCard": {
@@ -1773,7 +1773,7 @@
         ],
         [
           3,
-          13
+          12
         ],
         [
           4,
@@ -1793,7 +1793,7 @@
         ],
         [
           8,
-          10
+          9
         ],
         [
           9,
@@ -1893,7 +1893,7 @@
         ],
         [
           33,
-          8
+          7
         ],
         [
           34,
@@ -1929,7 +1929,7 @@
         ],
         [
           42,
-          13
+          12
         ],
         [
           43,
@@ -2005,7 +2005,7 @@
         ],
         [
           61,
-          17
+          16
         ],
         [
           62,
@@ -2241,7 +2241,7 @@
         ],
         [
           120,
-          28
+          29
         ],
         [
           121,
@@ -2577,7 +2577,7 @@
         ],
         [
           204,
-          39
+          38
         ],
         [
           205,
@@ -2585,7 +2585,7 @@
         ],
         [
           206,
-          42
+          41
         ],
         [
           207,
@@ -2618,12 +2618,6 @@
         [
           214,
           54
-        ]
-      ],
-      "forecasted": [
-        [
-          214,
-          54
         ],
         [
           215,
@@ -2647,7 +2641,137 @@
         ],
         [
           220,
-          63
+          61
+        ],
+        [
+          221,
+          61
+        ],
+        [
+          222,
+          60
+        ],
+        [
+          223,
+          54
+        ],
+        [
+          224,
+          43
+        ],
+        [
+          225,
+          42
+        ],
+        [
+          226,
+          38
+        ],
+        [
+          227,
+          42
+        ],
+        [
+          228,
+          44
+        ],
+        [
+          229,
+          46
+        ],
+        [
+          230,
+          46
+        ],
+        [
+          231,
+          47
+        ],
+        [
+          232,
+          50
+        ],
+        [
+          233,
+          50
+        ],
+        [
+          234,
+          47
+        ],
+        [
+          235,
+          46
+        ],
+        [
+          236,
+          46
+        ],
+        [
+          237,
+          48
+        ],
+        [
+          238,
+          50
+        ],
+        [
+          239,
+          50
+        ],
+        [
+          240,
+          47
+        ],
+        [
+          241,
+          36
+        ],
+        [
+          242,
+          33
+        ],
+        [
+          243,
+          33
+        ],
+        [
+          244,
+          32
+        ],
+        [
+          245,
+          35
+        ]
+      ],
+      "forecasted": [
+        [
+          245,
+          35
+        ],
+        [
+          246,
+          36
+        ],
+        [
+          247,
+          38
+        ],
+        [
+          248,
+          35
+        ],
+        [
+          249,
+          32
+        ],
+        [
+          250,
+          36
+        ],
+        [
+          251,
+          34
         ]
       ]
     },
