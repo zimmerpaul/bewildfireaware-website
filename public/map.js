@@ -20,11 +20,21 @@
     return 'danger-' + String(level || 'unknown').toLowerCase().replace(/\s+/g, '-');
   }
 
+  // Basemap: public-domain USGS "The National Map" tiles — no API key, no
+  // usage restrictions (replaces CARTO, which now watermarks keyless tiles).
+  // Shaded relief keeps the basemap label-free so our own town labels stay
+  // authoritative; the hydro overlay adds rivers/lakes for orientation.
+  // US-only coverage, which is all we need.
   function baseTiles() {
-    return L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', {
-      maxZoom: 18,
-      attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>',
-    });
+    return L.layerGroup([
+      L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSShadedReliefOnly/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16,
+        attribution: '<a href="https://www.usgs.gov/programs/national-geospatial-program/national-map" target="_blank" rel="noopener">USGS The National Map</a>',
+      }),
+      L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroCached/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16,
+      }),
+    ]);
   }
 
   // Town dots + labels in a pane ABOVE the polygon fills (z450: above the
