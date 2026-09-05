@@ -2,10 +2,10 @@
   "slug": "montrose_high",
   "name": "Montrose (High Elevation)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Friday, September 04",
+  "dateLabel": "Saturday, September 05",
   "areaTitle": "Montrose - High Elevation",
   "danger": "High",
-  "lastUpdated": "9/4/2026 03:11",
+  "lastUpdated": "9/5/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "74%",
+      "value": "76%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "64%",
+      "value": "66%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -31,21 +31,21 @@
     },
     {
       "label": "Wind Dir",
-      "value": "NE"
+      "value": "ENE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.01"
+      "value": "0.00"
     },
     {
       "label": "Max Temp",
-      "value": "69",
+      "value": "71",
       "limit": "> 86",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "32",
+      "value": "30",
       "limit": "< 25",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "69",
+      "value": "77",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "High Elevation FDRA Extended Forecast",
     "dates": [
-      "4-Sep",
       "5-Sep",
       "6-Sep",
       "7-Sep",
       "8-Sep",
       "9-Sep",
-      "10-Sep"
+      "10-Sep",
+      "11-Sep"
     ],
     "rows": [
       {
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "74%",
           "76%",
-          "76%",
-          "72%",
+          "80%",
           "74%",
-          "74%",
-          "76%"
+          "78%",
+          "80%",
+          "78%",
+          "80%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "64%",
-          "64%",
           "66%",
-          "64%",
-          "64%",
-          "64%",
-          "69%"
+          "69%",
+          "66%",
+          "66%",
+          "66%",
+          "66%",
+          "72%"
         ],
         "hits": [
           false,
@@ -132,12 +132,12 @@
       {
         "label": "Temperature",
         "values": [
-          "69",
           "71",
-          "71",
-          "66",
-          "67",
+          "73",
           "68",
+          "68",
+          "70",
+          "69",
           "67"
         ],
         "hits": [
@@ -153,17 +153,17 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "32",
-          "27",
-          "31",
-          "49",
-          "37",
+          "30",
+          "24",
+          "41",
           "36",
-          "37"
+          "33",
+          "38",
+          "35"
         ],
         "hits": [
           false,
-          false,
+          true,
           false,
           false,
           false,
@@ -175,11 +175,11 @@
         "label": "Winds",
         "values": [
           "7",
-          "5",
-          "7",
+          "6",
           "9",
           "8",
-          "8",
+          "7",
+          "7",
           "9"
         ],
         "hits": [
@@ -195,25 +195,25 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NE",
-          "NE",
           "ENE",
           "ENE",
-          "NNE",
+          "ENE",
           "NE",
-          "NE"
+          "NE",
+          "NE",
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.00",
+          "0.00",
+          "0.05",
           "0.01",
-          "0.03",
-          "0.01",
-          "0.10",
-          "0.01",
-          "0.10",
-          "0.08"
+          "0.06",
+          "0.04",
+          "0.01"
         ]
       },
       {
@@ -222,9 +222,9 @@
           "15",
           "15",
           "15",
-          "15",
-          "15",
-          "15",
+          "14",
+          "14",
+          "14",
           "14"
         ],
         "hits": [
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "69",
-          "76",
-          "67",
           "77",
-          "75",
           "69",
-          "69"
+          "73",
+          "75",
+          "66",
+          "74",
+          "75"
         ],
         "hits": [
           false,
@@ -261,43 +261,44 @@
       {
         "label": "ERC-Y (Actual Number 1-66)",
         "values": [
-          "33.6",
+          "34.8",
+          "37",
           "34",
-          "35",
-          "32",
-          "34",
-          "33",
-          "34"
+          "36",
+          "36",
+          "36",
+          "37"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-52)",
         "values": [
+          "23",
+          "23",
+          "23",
+          "23",
           "22",
-          "21",
           "22",
-          "21",
-          "22",
-          "21",
-          "24"
+          "25"
         ]
       }
     ]
   },
   "firesToRemember": {
     "columns": [
-      "Date",
+      "Discovery Date",
       "ERC",
       "BI",
       "Temp",
       "Rh",
       "Winds",
       "1000-Hr",
-      "Fire Danger"
+      "Fire Danger",
+      "Max Rh"
     ],
     "rows": [
       {
-        "name": "Low Line",
+        "name": "Low Line Fire",
         "values": [
           "7/26/2023",
           "91%",
@@ -306,7 +307,36 @@
           "15",
           "7",
           "12",
-          "Very High"
+          "Very High",
+          "61"
+        ]
+      },
+      {
+        "name": "Gold Mountain fire",
+        "values": [
+          "6/27/2026",
+          "94%",
+          "100%",
+          "73",
+          "12",
+          "22",
+          "11",
+          "Very High",
+          "73"
+        ]
+      },
+      {
+        "name": "Elk Fire",
+        "values": [
+          "7/9/2026",
+          "97%",
+          "97%",
+          "77",
+          "16",
+          "15",
+          "11",
+          "Extreme",
+          "65"
         ]
       }
     ]
@@ -2769,36 +2799,40 @@
         [
           245,
           34
+        ],
+        [
+          246,
+          34
         ]
       ],
       "forecasted": [
         [
-          246,
-          34
-        ],
-        [
           247,
-          34
-        ],
-        [
-          248,
           35
         ],
         [
+          248,
+          37
+        ],
+        [
           249,
-          32
+          34
         ],
         [
           250,
-          34
+          36
         ],
         [
           251,
-          33
+          36
         ],
         [
           252,
-          34
+          36
+        ],
+        [
+          253,
+          37
         ]
       ]
     },
