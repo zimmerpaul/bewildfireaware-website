@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today across the Montrose (High Elevation) zone, driven by dry fuels and building ERC/BI levels that push toward Very High by midweek.**\n- Danger rises to Very High Wednesday–Friday (Sep 10–12) before easing back to High next Sunday.\n- Winds shift from ENE to more northerly (N–NNE) later this week, with humidity dropping into the high-teens by Wednesday.\n- No Red Flag Warning is in effect; all 7 local watchout thresholds are currently unmet.\n- Stage 1 Fire Restrictions are active in unincorporated Montrose County, effective since September 4, and Stage 1 restrictions also remain in place across the Grand Mesa, Uncompahgre and Gunnison National Forests. Stage 1 Fire Restrictions are in effect in unincorporated Montrose County starting on 09/04/2026.\n- The Elk Fire, burning in Hinsdale/Gunnison County backcountry within the Gunnison National Forest, is holding at 7,257 acres and 73% contained, per the latest interagency situation report.\n- A slight uptick in weekend moisture (0.03\"–0.06\") may offer brief relief late in the week.",
-  "lead": "Fire danger is High today across the Montrose (High Elevation) zone, driven by dry fuels and building ERC/BI levels that push toward Very High by midweek.",
+  "overview": "**High fire danger today, driven by very dry fuels (82% ERC) and low humidity, with a jump to Very High expected midweek.**\n- Fire danger rises to Very High Wednesday–Thursday as ERC and BI percentiles peak near 91-92%, then ease back to High through the weekend.\n- Winds stay light out of the NE (8-13 mph), but afternoon humidity drops as low as 12% Wednesday-Thursday, the week's driest stretch.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions remain in effect on BLM lands across Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties, after being lowered from Stage 2 on Sept. 4-5; GMUG National Forest lands removed all fire restrictions effective September 3, 2026.\n- The Elk Fire, seven miles northwest of Lake City in Hinsdale County, is at 7,257 acres and 73% contained; some structures remain threatened with area, road and trail closures in effect.",
+  "lead": "High fire danger today, driven by very dry fuels (82% ERC) and low humidity, with a jump to Very High expected midweek.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
     }
   ],
-  "generated": "Monday, September 07"
+  "generated": "Tuesday, September 08"
 }
