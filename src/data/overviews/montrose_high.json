@@ -1,6 +1,6 @@
 {
-  "overview": "**High fire danger today, driven by very dry fuels (82% ERC) and low humidity, with a jump to Very High expected midweek.**\n- Fire danger rises to Very High Wednesday–Thursday as ERC and BI percentiles peak near 91-92%, then ease back to High through the weekend.\n- Winds stay light out of the NE (8-13 mph), but afternoon humidity drops as low as 12% Wednesday-Thursday, the week's driest stretch.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions remain in effect on BLM lands across Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties, after being lowered from Stage 2 on Sept. 4-5; GMUG National Forest lands removed all fire restrictions effective September 3, 2026.\n- The Elk Fire, seven miles northwest of Lake City in Hinsdale County, is at 7,257 acres and 73% contained; some structures remain threatened with area, road and trail closures in effect.",
-  "lead": "High fire danger today, driven by very dry fuels (82% ERC) and low humidity, with a jump to Very High expected midweek.",
+  "overview": "**Fire danger is High today, driven by very dry fuels (88% ERC) and low humidity (13%) that push the Burning Index over its local threshold.**\n- Watchout status: 2 of 7 local thresholds met (Burning Index and minimum humidity both exceeded today).\n- Week ahead: danger climbs to Very High Thursday–Saturday and again Sunday–Monday, easing briefly to High on Sept. 13 as light rain returns late week.\n- Weather driver: sunny, breezy afternoons with gusts near 30 mph today and Thursday; no Red Flag Warning currently posted for this area.\n- Restrictions: Stage 1 fire restrictions remain active in Montrose, Delta, Ouray, and Gunnison counties; Stage 1 fire restrictions in effect on all BLM‑administered public lands within Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties. GMUG National Forest lands are currently unrestricted.\n- Nearby incident: the Elk Fire 7 miles NW of Lake City (Hinsdale/Gunnison) is 7,257 acres and 73% contained, with no new activity reported.",
+  "lead": "Fire danger is High today, driven by very dry fuels (88% ERC) and low humidity (13%) that push the Burning Index over its local threshold.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Tuesday, September 08"
+  "generated": "Wednesday, September 09"
 }
