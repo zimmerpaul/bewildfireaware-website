@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today, driven by very dry fuels (88% ERC) and low humidity (13%) that push the Burning Index over its local threshold.**\n- Watchout status: 2 of 7 local thresholds met (Burning Index and minimum humidity both exceeded today).\n- Week ahead: danger climbs to Very High Thursday–Saturday and again Sunday–Monday, easing briefly to High on Sept. 13 as light rain returns late week.\n- Weather driver: sunny, breezy afternoons with gusts near 30 mph today and Thursday; no Red Flag Warning currently posted for this area.\n- Restrictions: Stage 1 fire restrictions remain active in Montrose, Delta, Ouray, and Gunnison counties; Stage 1 fire restrictions in effect on all BLM‑administered public lands within Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties. GMUG National Forest lands are currently unrestricted.\n- Nearby incident: the Elk Fire 7 miles NW of Lake City (Hinsdale/Gunnison) is 7,257 acres and 73% contained, with no new activity reported.",
-  "lead": "Fire danger is High today, driven by very dry fuels (88% ERC) and low humidity (13%) that push the Burning Index over its local threshold.",
+  "overview": "**Very High fire danger persists across the Montrose High Elevation zone today, driven by very dry air and critically low humidity.**\n- Watchout status: 4 of 7 local thresholds are exceeded, with ERC at 92% and BI at 94%, both above threshold, plus a min RH of just 8%.\n- Trend: Danger stays Very High into the weekend before dipping to High by Sept. 13, with slight relief by Sept. 15-16 as humidity climbs and light rain returns.\n- Weather driver: NWS calls for sun and a high near 83 today, calm overnight lows near 40; no Red Flag Warning is posted.\n- Restrictions: Stage 1 fire restrictions remain active in Delta and Ouray counties, and on BLM Uncompahgre Field Office lands covering Montrose, San Miguel, Ouray, and Delta counties plus part of Gunnison County.\n- Nearby incident: The Elk Fire, 7 miles northwest of Lake City, is holding at 7,257 acres and 73% contained, with no new activity reported today.",
+  "lead": "Very High fire danger persists across the Montrose High Elevation zone today, driven by very dry air and critically low humidity.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Elk Fire Update - 09/01/2026 - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/hinsdale-county/elk-fire-update-09-01-2026/"
     }
   ],
-  "generated": "Wednesday, September 09"
+  "generated": "Thursday, September 10"
 }
