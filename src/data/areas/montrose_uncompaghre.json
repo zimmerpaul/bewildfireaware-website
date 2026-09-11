@@ -2,10 +2,10 @@
   "slug": "montrose_uncompaghre",
   "name": "Montrose (Uncompaghre)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Thursday, September 10",
+  "dateLabel": "Friday, September 11",
   "areaTitle": "Montrose - Uncompahgre",
   "danger": "Very High",
-  "lastUpdated": "9/10/2026 03:11",
+  "lastUpdated": "9/11/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,7 +13,7 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "83%",
+      "value": "85%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -25,13 +25,13 @@
     },
     {
       "label": "Winds",
-      "value": "5",
+      "value": "6",
       "limit": "> 15",
       "triggered": false
     },
     {
       "label": "Wind Dir",
-      "value": "N"
+      "value": "NNE"
     },
     {
       "label": "24hr Rain",
@@ -39,25 +39,25 @@
     },
     {
       "label": "Max Temp",
-      "value": "79",
+      "value": "82",
       "limit": "> 85",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "9",
+      "value": "13",
       "limit": "< 20",
       "triggered": true
     },
     {
       "label": "1000-Hour",
-      "value": "13",
+      "value": "12",
       "limit": "< 13",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "29",
+      "value": "48",
       "limit": "< 55",
       "triggered": true
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Uncompahgre FDRA Extended Forecast",
     "dates": [
-      "10-Sep",
       "11-Sep",
       "12-Sep",
       "13-Sep",
       "14-Sep",
       "15-Sep",
-      "16-Sep"
+      "16-Sep",
+      "17-Sep"
     ],
     "rows": [
       {
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "83%",
-          "82%",
+          "85%",
           "81%",
           "79%",
-          "79%",
-          "77%",
-          "77%"
+          "72%",
+          "67%",
+          "61%",
+          "59%"
         ],
         "hits": [
           false,
@@ -112,18 +112,18 @@
         "label": "BI-Y Percentile",
         "values": [
           "82%",
-          "78%",
-          "95%",
-          "97%",
-          "82%",
-          "85%",
-          "75%"
+          "71%",
+          "94%",
+          "75%",
+          "67%",
+          "52%",
+          "48%"
         ],
         "hits": [
           false,
           false,
           true,
-          true,
+          false,
           false,
           false,
           false
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
+          "82",
+          "81",
           "79",
-          "78",
-          "78",
-          "73",
+          "71",
           "70",
           "70",
-          "69"
+          "70"
         ],
         "hits": [
           false,
@@ -153,17 +153,17 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "9",
-          "19",
-          "28",
-          "28",
-          "26",
+          "13",
+          "24",
+          "29",
           "33",
-          "36"
+          "37",
+          "37",
+          "37"
         ],
         "hits": [
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -174,19 +174,19 @@
       {
         "label": "Winds",
         "values": [
-          "5",
           "6",
-          "15",
-          "18",
-          "11",
+          "7",
+          "14",
           "12",
-          "11"
+          "10",
+          "8",
+          "6"
         ],
         "hits": [
           false,
           false,
           false,
-          true,
+          false,
           false,
           false,
           false
@@ -195,12 +195,12 @@
       {
         "label": "Wind Direction",
         "values": [
-          "N",
-          "NE",
           "NNE",
           "NNE",
           "NE",
-          "NE",
+          "ENE",
+          "ENE",
+          "ENE",
           "ENE"
         ]
       },
@@ -208,18 +208,18 @@
         "label": "Precipitation 24hr rain",
         "values": [
           "0.00",
-          "0.00",
-          "0.00",
-          "0.00",
-          "0.02",
-          "0.03",
-          "0.04"
+          "0.01",
+          "0.04",
+          "0.23",
+          "0.21",
+          "0.17",
+          "0.12"
         ]
       },
       {
         "label": "1000-Hour Fuels",
         "values": [
-          "13",
+          "12",
           "12",
           "12",
           "12",
@@ -228,7 +228,7 @@
           "12"
         ],
         "hits": [
-          false,
+          true,
           true,
           true,
           true,
@@ -240,13 +240,13 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "29",
-          "57",
-          "70",
-          "66",
-          "58",
-          "62",
-          "71"
+          "48",
+          "68",
+          "61",
+          "73",
+          "78",
+          "80",
+          "75"
         ],
         "hits": [
           true,
@@ -261,33 +261,33 @@
       {
         "label": "ERC-Y (Actual Number 1-72)",
         "values": [
-          "48",
-          "48",
-          "46",
+          "49",
+          "47",
           "45",
-          "46",
-          "44",
-          "44"
+          "42",
+          "40",
+          "37",
+          "36"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-49)",
         "values": [
-          "28",
-          "27",
-          "34",
-          "36",
           "29",
-          "29",
-          "26"
+          "25",
+          "33",
+          "26",
+          "25",
+          "20",
+          "19"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 2,
+    "met": 3,
     "total": 7,
-    "isWatchout": false
+    "isWatchout": true
   },
   "raws": "The Uncompahgre Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nCarpenter Ridge (53808), Doniguez (Jacks Canyon) (52409), Sanborn Park (53804)",
   "pocketCard": {
@@ -2766,20 +2766,20 @@
         [
           251,
           46
+        ],
+        [
+          252,
+          48
         ]
       ],
       "forecasted": [
         [
-          252,
-          48
-        ],
-        [
           253,
-          48
+          49
         ],
         [
           254,
-          46
+          47
         ],
         [
           255,
@@ -2787,15 +2787,19 @@
         ],
         [
           256,
-          46
+          42
         ],
         [
           257,
-          44
+          40
         ],
         [
           258,
-          44
+          37
+        ],
+        [
+          259,
+          36
         ]
       ]
     },

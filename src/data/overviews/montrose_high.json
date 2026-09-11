@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger persists across the Montrose High Elevation zone today, driven by very dry air and critically low humidity.**\n- Watchout status: 4 of 7 local thresholds are exceeded, with ERC at 92% and BI at 94%, both above threshold, plus a min RH of just 8%.\n- Trend: Danger stays Very High into the weekend before dipping to High by Sept. 13, with slight relief by Sept. 15-16 as humidity climbs and light rain returns.\n- Weather driver: NWS calls for sun and a high near 83 today, calm overnight lows near 40; no Red Flag Warning is posted.\n- Restrictions: Stage 1 fire restrictions remain active in Delta and Ouray counties, and on BLM Uncompahgre Field Office lands covering Montrose, San Miguel, Ouray, and Delta counties plus part of Gunnison County.\n- Nearby incident: The Elk Fire, 7 miles northwest of Lake City, is holding at 7,257 acres and 73% contained, with no new activity reported today.",
-  "lead": "Very High fire danger persists across the Montrose High Elevation zone today, driven by very dry air and critically low humidity.",
+  "overview": "**Very High fire danger holds across the Montrose (High Elevation) area today, driven by critically low humidity (15%) and near-record ERC/BI percentiles (93%/96%).**\n- Watchout status: 4 of 7 thresholds met (ERC, BI, min RH, max RH) — stay alert to changing conditions.\n- Week-ahead trend: danger eases from Very High to High by Monday as light rain and cooler temps arrive late next week.\n- Key driver: NNE winds near 12 mph paired with single-digit-to-teens humidity keep afternoon fire spread potential elevated through the weekend.\n- No Red Flag Warning or other NWS alerts are posted for this area today.\n- Restrictions: Stage 2 fire restrictions were lowered to Stage 1, effective Friday, September 5, for BLM Uncompahgre Field Office lands in Montrose, San Miguel, Ouray, Delta counties and part of Gunnison County; the GMUG National Forests removed all fire restrictions effective September 3, 2026.\n- Nearby incident: the Elk Fire (Gunnison County), lightning-caused, is burning near Lake City, now 7,257 acres and 73% contained, with area, road and trail closures still in effect and structures threatened.",
+  "lead": "Very High fire danger holds across the Montrose (High Elevation) area today, driven by critically low humidity (15%) and near-record ERC/BI percentiles (93%/96%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Elk Fire Update - 09/01/2026 - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/hinsdale-county/elk-fire-update-09-01-2026/"
+      "name": "Uncompahgre Field Office lowers fire restrictions to Stage 1 | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/uncompahgre-field-office-lowers-fire-restrictions-stage-1"
+    },
+    {
+      "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
+    },
+    {
+      "name": "2026 Colorado wildfires",
+      "url": "https://en.wikipedia.org/wiki/2026_Colorado_wildfires"
     }
   ],
-  "generated": "Thursday, September 10"
+  "generated": "Friday, September 11"
 }
