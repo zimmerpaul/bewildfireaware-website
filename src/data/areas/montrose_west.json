@@ -2,10 +2,10 @@
   "slug": "montrose_west",
   "name": "Montrose (West)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Friday, September 11",
+  "dateLabel": "Saturday, September 12",
   "areaTitle": "Montrose - West",
   "danger": "High",
-  "lastUpdated": "9/11/2026 03:11",
+  "lastUpdated": "9/12/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "83%",
+      "value": "78%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "84%",
+      "value": "77%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -35,19 +35,19 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.04"
+      "value": "0.06"
     },
     {
       "label": "Max Temp",
-      "value": "89",
+      "value": "88",
       "limit": "> 85",
       "triggered": true
     },
     {
       "label": "Min Rh",
-      "value": "12",
+      "value": "23",
       "limit": "< 20",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "1000-Hour",
@@ -57,22 +57,22 @@
     },
     {
       "label": "Max Rh",
-      "value": "44",
+      "value": "67",
       "limit": "< 55",
-      "triggered": true
+      "triggered": false
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 85, Min Rh < 20, 1000-hr Fuels <13, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "West FDRA Extended Forecast",
     "dates": [
-      "11-Sep",
       "12-Sep",
       "13-Sep",
       "14-Sep",
       "15-Sep",
       "16-Sep",
-      "17-Sep"
+      "17-Sep",
+      "18-Sep"
     ],
     "rows": [
       {
@@ -80,8 +80,8 @@
         "values": [
           "High",
           "High",
-          "High",
-          "High",
+          "Moderate",
+          "Moderate",
           "Moderate",
           "Moderate",
           "Moderate"
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "83%",
+          "78%",
           "76%",
-          "76%",
-          "64%",
-          "56%",
+          "54%",
           "49%",
-          "49%"
+          "49%",
+          "52%",
+          "56%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "84%",
-          "75%",
-          "88%",
-          "62%",
-          "52%",
+          "77%",
+          "82%",
+          "45%",
+          "49%",
           "39%",
-          "39%"
+          "39%",
+          "42%"
         ],
         "hits": [
           false,
@@ -132,18 +132,18 @@
       {
         "label": "Temperature",
         "values": [
-          "89",
           "88",
           "86",
-          "78",
+          "80",
+          "76",
           "77",
           "76",
-          "76"
+          "77"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -153,16 +153,16 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "12",
-          "21",
+          "23",
           "26",
-          "32",
-          "34",
+          "36",
+          "37",
           "35",
-          "35"
+          "31",
+          "28"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -175,17 +175,17 @@
         "label": "Winds",
         "values": [
           "12",
+          "15",
           "12",
-          "18",
-          "14",
-          "12",
+          "13",
+          "10",
           "9",
           "9"
         ],
         "hits": [
           false,
           false,
-          true,
+          false,
           false,
           false,
           false,
@@ -196,24 +196,24 @@
         "label": "Wind Direction",
         "values": [
           "NNE",
-          "N",
           "NNE",
+          "ENE",
           "NE",
           "NE",
-          "NE",
-          "NE"
+          "NNE",
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.06",
           "0.04",
-          "0.01",
+          "0.34",
+          "0.19",
+          "0.18",
           "0.05",
-          "0.21",
-          "0.17",
-          "0.17",
-          "0.10"
+          "0.00"
         ]
       },
       {
@@ -224,8 +224,8 @@
           "11",
           "11",
           "11",
-          "11",
-          "11"
+          "12",
+          "12"
         ],
         "hits": [
           true,
@@ -240,18 +240,18 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "44",
-          "63",
-          "51",
-          "64",
-          "69",
-          "69",
+          "67",
+          "58",
+          "74",
+          "73",
+          "71",
+          "66",
           "66"
         ],
         "hits": [
-          true,
           false,
-          true,
+          false,
+          false,
           false,
           false,
           false,
@@ -261,33 +261,33 @@
       {
         "label": "ERC-Y (Actual Number 1-81)",
         "values": [
-          "55",
           "52",
-          "51",
-          "46",
-          "43",
-          "40",
-          "41"
+          "52",
+          "42",
+          "41",
+          "41",
+          "41",
+          "44"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-66)",
         "values": [
-          "40",
-          "35",
-          "41",
-          "31",
-          "29",
+          "36",
+          "39",
+          "27",
+          "28",
           "25",
-          "24"
+          "25",
+          "26"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 4,
+    "met": 2,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The West Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nMockingbird (55710), Nucla (53807)",
   "pocketCard": {
@@ -2770,36 +2770,40 @@
         [
           252,
           55
+        ],
+        [
+          253,
+          55
         ]
       ],
       "forecasted": [
-        [
-          252,
-          55
-        ],
         [
           253,
           52
         ],
         [
           254,
-          51
+          52
         ],
         [
           255,
-          46
+          42
         ],
         [
           256,
-          43
+          41
         ],
         [
           257,
-          40
+          41
         ],
         [
           258,
           41
+        ],
+        [
+          259,
+          44
         ]
       ]
     },

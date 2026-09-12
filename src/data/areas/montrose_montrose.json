@@ -2,10 +2,10 @@
   "slug": "montrose_montrose",
   "name": "Montrose (Montrose)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Friday, September 11",
+  "dateLabel": "Saturday, September 12",
   "areaTitle": "Montrose - Montrose",
   "danger": "Very High",
-  "lastUpdated": "9/11/2026 03:11",
+  "lastUpdated": "9/12/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,19 +13,19 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "88%",
+      "value": "83%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "84%",
+      "value": "70%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "12",
+      "value": "11",
       "limit": "> 15",
       "triggered": false
     },
@@ -35,44 +35,44 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.03"
     },
     {
       "label": "Max Temp",
-      "value": "89",
+      "value": "87",
       "limit": "> 90",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "11",
+      "value": "21",
       "limit": "< 15",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "1000-Hour",
-      "value": "11",
+      "value": "10",
       "limit": "< 13",
       "triggered": true
     },
     {
       "label": "Max Rh",
-      "value": "34",
+      "value": "55",
       "limit": "< 55",
-      "triggered": true
+      "triggered": false
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 90, Min Rh < 15, 1000-hr Fuels <13, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "Montrose FDRA Extended Forecast",
     "dates": [
-      "11-Sep",
       "12-Sep",
       "13-Sep",
       "14-Sep",
       "15-Sep",
       "16-Sep",
-      "17-Sep"
+      "17-Sep",
+      "18-Sep"
     ],
     "rows": [
       {
@@ -80,7 +80,7 @@
         "values": [
           "Very High",
           "Very High",
-          "Very High",
+          "High",
           "High",
           "High",
           "High",
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "88%",
           "83%",
           "83%",
-          "75%",
-          "74%",
-          "72%",
-          "74%"
+          "70%",
+          "59%",
+          "59%",
+          "65%",
+          "70%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "84%",
           "70%",
-          "80%",
-          "54%",
-          "46%",
+          "82%",
+          "51%",
+          "44%",
+          "39%",
           "41%",
-          "41%"
+          "44%"
         ],
         "hits": [
           false,
@@ -132,12 +132,12 @@
       {
         "label": "Max Temperature",
         "values": [
-          "89",
-          "86",
+          "87",
           "85",
-          "77",
+          "78",
+          "75",
           "76",
-          "76",
+          "75",
           "76"
         ],
         "hits": [
@@ -153,16 +153,16 @@
       {
         "label": "Min Relative Humidity",
         "values": [
-          "11",
-          "18",
-          "24",
-          "30",
-          "31",
-          "31",
-          "30"
+          "21",
+          "25",
+          "34",
+          "35",
+          "33",
+          "28",
+          "24"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -174,18 +174,18 @@
       {
         "label": "Winds",
         "values": [
-          "12",
-          "10",
-          "17",
-          "10",
+          "11",
+          "15",
+          "9",
+          "8",
           "7",
-          "6",
+          "5",
           "5"
         ],
         "hits": [
           false,
           false,
-          true,
+          false,
           false,
           false,
           false,
@@ -196,36 +196,36 @@
         "label": "Wind Direction",
         "values": [
           "NNE",
-          "NNE",
           "NE",
           "ENE",
           "NE",
           "NE",
-          "NE"
+          "NNE",
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.00",
           "0.03",
-          "0.09",
-          "0.30",
-          "0.21",
-          "0.04",
-          "0.06"
+          "0.05",
+          "0.40",
+          "0.20",
+          "0.17",
+          "0.00",
+          "0.01"
         ]
       },
       {
         "label": "1000-Hour Fuels",
         "values": [
+          "10",
+          "10",
+          "10",
           "11",
-          "10",
-          "10",
-          "10",
-          "10",
-          "10",
-          "10"
+          "11",
+          "12",
+          "12"
         ],
         "hits": [
           true,
@@ -240,54 +240,54 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "34",
-          "49",
-          "44",
+          "55",
+          "52",
+          "67",
+          "64",
+          "62",
           "57",
-          "59",
-          "58",
-          "56"
+          "52"
         ],
         "hits": [
-          true,
-          true,
+          false,
           true,
           false,
           false,
           false,
-          false
+          false,
+          true
         ]
       },
       {
         "label": "ERC-Y (Actual Number 1-78)",
         "values": [
-          "57",
+          "54",
           "55",
-          "55",
-          "50",
-          "49",
-          "48",
-          "49"
+          "47",
+          "41",
+          "41",
+          "45",
+          "46"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-74)",
         "values": [
-          "41",
-          "34",
-          "39",
-          "29",
-          "26",
-          "23",
-          "24"
+          "35",
+          "40",
+          "27",
+          "24",
+          "22",
+          "24",
+          "25"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 3,
+    "met": 1,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The Montrsoe Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nCottonwood (53805), Jay (52704)",
   "pocketCard": {
@@ -2770,16 +2770,16 @@
         [
           252,
           56
+        ],
+        [
+          253,
+          57
         ]
       ],
       "forecasted": [
         [
-          253,
-          57
-        ],
-        [
           254,
-          55
+          54
         ],
         [
           255,
@@ -2787,19 +2787,23 @@
         ],
         [
           256,
-          50
+          47
         ],
         [
           257,
-          49
+          41
         ],
         [
           258,
-          48
+          41
         ],
         [
           259,
-          49
+          45
+        ],
+        [
+          260,
+          46
         ]
       ]
     },

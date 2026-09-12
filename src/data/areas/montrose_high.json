@@ -2,10 +2,10 @@
   "slug": "montrose_high",
   "name": "Montrose (High Elevation)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Friday, September 11",
+  "dateLabel": "Saturday, September 12",
   "areaTitle": "Montrose - High Elevation",
   "danger": "Very High",
-  "lastUpdated": "9/11/2026 03:11",
+  "lastUpdated": "9/12/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,15 +13,15 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "93%",
+      "value": "91%",
       "limit": "> 90%",
       "triggered": true
     },
     {
       "label": "BI %",
-      "value": "96%",
+      "value": "88%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Winds",
@@ -31,7 +31,7 @@
     },
     {
       "label": "Wind Dir",
-      "value": "NNE"
+      "value": "NE"
     },
     {
       "label": "24hr Rain",
@@ -39,15 +39,15 @@
     },
     {
       "label": "Max Temp",
-      "value": "75",
+      "value": "73",
       "limit": "> 86",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "15",
+      "value": "26",
       "limit": "< 25",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "1000hr Fuels",
@@ -57,22 +57,22 @@
     },
     {
       "label": "Max Rh",
-      "value": "42",
+      "value": "68",
       "limit": "< 55",
-      "triggered": true
+      "triggered": false
     }
   ],
   "thresholds": "ERC > 90%, BI > 90%, Wind Speed > 15\nMax Temp > 86, Min Rh < 25, 1000hr Fuels < 12, Max RH < 55\nIf three or more of the seven thresholds are met, consider it a watchout.",
   "forecast": {
     "title": "High Elevation FDRA Extended Forecast",
     "dates": [
-      "11-Sep",
       "12-Sep",
       "13-Sep",
       "14-Sep",
       "15-Sep",
       "16-Sep",
-      "17-Sep"
+      "17-Sep",
+      "18-Sep"
     ],
     "rows": [
       {
@@ -80,7 +80,7 @@
         "values": [
           "Very High",
           "Very High",
-          "Very High",
+          "High",
           "High",
           "High",
           "High",
@@ -90,18 +90,18 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "93%",
-          "92%",
           "91%",
-          "86%",
+          "91%",
           "84%",
           "80%",
-          "76%"
+          "74%",
+          "76%",
+          "84%"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -111,16 +111,16 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "96%",
-          "81%",
-          "83%",
+          "88%",
+          "75%",
           "75%",
           "66%",
-          "64%",
-          "60%"
+          "62%",
+          "62%",
+          "75%"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "75",
-          "74",
           "73",
-          "66",
-          "65",
+          "72",
+          "68",
           "64",
-          "64"
+          "64",
+          "64",
+          "65"
         ],
         "hits": [
           false,
@@ -153,17 +153,17 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "15",
-          "22",
-          "28",
-          "36",
-          "41",
+          "26",
+          "30",
+          "37",
+          "42",
+          "42",
           "39",
-          "40"
+          "31"
         ],
         "hits": [
-          true,
-          true,
+          false,
+          false,
           false,
           false,
           false,
@@ -176,11 +176,11 @@
         "values": [
           "12",
           "8",
-          "10",
-          "12",
+          "11",
           "8",
           "8",
-          "7"
+          "7",
+          "9"
         ],
         "hits": [
           false,
@@ -195,25 +195,25 @@
       {
         "label": "Wind Direction",
         "values": [
+          "NE",
+          "NE",
+          "ENE",
+          "NE",
+          "NE",
           "NNE",
-          "NE",
-          "NE",
-          "NE",
-          "NE",
-          "NE",
-          "NE"
+          "NNE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
           "0.00",
-          "0.00",
-          "0.02",
-          "0.09",
+          "0.03",
           "0.10",
           "0.11",
-          "0.22"
+          "0.11",
+          "0.16",
+          "0.02"
         ]
       },
       {
@@ -240,16 +240,16 @@
       {
         "label": "Max Rh",
         "values": [
-          "42",
-          "63",
-          "63",
+          "68",
+          "73",
+          "80",
+          "78",
+          "80",
           "77",
-          "75",
-          "82",
-          "82"
+          "77"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-66)",
         "values": [
-          "44.4",
-          "44",
-          "43",
-          "39",
+          "42.7",
+          "42",
           "38",
           "36",
-          "34"
+          "34",
+          "34",
+          "38"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-52)",
         "values": [
-          "35",
-          "27",
-          "28",
+          "31",
+          "26",
           "25",
           "22",
-          "22",
-          "19"
+          "21",
+          "20",
+          "25"
         ]
       }
     ]
@@ -342,9 +342,9 @@
     ]
   },
   "watchout": {
-    "met": 4,
+    "met": 1,
     "total": 7,
-    "isWatchout": true
+    "isWatchout": false
   },
   "raws": "The High Elevation Fire Danger Rating Area uses the following Remote Automated Weather Stations (RAWS) which are equally weighted in value, using Fuel Model Y (Timber) incorporating data years 2005-2024 are:  \nHuntsman (52813), Lujan (54702), Needle Creek (54704), Taylor Park (52812)",
   "pocketCard": {
@@ -2827,36 +2827,40 @@
         [
           252,
           44
+        ],
+        [
+          253,
+          44
         ]
       ],
       "forecasted": [
         [
-          253,
-          44
-        ],
-        [
           254,
-          44
-        ],
-        [
-          255,
           43
         ],
         [
-          256,
-          39
+          255,
+          42
         ],
         [
-          257,
+          256,
           38
         ],
         [
-          258,
+          257,
           36
+        ],
+        [
+          258,
+          34
         ],
         [
           259,
           34
+        ],
+        [
+          260,
+          38
         ]
       ]
     },
