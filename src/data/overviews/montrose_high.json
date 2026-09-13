@@ -1,6 +1,6 @@
 {
-  "overview": "**Very High fire danger continues today, driven by critically dry fuels — ERC at 91%, exceeding the local watchout threshold.**\n- Danger eases toward midweek, dropping to High by Monday as ERC and BI percentiles decline into the 70s-80s.\n- Dry NE winds near 12 mph and low humidity (26%) with zero rain are keeping fuels stressed; light rain chances build later this week.\n- 1 of 7 local watchout thresholds is currently met (ERC); no Red Flag Warning is in effect per NWS.\n- Stage 1 Fire Restrictions are in effect in unincorporated Montrose County effective September 4, 2026, with similar Stage 1 limits active in Delta and Ouray counties and on BLM Uncompahgre Field Office lands; the Grand Mesa, Uncompahgre and Gunnison National Forests have removed all fire restrictions effective September 3, 2026.\n- Nearby: the Elk Fire seven miles northwest of Lake City (Hinsdale County) is 7,257 acres and 73% contained, with structures threatened and area, road and trail closures in effect.",
-  "lead": "Very High fire danger continues today, driven by critically dry fuels — ERC at 91%, exceeding the local watchout threshold.",
+  "overview": "**Fire danger is High today across the Montrose (High Elevation) area, driven by dry fuels (ERC 89%) despite calmer winds.**\n- Danger holds High all week, easing mid-week (ERC dropping to 68% Tue-Wed) before rebuilding by Saturday as fuels dry again.\n- Scattered showers and thunderstorms are expected today into Monday, with gusty west winds to 30 mph possible Monday afternoon.\n- No Red Flag Warning is posted for the area, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions remain in effect in Montrose, Delta, Ouray, San Miguel, and Gunnison-area BLM/county lands; the Grand Mesa, Uncompahgre and Gunnison National Forests have removed all fire restrictions effective September 3, 2026.\n- The Elk Fire near Lake City (Hinsdale County) is holding at 7,257 acres and 73% contained, with no new activity reported.",
+  "lead": "Fire danger is High today across the Montrose (High Elevation) area, driven by dry fuels (ERC 89%) despite calmer winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
       "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
       "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
     }
   ],
-  "generated": "Saturday, September 12"
+  "generated": "Sunday, September 13"
 }
