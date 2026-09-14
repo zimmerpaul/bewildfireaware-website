@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today across the Montrose (High Elevation) area, driven by dry fuels (ERC 89%) despite calmer winds.**\n- Danger holds High all week, easing mid-week (ERC dropping to 68% Tue-Wed) before rebuilding by Saturday as fuels dry again.\n- Scattered showers and thunderstorms are expected today into Monday, with gusty west winds to 30 mph possible Monday afternoon.\n- No Red Flag Warning is posted for the area, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions remain in effect in Montrose, Delta, Ouray, San Miguel, and Gunnison-area BLM/county lands; the Grand Mesa, Uncompahgre and Gunnison National Forests have removed all fire restrictions effective September 3, 2026.\n- The Elk Fire near Lake City (Hinsdale County) is holding at 7,257 acres and 73% contained, with no new activity reported.",
-  "lead": "Fire danger is High today across the Montrose (High Elevation) area, driven by dry fuels (ERC 89%) despite calmer winds.",
+  "overview": "**Moderate fire danger holds today across the Montrose High Elevation area, with scattered showers and cool temps keeping conditions in check.**\n- Trend: danger rises to High Tuesday, eases midweek, then returns to High Saturday–Sunday as humidity falls toward 27%.\n- Weather driver: showers and thunderstorms likely today (70% chance, high near 71) with gusty west winds to 30 mph, drying out by the weekend.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning is currently posted for this area.\n- Restrictions: Montrose County moved to Stage 1 Fire Restrictions effective September 4; Delta County downgraded from Stage 2 to Stage 1 restrictions on September 4; Ouray County rescinded Stage 2 and reinstated Stage 1 restrictions effective September 3. GMUG National Forests removed all fire restrictions effective September 3, while BLM's Uncompahgre Field Office lifted Stage 2 restrictions August 20, with Stage 1 remaining through December.\n- Nearby fire: the Elk Fire (Hinsdale County, near the Gunnison line) is 73% contained at 7,257 acres, with full containment expected October 31.",
+  "lead": "Moderate fire danger holds today across the Montrose High Elevation area, with scattered showers and cool temps keeping conditions in check.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "Alert Center • Montrose County • CivicEngage",
+      "url": "https://www.montrosecounty.net/AlertCenter.aspx"
+    },
+    {
       "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
       "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
+    },
+    {
+      "name": "Ouray County Moves to Stage 1 Fire Restrictions - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/misc/ouray-county-moves-to-stage-1-fire-restrictions-2/"
+    },
+    {
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Sunday, September 13"
+  "generated": "Monday, September 14"
 }
