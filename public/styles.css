@@ -201,6 +201,18 @@ header nav ul li .dropdown-toggle.active { color: var(--flame-dark); }
 .locate-hit .danger-chip { font-size: 1.05em; }
 .locate-note { color: var(--ink-soft); font-size: 0.9em; }
 
+/* Land status ("you appear to be on BLM land…") inside the locate result */
+.land-status {
+    width: 100%;
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+    font-size: 0.93em;
+}
+.land-status h4 { margin: 0 0 6px; font-size: 1em; }
+.land-status p { margin: 0 0 6px; }
+.land-links { display: block; margin-top: 6px; }
+.land-caveat { color: var(--ink-soft); font-size: 0.88em; }
+
 .redflag-badge {
     background: #fdecea;
     border: 1px solid var(--danger-extreme);
