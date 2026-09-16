@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is High today, driven by dry fuels (ERC 74%, BI 62%) even as scattered afternoon showers move through.**\n- Danger eases to Moderate Wed–Fri as rain chances build, then climbs back to High by Sat–Sun as fuels dry out again.\n- Today's weather: a chance of showers and thunderstorms with gusty south winds; Wednesday brings a 60% chance of rain, adding helpful moisture.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\n- Fire restrictions remain: BLM Stage 1 covers Gunnison, Hinsdale, Montrose, Ouray, San Miguel and Saguache counties; Delta and Ouray counties are also under county Stage 1, though GMUG National Forest lifted its restrictions Sept. 3.\n- Nearby: the Elk Fire on the Grand Mesa, Uncompahgre and Gunnison National Forest (Hinsdale/Gunnison area) is 73% contained at 7,257 acres with minimal activity.",
-  "lead": "Fire danger is High today, driven by dry fuels (ERC 74%, BI 62%) even as scattered afternoon showers move through.",
+  "overview": "**Moderate fire danger holds today, kept in check by rain and thunderstorms moving through the high country.**\n- Fire danger trends upward this week, rising from Moderate to High by Sunday and Monday (Sep 21-22) as drying returns.\n- Today's storms bring 70% rain chances and areas to the east-northeast winds, with more showers and thunderstorms expected tonight and Thursday.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions remain in effect in unincorporated Montrose County, with similar Stage 1 rules holding in Delta, Ouray, and BLM Southwest District lands across the region.\n- The Elk Fire, burning northwest of Lake City in the Grand Mesa, Uncompahgre and Gunnison National Forest, is 7,257 acres and 73% contained, with full containment estimated Oct. 31.\n- Fuels remain only lightly moistened (1000-hr fuels at 15%), so drying winds late week could quickly rebuild fire risk.",
+  "lead": "Moderate fire danger holds today, kept in check by rain and thunderstorms moving through the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Delta County Downgrades from Stage 2 to Stage 1 Fire Restrictions • Delta",
-      "url": "https://www.deltacountyco.gov/m/newsflash/home/detail/804"
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
-      "name": "Burning Regulations | Delta County, CO - Official Website",
-      "url": "https://www.deltacountyco.gov/138/Fire-Restrictions"
-    },
-    {
-      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
+      "name": "Cogmf Elk Fire Information | InciWeb",
+      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
     }
   ],
-  "generated": "Tuesday, September 15"
+  "generated": "Wednesday, September 16"
 }
