@@ -1,10 +1,92 @@
 // "Your local fire danger": browser geolocation matched against FDRA polygons.
-// Entirely client-side — coordinates never leave the visitor's device except
-// for an optional National Weather Service alert lookup (api.weather.gov).
-// The matched area (never the coordinates) is remembered in localStorage so
-// returning visitors see their area immediately.
+// The FDRA match happens on-device. The coordinates are also sent from the
+// visitor's browser DIRECTLY to public government services (never to us):
+// NWS (weather/alerts), the interagency wildland-fire jurisdiction layer on
+// NIFC's ArcGIS (land ownership), and the Census Bureau (county). The matched
+// area (never the coordinates) is remembered in localStorage so returning
+// visitors see their area immediately.
 (function () {
   var STORE_KEY = 'bwa-my-area';
+
+  // ---- Land status ("you appear to be on BLM land…") -----------------------
+  // Phase 1 of the fire-restrictions feature: identify WHO sets the rules at
+  // the visitor's location and deep-link to that authority. We never assert a
+  // restriction stage here — that's Phase 2, from verified feeds only.
+  var JURIS_URL = 'https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/DMP_JurisdictionalUnits_Public/FeatureServer/0/query';
+  var COUNTY_URL = 'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query';
+
+  // Display names + default restriction-info links per jurisdictional
+  // category. JIM REVIEW: these links should be the official fire pages.
+  var AGENCY_INFO = {
+    'BLM':   { name: 'Bureau of Land Management land', url: 'https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado', label: 'BLM Colorado fire restrictions' },
+    'USFS':  { name: 'National Forest land', url: 'https://www.fs.usda.gov/r02/', label: 'Forest Service alerts' },
+    'NPS':   { name: 'National Park Service land', url: 'https://www.nps.gov/state/co/index.htm', label: 'NPS Colorado parks' },
+    'USFWS': { name: 'a National Wildlife Refuge (U.S. Fish & Wildlife)', url: 'https://www.fws.gov/', label: 'U.S. Fish & Wildlife' },
+    'BIA':   { name: 'tribal land', url: 'https://www.bia.gov/regional-offices/southwest', label: 'BIA Southwest Region' },
+    'BOR':   { name: 'Bureau of Reclamation land', url: 'https://www.usbr.gov/', label: 'Bureau of Reclamation' },
+    'State': { name: 'Colorado state land', url: 'https://dfpc.colorado.gov/sections/wildfire-information-center/fire-restriction-information', label: 'Colorado DFPC fire restrictions' },
+  };
+  // Forest-specific alert pages (substring match on the unit name).
+  var UNIT_LINKS = [
+    ['Grand Mesa',   'https://www.fs.usda.gov/alerts/gmug/alerts-notices',       'GMUG alerts & closures'],
+    ['Uncompahgre National Forest', 'https://www.fs.usda.gov/alerts/gmug/alerts-notices', 'GMUG alerts & closures'],
+    ['Gunnison National Forest',    'https://www.fs.usda.gov/alerts/gmug/alerts-notices', 'GMUG alerts & closures'],
+    ['San Juan',     'https://www.fs.usda.gov/alerts/sanjuan/alerts-notices',    'San Juan NF alerts & closures'],
+    ['White River',  'https://www.fs.usda.gov/alerts/whiteriver/alerts-notices', 'White River NF alerts & closures'],
+    ['Rio Grande',   'https://www.fs.usda.gov/alerts/riogrande/alerts-notices',  'Rio Grande NF alerts & closures'],
+    ['Pike',         'https://www.fs.usda.gov/alerts/psicc/alerts-notices',      'PSICC alerts & closures'],
+  ];
+  var COUNTY_LINKS =
+    '<a href="https://dfpc.colorado.gov/sections/wildfire-information-center/fire-restriction-information" target="_blank" rel="noopener">county restrictions (DFPC) ↗</a> · ' +
+    '<a href="https://westslopefireinfo.com/" target="_blank" rel="noopener">West Slope Fire Info ↗</a>';
+
+  function arcgisPointQuery(url, lat, lon, outFields) {
+    var p = new URLSearchParams({
+      f: 'json', geometry: lon + ',' + lat, geometryType: 'esriGeometryPoint', inSR: '4326',
+      spatialRel: 'esriSpatialRelIntersects', outFields: outFields, returnGeometry: 'false',
+    });
+    return fetch(url + '?' + p).then(function (r) { return r.json(); })
+      .then(function (d) { return (d.features && d.features[0] && d.features[0].attributes) || null; });
+  }
+
+  function renderLandStatus(el, lat, lon) {
+    Promise.all([
+      arcgisPointQuery(JURIS_URL, lat, lon, 'JurisdictionalUnitName,LocalName,JurisdictionalKind,JurisdictionalCategory,LandownerKind').catch(function () { return null; }),
+      arcgisPointQuery(COUNTY_URL, lat, lon, 'NAME,STATE').catch(function () { return null; }),
+    ]).then(function (res) {
+      var j = res[0], c = res[1];
+      if (!j && !c) return; // both lookups failed — say nothing rather than guess
+      var county = c && c.NAME ? c.NAME.replace(/ County$/, '') : null;
+      var inCounty = county ? ' in <strong>' + esc(county) + ' County</strong>' : '';
+      var html;
+      var kind = j && j.JurisdictionalKind;
+      var cat = j && j.JurisdictionalCategory;
+      var agency = cat && AGENCY_INFO[cat];
+      if (j && kind === 'Federal' && agency) {
+        var unit = j.LocalName || j.JurisdictionalUnitName || '';
+        var link = agency.url, label = agency.label;
+        for (var i = 0; i < UNIT_LINKS.length; i++) {
+          if (unit.indexOf(UNIT_LINKS[i][0]) !== -1) { link = UNIT_LINKS[i][1]; label = UNIT_LINKS[i][2]; break; }
+        }
+        html = 'You appear to be on <strong>' + agency.name + '</strong>' +
+          (unit ? ' (' + esc(unit) + ')' : '') + inCounty + '.' +
+          ' Fire restrictions there are set by that agency; county rules apply on nearby private land.' +
+          '<span class="land-links">Check current status: <a href="' + link + '" target="_blank" rel="noopener">' +
+          label + ' ↗</a> · ' + COUNTY_LINKS + '</span>';
+      } else if (j && kind === 'State' && AGENCY_INFO.State) {
+        html = 'You appear to be on <strong>Colorado state land</strong>' + inCounty + '.' +
+          '<span class="land-links">Check current status: <a href="' + AGENCY_INFO.State.url +
+          '" target="_blank" rel="noopener">' + AGENCY_INFO.State.label + ' ↗</a> · ' + COUNTY_LINKS + '</span>';
+      } else {
+        // Private, city/county land, or unknown: county (sheriff) rules govern
+        html = 'You appear to be on <strong>private or locally managed land</strong>' + inCounty +
+          ' — fire restrictions and burn bans there are set by the county' + (county ? '' : ' or municipality') + '.' +
+          '<span class="land-links">Check current status: ' + COUNTY_LINKS + '</span>';
+      }
+      el.innerHTML = '<h4>Whose fire rules apply here?</h4><p>' + html + '</p>' +
+        '<p class="land-caveat">Land boundaries are approximate and ownership is patchy at small scales — always verify locally before lighting anything.</p>';
+    }).catch(function () {});
+  }
 
   function dangerClass(level) {
     return 'danger-' + String(level || 'unknown').toLowerCase().replace(/\s+/g, '-');
@@ -132,6 +214,7 @@
       '<a class="btn" style="margin-top:0" href="' + p.url + '">Your full forecast &rarr;</a>' +
       (p.overview ? overviewHtml(p) : '') +
       localInfoHtml(p) +
+      (coords ? '<div class="land-status"></div>' : '') +
       '<div class="wx-strip wx-strip-home"></div>' +
       (opts && opts.remembered
         ? '<span class="locate-remembered">Location remembered from last visit · <a href="#" id="locate-clear">forget</a></span>' : '') +
@@ -147,6 +230,10 @@
     var wx = out.querySelector('.wx-strip');
     var ll = coords || p.centroid;
     if (wx && ll && window.bwaWeather) window.bwaWeather.render(wx, ll[0], ll[1]);
+
+    // Land status only for a fresh locate (remembered visits have no coords)
+    var land = out.querySelector('.land-status');
+    if (land && coords) renderLandStatus(land, coords[0], coords[1]);
   }
 
   function init() {

@@ -7,21 +7,47 @@ PLAN.md at the workspace root; this is the idea parking lot.)
 Geolocate, determine land ownership (private / BLM / USFS / municipal), and
 point people at the restrictions that apply to them.
 
-Research findings (July 2026):
-- Land type from a point is proven: Esri Living Atlas "USA Federal Lands"
-  point query returned "Bureau of Land Management" for a test point west of
-  Montrose. Authoritative source is USGS PAD-US (public domain), which also
-  knows the unit (forest name, BLM field office).
-- Preferred build: extract + simplify PAD-US polygons for the 9-FDRA region
-  at build time (like derive-counties), client-side point-in-polygon. No
-  runtime dependency, clean licensing.
-- V1: "You appear to be on BLM land (Uncompahgre Field Office) in Ouray
-  County" + curated deep links (~20 jurisdiction URLs: field offices,
-  forests, county sheriffs, West Slope Fire Info). Never assert the stage.
-- V2 (later): assert current stage only from a verified feed — investigate
-  whether Colorado DFPC's statewide fire-restrictions map is queryable.
-- Caveats: checkerboard ownership at 40-acre scale + GPS error → always
-  "appears to be", show county rules alongside, disclaimer.
+PHASE 1 SHIPPED (Sept 2026): homepage locate flow now shows "You appear to
+be on <agency> land (<unit>) in <county> County" + official links. Live
+browser point queries (both CORS-verified, government/interagency, no keys):
+- Jurisdiction: NIFC DMP_JurisdictionalUnits_Public
+  (services3.arcgis.com/T4QMspbfLg3qTGWY/.../DMP_JurisdictionalUnits_Public/
+  FeatureServer/0) — fields JurisdictionalKind/Category, LocalName,
+  LandownerKind. Private land comes from census block groups. Too fragmented
+  to bake (2.7k BLM + 1.5k USFS polys in our region), hence live queries.
+- County: Census TIGERweb State_County/MapServer/1 (NAME, STATE).
+Links live as JIM REVIEW constants in geolocate.js (agency defaults +
+per-forest alert pages + DFPC/West Slope county fallbacks).
+
+Phase 2 — assert federal stages from verified feeds (all live-tested Sept
+2026, anonymous, with restriction_status/stage + order URL):
+- BLM RMA: Rocky_Mountain_Area_BLM_Fire_Restriction_Polygons_NEW_VIEW/0
+  (statuses seen: "Stage 1", "Year Round"); Stage 3 closures:
+  BLM_Fire_Closures_view/2.
+- USFS R2, per forest: e.g. services1.arcgis.com/gGHDlz6USftL5Pau/
+  .../GMUG_Fire_Restriction_Stages/FeatureServer/1 (FireRestriction per
+  ranger district — returned "Stage 1 Fire Restrictions" live); PSICC
+  equivalent exists; discover one per forest.
+- NPS_Unit_Fire_Restrictions_(Public_VIew)/0, RMA FWS + BIA views (see the
+  RMA Fire Restriction Dashboard webmap f0a56c48c00a4adfa7ceadba4fbdebe9
+  for the full layer list, incl. WY county/state layers).
+- Bake daily at build (few hundred polys — snapshot + "as of" date), don't
+  query live; normalize statuses to an enum; absence of polygon renders as
+  "no posted restriction found", never "no restrictions".
+
+Phase 3 — Colorado county (sheriff) bans: NO feature service exists. DFPC
+publishes per-county HTML (dfpc.colorado.gov/sections/
+wildfire-information-center/fire-restriction-information) — scrape daily in
+CI with a diff alert for Jim; fall back to links when parsing is uncertain.
+
+Phase 4 — restrictions map overlay + /api/v1/restrictions.json for fire.ai.
+Phase 5 — other states: UT (Utah_Fire_Restriction_Areas_Lookup), NV, ID,
+MT (Fire_Restrictions_by_Jurisdiction) statewide layers exist; adapter per
+state/GACC.
+
+Caveats (all phases): checkerboard ownership at 40-acre scale + GPS error →
+always "appears to be", show county rules alongside, disclaimer, never
+assert a stage except from a verified feed.
 
 ## Logo decision
 Candidates: "Pine in Flame" (negative-space tree) and the fire-danger-sign
