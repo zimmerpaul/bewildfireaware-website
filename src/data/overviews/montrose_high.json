@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, kept in check by rain and thunderstorms moving through the high country.**\n- Fire danger trends upward this week, rising from Moderate to High by Sunday and Monday (Sep 21-22) as drying returns.\n- Today's storms bring 70% rain chances and areas to the east-northeast winds, with more showers and thunderstorms expected tonight and Thursday.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions remain in effect in unincorporated Montrose County, with similar Stage 1 rules holding in Delta, Ouray, and BLM Southwest District lands across the region.\n- The Elk Fire, burning northwest of Lake City in the Grand Mesa, Uncompahgre and Gunnison National Forest, is 7,257 acres and 73% contained, with full containment estimated Oct. 31.\n- Fuels remain only lightly moistened (1000-hr fuels at 15%), so drying winds late week could quickly rebuild fire risk.",
-  "lead": "Moderate fire danger holds today, kept in check by rain and thunderstorms moving through the high country.",
+  "overview": "**Fire danger is Low today in the Montrose High Elevation zone, held down by recent rain and cool, moist air.**\n- Danger is trending upward to Moderate by Saturday as humidity drops and 1000-hr fuels rise from 16% to 18%.\n- Today's main driver is active weather: showers and thunderstorms with a high near 68 and a 90% chance of precipitation, easing before drier NE winds return early next week.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions are in effect for BLM-managed public lands within Montrose, San Miguel, Ouray, Delta, and a portion of Gunnison County, along with Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties.\n- The Elk Fire, seven miles northwest of Lake City in Hinsdale County, is holding at 7,257 acres with minimal fire behavior and 73% containment.",
+  "lead": "Fire danger is Low today in the Montrose High Elevation zone, held down by recent rain and cool, moist air.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Colorado Emergency Management: Fire Restrictions",
+      "url": "http://www.coemergency.com/p/fire-bans-danger.html"
     },
     {
-      "name": "Cogmf Elk Fire Information | InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
+      "name": "Uncompahgre Field Office lowers fire restrictions to Stage 1 | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/uncompahgre-field-office-lowers-fire-restrictions-stage-1"
+    },
+    {
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Wednesday, September 16"
+  "generated": "Thursday, September 17"
 }

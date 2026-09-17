@@ -2,10 +2,10 @@
   "slug": "grand_junction_middle",
   "name": "Grand Junction (Middle)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Wednesday, September 16",
+  "dateLabel": "Thursday, September 17",
   "areaTitle": "Grand Junction - Middle Elevation",
-  "danger": "Moderate",
-  "lastUpdated": "9/16/2026 02:39",
+  "danger": "Low",
+  "lastUpdated": "9/17/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,19 +13,19 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "54%",
+      "value": "40%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "27%",
+      "value": "17%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "8",
+      "value": "6",
       "limit": "> 15",
       "triggered": false
     },
@@ -35,29 +35,29 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.17"
+      "value": "0.38"
     },
     {
       "label": "Max Temp",
-      "value": "72",
+      "value": "68",
       "limit": "> 80",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "43",
+      "value": "56",
       "limit": "< 15",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "13",
+      "value": "14",
       "limit": "< 12",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "82",
+      "value": "89",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,20 +66,20 @@
   "forecast": {
     "title": "Middle Elevation FDRA Extended Forecast",
     "dates": [
-      "16-Sep",
       "17-Sep",
       "18-Sep",
       "19-Sep",
       "20-Sep",
       "21-Sep",
-      "22-Sep"
+      "22-Sep",
+      "23-Sep"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Moderate",
           "Low",
+          "Moderate",
           "Moderate",
           "Moderate",
           "Moderate",
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "54%",
+          "40%",
           "42%",
-          "48%",
+          "45%",
           "51%",
+          "54%",
           "56%",
-          "61%",
-          "63%"
+          "61%"
         ],
         "hits": [
           false,
@@ -111,12 +111,12 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "27%",
-          "18%",
-          "23%",
-          "27%",
-          "31%",
-          "31%",
+          "17%",
+          "21%",
+          "25%",
+          "29%",
+          "29%",
+          "29%",
           "29%"
         ],
         "hits": [
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "72",
           "68",
-          "71",
+          "69",
+          "68",
+          "63",
           "65",
-          "66",
-          "66",
-          "65"
+          "65",
+          "66"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "43",
           "56",
-          "42",
-          "35",
+          "45",
+          "37",
+          "29",
           "26",
-          "27",
-          "30"
+          "29",
+          "33"
         ],
         "hits": [
           false,
@@ -174,13 +174,13 @@
       {
         "label": "Winds",
         "values": [
-          "8",
+          "6",
           "7",
+          "9",
           "7",
-          "8",
           "6",
           "6",
-          "7"
+          "6"
         ],
         "hits": [
           false,
@@ -198,7 +198,7 @@
           "E",
           "ENE",
           "ENE",
-          "NE",
+          "NNE",
           "NNE",
           "NE",
           "NE"
@@ -207,25 +207,25 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.17",
-          "0.42",
-          "0.03",
-          "0.01",
+          "0.38",
+          "0.05",
+          "0.07",
           "0.00",
           "0.00",
-          "0.01"
+          "0.02",
+          "0.00"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "13",
           "14",
           "15",
+          "17",
+          "17",
+          "17",
           "16",
-          "16",
-          "16",
-          "15"
+          "16"
         ],
         "hits": [
           false,
@@ -240,20 +240,20 @@
       {
         "label": "Max Rh",
         "values": [
-          "82",
-          "88",
-          "87",
-          "73",
-          "57",
+          "89",
+          "89",
+          "80",
+          "62",
+          "50",
           "48",
-          "53"
+          "54"
         ],
         "hits": [
           false,
           false,
           false,
           false,
-          false,
+          true,
           true,
           true
         ]
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-69)",
         "values": [
+          "21",
+          "24",
+          "26",
+          "29",
           "32",
-          "23",
-          "27",
-          "30",
           "33",
-          "35",
-          "36"
+          "35"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-58)",
         "values": [
+          "14",
+          "17",
           "20",
-          "15",
-          "19",
           "21",
           "22",
-          "22",
-          "22"
+          "21",
+          "21"
         ]
       }
     ]
@@ -2794,36 +2794,40 @@
         [
           258,
           32
+        ],
+        [
+          259,
+          21
         ]
       ],
       "forecasted": [
         [
-          258,
-          32
-        ],
-        [
           259,
-          23
+          21
         ],
         [
           260,
-          27
+          24
         ],
         [
           261,
-          30
+          26
         ],
         [
           262,
-          33
+          29
         ],
         [
           263,
-          35
+          32
         ],
         [
           264,
-          36
+          33
+        ],
+        [
+          265,
+          35
         ]
       ]
     },
