@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today in the Montrose High Elevation zone, held down by recent rain and cool, moist air.**\n- Danger is trending upward to Moderate by Saturday as humidity drops and 1000-hr fuels rise from 16% to 18%.\n- Today's main driver is active weather: showers and thunderstorms with a high near 68 and a 90% chance of precipitation, easing before drier NE winds return early next week.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are currently met.\n- Stage 1 fire restrictions are in effect for BLM-managed public lands within Montrose, San Miguel, Ouray, Delta, and a portion of Gunnison County, along with Gunnison, Hinsdale, Montrose, Ouray, Saguache, and San Juan counties.\n- The Elk Fire, seven miles northwest of Lake City in Hinsdale County, is holding at 7,257 acres with minimal fire behavior and 73% containment.",
-  "lead": "Fire danger is Low today in the Montrose High Elevation zone, held down by recent rain and cool, moist air.",
+  "overview": "**Fire danger in the Montrose (High Elevation) area is Moderate today, with dry fuels outweighing scattered afternoon storms.**\n- Danger holds at Moderate all week, but ERC climbs steadily from 53% today to 66% by Sept 24 as fuels continue drying.\n- Winds stay light (5–12 mph), shifting from ENE to NE, while afternoon humidity drops sharply by Sunday-Monday.\n- No Red Flag Warning is posted, and none of the 7 local watchout thresholds are met today.\n- Stage 1 fire restrictions remain in force on BLM Uncompahgre Field Office lands covering Montrose, San Miguel, Ouray, Delta counties and a portion of Gunnison County, while the Grand Mesa, Uncompahgre and Gunnison National Forests have removed all fire restrictions.\n- The Elk Fire 7 miles northwest of Lake City (Hinsdale County) is 73% contained at 7,257 acres with no new fire behavior reported.\n- Scattered thunder",
+  "lead": "Fire danger in the Montrose (High Elevation) area is Moderate today, with dry fuels outweighing scattered afternoon storms.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Colorado Emergency Management: Fire Restrictions",
-      "url": "http://www.coemergency.com/p/fire-bans-danger.html"
-    },
-    {
       "name": "Uncompahgre Field Office lowers fire restrictions to Stage 1 | Bureau of Land Management",
       "url": "https://www.blm.gov/announcement/uncompahgre-field-office-lowers-fire-restrictions-stage-1"
     },
     {
-      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
     }
   ],
-  "generated": "Thursday, September 17"
+  "generated": "Friday, September 18"
 }
