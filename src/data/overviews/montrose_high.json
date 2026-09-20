@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds across the Montrose (High Elevation) area today, with dry mid-level fuels the main driver rather than any single extreme factor.**\n- Week-ahead outlook stays Moderate through Sept. 25, as ERC drifts up from 55% to 64% while fuels slowly dry.\n- Light 7–11 mph NE/ENE winds and a stray afternoon shower today keep fire behavior in check.\n- 0 of 7 local watch-out thresholds are met, and no Red Flag Warning is posted for the area.\n- Montrose County lifted its Stage 1 fire restrictions for unincorporated areas effective September 16, 2026.\n- Gunnison County is not currently under fire restrictions as of September 18, 2026.\n- Nearby, the Elk Fire near Lake City (Hinsdale County) sits at 7,257 acres, 73% contained, with full containment estimated Oct. 31.",
-  "lead": "Moderate fire danger holds across the Montrose (High Elevation) area today, with dry mid-level fuels the main driver rather than any single extreme factor.",
+  "overview": "**Fire danger remains Moderate today, driven mainly by very low minimum humidity (24%), which trips one of the area's seven watchout thresholds.**\n\n- The 7-day outlook holds steady at Moderate through September 26, with ERC creeping up from 57% to 66% as fuels slowly dry.\n- Weather driver: sunny, breezy conditions today (winds 13 mph) give way to cooler air and light rain chances midweek (up to 0.10\" on the 24th), which should ease fire potential slightly.\n- No Red Flag Warning is in effect; only 1 of 7 local watchout thresholds (low min RH) is currently met.\n- Stage 1 fire restrictions remain in effect on BLM lands in Montrose, San Miguel, Ouray, Delta and part of Gunnison County, while the Grand Mesa, Uncompahgre and Gunnison National Forests removed all fire restrictions effective September 3, 2026.\n- Nearby: the Elk Fire near Lake City, CO is 7,257 acres and listed at 73% contained in today's sit report, with minimal ongoing activity.",
+  "lead": "Fire danger remains Moderate today, driven mainly by very low minimum humidity (24%), which trips one of the area's seven watchout thresholds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "All Fire Restrictions Have Been Lifted in Montrose County",
-      "url": "https://www.einpresswire.com/article/942825469/all-fire-restrictions-have-been-lifted-in-montrose-county"
+      "name": "Fire Prevention Order COS05-26-01Stage 1 Fire Restrictions -uncompahgre field office - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/blm/fire-prevention-order-cos05-26-01stage-1-fire-restrictions-uncompahgre-field-office/"
     },
     {
-      "name": "Emergency Response Services | Fire Restrictions",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+      "name": "Burning Regulations | Delta County, CO - Official Website",
+      "url": "https://www.deltacountyco.gov/138/Fire-Restrictions"
+    },
+    {
+      "name": "Cogmf Elk Fire Information | InciWeb",
+      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
     }
   ],
-  "generated": "Saturday, September 19"
+  "generated": "Sunday, September 20"
 }
