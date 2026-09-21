@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger remains Moderate today, driven mainly by very low minimum humidity (24%), which trips one of the area's seven watchout thresholds.**\n\n- The 7-day outlook holds steady at Moderate through September 26, with ERC creeping up from 57% to 66% as fuels slowly dry.\n- Weather driver: sunny, breezy conditions today (winds 13 mph) give way to cooler air and light rain chances midweek (up to 0.10\" on the 24th), which should ease fire potential slightly.\n- No Red Flag Warning is in effect; only 1 of 7 local watchout thresholds (low min RH) is currently met.\n- Stage 1 fire restrictions remain in effect on BLM lands in Montrose, San Miguel, Ouray, Delta and part of Gunnison County, while the Grand Mesa, Uncompahgre and Gunnison National Forests removed all fire restrictions effective September 3, 2026.\n- Nearby: the Elk Fire near Lake City, CO is 7,257 acres and listed at 73% contained in today's sit report, with minimal ongoing activity.",
-  "lead": "Fire danger remains Moderate today, driven mainly by very low minimum humidity (24%), which trips one of the area's seven watchout thresholds.",
+  "overview": "**Moderate fire danger today, driven mainly by very low afternoon humidity (18%) that trips one of the area's seven local watchout thresholds.**\n- Danger stays Moderate through Saturday before rising to High Sunday as fuel dryness (ERC/BI) climbs toward the upper 60th percentile.\n- Light NNE-NE winds near 7-8 mph continue, with better humidity recovery and scattered rain arriving midweek before another dry stretch.\n- Only 1 of 7 local watchout thresholds is met today (low minimum RH); no Red Flag Warning is posted, and NWS reports no active alerts.\nMontrose County lifted Stage 1 fire restrictions for all unincorporated areas effective 12:01 a.m. Wednesday, September 16. Gunnison County is not currently under fire restrictions as of September 18. Delta County remains under Stage 1 fire restrictions effective 9/4/2026.\n- Nearby: the Elk Fire on the Gunnison National Forest in Gunnison County is at 7,257 acres and 73% contained, with full containment estimated Oct. 31.",
+  "lead": "Moderate fire danger today, driven mainly by very low afternoon humidity (18%) that trips one of the area's seven local watchout thresholds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Fire Prevention Order COS05-26-01Stage 1 Fire Restrictions -uncompahgre field office - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/blm/fire-prevention-order-cos05-26-01stage-1-fire-restrictions-uncompahgre-field-office/"
+      "name": "All Fire Restrictions Have Been Lifted in Montrose County",
+      "url": "https://www.einpresswire.com/article/942825469/all-fire-restrictions-have-been-lifted-in-montrose-county"
     },
     {
-      "name": "Burning Regulations | Delta County, CO - Official Website",
-      "url": "https://www.deltacountyco.gov/138/Fire-Restrictions"
+      "name": "Emergency Response Services | Fire Restrictions",
+      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
     },
     {
-      "name": "Cogmf Elk Fire Information | InciWeb",
-      "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
+      "name": "Delta County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/delta-county/"
     }
   ],
-  "generated": "Sunday, September 20"
+  "generated": "Monday, September 21"
 }
