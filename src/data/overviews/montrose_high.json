@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger across the Montrose (High Elevation) area is Moderate today, driven by mid-range energy release and burning index values near 58%.**\n- The week ahead stays Moderate, with ERC dipping into the low 50s midweek before climbing back near 60% by Sunday as fuels dry slightly.\n- Scattered showers and thunderstorms today and Wednesday bring light east winds (5-10 mph) and cooler highs near 63-66°F, keeping fire activity subdued.\n- All 7 local watchout thresholds remain unmet, and no Red Flag Warning is posted for the area.\n- Stage 1 fire restrictions remain in effect on BLM Uncompahgre Field Office lands and in Montrose and Delta counties; Gunnison County lifted its restrictions on Sept. 18, and GMUG National Forest lands currently have none.\n- Nearby, the Elk Fire, 7,257 acres, 52% containment, cause lightning, is burning northwest of Lake City in Hinsdale County; today's sit report lists it at 73% contained with minimal activity.",
-  "lead": "Fire danger across the Montrose (High Elevation) area is Moderate today, driven by mid-range energy release and burning index values near 58%.",
+  "overview": "**Fire danger across the Montrose (High Elevation) area is Moderate today, driven by dry 1000-hour fuels even as recent rain keeps flames in check.**\n- Danger stays mostly Moderate through Sept. 29, dipping to Low tomorrow before ERC climbs toward 60% by the weekend.\n- Light east winds (7 mph) and a chance of showers/thunderstorms today and Thursday should limit fire spread; no Red Flag Warning is in effect.\n- 0 of 7 local watchout thresholds are currently met.\n- Ouray County rescinded Stage 2 restrictions and dropped to Stage 1 on Sept. 3, and all fire restrictions in unincorporated Ouray County were rescinded effective Sept. 18, 2026; BLM's Uncompahgre Field Office restrictions cover Montrose, San Miguel, Ouray, Delta, and part of Gunnison County.\n- Nearby: the Elk Fire has burned 7,257 acres with 52% containment as of late August near Lake City on the Hinsdale/Gunnison line, with today's data showing 73% containment and full containment estimated Oct. 31.",
+  "lead": "Fire danger across the Montrose (High Elevation) area is Moderate today, driven by dry 1000-hour fuels even as recent rain keeps flames in check.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "Ouray County Moves to Stage 1 Fire Restrictions - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/misc/ouray-county-moves-to-stage-1-fire-restrictions-2/"
+    },
+    {
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
+    },
+    {
       "name": "Cogmf Elk Fire Information | InciWeb",
       "url": "https://inciweb.wildfire.gov/incident-information/cogmf-elk-fire"
     }
   ],
-  "generated": "Tuesday, September 22"
+  "generated": "Wednesday, September 23"
 }
