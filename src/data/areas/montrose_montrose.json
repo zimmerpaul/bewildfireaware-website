@@ -2,10 +2,10 @@
   "slug": "montrose_montrose",
   "name": "Montrose (Montrose)",
   "dispatchTitle": "Montrose Interagency Dispatch Area",
-  "dateLabel": "Wednesday, September 23",
+  "dateLabel": "Thursday, September 24",
   "areaTitle": "Montrose - Montrose",
   "danger": "Moderate",
-  "lastUpdated": "9/23/2026 03:11",
+  "lastUpdated": "9/24/2026 03:11",
   "restrictions": {
     "text": "Fire restrictions in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -19,7 +19,7 @@
     },
     {
       "label": "BI %",
-      "value": "31%",
+      "value": "30%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -31,21 +31,21 @@
     },
     {
       "label": "Wind Dir",
-      "value": "E"
+      "value": "ENE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.04"
+      "value": "0.02"
     },
     {
       "label": "Max Temp",
-      "value": "72",
+      "value": "68",
       "limit": "> 90",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "40",
+      "value": "53",
       "limit": "< 15",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "76",
+      "value": "75",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Montrose FDRA Extended Forecast",
     "dates": [
-      "23-Sep",
       "24-Sep",
       "25-Sep",
       "26-Sep",
       "27-Sep",
       "28-Sep",
-      "29-Sep"
+      "29-Sep",
+      "30-Sep"
     ],
     "rows": [
       {
@@ -91,12 +91,12 @@
         "label": "ERC-Y Percentile",
         "values": [
           "38%",
-          "38%",
           "40%",
           "45%",
           "51%",
           "46%",
-          "43%"
+          "43%",
+          "48%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "31%",
           "30%",
           "33%",
           "35%",
           "39%",
           "33%",
-          "31%"
+          "31%",
+          "35%"
         ],
         "hits": [
           false,
@@ -132,13 +132,13 @@
       {
         "label": "Max Temperature",
         "values": [
-          "72",
           "68",
           "70",
           "71",
           "71",
           "64",
-          "63"
+          "63",
+          "68"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Min Relative Humidity",
         "values": [
-          "40",
           "53",
           "42",
           "32",
           "29",
           "44",
-          "37"
+          "37",
+          "29"
         ],
         "hits": [
           false,
@@ -175,12 +175,12 @@
         "label": "Winds",
         "values": [
           "5",
-          "5",
           "6",
           "5",
           "6",
           "6",
-          "4"
+          "4",
+          "5"
         ],
         "hits": [
           false,
@@ -195,36 +195,36 @@
       {
         "label": "Wind Direction",
         "values": [
-          "E",
           "ENE",
           "NE",
           "NE",
           "NE",
           "NE",
-          "NNE"
+          "NNE",
+          "N"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.04",
           "0.02",
           "0.00",
           "0.00",
           "0.00",
           "0.63",
-          "0.08"
+          "0.08",
+          "0.00"
         ]
       },
       {
         "label": "1000-Hour Fuels",
         "values": [
           "16",
-          "16",
           "15",
           "15",
           "15",
           "15",
+          "14",
           "14"
         ],
         "hits": [
@@ -240,46 +240,46 @@
       {
         "label": "Max Relative Humidity",
         "values": [
-          "76",
           "75",
           "74",
           "62",
           "49",
           "58",
-          "66"
+          "66",
+          "54"
         ],
         "hits": [
           false,
           false,
           false,
-          false,
           true,
           false,
-          false
+          false,
+          true
         ]
       },
       {
         "label": "ERC-Y (Actual Number 1-78)",
         "values": [
-          "30",
           "31",
           "31",
           "35",
           "37",
           "36",
-          "34"
+          "34",
+          "37"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-74)",
         "values": [
-          "19",
           "18",
           "19",
           "20",
           "23",
           "19",
-          "18"
+          "18",
+          "20"
         ]
       }
     ]
@@ -2818,13 +2818,13 @@
         [
           264,
           34
+        ],
+        [
+          265,
+          31
         ]
       ],
       "forecasted": [
-        [
-          265,
-          30
-        ],
         [
           266,
           31
@@ -2848,6 +2848,10 @@
         [
           271,
           34
+        ],
+        [
+          272,
+          37
         ]
       ]
     },
