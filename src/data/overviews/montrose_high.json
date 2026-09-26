@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, kept in check by overnight rain and cooler air, but conditions trend drier and warmer through the weekend.**\n- Danger climbs to Moderate starting Friday and holds there through Sept. 30, with ERC/BI percentiles rising from 48%/49% today toward the high 50s–60s by midweek.\n- Today's main driver is scattered showers and thunderstorms (60–70% chance) with about a quarter-inch of rain, before skies dry and warm into the 60s by Friday.\n- Watchout status: 0 of 7 local thresholds met, and no Red Flag Warning is posted for the area.\n- Montrose County lifted Stage 1 fire restrictions for all unincorporated areas effective September 16, 2026; however, BLM Uncompahgre Field Office lands in Montrose, San Miguel, Ouray and Delta counties remain under Stage 1 restrictions.\n- No active wildfires are listed within this area's counties in today's national incident report.",
-  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, kept in check by overnight rain and cooler air, but conditions trend drier and warmer through the weekend.",
+  "overview": "**Fire danger is Moderate today, driven by mid-50s ERC/BI readings and low humidity, with no watchout thresholds triggered.**\n- Danger dips to Low on Tuesday (Sept 29) as a wetter, cooler pattern moves in, then returns to Moderate by Oct 2 as fuels dry out again.\n- NWS calls for sun today with a high near 71, then a slight chance of Sunday afternoon showers/storms as southeast winds pick up slightly.\n- No Red Flag Warning is posted; only an NWS Hydrologic Outlook is active, and 0 of 7 local watchout indicators are met.\n- Stage 1 fire restrictions remain in effect for BLM lands across Montrose, San Miguel, Ouray, Delta, and part of Gunnison counties; check local county orders for town-limit rules.\n- The Gold Mountain Fire near Ouray sits at 39,744 acres and 92% containment, with its final incident update issued in late August, while the Elk Fire in Hinsdale County stands at 7,257 acres and 73% containment; today's national sit report lists no new large fires in this area.",
+  "lead": "Fire danger is Moderate today, driven by mid-50s ERC/BI readings and low humidity, with no watchout thresholds triggered.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "All Fire Restrictions Have Been Lifted in Montrose County",
-      "url": "https://www.einpresswire.com/article/942825469/all-fire-restrictions-have-been-lifted-in-montrose-county"
+      "name": "Uncompahgre Field Office lowers fire restrictions to Stage 1 | Bureau of Land Management",
+      "url": "https://www.blm.gov/announcement/uncompahgre-field-office-lowers-fire-restrictions-stage-1"
     },
     {
-      "name": "Fire Prevention Order COS05-26-01Stage 1 Fire Restrictions -uncompahgre field office - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/blm/fire-prevention-order-cos05-26-01stage-1-fire-restrictions-uncompahgre-field-office/"
+      "name": "Gold Mountain Fire Update - 08/30/2026 - Final Update - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/ouray-county/gold-mountain-fire-update-08-30-2026-final-update/"
+    },
+    {
+      "name": "SEOC Update: September 4, 2026 | Division of Homeland Security and Emergency Management",
+      "url": "https://dhsem.colorado.gov/news-article/seoc-update-september-4-2026"
     }
   ],
-  "generated": "Thursday, September 24"
+  "generated": "Saturday, September 26"
 }
