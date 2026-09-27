@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, driven by mid-50s ERC/BI readings and low humidity, with no watchout thresholds triggered.**\n- Danger dips to Low on Tuesday (Sept 29) as a wetter, cooler pattern moves in, then returns to Moderate by Oct 2 as fuels dry out again.\n- NWS calls for sun today with a high near 71, then a slight chance of Sunday afternoon showers/storms as southeast winds pick up slightly.\n- No Red Flag Warning is posted; only an NWS Hydrologic Outlook is active, and 0 of 7 local watchout indicators are met.\n- Stage 1 fire restrictions remain in effect for BLM lands across Montrose, San Miguel, Ouray, Delta, and part of Gunnison counties; check local county orders for town-limit rules.\n- The Gold Mountain Fire near Ouray sits at 39,744 acres and 92% containment, with its final incident update issued in late August, while the Elk Fire in Hinsdale County stands at 7,257 acres and 73% containment; today's national sit report lists no new large fires in this area.",
-  "lead": "Fire danger is Moderate today, driven by mid-50s ERC/BI readings and low humidity, with no watchout thresholds triggered.",
+  "overview": "**Sunday's fire danger is Moderate, driven by mid-50s energy release and burning index values with light winds and dry mid-morning humidity.**\n\n- Danger dips to Low Tuesday and Wednesday as showers move in, then climbs back to Moderate by Thursday through Friday as drying resumes.\n- Key driver: a weekend/Monday storm system brings scattered showers and a 90% chance of rain Monday, with highs cooling into the 50s.\n- No Red Flag Warning is posted; today's watchout status shows 0 of 7 local fire-behavior thresholds met.\n- Fire restrictions vary by county: Delta and Ouray counties remain under Stage 1 restrictions, while Montrose and Gunnison counties currently have no county fire restrictions in effect; check local rules before burning.\n- No active wildfires are being reported in or near this area's counties as of today's situation report.\n- 1000-hour fuel moisture holds steady near 19%, with light ENE winds around 8 mph expected through midweek.",
+  "lead": "Sunday's fire danger is Moderate, driven by mid-50s energy release and burning index values with light winds and dry mid-morning humidity.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Uncompahgre Field Office lowers fire restrictions to Stage 1 | Bureau of Land Management",
-      "url": "https://www.blm.gov/announcement/uncompahgre-field-office-lowers-fire-restrictions-stage-1"
+      "name": "Fire restrictions lifted | News | montrosepress.com",
+      "url": "https://www.montrosepress.com/free_access/fire-restrictions-lifted/article_ddb8bf57-5cc8-4943-8a5c-7af2c5ced91e.html"
     },
     {
-      "name": "Gold Mountain Fire Update - 08/30/2026 - Final Update - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/ouray-county/gold-mountain-fire-update-08-30-2026-final-update/"
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
-      "name": "SEOC Update: September 4, 2026 | Division of Homeland Security and Emergency Management",
-      "url": "https://dhsem.colorado.gov/news-article/seoc-update-september-4-2026"
+      "name": "Southwest District Fire Restrictions | Bureau of Land Management",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "Bucktail Fire",
+      "url": "https://en.wikipedia.org/wiki/Bucktail_Fire"
     }
   ],
-  "generated": "Saturday, September 26"
+  "generated": "Sunday, September 27"
 }
