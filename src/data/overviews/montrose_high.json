@@ -1,6 +1,6 @@
 {
-  "overview": "**Sunday's fire danger is Moderate, driven by mid-50s energy release and burning index values with light winds and dry mid-morning humidity.**\n\n- Danger dips to Low Tuesday and Wednesday as showers move in, then climbs back to Moderate by Thursday through Friday as drying resumes.\n- Key driver: a weekend/Monday storm system brings scattered showers and a 90% chance of rain Monday, with highs cooling into the 50s.\n- No Red Flag Warning is posted; today's watchout status shows 0 of 7 local fire-behavior thresholds met.\n- Fire restrictions vary by county: Delta and Ouray counties remain under Stage 1 restrictions, while Montrose and Gunnison counties currently have no county fire restrictions in effect; check local rules before burning.\n- No active wildfires are being reported in or near this area's counties as of today's situation report.\n- 1000-hour fuel moisture holds steady near 19%, with light ENE winds around 8 mph expected through midweek.",
-  "lead": "Sunday's fire danger is Moderate, driven by mid-50s energy release and burning index values with light winds and dry mid-morning humidity.",
+  "overview": "**Fire danger is Moderate today, with a wet pattern (0.54\" rain, showers/thunderstorms) keeping ERC/BI near 50–52% despite dry 1000‑hr fuels.**\n\n- Trend dips to Low Tue‑Wed as more rain falls, then climbs back to Moderate Thu‑Sat as skies clear and ERC/BI push into the mid‑50s.\n- Rain showers and thunderstorms continue today with a high near 58, tapering to a 40% chance Tuesday, before drier north winds return by midweek.\n- 0 of 7 local watchout thresholds are met and no Red Flag Warning is posted; NWS Grand Junction does have active Hydrologic Outlooks for burn-scar flooding/debris flow risk.\n- No fire restrictions in Montrose or Gunnison counties; Delta and Ouray counties remain in Stage 1, as does BLM Uncompahgre-area public land through December 1.\n- No uncontained large fires in the area per today's national sitrep — the Gold Mountain (Ouray) and Elk (Hinsdale) fires are contained, with closures largely lifted.",
+  "lead": "Fire danger is Moderate today, with a wet pattern (0.54\" rain, showers/thunderstorms) keeping ERC/BI near 50–52% despite dry 1000‑hr fuels.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -31,5 +31,5 @@
       "url": "https://en.wikipedia.org/wiki/Bucktail_Fire"
     }
   ],
-  "generated": "Sunday, September 27"
+  "generated": "Monday, September 28"
 }
