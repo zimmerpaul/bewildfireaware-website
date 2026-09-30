@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today, kept in check by overnight rain and cool, cloudy conditions moving through the area.**\n- Danger holds Low through Wednesday, then climbs to Moderate Thursday–Sunday as ERC and BI percentiles rise into the mid‑50s.\n- Showers and thunderstorms tonight (80% chance) and Wednesday will bring more moisture before skies clear and NNE winds pick up into the weekend.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is posted; NWS Grand Junction has an active Hydrologic Outlook for the region.\n- Stage 1 Fire Restrictions are in effect in unincorporated Montrose County starting on 09/04/2026, and Stage One fire restrictions are in place in all of unincorporated San Miguel County as of August 21.\n- Gunnison Field Office Stage 2 restrictions were lifted August 20, with Stage 1 remaining in effect through Dec. 31, 2026 across BLM lands in the area's counties.\n- No uncontained wildfires are reported in or near these counties in today's national situation report.",
-  "lead": "Fire danger is Low today, kept in check by overnight rain and cool, cloudy conditions moving through the area.",
+  "overview": "**Danger is Low today, with cool wet weather (rain/thunderstorms, 48°F high, 75% min RH) keeping fuels damp and none of the 7 local watchout thresholds met.**\n\n- Trend: danger climbs to Moderate by Friday as drying returns, with ERC rising from 40% to 57% and RH dropping to the 30s–40s by early next week.\n- Weather driver: a Flood Watch is in effect through midday Thursday for parts of the Sangre de Cristo/Wet Mountain area; locally, today's rain gives way to sun and southwest winds Thursday.\n- No Red Flag Warning is posted for this area today; winds stay light (5–7 mph).\n- Restrictions: Montrose and Delta counties remain in Stage 1 fire restrictions (effective since Sept. 4); Ouray County and the BLM Uncompahgre Field Office have rescinded all restrictions as of mid-September.\n- Nearby incidents: none active in area counties — the Gold Mountain Fire near Ouray remains essentially wrapped up at 92%+ containment with no new growth, and the NICC sit report shows no new starts or uncontained fires in this region.",
+  "lead": "Danger is Low today, with cool wet weather (rain/thunderstorms, 48°F high, 75% min RH) keeping fuels damp and none of the 7 local watchout thresholds met.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
-      "name": "San Miguel County Going Into Stage 1 Fire Restrictions Beginning ...",
-      "url": "https://westslopefireinfo.com/san-miguel-county/san-miguel-county-going-into-stage-1-fire-restrictions-beginning-08-21-2026/"
-    },
-    {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Colorado Severe Flood Watch",
+      "url": "https://govonestop.com/nws/colorado-severe-flood-watch-effective-09292026-2333-1"
     }
   ],
-  "generated": "Tuesday, September 29"
+  "generated": "Wednesday, September 30"
 }
