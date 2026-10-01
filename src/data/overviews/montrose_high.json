@@ -1,6 +1,6 @@
 {
-  "overview": "**Danger is Low today, with cool wet weather (rain/thunderstorms, 48°F high, 75% min RH) keeping fuels damp and none of the 7 local watchout thresholds met.**\n\n- Trend: danger climbs to Moderate by Friday as drying returns, with ERC rising from 40% to 57% and RH dropping to the 30s–40s by early next week.\n- Weather driver: a Flood Watch is in effect through midday Thursday for parts of the Sangre de Cristo/Wet Mountain area; locally, today's rain gives way to sun and southwest winds Thursday.\n- No Red Flag Warning is posted for this area today; winds stay light (5–7 mph).\n- Restrictions: Montrose and Delta counties remain in Stage 1 fire restrictions (effective since Sept. 4); Ouray County and the BLM Uncompahgre Field Office have rescinded all restrictions as of mid-September.\n- Nearby incidents: none active in area counties — the Gold Mountain Fire near Ouray remains essentially wrapped up at 92%+ containment with no new growth, and the NICC sit report shows no new starts or uncontained fires in this region.",
-  "lead": "Danger is Low today, with cool wet weather (rain/thunderstorms, 48°F high, 75% min RH) keeping fuels damp and none of the 7 local watchout thresholds met.",
+  "overview": "**Fire danger is Low today, driven by moderate fuel dryness (ERC 49%, BI 52%) and calm NE winds.**\n- Danger trends upward to Moderate by Friday and stays there through Oct 7, as ERC climbs toward 63%.\n- A Hazardous Weather Outlook from NWS Pueblo covers nearby high-country zones, but no Red Flag Warning is posted for this area; humidity dips to 22% midweek is the main watch-point.\n- Watchout status: 0 of 7 local thresholds met; conditions remain manageable.\n- The BLM's Grand Junction Field Office remains at Stage 1, meaning campfires are allowed only in agency-provided fire grates at developed campgrounds; Ouray County rescinded all fire restrictions effective Sept. 18, and Delta County downgraded to Stage 1 restrictions on Sept. 4.\n- No new large fires reported regionally; the lone active uncontained incident in the national sit report (Moonshine, Wyoming) is well outside this area's counties.",
+  "lead": "Fire danger is Low today, driven by moderate fuel dryness (ERC 49%, BI 52%) and calm NE winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Colorado Severe Flood Watch",
-      "url": "https://govonestop.com/nws/colorado-severe-flood-watch-effective-09292026-2333-1"
+      "name": "WWA Summary by Location with COZ082/COC041/COZ221 emphasis Red Flag Warning",
+      "url": "https://forecast.weather.gov/showsigwx.php?warnzone=COZ082&warncounty=COC041&firewxzone=COZ221&local_place1=Pikes+Peak+Summit+CO&product1=Red+Flag+Warning"
+    },
+    {
+      "name": "Colorado Fire Restrictions Are Changing Just in Time for Fall",
+      "url": "https://kool1079.com/ixp/507/p/colorado-fire-restrictions-eased-mesa-county/"
+    },
+    {
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
+    },
+    {
+      "name": "Delta County Downgrades from Stage 2 to Stage 1 Fire Restrictions • Delta",
+      "url": "https://www.deltacountyco.gov/m/newsflash/home/detail/804"
     }
   ],
-  "generated": "Wednesday, September 30"
+  "generated": "Thursday, October 01"
 }
