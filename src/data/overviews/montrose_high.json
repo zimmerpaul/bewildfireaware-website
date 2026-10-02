@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today, driven by moderate fuel dryness (ERC 49%, BI 52%) and calm NE winds.**\n- Danger trends upward to Moderate by Friday and stays there through Oct 7, as ERC climbs toward 63%.\n- A Hazardous Weather Outlook from NWS Pueblo covers nearby high-country zones, but no Red Flag Warning is posted for this area; humidity dips to 22% midweek is the main watch-point.\n- Watchout status: 0 of 7 local thresholds met; conditions remain manageable.\n- The BLM's Grand Junction Field Office remains at Stage 1, meaning campfires are allowed only in agency-provided fire grates at developed campgrounds; Ouray County rescinded all fire restrictions effective Sept. 18, and Delta County downgraded to Stage 1 restrictions on Sept. 4.\n- No new large fires reported regionally; the lone active uncontained incident in the national sit report (Moonshine, Wyoming) is well outside this area's counties.",
-  "lead": "Fire danger is Low today, driven by moderate fuel dryness (ERC 49%, BI 52%) and calm NE winds.",
+  "overview": "**Fire danger is Moderate today, driven by dry fuels and a dry, mild week with no rain in sight.**\n- Danger holds Moderate through Oct 8, but Stage 1 fire restrictions remain in effect on BLM lands across Montrose, Delta, Mesa, Gunnison, Ouray, San Miguel, Hinsdale, Saguache, and San Juan counties, running through Dec. 31 unless rescinded.\n- Energy Release and Burning Index percentiles climb steadily this week, from 52%/54% today toward 66%/60% by Oct 8, as fuels keep drying.\n- Sunny, mild weather dominates: high near 72 today, low around 38 tonight, and 76 Saturday, with no measurable precipitation forecast all week.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are met today.\n- Grand Mesa, Uncompahgre and Gunnison National Forests rescinded Stage 1 restrictions beginning Sept. 3, citing improved moisture, though BLM Stage 1 rules still apply.\n- No active wildfires are listed near this area in today's national incident situation report.",
+  "lead": "Fire danger is Moderate today, driven by dry fuels and a dry, mild week with no rain in sight.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "WWA Summary by Location with COZ082/COC041/COZ221 emphasis Red Flag Warning",
-      "url": "https://forecast.weather.gov/showsigwx.php?warnzone=COZ082&warncounty=COC041&firewxzone=COZ221&local_place1=Pikes+Peak+Summit+CO&product1=Red+Flag+Warning"
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
     {
-      "name": "Colorado Fire Restrictions Are Changing Just in Time for Fall",
-      "url": "https://kool1079.com/ixp/507/p/colorado-fire-restrictions-eased-mesa-county/"
-    },
-    {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
-    },
-    {
-      "name": "Delta County Downgrades from Stage 2 to Stage 1 Fire Restrictions • Delta",
-      "url": "https://www.deltacountyco.gov/m/newsflash/home/detail/804"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests Rescind Stage 1 Fire Restrictions - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/forest-service/grand-mesa-uncompahgre-and-gunnison-national-forests-rescind-stage-1-fire-restrictions/"
     }
   ],
-  "generated": "Thursday, October 01"
+  "generated": "Friday, October 02"
 }
