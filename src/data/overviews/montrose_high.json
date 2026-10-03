@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, driven by dry fuels and a dry, mild week with no rain in sight.**\n- Danger holds Moderate through Oct 8, but Stage 1 fire restrictions remain in effect on BLM lands across Montrose, Delta, Mesa, Gunnison, Ouray, San Miguel, Hinsdale, Saguache, and San Juan counties, running through Dec. 31 unless rescinded.\n- Energy Release and Burning Index percentiles climb steadily this week, from 52%/54% today toward 66%/60% by Oct 8, as fuels keep drying.\n- Sunny, mild weather dominates: high near 72 today, low around 38 tonight, and 76 Saturday, with no measurable precipitation forecast all week.\n- No Red Flag Warning is posted, and 0 of 7 local watchout thresholds are met today.\n- Grand Mesa, Uncompahgre and Gunnison National Forests rescinded Stage 1 restrictions beginning Sept. 3, citing improved moisture, though BLM Stage 1 rules still apply.\n- No active wildfires are listed near this area in today's national incident situation report.",
-  "lead": "Fire danger is Moderate today, driven by dry fuels and a dry, mild week with no rain in sight.",
+  "overview": "**Fire danger is Moderate today across the Montrose (High Elevation) area, driven by low minimum humidity and steady drying fuels.**\n\n- Danger trends upward through the week, reaching High by Thursday, Oct. 9, as ERC and BI percentiles climb into the mid-60s.\n- Light NNE winds and no measurable rain are expected all 7 days, keeping fuels on a slow drying trend.\n- One of seven local watchout thresholds is tripped today: minimum relative humidity hit 21%, below the local trigger.\n- No Red Flag Warning is active; NWS calls for sunny skies today with a high near 75°F.\n- Stage 1 Fire Restrictions remain in effect in unincorporated Montrose County, effective since September 4, 2026. Ouray County reinstated Stage 1 restrictions on September 3, 2026.\n- The Gold Mountain Fire near Ouray was 92% contained by late August and is now in long-term recovery, with no active uncontained wildfires reported near this area today.",
+  "lead": "Fire danger is Moderate today across the Montrose (High Elevation) area, driven by low minimum humidity and steady drying fuels.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests Rescind Stage 1 Fire Restrictions - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/forest-service/grand-mesa-uncompahgre-and-gunnison-national-forests-rescind-stage-1-fire-restrictions/"
+      "name": "Ouray County Moves to Stage 1 Fire Restrictions - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/misc/ouray-county-moves-to-stage-1-fire-restrictions-2/"
+    },
+    {
+      "name": "Gov. Polis announces additional state support for wildfire recovery",
+      "url": "https://coloradopolitics.com/2026/10/02/gov-polis-announces-additional-state-support-for-wildfire-recovery"
     }
   ],
-  "generated": "Friday, October 02"
+  "generated": "Saturday, October 03"
 }
