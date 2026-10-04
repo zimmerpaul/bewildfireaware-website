@@ -2,26 +2,26 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Saturday, October 03",
+  "dateLabel": "Sunday, October 04",
   "areaTitle": "DRC Lower",
   "danger": "Low",
-  "lastUpdated": "10/3/2026 2:53:51",
+  "lastUpdated": "10/4/2026 2:53:49",
   "observations": [
     {
       "label": "ERC %",
-      "value": "32%",
-      "limit": "> 90%",
-      "triggered": false
-    },
-    {
-      "label": "BI %",
       "value": "33%",
       "limit": "> 90%",
       "triggered": false
     },
     {
+      "label": "BI %",
+      "value": "32%",
+      "limit": "> 90%",
+      "triggered": false
+    },
+    {
       "label": "Winds",
-      "value": "9",
+      "value": "8",
       "limit": "> 11",
       "triggered": false
     },
@@ -35,7 +35,7 @@
     },
     {
       "label": "Max Temp",
-      "value": "71",
+      "value": "69",
       "limit": "> 89",
       "triggered": false
     },
@@ -53,7 +53,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "60",
+      "value": "55",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,13 +62,13 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "3-Oct",
       "4-Oct",
       "5-Oct",
       "6-Oct",
       "7-Oct",
       "8-Oct",
-      "9-Oct"
+      "9-Oct",
+      "10-Oct"
     ],
     "rows": [
       {
@@ -86,13 +86,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "32%",
           "33%",
-          "29%",
           "31%",
+          "32%",
           "33%",
           "32%",
-          "32%"
+          "32%",
+          "29%"
         ],
         "hits": [
           false,
@@ -107,13 +107,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "33%",
           "32%",
+          "30%",
           "29%",
           "29%",
-          "29%",
+          "27%",
           "28%",
-          "28%"
+          "29%"
         ],
         "hits": [
           false,
@@ -128,13 +128,13 @@
       {
         "label": "Temperature",
         "values": [
-          "71",
+          "69",
+          "68",
           "70",
-          "67",
+          "68",
           "66",
-          "67",
-          "66",
-          "65"
+          "64",
+          "62"
         ],
         "hits": [
           false,
@@ -150,12 +150,12 @@
         "label": "Relative Humidity",
         "values": [
           "33",
-          "31",
-          "40",
           "37",
           "32",
-          "34",
-          "35"
+          "29",
+          "33",
+          "35",
+          "41"
         ],
         "hits": [
           false,
@@ -170,13 +170,13 @@
       {
         "label": "Winds",
         "values": [
-          "9",
           "8",
           "8",
           "9",
           "9",
+          "7",
           "8",
-          "8"
+          "9"
         ],
         "hits": [
           false,
@@ -192,7 +192,7 @@
         "label": "Wind Direction",
         "values": [
           "N",
-          "NNE",
+          "N",
           "N",
           "N",
           "N",
@@ -217,9 +217,9 @@
         "values": [
           "21",
           "20",
-          "20",
           "19",
           "18",
+          "17",
           "17",
           "16"
         ],
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "72",
-          "66",
-          "64",
-          "60",
+          "68",
+          "70",
+          "62",
+          "55",
           "51",
-          "52",
-          "53"
+          "54",
+          "56"
         ],
         "hits": [
           false,
@@ -257,25 +257,25 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
+          "45",
+          "41",
           "43",
           "45",
-          "39",
-          "41",
           "44",
-          "43",
-          "43"
+          "42",
+          "39"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "85",
-          "81",
-          "76",
+          "83",
+          "78",
           "77",
           "73",
+          "68",
           "71",
-          "70"
+          "74"
         ]
       }
     ]
@@ -2855,36 +2855,40 @@
         [
           274,
           38
+        ],
+        [
+          275,
+          42
         ]
       ],
       "forecasted": [
-        [
-          275,
-          43
-        ],
         [
           276,
           45
         ],
         [
           277,
-          39
-        ],
-        [
-          278,
           41
         ],
         [
+          278,
+          43
+        ],
+        [
           279,
-          44
+          45
         ],
         [
           280,
-          43
+          44
         ],
         [
           281,
-          43
+          42
+        ],
+        [
+          282,
+          39
         ]
       ]
     },
