@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, driven by dry fuels and low humidity rather than wind or heat.**\n- Fire indices climb gradually through the week — ERC rises from 55% to 66% and BI from 56% to 62% by Oct 10, though the adjective rating stays Moderate the whole period.\n- Sunny, calm weather dominates: light NNE winds near 5-8 mph, afternoon highs sliding from the mid-60s into the mid-50s, and no measurable rain expected except a trace Tuesday.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning or other NWS alerts are active for the area.\n- Stage 1 Fire Restrictions are in effect in unincorporated Montrose County effective September 4, 2026, with similar Stage 1 restrictions remaining in Delta County due to ongoing drought and high fire danger and in unincorporated Ouray County.\n- Gunnison Field Office BLM lands lifted Stage 1 restrictions on September 18, 2026; only standard year-round wildfire prevention rules remain in effect.\n- No active wildfires are currently burning in or near this area's counties.",
-  "lead": "Moderate fire danger holds today, driven by dry fuels and low humidity rather than wind or heat.",
+  "overview": "**Moderate fire danger holds today, driven by dry fuels and low afternoon humidity rather than wind or heat.**\n- Danger stays Moderate all week, with ERC/BI indices drifting up into the low-to-mid 60s by Saturday before a light 0.08\" rain arrives next Sunday.\n- Today is mild and dry: light north winds near 5 mph, afternoon RH down to 27%, warming toward a sunny 75° Tuesday per NWS.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is in effect for the area.\n- Stage 1 Fire Restrictions are in effect in unincorporated Montrose County, effective September 4, 2026; BLM Gunnison Field Office Stage 1 restrictions remain in effect through Dec. 31, 2026; Ouray County rescinded all unincorporated-area fire restrictions effective September 18, 2026.\n- No active wildfires are burning in or near these counties; Colorado wildfire activity remains quiet following beneficial late-season moisture, with no significant wildfires burning in the state.",
+  "lead": "Moderate fire danger holds today, driven by dry fuels and low afternoon humidity rather than wind or heat.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -19,13 +19,17 @@
       "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
-      "name": "Delta County Downgrades to Stage 1 Fire restrictions– Effective Friday, September 4th - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/delta-county/delta-county-downgrades-to-stage-1-fire-restrictions-effective-friday-september-4th/"
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
+    },
+    {
+      "name": "Colorado Fires Map",
+      "url": "https://fires.cornea.is/state/colorado"
     }
   ],
-  "generated": "Sunday, October 04"
+  "generated": "Monday, October 05"
 }
