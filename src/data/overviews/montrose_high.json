@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, driven by dry fuels and low afternoon humidity rather than wind or heat.**\n- Danger stays Moderate all week, with ERC/BI indices drifting up into the low-to-mid 60s by Saturday before a light 0.08\" rain arrives next Sunday.\n- Today is mild and dry: light north winds near 5 mph, afternoon RH down to 27%, warming toward a sunny 75° Tuesday per NWS.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is in effect for the area.\n- Stage 1 Fire Restrictions are in effect in unincorporated Montrose County, effective September 4, 2026; BLM Gunnison Field Office Stage 1 restrictions remain in effect through Dec. 31, 2026; Ouray County rescinded all unincorporated-area fire restrictions effective September 18, 2026.\n- No active wildfires are burning in or near these counties; Colorado wildfire activity remains quiet following beneficial late-season moisture, with no significant wildfires burning in the state.",
-  "lead": "Moderate fire danger holds today, driven by dry fuels and low afternoon humidity rather than wind or heat.",
+  "overview": "**Fire danger is Moderate today, with dry fuels (ERC 60%, BI 56%) offset by cool temps and calm winds.**\n- ERC/BI readings climb through midweek (ERC 66% by Oct 10) before easing by Oct 12, keeping the rating Moderate all week.\n- Light northeast winds (5 mph) and a slight chance of afternoon showers keep fire spread potential low today; a cooling, wetter pattern arrives this weekend with up to 0.25\" rain possible Oct 12.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is in effect for the area.\n- Montrose County lifted its Stage 1 fire restrictions for unincorporated areas on September 16, and no restrictions are currently in effect there. Gunnison County has also been free of fire restrictions since mid-September.\n- Statewide fire activity remains quiet following beneficial late-season moisture, with no significant wildfires burning as of Oct. 4. No active incidents are reported in or near this area's counties.",
+  "lead": "Fire danger is Moderate today, with dry fuels (ERC 60%, BI 56%) offset by cool temps and calm winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "All Fire Restrictions Have Been Lifted in Montrose County",
+      "url": "https://www.einpresswire.com/article/942825469/all-fire-restrictions-have-been-lifted-in-montrose-county"
     },
     {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
+      "name": "Emergency Response Services",
+      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
     },
     {
       "name": "Colorado Fires Map",
       "url": "https://fires.cornea.is/state/colorado"
     }
   ],
-  "generated": "Monday, October 05"
+  "generated": "Tuesday, October 06"
 }
