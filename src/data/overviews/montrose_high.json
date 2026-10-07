@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, with dry fuels (ERC 60%, BI 56%) offset by cool temps and calm winds.**\n- ERC/BI readings climb through midweek (ERC 66% by Oct 10) before easing by Oct 12, keeping the rating Moderate all week.\n- Light northeast winds (5 mph) and a slight chance of afternoon showers keep fire spread potential low today; a cooling, wetter pattern arrives this weekend with up to 0.25\" rain possible Oct 12.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is in effect for the area.\n- Montrose County lifted its Stage 1 fire restrictions for unincorporated areas on September 16, and no restrictions are currently in effect there. Gunnison County has also been free of fire restrictions since mid-September.\n- Statewide fire activity remains quiet following beneficial late-season moisture, with no significant wildfires burning as of Oct. 4. No active incidents are reported in or near this area's counties.",
-  "lead": "Fire danger is Moderate today, with dry fuels (ERC 60%, BI 56%) offset by cool temps and calm winds.",
+  "overview": "**Fire danger holds at Moderate today, driven by dry mid-level fuels (ERC 61%, BI 58%) despite light winds.**\n- Danger stays Moderate through the 7-day outlook, with ERC/BI ticking up slightly midweek (peaking near 66%/62% on Oct 9) before light rain Oct 11–13 nudges fuels down.\n- Winds stay light (5–12 mph, NE/ENE) all week; today brings a slight chance of afternoon showers/storms per NWS, with a high near 73.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is active for the area.\n- No fire restrictions are currently in effect — BLM's Uncompahgre and Gunnison Field Offices lifted Stage 1 restrictions on September 18, 2026, following earlier eases by Montrose County and GMUG National Forest in September.\n- No active wildfires are reported in this area's counties in today's national situation report; the only uncontained large fire nationally is in Wyoming, far outside this zone.",
+  "lead": "Fire danger holds at Moderate today, driven by dry mid-level fuels (ERC 61%, BI 58%) despite light winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "All Fire Restrictions Have Been Lifted in Montrose County",
-      "url": "https://www.einpresswire.com/article/942825469/all-fire-restrictions-have-been-lifted-in-montrose-county"
-    },
-    {
-      "name": "Emergency Response Services",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
-    },
-    {
-      "name": "Colorado Fires Map",
-      "url": "https://fires.cornea.is/state/colorado"
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district-old"
     }
   ],
-  "generated": "Tuesday, October 06"
+  "generated": "Wednesday, October 07"
 }
