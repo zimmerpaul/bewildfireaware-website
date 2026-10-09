@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, with dry fuels (ERC 64%) and low humidity (28%) as the main drivers, though winds stay light.**\n- Danger stays Moderate through Oct 14, with ERC easing from 64% to 57% and BI holding near 56-60% as light rain chances build late next week.\n- Sunny and mild today near 72°F with light southwest wind; a 20% shower chance arrives Friday afternoon, per NWS.\n- 0 of 7 local watch-out thresholds are met today, and no Red Flag Warning is in effect for the area.\n- Stage 1 fire restrictions in unincorporated Montrose County were lifted as of September 16, 2026, thanks to moisture and cooler temperatures, and Ouray County rescinded all fire restrictions effective September 18, 2026; Gunnison Field Office Stage 1 restrictions were also lifted September 18, with only standard year-round rules remaining.\n- No active large wildfires are reported in or near this area's counties in today's national sit report.",
-  "lead": "Moderate fire danger holds today, with dry fuels (ERC 64%) and low humidity (28%) as the main drivers, though winds stay light.",
+  "overview": "**Moderate fire danger holds today, driven mainly by low overnight humidity (24%) and warm afternoon temps near 63°, even as weekend rain moves in.**\n- Week-ahead trend stays flat: Moderate danger through Oct 15, with ERC near 60–66% and BI in the high-50s to upper-60s all week.\n- Key driver: humidity rebounds to 48–57% starting Saturday as modest rain (up to 0.06\") and cooler highs (low-to-mid 50s, dropping to 43° by the 15th) move through.\n- Only 1 of 7 local watchout thresholds is tripped today (overnight RH), no Red Flag Warning is in effect, and NWS reports no active alerts for the area.\n- Stage 1 fire restrictions in the BLM Gunnison Field Office were lifted September 18, with only standard year-round wildfire prevention rules remaining in effect; Ouray County similarly rescinded all fire restrictions for unincorporated areas effective September 18.\n- No new large fires are reported in or near these counties in today's national situation report; expect scattered showers and thunderstorms Saturday (60% chance) to further ease danger.",
+  "lead": "Moderate fire danger holds today, driven mainly by low overnight humidity (24%) and warm afternoon temps near 63°, even as weekend rain moves in.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "🔥 Fire restrictions lifted in unincorporated Montrose County - NewsBreak",
-      "url": "https://www.newsbreak.com/montrose-county-co-daily-brief-373177826/4891870154130-fire-restrictions-lifted-in-unincorporated-montrose-county"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     },
     {
       "name": "News Flash • Ouray County, CO",
       "url": "https://ouraycountyco.gov/m/newsflash"
-    },
-    {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Thursday, October 08"
+  "generated": "Friday, October 09"
 }
