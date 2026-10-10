@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, driven mainly by low overnight humidity (24%) and warm afternoon temps near 63°, even as weekend rain moves in.**\n- Week-ahead trend stays flat: Moderate danger through Oct 15, with ERC near 60–66% and BI in the high-50s to upper-60s all week.\n- Key driver: humidity rebounds to 48–57% starting Saturday as modest rain (up to 0.06\") and cooler highs (low-to-mid 50s, dropping to 43° by the 15th) move through.\n- Only 1 of 7 local watchout thresholds is tripped today (overnight RH), no Red Flag Warning is in effect, and NWS reports no active alerts for the area.\n- Stage 1 fire restrictions in the BLM Gunnison Field Office were lifted September 18, with only standard year-round wildfire prevention rules remaining in effect; Ouray County similarly rescinded all fire restrictions for unincorporated areas effective September 18.\n- No new large fires are reported in or near these counties in today's national situation report; expect scattered showers and thunderstorms Saturday (60% chance) to further ease danger.",
-  "lead": "Moderate fire danger holds today, driven mainly by low overnight humidity (24%) and warm afternoon temps near 63°, even as weekend rain moves in.",
+  "overview": "**Moderate fire danger holds across the Montrose High Elevation zone today, with ERC at 63% and light-to-moderate winds the main story.**\n- Week-ahead trend: Moderate danger persists through Oct 16, with ERC/BI readings hovering in the low-to-mid 60s all week.\n- Weather driver: a weekend storm system brings scattered showers and thunderstorms today and tonight, with highs near 55-64°F and winds out of the ENE/NNE at 9-14 mph.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning or fire weather watch is in effect for this area.\n- Restrictions: no fire restrictions are currently active — Montrose County lifted its Stage 1 ban in September, and nearby BLM field offices have also rescinded their restrictions.\n- Nearby incidents: the national situation report shows no new or uncontained large fires in this area's counties today.\n- Fuel moisture: 1000-hr fuels remain steady at 16-17%, reflecting the recent precipitation trend.",
+  "lead": "Moderate fire danger holds across the Montrose High Elevation zone today, with ERC at 63% and light-to-moderate winds the main story.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "name": "Montrose County enters Stage 1 fire restrictions",
+      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
     },
     {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
+    },
+    {
+      "name": "News Flash • Montrose County",
+      "url": "https://www.montrosecounty.net/m/newsflash?cat=26"
+    },
+    {
+      "name": "Stage 1 Fire Restrictions Beginning in Montrose County",
+      "url": "https://montrosecountysheriffsoffice.com/mcso-news/stage-1-fire-restrictions-beginning-in-montrose-county-2/"
     }
   ],
-  "generated": "Friday, October 09"
+  "generated": "Saturday, October 10"
 }

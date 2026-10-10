@@ -2,10 +2,10 @@
   "slug": "grand_junction_high",
   "name": "Grand Junction (High)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Friday, October 09",
+  "dateLabel": "Saturday, October 10",
   "areaTitle": "Grand Junction - High Elevation",
   "danger": "High",
-  "lastUpdated": "10/9/2026 02:38",
+  "lastUpdated": "10/10/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,15 +13,15 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "81%",
+      "value": "79%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "92%",
+      "value": "83%",
       "limit": "> 90%",
-      "triggered": true
+      "triggered": false
     },
     {
       "label": "Winds",
@@ -31,21 +31,21 @@
     },
     {
       "label": "Wind Dir",
-      "value": "NE"
+      "value": "ENE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.04"
     },
     {
       "label": "Max Temp",
-      "value": "64",
+      "value": "59",
       "limit": "> 75",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "26",
+      "value": "40",
       "limit": "< 20",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "66",
+      "value": "78",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "High Elevation FDRA Extended Forecast",
     "dates": [
-      "9-Oct",
       "10-Oct",
       "11-Oct",
       "12-Oct",
       "13-Oct",
       "14-Oct",
-      "15-Oct"
+      "15-Oct",
+      "16-Oct"
     ],
     "rows": [
       {
@@ -83,20 +83,20 @@
           "Moderate",
           "Moderate",
           "Moderate",
-          "Moderate",
+          "Low",
           "Low"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "81%",
           "79%",
-          "69%",
-          "73%",
           "70%",
-          "62%",
-          "54%"
+          "73%",
+          "69%",
+          "59%",
+          "58%",
+          "53%"
         ],
         "hits": [
           false,
@@ -111,16 +111,16 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "92%",
+          "83%",
+          "74%",
           "80%",
           "71%",
-          "74%",
-          "71%",
-          "62%",
+          "55%",
+          "53%",
           "48%"
         ],
         "hits": [
-          true,
+          false,
           false,
           false,
           false,
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "64",
+          "59",
           "58",
-          "57",
-          "54",
-          "53",
-          "45",
-          "41"
+          "58",
+          "52",
+          "42",
+          "44",
+          "46"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "26",
-          "41",
-          "53",
-          "45",
+          "40",
           "49",
-          "57",
-          "55"
+          "39",
+          "47",
+          "56",
+          "52",
+          "43"
         ],
         "hits": [
           false,
@@ -175,12 +175,12 @@
         "label": "Winds",
         "values": [
           "12",
+          "12",
+          "13",
           "11",
-          "13",
-          "13",
           "9",
-          "11",
-          "8"
+          "8",
+          "5"
         ],
         "hits": [
           false,
@@ -195,25 +195,25 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NE",
           "ENE",
           "ENE",
-          "NE",
+          "NNE",
           "NE",
           "ENE",
-          "NE"
+          "NE",
+          "N"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.00",
-          "0.06",
-          "0.09",
+          "0.04",
+          "0.10",
           "0.02",
-          "0.12",
-          "0.33",
-          "0.14"
+          "0.17",
+          "0.35",
+          "0.00",
+          "0.00"
         ]
       },
       {
@@ -223,8 +223,8 @@
           "15",
           "15",
           "15",
-          "15",
-          "15",
+          "16",
+          "16",
           "16"
         ],
         "hits": [
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "66",
-          "79",
-          "94",
-          "88",
-          "82",
+          "78",
+          "90",
+          "86",
+          "83",
           "85",
-          "84"
+          "86",
+          "77"
         ],
         "hits": [
           false,
@@ -261,31 +261,31 @@
       {
         "label": "ERC-Y (Actual Number 1-60)",
         "values": [
-          "35",
           "33",
           "29",
           "31",
-          "30",
-          "24",
-          "17"
+          "28",
+          "21",
+          "20",
+          "16"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-44)",
         "values": [
-          "27",
+          "25",
+          "22",
           "24",
-          "21",
-          "21",
           "20",
-          "15",
+          "8",
+          "7",
           "0"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 1,
+    "met": 0,
     "total": 7,
     "isWatchout": false
   },
@@ -2886,13 +2886,13 @@
         [
           281,
           35
+        ],
+        [
+          282,
+          33
         ]
       ],
       "forecasted": [
-        [
-          281,
-          35
-        ],
         [
           282,
           33
@@ -2907,15 +2907,19 @@
         ],
         [
           285,
-          30
+          28
         ],
         [
           286,
-          24
+          21
         ],
         [
           287,
-          17
+          20
+        ],
+        [
+          288,
+          16
         ]
       ]
     },
