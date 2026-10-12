@@ -2,46 +2,46 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Sunday, October 11",
+  "dateLabel": "Monday, October 12",
   "areaTitle": "DRC Lower",
   "danger": "Low",
-  "lastUpdated": "10/11/2026 2:53:53",
+  "lastUpdated": "10/12/2026 2:53:51",
   "observations": [
     {
       "label": "ERC %",
-      "value": "13%",
+      "value": "21%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "18%",
+      "value": "28%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "19",
+      "value": "16",
       "limit": "> 11",
       "triggered": true
     },
     {
       "label": "Direction",
-      "value": "E"
+      "value": "NE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.04"
+      "value": "0.34"
     },
     {
       "label": "Max Temp",
-      "value": "62",
+      "value": "59",
       "limit": "> 89",
       "triggered": false
     },
     {
       "label": "Min Rh %",
-      "value": "59",
+      "value": "49",
       "limit": "< 9",
       "triggered": false
     },
@@ -53,7 +53,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "74",
+      "value": "69",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,13 +62,13 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "11-Oct",
       "12-Oct",
       "13-Oct",
       "14-Oct",
       "15-Oct",
       "16-Oct",
-      "17-Oct"
+      "17-Oct",
+      "18-Oct"
     ],
     "rows": [
       {
@@ -80,19 +80,19 @@
           "Low",
           "Low",
           "Low",
-          "Low"
+          "Moderate"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "13%",
           "21%",
-          "19%",
-          "24%",
-          "32%",
-          "32%",
-          "31%"
+          "18%",
+          "22%",
+          "28%",
+          "31%",
+          "35%",
+          "38%"
         ],
         "hits": [
           false,
@@ -107,13 +107,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "18%",
-          "25%",
-          "21%",
           "28%",
-          "34%",
-          "34%",
-          "30%"
+          "18%",
+          "24%",
+          "30%",
+          "32%",
+          "33%",
+          "34%"
         ],
         "hits": [
           false,
@@ -128,13 +128,13 @@
       {
         "label": "Temperature",
         "values": [
-          "62",
-          "58",
-          "55",
-          "49",
+          "59",
+          "54",
+          "51",
           "53",
           "55",
-          "54"
+          "53",
+          "55"
         ],
         "hits": [
           false,
@@ -149,13 +149,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "59",
-          "54",
-          "54",
           "49",
-          "43",
-          "44",
-          "49"
+          "58",
+          "46",
+          "41",
+          "41",
+          "47",
+          "46"
         ],
         "hits": [
           false,
@@ -170,18 +170,18 @@
       {
         "label": "Winds",
         "values": [
-          "19",
-          "14",
-          "15",
+          "16",
+          "13",
           "9",
-          "9",
-          "9",
-          "7"
+          "10",
+          "10",
+          "7",
+          "6"
         ],
         "hits": [
           true,
           true,
-          true,
+          false,
           false,
           false,
           false,
@@ -191,10 +191,10 @@
       {
         "label": "Wind Direction",
         "values": [
+          "NE",
           "E",
-          "ENE",
-          "ENE",
           "NNE",
+          "N",
           "N",
           "NNE",
           "NNE"
@@ -203,13 +203,13 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.33",
           "0.04",
-          "0.26",
-          "0.07",
+          "0.34",
+          "0.16",
           "0.00",
-          "0.03",
-          "0.03"
+          "0.00",
+          "0.00",
+          "0.00"
         ]
       },
       {
@@ -217,11 +217,11 @@
         "values": [
           "16",
           "16",
-          "17",
-          "17",
-          "17",
-          "17",
-          "17"
+          "16",
+          "16",
+          "16",
+          "16",
+          "16"
         ],
         "hits": [
           false,
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "90",
-          "84",
-          "85",
-          "74",
+          "80",
+          "86",
+          "78",
           "69",
+          "62",
           "66",
-          "68"
+          "67"
         ],
         "hits": [
           false,
@@ -257,25 +257,25 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
-          "8",
           "23",
-          "18",
-          "30",
-          "42",
-          "44",
-          "40"
+          "14",
+          "26",
+          "36",
+          "41",
+          "47",
+          "51"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "39",
-          "66",
-          "51",
           "71",
-          "88",
-          "88",
-          "78"
+          "37",
+          "60",
+          "80",
+          "83",
+          "86",
+          "88"
         ]
       }
     ]
@@ -2887,36 +2887,40 @@
         [
           282,
           36
+        ],
+        [
+          283,
+          17
         ]
       ],
       "forecasted": [
-        [
-          283,
-          8
-        ],
         [
           284,
           23
         ],
         [
           285,
-          18
+          14
         ],
         [
           286,
-          30
+          26
         ],
         [
           287,
-          42
+          36
         ],
         [
           288,
-          44
+          41
         ],
         [
           289,
-          40
+          47
+        ],
+        [
+          290,
+          51
         ]
       ]
     },

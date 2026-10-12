@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds across the Montrose High Elevation zone today, with ERC at 63% and light-to-moderate winds the main story.**\n- Week-ahead trend: Moderate danger persists through Oct 16, with ERC/BI readings hovering in the low-to-mid 60s all week.\n- Weather driver: a weekend storm system brings scattered showers and thunderstorms today and tonight, with highs near 55-64°F and winds out of the ENE/NNE at 9-14 mph.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning or fire weather watch is in effect for this area.\n- Restrictions: no fire restrictions are currently active — Montrose County lifted its Stage 1 ban in September, and nearby BLM field offices have also rescinded their restrictions.\n- Nearby incidents: the national situation report shows no new or uncontained large fires in this area's counties today.\n- Fuel moisture: 1000-hr fuels remain steady at 16-17%, reflecting the recent precipitation trend.",
-  "lead": "Moderate fire danger holds across the Montrose High Elevation zone today, with ERC at 63% and light-to-moderate winds the main story.",
+  "overview": "**Fire danger across the Montrose (High Elevation) zone is Moderate today, as dry fuels (ERC 64%, BI 69%) offset cool temps and light NNE winds.**\n\n- Danger stays Moderate most of the week, dipping briefly to Low on Thursday, Oct. 15, before climbing back to Moderate through the weekend.\n- A Pacific storm brings a 60% chance of showers/thunderstorms tonight and 50% Tuesday, with highs cooling into the upper 50s and winds shifting west-northwest.\n- No Red Flag Warning is posted; 0 of 7 local watchout threshold conditions are currently met.\n- Gunnison County is not currently under Fire Restrictions as of 12:01 a.m. Friday, September 18, 2026, and Ouray County fire restrictions were rescinded effective 12:01 a.m., Friday, September 18, 2026 — confirm status locally before any burning.\n- Today's national interagency situation report shows no new large fires in the Rocky Mountain Area affecting Gunnison, Ouray, Montrose, or neighboring counties.",
+  "lead": "Fire danger across the Montrose (High Elevation) zone is Moderate today, as dry fuels (ERC 64%, BI 69%) offset cool temps and light NNE winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "Emergency Response Services",
+      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
-      "name": "News Flash • Montrose County",
-      "url": "https://www.montrosecounty.net/m/newsflash?cat=26"
-    },
-    {
-      "name": "Stage 1 Fire Restrictions Beginning in Montrose County",
-      "url": "https://montrosecountysheriffsoffice.com/mcso-news/stage-1-fire-restrictions-beginning-in-montrose-county-2/"
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
     }
   ],
-  "generated": "Saturday, October 10"
+  "generated": "Monday, October 12"
 }
