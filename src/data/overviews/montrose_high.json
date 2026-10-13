@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger across the Montrose (High Elevation) zone is Moderate today, as dry fuels (ERC 64%, BI 69%) offset cool temps and light NNE winds.**\n\n- Danger stays Moderate most of the week, dipping briefly to Low on Thursday, Oct. 15, before climbing back to Moderate through the weekend.\n- A Pacific storm brings a 60% chance of showers/thunderstorms tonight and 50% Tuesday, with highs cooling into the upper 50s and winds shifting west-northwest.\n- No Red Flag Warning is posted; 0 of 7 local watchout threshold conditions are currently met.\n- Gunnison County is not currently under Fire Restrictions as of 12:01 a.m. Friday, September 18, 2026, and Ouray County fire restrictions were rescinded effective 12:01 a.m., Friday, September 18, 2026 — confirm status locally before any burning.\n- Today's national interagency situation report shows no new large fires in the Rocky Mountain Area affecting Gunnison, Ouray, Montrose, or neighboring counties.",
-  "lead": "Fire danger across the Montrose (High Elevation) zone is Moderate today, as dry fuels (ERC 64%, BI 69%) offset cool temps and light NNE winds.",
+  "overview": "**Fire danger in the Montrose (High Elevation) area is Moderate today, driven by elevated fuel conditions (ERC 63%, BI 60%) ahead of an incoming wet pattern.**\n\n- The trend is downward: danger eases to Low by Thursday as ERC and BI percentiles fall through the week (63%→42%).\n- Showers and thunderstorms are likely today into Wednesday night, with up to 0.28\" of rain forecast — the main driver of this week's cooldown.\n- 0 of 7 local watchout thresholds are met today, and no red flag warnings or fire weather watches are active, and significant fire potential is at the lowest level statewide.\n- Stage 1 fire restrictions remain in place on BLM Uncompahgre, Gunnison, and Tres Rios field office lands, covering Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties, remaining in effect through Dec. 31, 2026, or until rescinded.\n- No wildfires are active in or near this area; wildfire activity across Colorado remains quiet with no active wildfires burning statewide, and the only uncontained large fire nationally is in Wyoming, far outside this region.",
+  "lead": "Fire danger in the Montrose (High Elevation) area is Moderate today, driven by elevated fuel conditions (ERC 63%, BI 60%) ahead of an incoming wet pattern.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Emergency Response Services",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+      "name": "Colorado Fires Map",
+      "url": "https://fires.cornea.is/state/colorado"
     },
     {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Monday, October 12"
+  "generated": "Tuesday, October 13"
 }
