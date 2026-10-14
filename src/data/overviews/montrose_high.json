@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger in the Montrose (High Elevation) area is Moderate today, driven by elevated fuel conditions (ERC 63%, BI 60%) ahead of an incoming wet pattern.**\n\n- The trend is downward: danger eases to Low by Thursday as ERC and BI percentiles fall through the week (63%→42%).\n- Showers and thunderstorms are likely today into Wednesday night, with up to 0.28\" of rain forecast — the main driver of this week's cooldown.\n- 0 of 7 local watchout thresholds are met today, and no red flag warnings or fire weather watches are active, and significant fire potential is at the lowest level statewide.\n- Stage 1 fire restrictions remain in place on BLM Uncompahgre, Gunnison, and Tres Rios field office lands, covering Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties, remaining in effect through Dec. 31, 2026, or until rescinded.\n- No wildfires are active in or near this area; wildfire activity across Colorado remains quiet with no active wildfires burning statewide, and the only uncontained large fire nationally is in Wyoming, far outside this region.",
-  "lead": "Fire danger in the Montrose (High Elevation) area is Moderate today, driven by elevated fuel conditions (ERC 63%, BI 60%) ahead of an incoming wet pattern.",
+  "overview": "**Fire danger in the Montrose (High Elevation) FDRA is Moderate today, kept in check by overnight rain and rising fuel moisture, not fire behavior.**\n\n- Rain and high-elevation snow (0.27\" so far, max RH 94%) are easing dryness, with more showers possible tonight before Thursday clears and warms into the mid-50s.\n- ERC (53%) and BI (49%) percentiles hold Moderate most of the week, dipping to Low on Friday, Oct. 17, then back to Moderate through the weekend as winds stay light (5–15 mph, NE).\n- No Red Flag Warning is posted for the area, and 0 of 7 local watchout thresholds are met today.\n- Stage 1 fire restrictions on BLM Uncompahgre Field Office lands remain in effect through Dec.",
+  "lead": "Fire danger in the Montrose (High Elevation) FDRA is Moderate today, kept in check by overnight rain and rising fuel moisture, not fire behavior.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Colorado Fires Map",
-      "url": "https://fires.cornea.is/state/colorado"
-    },
-    {
       "name": "Southwest District Fire Restrictions",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     }
   ],
-  "generated": "Tuesday, October 13"
+  "generated": "Wednesday, October 14"
 }
