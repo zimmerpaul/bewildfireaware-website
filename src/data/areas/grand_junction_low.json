@@ -2,10 +2,10 @@
   "slug": "grand_junction_low",
   "name": "Grand Junction (Low)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Wednesday, October 14",
+  "dateLabel": "Thursday, October 15",
   "areaTitle": "Grand Junction - Low Elevation",
-  "danger": "Low",
-  "lastUpdated": "10/14/2026 02:38",
+  "danger": "Moderate",
+  "lastUpdated": "10/15/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,39 +13,39 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "17%",
+      "value": "31%",
       "limit": "> 86%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "17%",
+      "value": "38%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "7",
+      "value": "15",
       "limit": "> 10",
-      "triggered": false
+      "triggered": true
     },
     {
       "label": "Wind Dir",
-      "value": "E"
+      "value": "NNE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.76"
+      "value": "0.06"
     },
     {
       "label": "Max Temp",
-      "value": "48",
+      "value": "55",
       "limit": "> 85",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "70",
+      "value": "46",
       "limit": "< 15",
       "triggered": false
     },
@@ -66,37 +66,37 @@
   "forecast": {
     "title": "Low Elevation FDRA Extended Forecast",
     "dates": [
-      "14-Oct",
       "15-Oct",
       "16-Oct",
       "17-Oct",
       "18-Oct",
       "19-Oct",
-      "20-Oct"
+      "20-Oct",
+      "21-Oct"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Low",
-          "Low",
-          "Low",
+          "Moderate",
+          "Moderate",
           "Low",
           "Low",
           "Moderate",
-          "Moderate"
+          "Moderate",
+          "Low"
         ]
       },
       {
         "label": "ERC-X Percentile",
         "values": [
-          "17%",
-          "29%",
-          "33%",
-          "33%",
-          "38%",
+          "31%",
           "41%",
-          "39%"
+          "46%",
+          "44%",
+          "42%",
+          "38%",
+          "33%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-X Percentile",
         "values": [
-          "17%",
           "38%",
-          "30%",
-          "28%",
-          "30%",
-          "38%",
-          "60%"
+          "35%",
+          "32%",
+          "32%",
+          "35%",
+          "35%",
+          "31%"
         ],
         "hits": [
           false,
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "48",
           "55",
-          "58",
-          "55",
+          "56",
+          "59",
           "54",
-          "57",
-          "58"
+          "56",
+          "56",
+          "54"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "70",
-          "44",
-          "33",
+          "46",
+          "35",
+          "35",
           "43",
-          "52",
-          "52",
-          "55"
+          "48",
+          "57",
+          "63"
         ],
         "hits": [
           false,
@@ -174,58 +174,58 @@
       {
         "label": "Winds",
         "values": [
-          "7",
           "15",
-          "10",
+          "11",
           "4",
           "4",
+          "7",
           "8",
-          "16"
+          "8"
         ],
         "hits": [
-          false,
+          true,
           true,
           false,
           false,
           false,
           false,
-          true
+          false
         ]
       },
       {
         "label": "Wind Direction",
         "values": [
-          "E",
           "NNE",
           "N",
           "NNE",
           "NNE",
           "N",
-          "NE"
+          "NE",
+          "ENE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
-          "0.76",
-          "0.03",
+          "0.06",
           "0.00",
           "0.00",
           "0.00",
           "0.00",
-          "0.05"
+          "0.02",
+          "0.17"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
           "15",
-          "16",
+          "17",
           "18",
           "18",
-          "19",
-          "19",
-          "19"
+          "18",
+          "18",
+          "18"
         ],
         "hits": [
           false,
@@ -241,12 +241,12 @@
         "label": "Max Rh",
         "values": [
           "90",
-          "85",
-          "64",
-          "59",
-          "68",
-          "73",
-          "74"
+          "65",
+          "56",
+          "58",
+          "66",
+          "75",
+          "81"
         ],
         "hits": [
           false,
@@ -261,31 +261,31 @@
       {
         "label": "ERC-X (Actual Number 1-110)",
         "values": [
-          "1",
-          "32",
-          "41",
-          "39",
+          "34",
+          "54",
+          "58",
+          "56",
+          "55",
           "49",
-          "53",
-          "52"
+          "39"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-352)",
         "values": [
-          "3",
-          "106",
-          "77",
-          "65",
-          "78",
-          "106",
-          "158"
+          "107",
+          "100",
+          "84",
+          "85",
+          "97",
+          "100",
+          "82"
         ]
       }
     ]
   },
   "watchout": {
-    "met": 0,
+    "met": 1,
     "total": 7,
     "isWatchout": false
   },
@@ -2661,33 +2661,37 @@
         ],
         [
           286,
-          1
+          0
+        ],
+        [
+          287,
+          34
         ]
       ],
       "forecasted": [
         [
-          286,
-          1
-        ],
-        [
           287,
-          32
+          34
         ],
         [
           288,
-          41
+          54
         ],
         [
           289,
-          39
+          58
         ],
         [
           290,
-          49
+          56
         ],
         [
           291,
-          53
+          55
+        ],
+        [
+          292,
+          49
         ]
       ]
     },
