@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, with dry fuels (1000-hr fuels at 17%) and seasonally low humidity the main drivers.**\n- Danger stays Moderate through the week, with ERC near 55–58% and BI around 50–52%, showing little change into Oct. 21.\n- Dry, mild weather continues: today's high near 57°F dips to 48–55°F with no rain forecast, though a cooler, breezier midweek dip in humidity (down to 21–22%) bears watching.\n- No Red Flag Warning is in effect for this area, and 0 of 7 local watchout thresholds are currently met.\n- Fire restrictions are largely lifted across the region: BLM's Gunnison Field Office lifted Stage 1 fire restrictions on September 18, with only standard year-round rules remaining, and Montrose County lifted its restrictions for unincorporated areas effective September 16.\n- No active wildfires are burning in or near the Montrose High Elevation counties today; the Rocky Mountain Area remains at Preparedness Level 2 with no new large incidents reported.",
-  "lead": "Fire danger is Moderate today, with dry fuels (1000-hr fuels at 17%) and seasonally low humidity the main drivers.",
+  "overview": "**Moderate fire danger holds across the Montrose High Elevation zone today, driven by low overnight humidity and dry 1000-hr fuels.**\n- The 7-day outlook stays flat at Moderate danger (ERC 56-58%, BI 50-52%) through Oct. 22, with no spikes expected.\n- Today's min humidity of 20% exceeds the local watchout threshold (1 of 7 triggered); highs reach only into the low-50s with light north winds near 7 mph.\n- A weak system brings cooling, rising humidity, and light rain (0.26\") by Oct. 22, easing conditions late in the week.\n- No Red Flag Warning or other NWS alerts are active for the area; skies stay sunny and calm through Saturday.\n- BLM's Uncompahgre Field Office lifted Stage 1 fire restrictions on September 18, 2026, leaving only standard year-round rules in effect. Gunnison County rescinded all fire restrictions as of Sept. 18 as well.\n- No new wildfires are reported in or near this area's counties in today's national incident report.",
+  "lead": "Moderate fire danger holds across the Montrose High Elevation zone today, driven by low overnight humidity and dry 1000-hr fuels.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -19,9 +19,9 @@
       "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     },
     {
-      "name": "All Fire Restrictions Have Been Lifted in Montrose County",
-      "url": "https://www.einpresswire.com/article/942825469/all-fire-restrictions-have-been-lifted-in-montrose-county"
+      "name": "Wildfire Information",
+      "url": "https://co-gunnisoncounty.civicplus.com/852/Wildfire-Information"
     }
   ],
-  "generated": "Thursday, October 15"
+  "generated": "Friday, October 16"
 }
