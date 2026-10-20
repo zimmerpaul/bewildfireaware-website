@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger today, driven by low humidity and dry 1000-hour fuels, with little wind to fan activity.**\n- Danger eases to Low by midweek as a cooler, wetter pattern moves in Wednesday through Friday.\n- Key driver: today's min humidity near 47% and ERC at 60%, keeping fine fuels receptive to ignition.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning in effect, and none expected this week.\n- Rain chances build Tuesday night into Thursday (up to 0.58\"), which should further lower fire potential.\n- No fire restrictions are currently active in Montrose, Gunnison, Delta, Ouray, San Miguel, or surrounding counties — BLM and county stage orders were lifted in September.\n- No active wildfires are being reported in or near this area; statewide fire activity remains quiet.",
-  "lead": "Moderate fire danger today, driven by low humidity and dry 1000-hour fuels, with little wind to fan activity.",
+  "overview": "**Fire danger is Moderate today, driven by elevated energy release component (60%) and burning index (54%) despite mild temperatures and light winds.**\n- Danger dips to Low on Thursday (Oct 22) as a wetting system moves through, then returns to Moderate for the rest of the week.\n- A disturbance brings Wednesday's main weather shift: scattered showers and possible thunderstorms with a 60% chance of precipitation and a high near 62.\n- No Red Flag Warning is in effect, and 0 of 7 local watchout thresholds are currently met.\n- No fire restrictions are active in Montrose, Delta, Gunnison, Ouray, or San Miguel counties, or on GMUG National Forest and BLM lands — all were lifted earlier this fall.\n- No active wildfires are burning in or near this area; the only uncontained large fire in the national report is in Wyoming, well outside this zone.",
+  "lead": "Fire danger is Moderate today, driven by elevated energy release component (60%) and burning index (54%) despite mild temperatures and light winds.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -31,5 +31,5 @@
       "url": "https://www.montrosecounty.net/m/newsflash?cat=26"
     }
   ],
-  "generated": "Monday, October 19"
+  "generated": "Tuesday, October 20"
 }

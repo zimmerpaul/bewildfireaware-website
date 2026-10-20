@@ -2,10 +2,10 @@
   "slug": "grand_junction_middle",
   "name": "Grand Junction (Middle)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Monday, October 19",
+  "dateLabel": "Tuesday, October 20",
   "areaTitle": "Grand Junction - Middle Elevation",
   "danger": "Moderate",
-  "lastUpdated": "10/19/2026 02:39",
+  "lastUpdated": "10/20/2026 02:38",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,25 +13,25 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "45%",
+      "value": "42%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "23%",
+      "value": "21%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "7",
+      "value": "6",
       "limit": "> 15",
       "triggered": false
     },
     {
       "label": "Wind Dir",
-      "value": "NE"
+      "value": "NNE"
     },
     {
       "label": "24hr Rain",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Min Rh",
-      "value": "42",
+      "value": "44",
       "limit": "< 15",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "77",
+      "value": "95",
       "limit": "< 55",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Middle Elevation FDRA Extended Forecast",
     "dates": [
-      "19-Oct",
       "20-Oct",
       "21-Oct",
       "22-Oct",
       "23-Oct",
       "24-Oct",
-      "25-Oct"
+      "25-Oct",
+      "26-Oct"
     ],
     "rows": [
       {
@@ -80,21 +80,21 @@
         "values": [
           "Moderate",
           "Moderate",
-          "Moderate",
           "Low",
           "Low",
           "Low",
-          "Moderate"
+          "Low",
+          "Low"
         ]
       },
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "45%",
-          "45%",
-          "46%",
+          "42%",
+          "42%",
+          "35%",
           "38%",
-          "39%",
+          "38%",
           "41%",
           "42%"
         ],
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "23%",
-          "22%",
-          "22%",
-          "15%",
           "21%",
+          "21%",
+          "14%",
+          "23%",
+          "17%",
           "18%",
-          "21%"
+          "19%"
         ],
         "hits": [
           false,
@@ -134,10 +134,10 @@
         "values": [
           "60",
           "60",
-          "62",
-          "55",
-          "49",
+          "57",
+          "51",
           "46",
+          "49",
           "52"
         ],
         "hits": [
@@ -153,12 +153,12 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "42",
           "44",
-          "43",
-          "74",
-          "77",
-          "61",
+          "48",
+          "70",
+          "63",
+          "63",
+          "51",
           "50"
         ],
         "hits": [
@@ -174,19 +174,19 @@
       {
         "label": "Winds",
         "values": [
+          "6",
           "7",
-          "7",
-          "8",
           "11",
-          "13",
-          "7",
-          "7"
+          "17",
+          "6",
+          "5",
+          "5"
         ],
         "hits": [
           false,
           false,
           false,
-          false,
+          true,
           false,
           false,
           false
@@ -195,11 +195,11 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NE",
           "NNE",
-          "ENE",
           "E",
           "E",
+          "NE",
+          "NE",
           "NNE",
           "NNE"
         ]
@@ -208,11 +208,11 @@
         "label": "Precipitation 24hr rain",
         "values": [
           "0.00",
+          "0.16",
+          "0.71",
+          "0.09",
           "0.00",
-          "0.08",
-          "0.56",
-          "0.14",
-          "0.02",
+          "0.00",
           "0.00"
         ]
       },
@@ -220,11 +220,11 @@
         "label": "1000hr Fuels",
         "values": [
           "18",
-          "17",
-          "17",
-          "17",
-          "17",
-          "17",
+          "18",
+          "18",
+          "18",
+          "18",
+          "18",
           "18"
         ],
         "hits": [
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "77",
+          "95",
+          "89",
+          "93",
+          "89",
+          "91",
           "87",
-          "81",
-          "88",
-          "94",
-          "98",
-          "84"
+          "78"
         ],
         "hits": [
           false,
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-69)",
         "values": [
-          "26",
-          "25",
-          "26",
+          "24",
+          "24",
+          "16",
+          "18",
           "19",
-          "20",
           "21",
-          "24"
+          "22"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-58)",
         "values": [
-          "19",
-          "17",
-          "18",
-          "11",
           "16",
+          "17",
+          "10",
+          "18",
+          "13",
           "14",
-          "17"
+          "15"
         ]
       }
     ]
@@ -2925,37 +2925,41 @@
         ],
         [
           291,
-          26
+          25
+        ],
+        [
+          292,
+          24
         ]
       ],
       "forecasted": [
         [
-          291,
-          26
-        ],
-        [
           292,
-          25
+          24
         ],
         [
           293,
-          26
+          24
         ],
         [
           294,
-          19
+          16
         ],
         [
           295,
-          20
+          18
         ],
         [
           296,
-          21
+          19
         ],
         [
           297,
-          24
+          21
+        ],
+        [
+          298,
+          22
         ]
       ]
     },
