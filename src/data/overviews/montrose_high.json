@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, driven by elevated energy release component (60%) and burning index (54%) despite mild temperatures and light winds.**\n- Danger dips to Low on Thursday (Oct 22) as a wetting system moves through, then returns to Moderate for the rest of the week.\n- A disturbance brings Wednesday's main weather shift: scattered showers and possible thunderstorms with a 60% chance of precipitation and a high near 62.\n- No Red Flag Warning is in effect, and 0 of 7 local watchout thresholds are currently met.\n- No fire restrictions are active in Montrose, Delta, Gunnison, Ouray, or San Miguel counties, or on GMUG National Forest and BLM lands — all were lifted earlier this fall.\n- No active wildfires are burning in or near this area; the only uncontained large fire in the national report is in Wyoming, well outside this zone.",
-  "lead": "Fire danger is Moderate today, driven by elevated energy release component (60%) and burning index (54%) despite mild temperatures and light winds.",
+  "overview": "**Moderate fire danger holds today, with ERC near 60% but incoming rain keeping risk in check.**\n- 7-day trend: danger stays Moderate through Saturday, then eases to Low by Oct 26–27 as fuels moisten.\n- Weather driver: showers and thunderstorms are forecast tonight and Thursday, with up to 80–90% precipitation chances cooling conditions.\n- Watchout status: 0 of 7 local thresholds are currently met; no Red Flag Warning is in effect for the area.\n- Restrictions: Montrose and Gunnison counties currently have no fire restrictions in place, and BLM's Southwest District has rescinded prior Stage 1 orders across the Uncompahgre, Gunnison, and Tres Rios field offices.\n- Nearby incidents: no active wildfires are reported in or near Gunnison, Montrose, Delta, Ouray, San Miguel, or surrounding counties at this time.",
+  "lead": "Moderate fire danger holds today, with ERC near 60% but incoming rain keeping risk in check.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -19,17 +19,17 @@
       "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
     },
     {
+      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
+      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+    },
+    {
       "name": "Montrose County - West Slope Fire Info",
       "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
       "name": "Southwest District Fire Restrictions",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "News Flash • Montrose County",
-      "url": "https://www.montrosecounty.net/m/newsflash?cat=26"
     }
   ],
-  "generated": "Tuesday, October 20"
+  "generated": "Wednesday, October 21"
 }
