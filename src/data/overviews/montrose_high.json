@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, with ERC near 60% but incoming rain keeping risk in check.**\n- 7-day trend: danger stays Moderate through Saturday, then eases to Low by Oct 26–27 as fuels moisten.\n- Weather driver: showers and thunderstorms are forecast tonight and Thursday, with up to 80–90% precipitation chances cooling conditions.\n- Watchout status: 0 of 7 local thresholds are currently met; no Red Flag Warning is in effect for the area.\n- Restrictions: Montrose and Gunnison counties currently have no fire restrictions in place, and BLM's Southwest District has rescinded prior Stage 1 orders across the Uncompahgre, Gunnison, and Tres Rios field offices.\n- Nearby incidents: no active wildfires are reported in or near Gunnison, Montrose, Delta, Ouray, San Miguel, or surrounding counties at this time.",
-  "lead": "Moderate fire danger holds today, with ERC near 60% but incoming rain keeping risk in check.",
+  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, with wet, cloudy weather keeping conditions calm.**\n- Outlook rises briefly to Moderate Friday (Oct. 23) before easing back to Low through Oct. 28.\n- Today's rain showers and thunderstorms (70% chance) with light east winds, followed by more showers and storms overnight (80% chance), are adding moisture to fuels.\n- No Red Flag Warning is in effect, and 0 of 7 local watchout thresholds are met.\n- Stage 1 fire restrictions have been lifted in the Uncompahgre, Gunnison, and Tres Rios BLM field offices, with only standard year-round wildfire prevention rules remaining in effect; Ouray County has also rescinded all fire restrictions for unincorporated areas.\n- No new or uncontained large wildfires are reported in or near these Western Colorado counties in the latest national situation report.",
+  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, with wet, cloudy weather keeping conditions calm.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/upper-colorado-river-district"
     },
     {
-      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
-    },
-    {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+      "name": "Sheriff Rescinds Fire Restrictions • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash/home/detail/963"
     }
   ],
-  "generated": "Wednesday, October 21"
+  "generated": "Thursday, October 22"
 }
