@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, kept in check by overnight rain and milder fuels, with a drop to Low expected starting Sunday.**\n- Trend: danger eases from Moderate today to Low for the rest of the week as ERC/BI percentiles fall into the 30s-40s.\n- Weather driver: showers and thunderstorms are moving through today and tonight, with ENE winds 5-20 mph (gusts to 35 mph) per NWS.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning or other alerts are active for this area.\n- Restrictions: No fire restrictions are currently in effect in these counties — Gunnison, Ouray, and GMUG National Forest Stage 1 orders were all rescinded in September.\n- Incidents: No active wildfires are reported in or near Montrose-area counties; the only uncontained large fire in today's national sit report is in Wyoming, outside this area.",
-  "lead": "Fire danger is Moderate today, kept in check by overnight rain and milder fuels, with a drop to Low expected starting Sunday.",
+  "overview": "**Fire danger in the Montrose high-elevation zone is Low today, kept down by cool temps, scattered rain, and moist fuels (ERC 45%, BI 41%).**\n- Danger stays Low through October 31, with ERC trending 39–47% and BI 36–43% as periodic rain/snow keeps fuels damp.\n- Cool highs (41–47°F) and light winds (6–10 mph) through the week limit any fire spread potential.\n- 0 of 7 local watchout thresholds are met today, and no Red Flag Warnings or Fire Weather Watches are in effect across Colorado.\n- Fire restrictions remain eased region-wide: Uncompahgre, Gunnison, and Tres Rios BLM field offices and the GMUG National Forest have all lifted Stage 1 fire restrictions, with only standard year-round wildfire prevention rules in effect.\n- No active wildfires are burning in or near this area's counties; the Rocky Mountain Area's only uncontained large fire remains far north in Sheridan County, Wyoming.",
+  "lead": "Fire danger in the Montrose high-elevation zone is Low today, kept down by cool temps, scattered rain, and moist fuels (ERC 45%, BI 41%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
-      "url": "https://www.fs.usda.gov/r02/gmug/alerts/gold-mountain-wildfire-area-closure-order"
-    },
-    {
-      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions",
-      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+      "name": "Colorado Fires Map",
+      "url": "https://fires.cornea.is/state/colorado"
     },
     {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
       "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Saturday, October 24"
+  "generated": "Sunday, October 25"
 }
