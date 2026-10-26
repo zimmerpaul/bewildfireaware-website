@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger in the Montrose high-elevation zone is Low today, kept down by cool temps, scattered rain, and moist fuels (ERC 45%, BI 41%).**\n- Danger stays Low through October 31, with ERC trending 39–47% and BI 36–43% as periodic rain/snow keeps fuels damp.\n- Cool highs (41–47°F) and light winds (6–10 mph) through the week limit any fire spread potential.\n- 0 of 7 local watchout thresholds are met today, and no Red Flag Warnings or Fire Weather Watches are in effect across Colorado.\n- Fire restrictions remain eased region-wide: Uncompahgre, Gunnison, and Tres Rios BLM field offices and the GMUG National Forest have all lifted Stage 1 fire restrictions, with only standard year-round wildfire prevention rules in effect.\n- No active wildfires are burning in or near this area's counties; the Rocky Mountain Area's only uncontained large fire remains far north in Sheridan County, Wyoming.",
-  "lead": "Fire danger in the Montrose high-elevation zone is Low today, kept down by cool temps, scattered rain, and moist fuels (ERC 45%, BI 41%).",
+  "overview": "**Fire danger remains Low today, held down by cool temperatures, light winds, and recent light moisture across the high country.**\n\n- Danger stays Low through November 1, with ERC and BI percentiles easing slightly as the week progresses.\n- Light winds (6–10 mph, shifting NNE to ENE) and highs in the 40s keep fire spread potential minimal, with a chance of 0.17\" rain by Saturday.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is active for this area.\n- Stage 1 fire restrictions were lifted in the Gunnison Field Office on September 18, 2026, with only standard year-round wildfire prevention rules now in effect. Ouray County rescinded its fire restrictions effective September 18, 2026.\n- No uncontained wildfires are reported in or near this area; today's national situation report lists only one uncontained fire, in Wyoming, far outside this region.",
+  "lead": "Fire danger remains Low today, held down by cool temperatures, light winds, and recent light moisture across the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Colorado Fires Map",
-      "url": "https://fires.cornea.is/state/colorado"
-    },
-    {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
       "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+    },
+    {
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
     }
   ],
-  "generated": "Sunday, October 25"
+  "generated": "Monday, October 26"
 }
