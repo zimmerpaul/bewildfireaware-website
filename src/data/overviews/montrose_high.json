@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger remains Low today, held down by cool temperatures, light winds, and recent light moisture across the high country.**\n\n- Danger stays Low through November 1, with ERC and BI percentiles easing slightly as the week progresses.\n- Light winds (6–10 mph, shifting NNE to ENE) and highs in the 40s keep fire spread potential minimal, with a chance of 0.17\" rain by Saturday.\n- 0 of 7 local watchout thresholds are met, and no Red Flag Warning is active for this area.\n- Stage 1 fire restrictions were lifted in the Gunnison Field Office on September 18, 2026, with only standard year-round wildfire prevention rules now in effect. Ouray County rescinded its fire restrictions effective September 18, 2026.\n- No uncontained wildfires are reported in or near this area; today's national situation report lists only one uncontained fire, in Wyoming, far outside this region.",
-  "lead": "Fire danger remains Low today, held down by cool temperatures, light winds, and recent light moisture across the high country.",
+  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, kept in check by cool fall weather and only moderate dead-fuel dryness (ERC 51%, BI 50%).**\n\n- Danger stays mostly Low through November 2, ticking up briefly to Moderate tomorrow before easing further by October 30 as ERC/BI percentiles drop into the 36–40% range.\n- Sunny skies and light winds dominate through Wednesday, with highs sliding from near 56°F today toward the upper 30s–40s by next week; NWS shows no active alerts or Red Flag Warning for the area.\n- Local watchout check: 0 of 7 thresholds met — no elevated fire-behavior concerns today.\n- Light precipitation (0.24\" and 0.07\") is forecast for November 1–2, which should further dampen fuels.\nDelta County lifted its Stage 1 restrictions Sept. 18, and Montrose County lifted Stage 1 restrictions Sept. 16; Ouray County rescinded all fire restrictions for unincorporated areas in mid-September, and Gunnison Field Office Stage 1 fire restrictions have been lifted, with only standard year-round wildfire prevention rules remaining in effect — no county or BLM fire restrictions are currently active in this area.\n- No wildfires are burning in or near this area; the national sit report's only uncontained large fire is in Wyoming, unrelated to these counties.",
+  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, kept in check by cool fall weather and only moderate dead-fuel dryness (ERC 51%, BI 50%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "name": "Colorado Fire Restrictions Are Changing Just in Time for Fall",
+      "url": "https://kekbfm.com/colorado-fire-restrictions-eased-mesa-county/"
     },
     {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
+      "name": "Sheriff Rescinds Fire Restrictions • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash/home/detail/963"
+    },
+    {
+      "name": "Sheriff Rescinds Fire Restrictions",
+      "url": "https://www.einpresswire.com/article/942847284/sheriff-rescinds-fire-restrictions"
+    },
+    {
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Monday, October 26"
+  "generated": "Tuesday, October 27"
 }
