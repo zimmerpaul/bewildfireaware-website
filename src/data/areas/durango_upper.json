@@ -2,10 +2,10 @@
   "slug": "durango_upper",
   "name": "Durango (Upper)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Tuesday, October 27",
+  "dateLabel": "Wednesday, October 28",
   "areaTitle": "Durango - UPPER",
   "danger": "Low",
-  "lastUpdated": "10/27/2026 2:53:47",
+  "lastUpdated": "10/28/2026 2:53:47",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -31,7 +31,7 @@
     },
     {
       "label": "Direction",
-      "value": "N"
+      "value": "NNE"
     },
     {
       "label": "24hr Rain",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Min Rh %",
-      "value": "39",
+      "value": "34",
       "limit": "< 10",
       "triggered": false
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "75",
+      "value": "77",
       "limit": "< 31",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Upper FDRA Extended Forecast",
     "dates": [
-      "27-Oct",
       "28-Oct",
       "29-Oct",
       "30-Oct",
       "31-Oct",
       "1-Nov",
-      "2-Nov"
+      "2-Nov",
+      "3-Nov"
     ],
     "rows": [
       {
@@ -92,10 +92,10 @@
         "values": [
           "28%",
           "29%",
-          "30%",
-          "30%",
           "29%",
-          "27%",
+          "26%",
+          "22%",
+          "21%",
           "20%"
         ],
         "hits": [
@@ -113,10 +113,10 @@
         "values": [
           "32%",
           "34%",
-          "34%",
           "32%",
-          "31%",
           "27%",
+          "22%",
+          "23%",
           "22%"
         ],
         "hits": [
@@ -133,12 +133,12 @@
         "label": "Temperature",
         "values": [
           "55",
+          "58",
           "55",
-          "56",
-          "51",
-          "47",
+          "48",
           "43",
-          "43"
+          "43",
+          "45"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "39",
+          "34",
           "33",
-          "35",
-          "52",
-          "68",
-          "76",
-          "62"
+          "49",
+          "65",
+          "73",
+          "59",
+          "52"
         ],
         "hits": [
           false,
@@ -176,11 +176,11 @@
         "values": [
           "7",
           "7",
-          "8",
           "6",
           "5",
-          "8",
-          "9"
+          "9",
+          "10",
+          "5"
         ],
         "hits": [
           false,
@@ -195,13 +195,13 @@
       {
         "label": "Wind Direction",
         "values": [
-          "N",
           "NNE",
           "NE",
           "ENE",
           "ENE",
           "E",
-          "ENE"
+          "ENE",
+          "NNE"
         ]
       },
       {
@@ -209,23 +209,23 @@
         "values": [
           "0.00",
           "0.00",
-          "0.00",
-          "0.01",
-          "0.05",
-          "1.18",
-          "0.15"
+          "0.03",
+          "0.12",
+          "1.31",
+          "0.21",
+          "0.00"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
           "22",
-          "22",
           "21",
-          "20",
-          "20",
-          "20",
-          "20"
+          "21",
+          "21",
+          "21",
+          "21",
+          "21"
         ],
         "hits": [
           false,
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "75",
-          "70",
-          "61",
-          "75",
-          "88",
-          "91",
-          "86"
+          "77",
+          "62",
+          "74",
+          "87",
+          "95",
+          "86",
+          "74"
         ],
         "hits": [
           false,
@@ -264,9 +264,9 @@
           "16",
           "18",
           "19",
-          "20",
-          "18",
-          "15",
+          "14",
+          "9",
+          "7",
           "7"
         ]
       },
@@ -275,11 +275,11 @@
         "values": [
           "15",
           "16",
-          "16",
           "15",
-          "12",
-          "9",
-          "0"
+          "8",
+          "2",
+          "3",
+          "1"
         ]
       }
     ]
@@ -2955,35 +2955,39 @@
         [
           298,
           13
+        ],
+        [
+          299,
+          12
         ]
       ],
       "forecasted": [
         [
-          299,
+          300,
           16
         ],
         [
-          300,
-          18
-        ],
-        [
           301,
-          19
+          18
         ],
         [
           302,
-          20
+          19
         ],
         [
           303,
-          18
+          14
         ],
         [
           304,
-          15
+          9
         ],
         [
           305,
+          7
+        ],
+        [
+          306,
           7
         ]
       ]

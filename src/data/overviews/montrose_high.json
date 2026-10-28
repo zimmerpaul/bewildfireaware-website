@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, kept in check by cool fall weather and only moderate dead-fuel dryness (ERC 51%, BI 50%).**\n\n- Danger stays mostly Low through November 2, ticking up briefly to Moderate tomorrow before easing further by October 30 as ERC/BI percentiles drop into the 36–40% range.\n- Sunny skies and light winds dominate through Wednesday, with highs sliding from near 56°F today toward the upper 30s–40s by next week; NWS shows no active alerts or Red Flag Warning for the area.\n- Local watchout check: 0 of 7 thresholds met — no elevated fire-behavior concerns today.\n- Light precipitation (0.24\" and 0.07\") is forecast for November 1–2, which should further dampen fuels.\nDelta County lifted its Stage 1 restrictions Sept. 18, and Montrose County lifted Stage 1 restrictions Sept. 16; Ouray County rescinded all fire restrictions for unincorporated areas in mid-September, and Gunnison Field Office Stage 1 fire restrictions have been lifted, with only standard year-round wildfire prevention rules remaining in effect — no county or BLM fire restrictions are currently active in this area.\n- No wildfires are burning in or near this area; the national sit report's only uncontained large fire is in Wyoming, unrelated to these counties.",
-  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, kept in check by cool fall weather and only moderate dead-fuel dryness (ERC 51%, BI 50%).",
+  "overview": "**Moderate fire danger holds today, with afternoon winds and low humidity as the main drivers.**\n- Danger is expected to ease to Low by Saturday (Oct 31) as a cooler, wetter pattern moves in.\n- Light rain (around 0.15–0.18\") is forecast Sunday into Monday, which should help fuels recover further.\n- No Watchout Concerns are currently flagged — 0 of 7 local thresholds are met today.\n- No Red Flag Warning or other NWS alerts are active for the area; today is sunny with highs near 55°F.\nStage 1 fire restrictions on BLM Uncompahgre Field Office lands, covering Montrose, Delta, Ouray, San Miguel and nearby counties, were lifted September 18, 2026, and no new restrictions have been reissued since. No active wildfires are burning in or near Gunnison, Montrose, Delta, Ouray, San Miguel, or neighboring counties, and the national sit report shows no new large incidents in the Rocky Mountain Area today.",
+  "lead": "Moderate fire danger holds today, with afternoon winds and low humidity as the main drivers.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Colorado Fire Restrictions Are Changing Just in Time for Fall",
-      "url": "https://kekbfm.com/colorado-fire-restrictions-eased-mesa-county/"
-    },
-    {
-      "name": "Sheriff Rescinds Fire Restrictions • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash/home/detail/963"
-    },
-    {
-      "name": "Sheriff Rescinds Fire Restrictions",
-      "url": "https://www.einpresswire.com/article/942847284/sheriff-rescinds-fire-restrictions"
-    },
-    {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/northwest-district"
     }
   ],
-  "generated": "Tuesday, October 27"
+  "generated": "Wednesday, October 28"
 }
