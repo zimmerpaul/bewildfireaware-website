@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, with afternoon winds and low humidity as the main drivers.**\n- Danger is expected to ease to Low by Saturday (Oct 31) as a cooler, wetter pattern moves in.\n- Light rain (around 0.15–0.18\") is forecast Sunday into Monday, which should help fuels recover further.\n- No Watchout Concerns are currently flagged — 0 of 7 local thresholds are met today.\n- No Red Flag Warning or other NWS alerts are active for the area; today is sunny with highs near 55°F.\nStage 1 fire restrictions on BLM Uncompahgre Field Office lands, covering Montrose, Delta, Ouray, San Miguel and nearby counties, were lifted September 18, 2026, and no new restrictions have been reissued since. No active wildfires are burning in or near Gunnison, Montrose, Delta, Ouray, San Miguel, or neighboring counties, and the national sit report shows no new large incidents in the Rocky Mountain Area today.",
-  "lead": "Moderate fire danger holds today, with afternoon winds and low humidity as the main drivers.",
+  "overview": "**Fire danger is Moderate today, driven by mid-range fuel dryness (ERC 54%, BI 50%) even as cooler, calmer weather moves in.**\n\n- Danger trends downward through the week, dropping to Low by Saturday, Nov. 1, as ERC falls toward 40% and temperatures cool into the 30s-40s.\n- Winds stay light (5-9 mph) through Saturday, then pick up to around 18-20 mph early next week as a moisture system arrives.\n- None of the 7 local watchout thresholds are met today, and no Red Flag Warning is in effect; NWS shows no active alerts for the area.\n- BLM's Uncompahgre Field Office lifted Stage 1 fire restrictions on September 18, with only standard year-round wildfire prevention rules remaining in effect. Ouray County also rescinded all fire restrictions for unincorporated areas effective September 18.\n- No new or uncontained wildfires are reported in or near this area's counties in the latest national situation report; expect light rain (up to 0.22\") Saturday into Sunday to further ease conditions.",
+  "lead": "Fire danger is Moderate today, driven by mid-range fuel dryness (ERC 54%, BI 50%) even as cooler, calmer weather moves in.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -16,8 +16,12 @@
     },
     {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/northwest-district"
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+    },
+    {
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
     }
   ],
-  "generated": "Wednesday, October 28"
+  "generated": "Thursday, October 29"
 }
