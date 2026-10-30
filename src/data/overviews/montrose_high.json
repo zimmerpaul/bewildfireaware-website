@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, driven by mid-range fuel dryness (ERC 54%, BI 50%) even as cooler, calmer weather moves in.**\n\n- Danger trends downward through the week, dropping to Low by Saturday, Nov. 1, as ERC falls toward 40% and temperatures cool into the 30s-40s.\n- Winds stay light (5-9 mph) through Saturday, then pick up to around 18-20 mph early next week as a moisture system arrives.\n- None of the 7 local watchout thresholds are met today, and no Red Flag Warning is in effect; NWS shows no active alerts for the area.\n- BLM's Uncompahgre Field Office lifted Stage 1 fire restrictions on September 18, with only standard year-round wildfire prevention rules remaining in effect. Ouray County also rescinded all fire restrictions for unincorporated areas effective September 18.\n- No new or uncontained wildfires are reported in or near this area's counties in the latest national situation report; expect light rain (up to 0.22\") Saturday into Sunday to further ease conditions.",
-  "lead": "Fire danger is Moderate today, driven by mid-range fuel dryness (ERC 54%, BI 50%) even as cooler, calmer weather moves in.",
+  "overview": "**Moderate fire danger today, driven by low humidity and dry 1000-hr fuels, but a wetter pattern is moving in fast.**\n- Danger drops to Low starting Saturday as rain/snow showers move through, with ERC and BI percentiles falling through early November.\n- Key driver: NE winds at 6 mph, max temp 51°F, and min RH 35% today; humidity rebounds to 61–81% starting tonight.\n- No watchout conditions met (0 of 7) and no Red Flag Warning is in effect for this area.\n- Fire restrictions have been rescinded across Gunnison, Ouray, and Montrose counties as of mid-September; only standard year-round rules remain in effect.\n- No active wildfires are currently burning in or near this area's counties; the national incident report shows no new or uncontained large fires in the Rocky Mountain region near this zone.\n- Rain showers likely tonight (60% chance), followed by rain/snow showers Saturday — good news for continued fuel moisture recovery.",
+  "lead": "Moderate fire danger today, driven by low humidity and dry 1000-hr fuels, but a wetter pattern is moving in fast.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
       "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     },
     {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
+      "name": "GMUG National Forests Prescribed Burn Plan - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/forest-service/gmug-national-forests-prescribed-burn-plan/"
     }
   ],
-  "generated": "Thursday, October 29"
+  "generated": "Friday, October 30"
 }

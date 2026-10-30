@@ -2,26 +2,26 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Thursday, October 29",
+  "dateLabel": "Friday, October 30",
   "areaTitle": "DRC Lower",
-  "danger": "Moderate",
-  "lastUpdated": "10/29/2026 2:53:55",
+  "danger": "Low",
+  "lastUpdated": "10/30/2026 2:53:56",
   "observations": [
     {
       "label": "ERC %",
-      "value": "38%",
+      "value": "35%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "47%",
+      "value": "41%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "10",
+      "value": "9",
       "limit": "> 11",
       "triggered": false
     },
@@ -31,7 +31,7 @@
     },
     {
       "label": "24hr Rain",
-      "value": "0.05"
+      "value": "0.23"
     },
     {
       "label": "Max Temp",
@@ -41,7 +41,7 @@
     },
     {
       "label": "Min Rh %",
-      "value": "37",
+      "value": "44",
       "limit": "< 9",
       "triggered": false
     },
@@ -53,7 +53,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "99",
+      "value": "90",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,20 +62,20 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "29-Oct",
       "30-Oct",
       "31-Oct",
       "1-Nov",
       "2-Nov",
       "3-Nov",
-      "4-Nov"
+      "4-Nov",
+      "5-Nov"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
-          "Moderate",
-          "Moderate",
+          "Low",
+          "Low",
           "Low",
           "Low",
           "Low",
@@ -86,13 +86,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "38%",
-          "40%",
-          "22%",
-          "18%",
+          "35%",
           "24%",
-          "28%",
-          "26%"
+          "19%",
+          "22%",
+          "26%",
+          "27%",
+          "27%"
         ],
         "hits": [
           false,
@@ -107,13 +107,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "47%",
-          "52%",
-          "25%",
-          "23%",
-          "52%",
-          "34%",
-          "27%"
+          "41%",
+          "27%",
+          "27%",
+          "45%",
+          "32%",
+          "28%",
+          "28%"
         ],
         "hits": [
           false,
@@ -129,12 +129,12 @@
         "label": "Temperature",
         "values": [
           "58",
-          "57",
           "51",
+          "45",
           "44",
-          "43",
-          "44",
-          "45"
+          "45",
+          "47",
+          "46"
         ],
         "hits": [
           false,
@@ -149,13 +149,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "37",
-          "48",
-          "66",
-          "77",
-          "63",
-          "56",
-          "61"
+          "44",
+          "62",
+          "74",
+          "68",
+          "61",
+          "55",
+          "57"
         ],
         "hits": [
           false,
@@ -170,20 +170,20 @@
       {
         "label": "Winds",
         "values": [
-          "10",
           "9",
-          "8",
-          "13",
-          "17",
-          "11",
-          "7"
+          "9",
+          "15",
+          "16",
+          "10",
+          "6",
+          "6"
         ],
         "hits": [
           false,
           false,
+          true,
+          true,
           false,
-          true,
-          true,
           false,
           false
         ]
@@ -193,9 +193,9 @@
         "values": [
           "NE",
           "ENE",
-          "NE",
           "E",
           "NE",
+          "NNE",
           "NNE",
           "NNE"
         ]
@@ -203,13 +203,13 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.13",
+          "0.23",
+          "1.74",
+          "0.25",
           "0.00",
-          "0.05",
-          "0.18",
-          "1.38",
-          "0.14",
-          "0.00",
-          "0.00"
+          "0.01",
+          "0.01"
         ]
       },
       {
@@ -220,8 +220,8 @@
           "20",
           "20",
           "20",
-          "20",
-          "20"
+          "21",
+          "21"
         ],
         "hits": [
           false,
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "64",
-          "78",
-          "90",
-          "99",
-          "88",
           "73",
-          "74"
+          "94",
+          "96",
+          "90",
+          "79",
+          "74",
+          "81"
         ],
         "hits": [
           false,
@@ -257,25 +257,25 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
-          "51",
-          "53",
-          "26",
-          "15",
-          "29",
+          "46",
+          "30",
+          "19",
+          "25",
+          "34",
           "36",
-          "32"
+          "36"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "109",
-          "116",
-          "65",
-          "55",
-          "116",
-          "90",
-          "68"
+          "101",
+          "68",
+          "66",
+          "105",
+          "84",
+          "69",
+          "69"
         ]
       }
     ]
@@ -2959,36 +2959,40 @@
         [
           300,
           52
+        ],
+        [
+          301,
+          50
         ]
       ],
       "forecasted": [
         [
-          301,
-          51
-        ],
-        [
           302,
-          53
+          46
         ],
         [
           303,
-          26
+          30
         ],
         [
           304,
-          15
+          19
         ],
         [
           305,
-          29
+          25
         ],
         [
           306,
-          36
+          34
         ],
         [
           307,
-          32
+          36
+        ],
+        [
+          308,
+          36
         ]
       ]
     },

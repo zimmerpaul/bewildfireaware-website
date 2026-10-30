@@ -2,10 +2,10 @@
   "slug": "grand_junction_low",
   "name": "Grand Junction (Low)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Thursday, October 29",
+  "dateLabel": "Friday, October 30",
   "areaTitle": "Grand Junction - Low Elevation",
   "danger": "Moderate",
-  "lastUpdated": "10/29/2026 02:39",
+  "lastUpdated": "10/30/2026 02:39",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -19,45 +19,45 @@
     },
     {
       "label": "BI %",
-      "value": "38%",
+      "value": "39%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "7",
+      "value": "6",
       "limit": "> 10",
       "triggered": false
     },
     {
       "label": "Wind Dir",
-      "value": "NNE"
+      "value": "NE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.01"
     },
     {
       "label": "Max Temp",
-      "value": "58",
+      "value": "60",
       "limit": "> 85",
       "triggered": false
     },
     {
       "label": "Min Rh",
-      "value": "38",
+      "value": "40",
       "limit": "< 15",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "20",
+      "value": "19",
       "limit": "< 12",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "68",
+      "value": "73",
       "limit": "< 45",
       "triggered": false
     }
@@ -66,20 +66,20 @@
   "forecast": {
     "title": "Low Elevation FDRA Extended Forecast",
     "dates": [
-      "29-Oct",
       "30-Oct",
       "31-Oct",
       "1-Nov",
       "2-Nov",
       "3-Nov",
-      "4-Nov"
+      "4-Nov",
+      "5-Nov"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
           "Moderate",
-          "Moderate",
+          "Low",
           "Low",
           "Low",
           "Low",
@@ -91,12 +91,12 @@
         "label": "ERC-X Percentile",
         "values": [
           "50%",
-          "46%",
-          "28%",
-          "20%",
-          "21%",
-          "27%",
-          "27%"
+          "26%",
+          "19%",
+          "18%",
+          "31%",
+          "36%",
+          "34%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-X Percentile",
         "values": [
-          "38%",
           "39%",
-          "27%",
-          "22%",
-          "23%",
-          "26%",
-          "26%"
+          "25%",
+          "21%",
+          "20%",
+          "28%",
+          "30%",
+          "30%"
         ],
         "hits": [
           false,
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "58",
-          "59",
-          "52",
-          "45",
-          "42",
-          "42",
-          "44"
+          "60",
+          "51",
+          "46",
+          "44",
+          "44",
+          "47",
+          "46"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "38",
-          "44",
-          "71",
+          "40",
+          "72",
           "81",
-          "79",
-          "67",
-          "68"
+          "83",
+          "71",
+          "60",
+          "63"
         ],
         "hits": [
           false,
@@ -174,13 +174,13 @@
       {
         "label": "Winds",
         "values": [
-          "7",
-          "7",
-          "7",
-          "9",
+          "6",
+          "6",
+          "8",
           "10",
           "7",
-          "5"
+          "4",
+          "4"
         ],
         "hits": [
           false,
@@ -195,23 +195,23 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NNE",
           "NE",
-          "NE",
+          "ENE",
           "E",
           "ENE",
           "NE",
-          "NNE"
+          "NE",
+          "NE"
         ]
       },
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.01",
+          "0.18",
+          "0.77",
+          "0.34",
           "0.00",
-          "0.00",
-          "0.09",
-          "0.68",
-          "0.13",
           "0.00",
           "0.00"
         ]
@@ -219,9 +219,9 @@
       {
         "label": "1000hr Fuels",
         "values": [
-          "20",
-          "20",
           "19",
+          "19",
+          "20",
           "20",
           "20",
           "20",
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "68",
           "73",
-          "90",
-          "99",
-          "92",
-          "81",
-          "82"
+          "96",
+          "96",
+          "98",
+          "89",
+          "85",
+          "89"
         ],
         "hits": [
           false,
@@ -261,25 +261,25 @@
       {
         "label": "ERC-X (Actual Number 1-110)",
         "values": [
-          "63",
-          "60",
-          "28",
-          "11",
-          "13",
-          "28",
-          "28"
+          "62",
+          "25",
+          "9",
+          "7",
+          "35",
+          "45",
+          "43"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-352)",
         "values": [
-          "104",
           "110",
-          "60",
-          "35",
-          "42",
-          "57",
-          "54"
+          "50",
+          "29",
+          "28",
+          "64",
+          "74",
+          "75"
         ]
       }
     ]
@@ -2721,21 +2721,21 @@
         ],
         [
           301,
-          63
+          68
+        ],
+        [
+          302,
+          62
         ]
       ],
       "forecasted": [
         [
-          301,
-          63
-        ],
-        [
           302,
-          60
+          62
         ],
         [
           303,
-          28
+          25
         ]
       ]
     },
