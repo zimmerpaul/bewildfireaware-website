@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger today, driven by low humidity and dry 1000-hr fuels, but a wetter pattern is moving in fast.**\n- Danger drops to Low starting Saturday as rain/snow showers move through, with ERC and BI percentiles falling through early November.\n- Key driver: NE winds at 6 mph, max temp 51°F, and min RH 35% today; humidity rebounds to 61–81% starting tonight.\n- No watchout conditions met (0 of 7) and no Red Flag Warning is in effect for this area.\n- Fire restrictions have been rescinded across Gunnison, Ouray, and Montrose counties as of mid-September; only standard year-round rules remain in effect.\n- No active wildfires are currently burning in or near this area's counties; the national incident report shows no new or uncontained large fires in the Rocky Mountain region near this zone.\n- Rain showers likely tonight (60% chance), followed by rain/snow showers Saturday — good news for continued fuel moisture recovery.",
-  "lead": "Moderate fire danger today, driven by low humidity and dry 1000-hr fuels, but a wetter pattern is moving in fast.",
+  "overview": "**Fire danger is Moderate today, mainly reflecting mid-range ERC/BI readings, but a strong storm moving in is set to push danger down to Low for the rest of the week.**\n- Danger falls to Low starting tomorrow and stays there through Nov. 6, as ERC and BI percentiles drop into the single digits/teens.\n- Sunday's storm brings rain and snow showers, then thunderstorms, with a 100% chance of precipitation and a high near 50.\n- None of the 7 local watchout thresholds are met",
+  "lead": "Fire danger is Moderate today, mainly reflecting mid-range ERC/BI readings, but a strong storm moving in is set to push danger down to Low for the rest of the week.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,6 +15,10 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions",
+      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
       "name": "Southwest District Fire Restrictions",
       "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
@@ -23,13 +27,9 @@
       "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
-    },
-    {
-      "name": "GMUG National Forests Prescribed Burn Plan - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/forest-service/gmug-national-forests-prescribed-burn-plan/"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+      "url": "https://www.fs.usda.gov/r02/gmug/alerts/gold-mountain-wildfire-area-closure-order-amended"
     }
   ],
-  "generated": "Friday, October 30"
+  "generated": "Saturday, October 31"
 }
