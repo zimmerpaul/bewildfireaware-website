@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, mainly reflecting mid-range ERC/BI readings, but a strong storm moving in is set to push danger down to Low for the rest of the week.**\n- Danger falls to Low starting tomorrow and stays there through Nov. 6, as ERC and BI percentiles drop into the single digits/teens.\n- Sunday's storm brings rain and snow showers, then thunderstorms, with a 100% chance of precipitation and a high near 50.\n- None of the 7 local watchout thresholds are met",
-  "lead": "Fire danger is Moderate today, mainly reflecting mid-range ERC/BI readings, but a strong storm moving in is set to push danger down to Low for the rest of the week.",
+  "overview": "**Danger remains Low today, with cool temperatures and recent rain keeping fuels damp across the high country.**\n- Week ahead: danger stays Low through Nov. 7 as ERC drops from 49% to 36% and BI falls from 49% to 0%, signaling a continued downward trend.\n- Key driver: cooler, wetter weather has settled across western Colorado, with today's rain (0.38\") and a wet, windy Monday (snow showers, highs near 43°F) reinforcing moist fuels.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning or NWS alerts are active for this area.\n- Restrictions: All regional fire restrictions have been lifted — Grand Junction, Uncompahgre, Tres Rios, and Gunnison Field Offices lifted Stage 1 restrictions in September 2026; only standard year-round rules apply countywide.\n- Nearby incidents: No active wildfires are reported in or near the Montrose-area counties at this time.",
+  "lead": "Danger remains Low today, with cool temperatures and recent rain keeping fuels damp across the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions",
-      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
+      "name": "Officials ease fire restrictions for much of western Colorado after recent rains",
+      "url": "https://www.cpr.org/2026/09/03/western-colorado-fire-restrictions-downgrade/"
     },
     {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions",
-      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
-      "url": "https://www.fs.usda.gov/r02/gmug/alerts/gold-mountain-wildfire-area-closure-order-amended"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/upper-colorado-river-district"
     }
   ],
-  "generated": "Saturday, October 31"
+  "generated": "Sunday, November 01"
 }
