@@ -1,6 +1,6 @@
 {
-  "overview": "**Danger remains Low today, with cool temperatures and recent rain keeping fuels damp across the high country.**\n- Week ahead: danger stays Low through Nov. 7 as ERC drops from 49% to 36% and BI falls from 49% to 0%, signaling a continued downward trend.\n- Key driver: cooler, wetter weather has settled across western Colorado, with today's rain (0.38\") and a wet, windy Monday (snow showers, highs near 43°F) reinforcing moist fuels.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning or NWS alerts are active for this area.\n- Restrictions: All regional fire restrictions have been lifted — Grand Junction, Uncompahgre, Tres Rios, and Gunnison Field Offices lifted Stage 1 restrictions in September 2026; only standard year-round rules apply countywide.\n- Nearby incidents: No active wildfires are reported in or near the Montrose-area counties at this time.",
-  "lead": "Danger remains Low today, with cool temperatures and recent rain keeping fuels damp across the high country.",
+  "overview": "**Fire danger is Low across the Montrose High Elevation area today, with gusty northeast winds the only flag tripped.**\n- Danger stays Low through November 8, with ERC and BI percentiles holding in the mid-30s to mid-40s all week.\n- Winds are today's main driver: 18 mph ENE now exceeds the local threshold, but forecast winds ease to single digits by midweek as a cooler, calmer pattern sets in.\n- Only 1 of 7 local watchout thresholds is met (wind speed); no Red Flag Warning is in effect, and a Winter Storm Warning covers high terrain in the San Juans into Monday afternoon.\n- Gunnison Field Office Stage 1 fire restrictions have been lifted, and Ouray County has rescinded all fire restrictions for unincorporated areas; no local fire bans are currently active.\n- No active wildfires are reported in or near this area in the latest interagency situation update.",
+  "lead": "Fire danger is Low across the Montrose High Elevation area today, with gusty northeast winds the only flag tripped.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Officials ease fire restrictions for much of western Colorado after recent rains",
-      "url": "https://www.cpr.org/2026/09/03/western-colorado-fire-restrictions-downgrade/"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/upper-colorado-river-district"
+      "name": "Sheriff Rescinds Fire Restrictions • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash/home/detail/963"
     }
   ],
-  "generated": "Sunday, November 01"
+  "generated": "Monday, November 02"
 }
