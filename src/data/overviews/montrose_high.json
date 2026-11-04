@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today, held down by cool temps, light winds, and incoming midweek moisture rather than any wind event.**\n- Danger stays Low all week, with ERC/BI percentiles easing from the high-40s today into the high-30s by Thursday as 1000-hr fuels edge up slightly.\n- Wednesday brings the week's key weather driver: a 70% chance of snow/rain showers and possible thunder, adding moisture before winds turn light out of the north.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning is in effect for this area.\n- No fire restrictions are currently active in Montrose County or on Grand Mesa, Uncompahgre and Gunnison National Forest lands, which rescinded Stage 1 restrictions in September; San Miguel County's most recent posted status shows Stage 2 restrictions still in place.\n- No active wildfires are reported in or near this area; the Rocky Mountain Area remains at Preparedness Level 2, with the only uncontained large fire in the national report burning far away in Wyoming.",
-  "lead": "Fire danger is Low today, held down by cool temps, light winds, and incoming midweek moisture rather than any wind event.",
+  "overview": "**Moderate fire danger today, driven by elevated midday ERC/BI readings before an incoming snow system drops danger to Low through the week.**\n- Trend: fire danger falls from Moderate to Low by Thursday and stays Low through November 10 as ERC drops from 53% to the mid-30s percentile.\n- Weather driver: snow showers and patchy fog move through tonight, with highs near 48–49°F and light winds, per the NWS forecast for this area.\n- Watchout status: 0 of 7 local thresholds met today; no Red Flag Warning or fire weather alerts are in effect for this area — only a Winter Weather Advisory nearby in Chaffee/Saguache counties.\n- Restrictions: The Grand Mesa, Uncompahgre and Gunnison National Forests lifted their Stage 1 fire restrictions as of September 3, and Gunnison County is not currently under fire restrictions as of September 18; check local county pages for any winter updates.\n- Nearby incidents: No active wildfires are reported in or near this area's counties in today's national situation report.",
+  "lead": "Moderate fire danger today, driven by elevated midday ERC/BI readings before an incoming snow system drops danger to Low through the week.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests end fire restrictions",
+      "url": "https://www.deltacountyindependent.com/free_access/grand-mesa-uncompahgre-and-gunnison-national-forests-end-fire-restrictions/article_abf6d5ca-5823-4e3a-8e6a-b0a06037880e.html"
     },
     {
-      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
-    },
-    {
-      "name": "Wildfire Resiliency Code",
-      "url": "https://www.montrosecounty.net/1314/Wildfire-Resiliency-Code"
-    },
-    {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Emergency Response Services",
+      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
     }
   ],
-  "generated": "Tuesday, November 03"
+  "generated": "Wednesday, November 04"
 }
