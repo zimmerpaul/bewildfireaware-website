@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger today, driven by elevated midday ERC/BI readings before an incoming snow system drops danger to Low through the week.**\n- Trend: fire danger falls from Moderate to Low by Thursday and stays Low through November 10 as ERC drops from 53% to the mid-30s percentile.\n- Weather driver: snow showers and patchy fog move through tonight, with highs near 48–49°F and light winds, per the NWS forecast for this area.\n- Watchout status: 0 of 7 local thresholds met today; no Red Flag Warning or fire weather alerts are in effect for this area — only a Winter Weather Advisory nearby in Chaffee/Saguache counties.\n- Restrictions: The Grand Mesa, Uncompahgre and Gunnison National Forests lifted their Stage 1 fire restrictions as of September 3, and Gunnison County is not currently under fire restrictions as of September 18; check local county pages for any winter updates.\n- Nearby incidents: No active wildfires are reported in or near this area's counties in today's national situation report.",
-  "lead": "Moderate fire danger today, driven by elevated midday ERC/BI readings before an incoming snow system drops danger to Low through the week.",
+  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, with light winds, cool temps, and recent moisture keeping fuels from drying out further.**\n- Danger stays Low through the full 7-day outlook (Nov 5–11), with ERC holding in the mid-30s to high-30s percentile and BI flat near 36–38%.\n- No Red Flag Warning is in effect, and none of the 7 local watchout thresholds are currently met.\n- Today's light NE winds (around 7 mph) turn calmer tomorrow, with a chance of rain/snow showers arriving after 5pm Friday, mostly cloudy, with a high near 49.\n- Stage 1 fire restrictions have been lifted on BLM Uncompahgre and Gunnison Field Office lands; only standard year-round fire rules remain in effect.\n- The Elk Fire in Hinsdale County (northwest of Lake City) was last reported at 7,257 acres and 90% contained, with no new activity reported recently.",
+  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, with light winds, cool temps, and recent moisture keeping fuels from drying out further.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests end fire restrictions",
-      "url": "https://www.deltacountyindependent.com/free_access/grand-mesa-uncompahgre-and-gunnison-national-forests-end-fire-restrictions/article_abf6d5ca-5823-4e3a-8e6a-b0a06037880e.html"
-    },
-    {
-      "name": "Emergency Response Services",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Wednesday, November 04"
+  "generated": "Thursday, November 05"
 }
