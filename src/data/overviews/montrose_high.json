@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, with light winds, cool temps, and recent moisture keeping fuels from drying out further.**\n- Danger stays Low through the full 7-day outlook (Nov 5–11), with ERC holding in the mid-30s to high-30s percentile and BI flat near 36–38%.\n- No Red Flag Warning is in effect, and none of the 7 local watchout thresholds are currently met.\n- Today's light NE winds (around 7 mph) turn calmer tomorrow, with a chance of rain/snow showers arriving after 5pm Friday, mostly cloudy, with a high near 49.\n- Stage 1 fire restrictions have been lifted on BLM Uncompahgre and Gunnison Field Office lands; only standard year-round fire rules remain in effect.\n- The Elk Fire in Hinsdale County (northwest of Lake City) was last reported at 7,257 acres and 90% contained, with no new activity reported recently.",
-  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, with light winds, cool temps, and recent moisture keeping fuels from drying out further.",
+  "overview": "**Fire danger is Low across the Montrose (High Elevation) area today, with low fuel dryness (ERC 42%, BI 41%) keeping conditions calm.**\n- Danger stays Low all week, with ERC/BI percentiles holding in the 38–45% range through Nov 12.\n- Light winds (4–6 mph, shifting N/NNE) and cooler temps (41–48°F) are the main weather drivers this week.\n- 0 of 7 local watchout thresholds are met today, and no Red Flag Warnings are active or forecast.\nGunnison and Ouray counties have rescinded fire restrictions, with only standard year-round rules in effect. No Stage 1 or Stage 2 restrictions are currently posted for Montrose-area BLM or county lands.\n- No active wildfires or new starts are reported in or near these 13 counties in the latest national situation report.",
+  "lead": "Fire danger is Low across the Montrose (High Elevation) area today, with low fuel dryness (ERC 42%, BI 41%) keeping conditions calm.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "name": "Emergency Response Services",
+      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+    },
+    {
+      "name": "News Flash • Ouray County, CO",
+      "url": "https://ouraycountyco.gov/m/newsflash"
     }
   ],
-  "generated": "Thursday, November 05"
+  "generated": "Friday, November 06"
 }
