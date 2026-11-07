@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low across the Montrose (High Elevation) area today, with low fuel dryness (ERC 42%, BI 41%) keeping conditions calm.**\n- Danger stays Low all week, with ERC/BI percentiles holding in the 38–45% range through Nov 12.\n- Light winds (4–6 mph, shifting N/NNE) and cooler temps (41–48°F) are the main weather drivers this week.\n- 0 of 7 local watchout thresholds are met today, and no Red Flag Warnings are active or forecast.\nGunnison and Ouray counties have rescinded fire restrictions, with only standard year-round rules in effect. No Stage 1 or Stage 2 restrictions are currently posted for Montrose-area BLM or county lands.\n- No active wildfires or new starts are reported in or near these 13 counties in the latest national situation report.",
-  "lead": "Fire danger is Low across the Montrose (High Elevation) area today, with low fuel dryness (ERC 42%, BI 41%) keeping conditions calm.",
+  "overview": "**Fire danger is rated Low today, driven by cool temps, light winds, and seasonally low ERC (47%) and BI (44%) values.**\n- Danger stays Low all week, with ERC/BI readings holding in the 39–51% range through Nov 13.\n- Dry, calm weather continues: sunny skies, highs near 45–55°F, light northerly winds, and no measurable precipitation forecast.\n- No Red Flag Warning is in effect, and 0 of 7 local watchout thresholds are currently met.\n- No fire restrictions are active in Montrose, Gunnison, or surrounding BLM/Forest Service jurisdictions in this area; standard year-round rules apply.\n- No active wildfires are burning in or near the area's counties (Gunnison, Saguache, San Miguel, Hinsdale, Chaffee, Pitkin, Mesa, Delta, Ouray, Montrose, San Juan, Mineral, Dolores); statewide fire activity remains quiet following recent moisture.",
+  "lead": "Fire danger is rated Low today, driven by cool temps, light winds, and seasonally low ERC (47%) and BI (44%) values.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Emergency Response Services",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions",
+      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
     },
     {
-      "name": "News Flash • Ouray County, CO",
-      "url": "https://ouraycountyco.gov/m/newsflash"
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
+    },
+    {
+      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions",
+      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
+    },
+    {
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Friday, November 06"
+  "generated": "Saturday, November 07"
 }
