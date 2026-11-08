@@ -2,14 +2,14 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Saturday, November 07",
+  "dateLabel": "Sunday, November 08",
   "areaTitle": "DRC Lower",
   "danger": "Moderate",
-  "lastUpdated": "11/7/2026 2:53:55",
+  "lastUpdated": "11/8/2026 2:53:49",
   "observations": [
     {
       "label": "ERC %",
-      "value": "44%",
+      "value": "42%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -21,7 +21,7 @@
     },
     {
       "label": "Winds",
-      "value": "8",
+      "value": "7",
       "limit": "> 11",
       "triggered": false
     },
@@ -53,7 +53,7 @@
     },
     {
       "label": "Max Rh",
-      "value": "73",
+      "value": "67",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,13 +62,13 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "7-Nov",
       "8-Nov",
       "9-Nov",
       "10-Nov",
       "11-Nov",
       "12-Nov",
-      "13-Nov"
+      "13-Nov",
+      "14-Nov"
     ],
     "rows": [
       {
@@ -86,13 +86,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "44%",
+          "42%",
+          "42%",
           "42%",
           "44%",
           "40%",
           "42%",
-          "42%",
-          "40%"
+          "38%"
         ],
         "hits": [
           false,
@@ -108,11 +108,11 @@
         "label": "BI-Y Percentile",
         "values": [
           "47%",
-          "50%",
           "52%",
-          "45%",
-          "37%",
+          "64%",
+          "41%",
           "34%",
+          "37%",
           "36%"
         ],
         "hits": [
@@ -129,12 +129,12 @@
         "label": "Temperature",
         "values": [
           "54",
+          "55",
           "54",
-          "54",
           "51",
           "51",
           "51",
-          "51"
+          "49"
         ],
         "hits": [
           false,
@@ -150,12 +150,12 @@
         "label": "Relative Humidity",
         "values": [
           "44",
+          "45",
+          "45",
+          "42",
           "46",
           "45",
-          "49",
-          "45",
-          "48",
-          "47"
+          "50"
         ],
         "hits": [
           false,
@@ -170,11 +170,11 @@
       {
         "label": "Winds",
         "values": [
-          "8",
           "7",
           "8",
-          "8",
-          "7",
+          "10",
+          "9",
+          "6",
           "6",
           "6"
         ],
@@ -193,10 +193,10 @@
         "values": [
           "N",
           "N",
-          "N",
-          "NNE",
           "NNE",
           "N",
+          "N",
+          "NNE",
           "NNE"
         ]
       },
@@ -216,12 +216,12 @@
         "label": "1000hr Fuels",
         "values": [
           "21",
-          "21",
+          "20",
           "20",
           "20",
           "19",
           "19",
-          "19"
+          "18"
         ],
         "hits": [
           false,
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
+          "80",
+          "78",
           "77",
-          "75",
-          "73",
-          "73",
-          "68",
-          "69",
-          "69"
+          "67",
+          "71",
+          "72",
+          "73"
         ],
         "hits": [
           false,
@@ -258,24 +258,24 @@
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
           "56",
+          "56",
           "55",
           "56",
-          "52",
-          "55",
           "54",
-          "54"
+          "54",
+          "51"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "109",
-          "113",
-          "115",
-          "106",
-          "94",
-          "89",
-          "92"
+          "110",
+          "114",
+          "130",
+          "101",
+          "88",
+          "95",
+          "91"
         ]
       }
     ]
@@ -2995,16 +2995,16 @@
         [
           309,
           43
+        ],
+        [
+          310,
+          40
         ]
       ],
       "forecasted": [
         [
-          310,
-          56
-        ],
-        [
           311,
-          55
+          56
         ],
         [
           312,
@@ -3012,11 +3012,11 @@
         ],
         [
           313,
-          52
+          55
         ],
         [
           314,
-          55
+          56
         ],
         [
           315,
@@ -3028,7 +3028,11 @@
         ],
         [
           317,
-          52
+          51
+        ],
+        [
+          318,
+          40
         ]
       ]
     },

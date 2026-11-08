@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is rated Low today, driven by cool temps, light winds, and seasonally low ERC (47%) and BI (44%) values.**\n- Danger stays Low all week, with ERC/BI readings holding in the 39–51% range through Nov 13.\n- Dry, calm weather continues: sunny skies, highs near 45–55°F, light northerly winds, and no measurable precipitation forecast.\n- No Red Flag Warning is in effect, and 0 of 7 local watchout thresholds are currently met.\n- No fire restrictions are active in Montrose, Gunnison, or surrounding BLM/Forest Service jurisdictions in this area; standard year-round rules apply.\n- No active wildfires are burning in or near the area's counties (Gunnison, Saguache, San Miguel, Hinsdale, Chaffee, Pitkin, Mesa, Delta, Ouray, Montrose, San Juan, Mineral, Dolores); statewide fire activity remains quiet following recent moisture.",
-  "lead": "Fire danger is rated Low today, driven by cool temps, light winds, and seasonally low ERC (47%) and BI (44%) values.",
+  "overview": "**Low fire danger continues today, with dry fuels and seasonally mild, sunny weather keeping conditions quiet across the Montrose high-elevation area.**\n- Danger holds at Low through midweek before edging up to Moderate by Saturday, Nov. 14, as ERC/BI percentiles creep toward the low-50s.\n- Sunny, calm days (highs near 54–56°F, winds under 5 mph) and cold, dry nights are today's main drivers, per the National Weather Service.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning is active for the area.\n- Stage 1 fire restrictions have been lifted across the BLM Uncompahgre and Gunnison Field Offices, and the Grand Mesa, Uncompahgre and Gunnison National Forests have lifted their Stage 1 Fire Restrictions, allowing unrestricted fire use; no county-level restrictions are reported in the area.\n- No active wildfires are burning in or near Montrose-area counties; the only new large incident in today's national sit report (Foot Creek, Wyoming) is outside this region.",
+  "lead": "Low fire danger continues today, with dry fuels and seasonally mild, sunny weather keeping conditions quiet across the Montrose high-elevation area.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions",
-      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "BLM Gunnison Field Office Implements Stage 1 Fire Restrictions",
-      "url": "https://www.blm.gov/announcement/blm-gunnison-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
       "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+    },
+    {
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests end fire restrictions",
+      "url": "https://www.deltacountyindependent.com/free_access/grand-mesa-uncompahgre-and-gunnison-national-forests-end-fire-restrictions/article_abf6d5ca-5823-4e3a-8e6a-b0a06037880e.html"
     }
   ],
-  "generated": "Saturday, November 07"
+  "generated": "Sunday, November 08"
 }

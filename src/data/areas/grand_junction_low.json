@@ -2,10 +2,10 @@
   "slug": "grand_junction_low",
   "name": "Grand Junction (Low)",
   "dispatchTitle": "Grand Junction Interagency Dispatch Area",
-  "dateLabel": "Saturday, November 07",
+  "dateLabel": "Sunday, November 08",
   "areaTitle": "Grand Junction - Low Elevation",
   "danger": "Low",
-  "lastUpdated": "11/7/2026 02:39",
+  "lastUpdated": "11/8/2026 02:39",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,19 +13,19 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "44%",
+      "value": "42%",
       "limit": "> 86%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "33%",
+      "value": "31%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "6",
+      "value": "5",
       "limit": "> 10",
       "triggered": false
     },
@@ -45,19 +45,19 @@
     },
     {
       "label": "Min Rh",
-      "value": "44",
+      "value": "46",
       "limit": "< 15",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "21",
+      "value": "20",
       "limit": "< 12",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "83",
+      "value": "76",
       "limit": "< 45",
       "triggered": false
     }
@@ -66,13 +66,13 @@
   "forecast": {
     "title": "Low Elevation FDRA Extended Forecast",
     "dates": [
-      "7-Nov",
       "8-Nov",
       "9-Nov",
       "10-Nov",
       "11-Nov",
       "12-Nov",
-      "13-Nov"
+      "13-Nov",
+      "14-Nov"
     ],
     "rows": [
       {
@@ -90,13 +90,13 @@
       {
         "label": "ERC-X Percentile",
         "values": [
-          "44%",
           "42%",
           "42%",
+          "41%",
           "39%",
           "39%",
-          "39%",
-          "38%"
+          "38%",
+          "36%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-X Percentile",
         "values": [
+          "31%",
+          "30%",
           "33%",
           "32%",
           "30%",
-          "32%",
-          "32%",
-          "30%",
-          "31%"
+          "31%",
+          "30%"
         ],
         "hits": [
           false,
@@ -133,12 +133,12 @@
         "label": "Temperature",
         "values": [
           "54",
-          "54",
           "55",
+          "54",
+          "49",
           "50",
           "50",
-          "50",
-          "50"
+          "49"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "44",
           "46",
-          "46",
+          "45",
+          "49",
+          "50",
+          "50",
           "52",
-          "51",
-          "51",
-          "53"
+          "58"
         ],
         "hits": [
           false,
@@ -174,11 +174,11 @@
       {
         "label": "Winds",
         "values": [
-          "6",
-          "4",
-          "4",
           "5",
+          "4",
           "6",
+          "6",
+          "4",
           "4",
           "5"
         ],
@@ -197,10 +197,10 @@
         "values": [
           "N",
           "N",
-          "N",
-          "NNE",
           "NNE",
           "N",
+          "N",
+          "NNE",
           "NNE"
         ]
       },
@@ -219,12 +219,12 @@
       {
         "label": "1000hr Fuels",
         "values": [
-          "21",
           "20",
           "20",
           "19",
           "19",
           "19",
+          "18",
           "18"
         ],
         "hits": [
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "83",
+          "76",
+          "75",
           "74",
-          "71",
+          "74",
           "72",
           "73",
-          "71",
-          "72"
+          "77"
         ],
         "hits": [
           false,
@@ -263,23 +263,23 @@
         "values": [
           "56",
           "56",
-          "56",
+          "53",
           "51",
           "51",
-          "51",
-          "49"
+          "48",
+          "44"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-352)",
         "values": [
-          "89",
+          "84",
+          "79",
+          "90",
           "85",
-          "77",
-          "86",
-          "85",
-          "77",
-          "81"
+          "78",
+          "80",
+          "76"
         ]
       }
     ]
