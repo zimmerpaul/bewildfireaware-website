@@ -1,6 +1,6 @@
 {
-  "overview": "**Low fire danger continues today, with dry fuels and seasonally mild, sunny weather keeping conditions quiet across the Montrose high-elevation area.**\n- Danger holds at Low through midweek before edging up to Moderate by Saturday, Nov. 14, as ERC/BI percentiles creep toward the low-50s.\n- Sunny, calm days (highs near 54–56°F, winds under 5 mph) and cold, dry nights are today's main drivers, per the National Weather Service.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning is active for the area.\n- Stage 1 fire restrictions have been lifted across the BLM Uncompahgre and Gunnison Field Offices, and the Grand Mesa, Uncompahgre and Gunnison National Forests have lifted their Stage 1 Fire Restrictions, allowing unrestricted fire use; no county-level restrictions are reported in the area.\n- No active wildfires are burning in or near Montrose-area counties; the only new large incident in today's national sit report (Foot Creek, Wyoming) is outside this region.",
-  "lead": "Low fire danger continues today, with dry fuels and seasonally mild, sunny weather keeping conditions quiet across the Montrose high-elevation area.",
+  "overview": "**Fire danger is Low today across the Montrose (High Elevation) area, with dry air and light winds keeping ERC near 48%.**\n- Danger trends to Moderate midweek (Nov 10–11, 13–15) before easing back to Low on Nov 12, per the 7-day outlook.\n- A stubborn high-pressure ridge is steering storms around Colorado, keeping skies sunny and dry with no precipitation expected this week.\n- Winds stay light (5–10 mph, shifting N to NE) and no Red Flag Warning is posted; 0 of 7 local watchout thresholds are met today.\n- Overnight lows dip near freezing (around 30°) while afternoon highs run in the upper 40s to mid-50s.\n- Stage 1 fire restrictions have been lifted in the BLM Gunnison Field Office area; only standard year-round wildfire prevention rules remain in effect, and Montrose County currently has no county fire restrictions in effect.\n- No active wildfires are burning in or near this area's counties; nationally, fire activity remains low at Preparedness Level 1.",
+  "lead": "Fire danger is Low today across the Montrose (High Elevation) area, with dry air and light winds keeping ERC near 48%.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
+      "name": "This Week in Colorado Weather: November 9, 2026",
+      "url": "https://bouldercast.com/this-week-in-colorado-weather-november-9-2026/"
+    },
+    {
       "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
       "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests end fire restrictions",
-      "url": "https://www.deltacountyindependent.com/free_access/grand-mesa-uncompahgre-and-gunnison-national-forests-end-fire-restrictions/article_abf6d5ca-5823-4e3a-8e6a-b0a06037880e.html"
+      "name": "Colorado Fire Restrictions Are Changing Just in Time for Fall",
+      "url": "https://kekbfm.com/colorado-fire-restrictions-eased-mesa-county/"
     }
   ],
-  "generated": "Sunday, November 08"
+  "generated": "Monday, November 09"
 }
