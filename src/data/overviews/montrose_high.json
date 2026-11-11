@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger today, driven by low humidity and dry 1000-hour fuels (20%) under light winds.**\n- Fire danger stays Moderate through Saturday before easing to Low by Nov 15–16 as temperatures cool and humidity rises.\n- Key driver: dry west-to-north winds and afternoon humidity near 35% keep fine fuels receptive to ignition.\n- Watchout status: 0 of 7 local thresholds met; no Red Flag Warning is in effect for the area.\n- No fire restrictions are currently active on BLM Uncompahgre or Gunnison Field Office lands across Montrose, Delta, Ouray, San Miguel and Gunnison counties — Stage 1 fire restrictions have been lifted for the Uncompahgre and Gunnison Field Offices as of September 18, 2026.\n- No active wildfires are reported in or near this area's counties; the only uncontained incident nationally is in Wyoming, well outside Western Colorado.\n- A light NW breeze and sunny skies continue through Veterans Day, with no hazardous weather alerts posted for the region.",
-  "lead": "Moderate fire danger today, driven by low humidity and dry 1000-hour fuels (20%) under light winds.",
+  "overview": "**Fire danger is Moderate today in the Montrose (High Elevation) FDRA, driven by low humidity (30%) and dry fuels, with none of the 7 local watchout thresholds currently met.**\n- Danger holds Moderate through Saturday before easing to Low Sunday through Tuesday as moisture moves in.\n- A cold front brings scattered precipitation (up to 0.06\") and cooler highs (upper 30s–40s) starting Friday, trimming energy release component from the low 50s% to near 37–41%.\n- Winds stay light today (6 mph, N), with calm, sunny weather continuing through Veterans Day and Thursday; no Red Flag Warning or NWS alerts are in effect.\n- No active fire restrictions are reported for Montrose-area counties at this time; conditions should be verified locally before burning.\n- No wildfires are currently active in or near the Montrose, Gunnison, Delta, Ouray, San Miguel, or surrounding counties.",
+  "lead": "Fire danger is Moderate today in the Montrose (High Elevation) FDRA, driven by low humidity (30%) and dry fuels, with none of the 7 local watchout thresholds currently met.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "name": "Montrose County enters Stage 1 fire restrictions",
+      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+    },
+    {
+      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
+      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+    },
+    {
+      "name": "Resources",
+      "url": "https://www.montrosecounty.net/1100/Resources"
+    },
+    {
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     }
   ],
-  "generated": "Tuesday, November 10"
+  "generated": "Wednesday, November 11"
 }
