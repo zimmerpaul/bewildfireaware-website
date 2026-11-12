@@ -2,10 +2,10 @@
   "slug": "durango_upper",
   "name": "Durango (Upper)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Wednesday, November 11",
+  "dateLabel": "Thursday, November 12",
   "areaTitle": "Durango - UPPER",
-  "danger": "Low",
-  "lastUpdated": "11/11/2026 2:53:49",
+  "danger": "Moderate",
+  "lastUpdated": "11/12/2026 2:53:45",
   "restrictions": {
     "text": "Fire restrictions may be in place, for up to date info:",
     "url": "https://westslopefireinfo.com/"
@@ -13,13 +13,13 @@
   "observations": [
     {
       "label": "ERC %",
-      "value": "35%",
+      "value": "37%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "36%",
+      "value": "38%",
       "limit": "> 90%",
       "triggered": false
     },
@@ -31,7 +31,7 @@
     },
     {
       "label": "Direction",
-      "value": "NNE"
+      "value": "N"
     },
     {
       "label": "24hr Rain",
@@ -39,25 +39,25 @@
     },
     {
       "label": "Max Temp",
-      "value": "58",
+      "value": "57",
       "limit": "> 83",
       "triggered": false
     },
     {
       "label": "Min Rh %",
-      "value": "32",
+      "value": "34",
       "limit": "< 10",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "19",
+      "value": "18",
       "limit": "< 11",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "66",
+      "value": "67",
       "limit": "< 31",
       "triggered": false
     }
@@ -66,21 +66,21 @@
   "forecast": {
     "title": "Upper FDRA Extended Forecast",
     "dates": [
-      "11-Nov",
       "12-Nov",
       "13-Nov",
       "14-Nov",
       "15-Nov",
       "16-Nov",
-      "17-Nov"
+      "17-Nov",
+      "18-Nov"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
+          "Moderate",
+          "Moderate",
           "Low",
-          "Moderate",
-          "Moderate",
           "Low",
           "Low",
           "Low",
@@ -90,13 +90,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "35%",
           "37%",
           "37%",
-          "34%",
-          "26%",
-          "25%",
-          "24%"
+          "33%",
+          "24%",
+          "23%",
+          "22%",
+          "22%"
         ],
         "hits": [
           false,
@@ -111,13 +111,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "36%",
-          "35%",
+          "38%",
           "36%",
           "31%",
           "22%",
-          "23%",
-          "23%"
+          "22%",
+          "22%",
+          "22%"
         ],
         "hits": [
           false,
@@ -132,13 +132,13 @@
       {
         "label": "Temperature",
         "values": [
-          "58",
           "57",
-          "54",
-          "44",
+          "53",
+          "41",
+          "41",
           "45",
-          "48",
-          "45"
+          "43",
+          "38"
         ],
         "hits": [
           false,
@@ -153,13 +153,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "32",
-          "35",
-          "39",
-          "68",
+          "34",
+          "41",
+          "75",
+          "67",
           "58",
-          "56",
-          "70"
+          "72",
+          "72"
         ],
         "hits": [
           false,
@@ -175,12 +175,12 @@
         "label": "Winds",
         "values": [
           "6",
+          "7",
           "6",
+          "3",
           "6",
-          "6",
-          "4",
-          "6",
-          "8"
+          "10",
+          "7"
         ],
         "hits": [
           false,
@@ -195,12 +195,12 @@
       {
         "label": "Wind Direction",
         "values": [
-          "NNE",
           "N",
           "NNE",
-          "ENE",
+          "E",
           "NE",
-          "NE",
+          "NNE",
+          "E",
           "ENE"
         ]
       },
@@ -209,17 +209,17 @@
         "values": [
           "0.00",
           "0.00",
+          "0.43",
           "0.00",
-          "0.59",
-          "0.01",
           "0.00",
-          "0.39"
+          "0.29",
+          "0.38"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "19",
+          "18",
           "18",
           "18",
           "18",
@@ -240,13 +240,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "66",
-          "71",
-          "72",
-          "83",
-          "88",
-          "82",
-          "88"
+          "67",
+          "74",
+          "96",
+          "90",
+          "84",
+          "87",
+          "92"
         ],
         "hits": [
           false,
@@ -261,25 +261,25 @@
       {
         "label": "ERC-Y (Actual Number 1-70)",
         "values": [
-          "25",
-          "25",
           "26",
-          "23",
-          "13",
-          "13",
-          "12"
+          "26",
+          "22",
+          "12",
+          "10",
+          "10",
+          "9"
         ]
       },
       {
         "label": "BI-Y  (Actual Number 1-55)",
         "values": [
+          "18",
           "17",
-          "17",
-          "17",
-          "14",
-          "2",
-          "4",
-          "4"
+          "13",
+          "0",
+          "0",
+          "0",
+          "0"
         ]
       }
     ]
@@ -3015,16 +3015,16 @@
         [
           313,
           23
+        ],
+        [
+          314,
+          26
         ]
       ],
       "forecasted": [
         [
-          314,
-          25
-        ],
-        [
           315,
-          25
+          26
         ],
         [
           316,
@@ -3032,22 +3032,26 @@
         ],
         [
           317,
-          23
+          22
         ],
         [
           318,
-          13
-        ],
-        [
-          319,
-          13
-        ],
-        [
-          320,
           12
         ],
         [
+          319,
+          10
+        ],
+        [
+          320,
+          10
+        ],
+        [
           321,
+          9
+        ],
+        [
+          322,
           9
         ]
       ]
