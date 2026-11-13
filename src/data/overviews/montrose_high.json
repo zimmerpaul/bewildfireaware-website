@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger today, driven by low humidity and dry fuels, but conditions are already trending down for the week ahead.**\n- Forecast shows danger easing from Moderate through Saturday to Low by Sunday (Nov 15) through next Tuesday, as energy release and burning index percentiles drop sharply.\n- Key driver: today's min humidity of 29% and 1000-hr fuels at 20% keep fine fuels receptive, but incoming moisture (up to 0.07\" by Nov 18) and cooler highs in the 30s-40s will dampen risk.\n- No Watchout thresholds are currently met (0 of 7), and no Red Flag Warning or wind advisory is in effect for the area.\n- Fire restrictions are not currently in place in Montrose, Gunnison, Ouray, San Miguel, or Delta counties, nor on BLM/Forest Service lands locally; always confirm locally before burning.\n- No active or uncontained wildfires are reported in or near this area's counties; statewide fire activity remains quiet following recent snowfall and rain.",
-  "lead": "Moderate fire danger today, driven by low humidity and dry fuels, but conditions are already trending down for the week ahead.",
+  "overview": "**Moderate fire danger holds today, driven by dry 1000-hour fuels (20%) and afternoon low humidity (28%), but conditions are easing fast.**\n- Danger drops to Low by Saturday and stays Low through Nov 19 as ERC and BI percentiles fall into the single digits.\n- Light snow showers are expected tonight and Saturday, with gusty northwest winds up to 10 mph behind the system.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning is active for the area.\n- Fire restrictions have eased region-wide: the Grand Mesa, Uncompahgre & Gunnison National Forests lifted all restrictions in early September, and Gunnison, Delta, Mesa, Montrose, Ouray and San Miguel counties have since dropped Stage 1/2 orders as cooler, wetter weather settled in.\n- No active wildfires are reported in or near Montrose-area counties in today's national incident report; the only uncontained large fire nationally is in Wyoming.",
+  "lead": "Moderate fire danger holds today, driven by dry 1000-hour fuels (20%) and afternoon low humidity (28%), but conditions are easing fast.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,21 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions",
+      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Southwest District Fire Restrictions",
+      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
     },
     {
-      "name": "Quick Links • Emergency Preparedness",
-      "url": "https://www.montrosecounty.net/QuickLinks.aspx?CID=10"
+      "name": "Blm",
+      "url": "https://www.blm.gov/sites/default/files/docs/2026-06/Fire%20Prevention%20Order%20UFO%20Stage%201_Draft_June_2026_signed.pdf"
     },
     {
-      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "Colorado Emergency Management: Fire Restrictions",
+      "url": "http://www.coemergency.com/p/fire-bans-danger.html"
     }
   ],
-  "generated": "Thursday, November 12"
+  "generated": "Friday, November 13"
 }

@@ -2,58 +2,58 @@
   "slug": "durango_lower",
   "name": "Durango (Lower)",
   "dispatchTitle": "Durango Interagency Dispatch Area",
-  "dateLabel": "Thursday, November 12",
+  "dateLabel": "Friday, November 13",
   "areaTitle": "DRC Lower",
   "danger": "Moderate",
-  "lastUpdated": "11/12/2026 2:53:50",
+  "lastUpdated": "11/13/2026 2:53:50",
   "observations": [
     {
       "label": "ERC %",
-      "value": "52%",
+      "value": "47%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "BI %",
-      "value": "62%",
+      "value": "69%",
       "limit": "> 90%",
       "triggered": false
     },
     {
       "label": "Winds",
-      "value": "8",
+      "value": "10",
       "limit": "> 11",
       "triggered": false
     },
     {
       "label": "Direction",
-      "value": "N"
+      "value": "NE"
     },
     {
       "label": "24hr Rain",
-      "value": "0.00"
+      "value": "0.45"
     },
     {
       "label": "Max Temp",
-      "value": "56",
+      "value": "53",
       "limit": "> 89",
       "triggered": false
     },
     {
       "label": "Min Rh %",
-      "value": "36",
+      "value": "41",
       "limit": "< 9",
       "triggered": false
     },
     {
       "label": "1000hr Fuels",
-      "value": "20",
+      "value": "19",
       "limit": "< 9",
       "triggered": false
     },
     {
       "label": "Max Rh",
-      "value": "89",
+      "value": "85",
       "limit": "< 30",
       "triggered": false
     }
@@ -62,20 +62,20 @@
   "forecast": {
     "title": "Lower FDRA Extended Forecast",
     "dates": [
-      "12-Nov",
       "13-Nov",
       "14-Nov",
       "15-Nov",
       "16-Nov",
       "17-Nov",
-      "18-Nov"
+      "18-Nov",
+      "19-Nov"
     ],
     "rows": [
       {
         "label": "Adjective Fire Danger",
         "values": [
           "Moderate",
-          "Moderate",
+          "Low",
           "Low",
           "Low",
           "Low",
@@ -86,13 +86,13 @@
       {
         "label": "ERC-Y Percentile",
         "values": [
-          "52%",
           "47%",
+          "15%",
           "24%",
+          "28%",
           "23%",
-          "26%",
-          "21%",
-          "12%"
+          "20%",
+          "26%"
         ],
         "hits": [
           false,
@@ -107,13 +107,13 @@
       {
         "label": "BI-Y Percentile",
         "values": [
-          "62%",
-          "62%",
-          "29%",
-          "24%",
+          "69%",
+          "18%",
+          "25%",
           "30%",
-          "36%",
-          "14%"
+          "43%",
+          "23%",
+          "30%"
         ],
         "hits": [
           false,
@@ -128,13 +128,13 @@
       {
         "label": "Temperature",
         "values": [
-          "56",
           "53",
           "41",
-          "42",
           "45",
-          "43",
-          "38"
+          "47",
+          "47",
+          "40",
+          "41"
         ],
         "hits": [
           false,
@@ -149,13 +149,13 @@
       {
         "label": "Relative Humidity",
         "values": [
-          "36",
-          "42",
+          "41",
+          "76",
+          "60",
+          "57",
+          "66",
           "74",
-          "67",
-          "61",
-          "74",
-          "73"
+          "61"
         ],
         "hits": [
           false,
@@ -170,20 +170,20 @@
       {
         "label": "Winds",
         "values": [
+          "10",
+          "9",
+          "7",
           "8",
-          "9",
-          "9",
-          "6",
-          "9",
-          "16",
-          "9"
+          "15",
+          "12",
+          "8"
         ],
         "hits": [
           false,
           false,
           false,
           false,
-          false,
+          true,
           true,
           false
         ]
@@ -191,11 +191,11 @@
       {
         "label": "Wind Direction",
         "values": [
-          "N",
           "NE",
           "E",
-          "NE",
-          "NE",
+          "NNE",
+          "NNE",
+          "ENE",
           "E",
           "ENE"
         ]
@@ -203,19 +203,19 @@
       {
         "label": "Precipitation 24hr rain",
         "values": [
+          "0.02",
+          "0.45",
           "0.00",
           "0.00",
-          "0.44",
-          "0.00",
-          "0.00",
-          "0.29",
-          "0.32"
+          "0.52",
+          "0.19",
+          "0.04"
         ]
       },
       {
         "label": "1000hr Fuels",
         "values": [
-          "20",
+          "19",
           "19",
           "19",
           "19",
@@ -236,13 +236,13 @@
       {
         "label": "Max Rh",
         "values": [
-          "67",
-          "73",
+          "74",
+          "95",
+          "92",
+          "85",
+          "85",
           "93",
-          "89",
-          "84",
-          "86",
-          "90"
+          "88"
         ],
         "hits": [
           false,
@@ -257,25 +257,25 @@
       {
         "label": "ERC-X (Actual Number 1-106)",
         "values": [
-          "63",
-          "58",
-          "29",
-          "26",
-          "33",
+          "59",
+          "12",
+          "30",
+          "37",
+          "27",
           "22",
-          "7"
+          "32"
         ]
       },
       {
         "label": "BI-X  (Actual Number 1-285)",
         "values": [
-          "126",
-          "128",
-          "75",
-          "57",
+          "137",
+          "38",
+          "64",
           "79",
-          "91",
-          "22"
+          "103",
+          "57",
+          "81"
         ]
       }
     ]
@@ -3015,40 +3015,44 @@
         [
           314,
           51
+        ],
+        [
+          315,
+          51
         ]
       ],
       "forecasted": [
         [
-          315,
-          63
-        ],
-        [
           316,
-          58
+          59
         ],
         [
           317,
-          29
+          12
         ],
         [
           318,
-          26
+          30
         ],
         [
           319,
-          33
+          37
         ],
         [
           320,
-          22
+          27
         ],
         [
           321,
-          7
+          22
         ],
         [
           322,
-          30
+          32
+        ],
+        [
+          323,
+          7
         ]
       ]
     },
