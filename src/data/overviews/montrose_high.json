@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, driven by dry 1000-hour fuels (20%) and afternoon low humidity (28%), but conditions are easing fast.**\n- Danger drops to Low by Saturday and stays Low through Nov 19 as ERC and BI percentiles fall into the single digits.\n- Light snow showers are expected tonight and Saturday, with gusty northwest winds up to 10 mph behind the system.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning is active for the area.\n- Fire restrictions have eased region-wide: the Grand Mesa, Uncompahgre & Gunnison National Forests lifted all restrictions in early September, and Gunnison, Delta, Mesa, Montrose, Ouray and San Miguel counties have since dropped Stage 1/2 orders as cooler, wetter weather settled in.\n- No active wildfires are reported in or near Montrose-area counties in today's national incident report; the only uncontained large fire nationally is in Wyoming.",
-  "lead": "Moderate fire danger holds today, driven by dry 1000-hour fuels (20%) and afternoon low humidity (28%), but conditions are easing fast.",
+  "overview": "**Fire danger is Low today, driven by cool, wet weather with fresh snow showers moving through the high country.**\n- Fuel moisture trend is easing conditions further, with ERC dropping from 48% today to 35% by Nov 20 as more Low danger days are forecast all week.\n- A snow/rain mix with up to an inch of accumulation is expected today, followed by a drier, sunny day Sunday with a high near 49°F.\n- No Watchout conditions are active — 0 of 7 local thresholds are met, and no Red Flag Warning is in effect for the area.\nNo current fire restrictions are in effect in unincorporated Montrose County, and BLM's Gunnison Field Office restrictions were lifted in September, with only standard year-round rules remaining.\n- No active wildfires are reported in or near Montrose, Delta, Gunnison, Ouray, or San Miguel counties at this time.",
+  "lead": "Fire danger is Low today, driven by cool, wet weather with fresh snow showers moving through the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "BLM Uncompahgre Field Office implements Stage 1 fire restrictions",
-      "url": "https://www.blm.gov/announcement/blm-uncompahgre-field-office-implements-stage-1-fire-restrictions"
-    },
-    {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "Blm",
-      "url": "https://www.blm.gov/sites/default/files/docs/2026-06/Fire%20Prevention%20Order%20UFO%20Stage%201_Draft_June_2026_signed.pdf"
-    },
-    {
-      "name": "Colorado Emergency Management: Fire Restrictions",
-      "url": "http://www.coemergency.com/p/fire-bans-danger.html"
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     }
   ],
-  "generated": "Friday, November 13"
+  "generated": "Saturday, November 14"
 }
