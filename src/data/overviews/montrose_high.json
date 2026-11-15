@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Low today, driven by cool, wet weather with fresh snow showers moving through the high country.**\n- Fuel moisture trend is easing conditions further, with ERC dropping from 48% today to 35% by Nov 20 as more Low danger days are forecast all week.\n- A snow/rain mix with up to an inch of accumulation is expected today, followed by a drier, sunny day Sunday with a high near 49°F.\n- No Watchout conditions are active — 0 of 7 local thresholds are met, and no Red Flag Warning is in effect for the area.\nNo current fire restrictions are in effect in unincorporated Montrose County, and BLM's Gunnison Field Office restrictions were lifted in September, with only standard year-round rules remaining.\n- No active wildfires are reported in or near Montrose, Delta, Gunnison, Ouray, or San Miguel counties at this time.",
-  "lead": "Fire danger is Low today, driven by cool, wet weather with fresh snow showers moving through the high country.",
+  "overview": "**Fire danger is Low today, driven by cool temperatures, high fuel moisture, and light winds across the high country.**\n- - Fire weather index (BI) sits at 47%, with no watchout thresholds met (0 of 7).\n- The week ahead ticks up to Moderate Monday before easing back to Low Tuesday through Saturday as cooling temps push ERC/BI percentiles down into the mid-30s.\n- Patchy morning fog and a sunny high near 48°F are expected today, with light south-southwest winds; no Red Flag Warning is in effect.\n- Most Western Slope counties lifted fire restrictions as temperatures dropped this fall, and no county or BLM Stage 1/2 restrictions are currently active across the Montrose High Elevation counties—only standard year-round fire rules apply.\n- No active wildfires are being reported in or near this area's counties; the only uncontained fire in this week's regional sitrep (Foot Creek, Wyoming) is well outside the zone.",
+  "lead": "Fire danger is Low today, driven by cool temperatures, high fuel moisture, and light winds across the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Most fire restrictions lifted on the Western Slope as temperature drops",
+      "url": "https://www.cpr.org/2026/10/01/most-fire-restrictions-lifted-western-slope/"
     }
   ],
-  "generated": "Saturday, November 14"
+  "generated": "Sunday, November 15"
 }
