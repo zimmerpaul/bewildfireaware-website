@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger today, with dry fuels and seasonal temperatures keeping risk elevated despite no active fires.**\n- Danger trends downward through the week: Moderate today and Tuesday, then dropping to Low Wednesday through Sunday as fuel moisture improves.\n- Key driver is light wind (6 mph NE) with low midday humidity (36%), though a stronger weather system brings rain/snow chances Tuesday evening and cooler highs by midweek.\n- No Red Flag Warning is in effect, and 0 of 7 local watchout thresholds are currently met.\n- No fire restrictions are reported in the Montrose-area counties; Montrose County, BLM Uncompahgre Field Office, and the Grand Mesa, Uncompahgre and Gunnison National Forests have all lifted their earlier-season restrictions.\n- No wildfires are burning in or near these counties; the only active large fire in the Rocky Mountain Area (Foot Creek, Wyoming) is far outside this zone.\n- GMUG National Forests are planning prescribed slash-pile burns starting as early as November 17, pending snow or rain.",
-  "lead": "Moderate fire danger today, with dry fuels and seasonal temperatures keeping risk elevated despite no active fires.",
+  "overview": "**Fire danger is Moderate today, driven by elevated fuel dryness (ERC 53%, BI 58%) ahead of an incoming storm.**\n- Danger drops to Low by Thursday and stays Low through Sunday as rain and snow move in.\nSmoke impacts air quality across the Western Slope, with red flag warnings issued are not current here — no Red Flag Warning is active, and 0 of 7 local watchout thresholds are met.\n- Key driver: a cold front bringing rain showers today, then rain/snow tonight with west winds gusting to 35 mph and a low near 21.\n- Wednesday turns sunny and colder (high near 45) with lighter winds, reinforcing the cooling, moistening trend.\n- No county, BLM, or Forest Service fire restrictions are currently reported across the area's counties; wildfire activity across Colorado remains quiet with no active large fires burning statewide, with recent mountain precipitation and light winds keeping fire danger low.\n- No wildfires are burning in or near this area's counties at this time.",
+  "lead": "Fire danger is Moderate today, driven by elevated fuel dryness (ERC 53%, BI 58%) ahead of an incoming storm.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "Colorado Wildfires: Live Map & Latest Updates (2026)",
+      "url": "https://www.ecohubmap.com/hot-spot/colorado-wildfires/5g4nklihd9kex"
     },
     {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
-    },
-    {
-      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
-    },
-    {
-      "name": "Montrose County to enter Stage 2 Fire Restrictions",
-      "url": "https://www.westernslopenow.com/news/montrose-county-to-enter-stage-2-fire-restrictions/"
+      "name": "Colorado Fires Map",
+      "url": "https://fires.cornea.is/state/colorado"
     }
   ],
-  "generated": "Monday, November 16"
+  "generated": "Tuesday, November 17"
 }
