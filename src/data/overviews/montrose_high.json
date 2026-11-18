@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger is Moderate today, driven by elevated fuel dryness (ERC 53%, BI 58%) ahead of an incoming storm.**\n- Danger drops to Low by Thursday and stays Low through Sunday as rain and snow move in.\nSmoke impacts air quality across the Western Slope, with red flag warnings issued are not current here — no Red Flag Warning is active, and 0 of 7 local watchout thresholds are met.\n- Key driver: a cold front bringing rain showers today, then rain/snow tonight with west winds gusting to 35 mph and a low near 21.\n- Wednesday turns sunny and colder (high near 45) with lighter winds, reinforcing the cooling, moistening trend.\n- No county, BLM, or Forest Service fire restrictions are currently reported across the area's counties; wildfire activity across Colorado remains quiet with no active large fires burning statewide, with recent mountain precipitation and light winds keeping fire danger low.\n- No wildfires are burning in or near this area's counties at this time.",
-  "lead": "Fire danger is Moderate today, driven by elevated fuel dryness (ERC 53%, BI 58%) ahead of an incoming storm.",
+  "overview": "**Moderate fire danger holds today, driven by mid-50s ERC/BI percentiles and dry fuels despite cool temperatures.**\n- Danger stays Moderate through Friday, then eases to Low for the extended period (Nov 21–24) as ERC drops toward the 36–44% range.\n- NE winds near 12 mph and single-digit overnight humidity keep fuels receptive, though a sunny, calm pattern dominates per NWS, with light rain/snow chances midweek (0.01–0.02\").\n- Local watchout status: 0 of 7 thresholds met, and no Red Flag Warning is posted for this area.\n- No current fire restrictions are reported for Montrose County or the Forest Service's GMUG lands on the West Slope fire-info network; check county pages before burning, as status can change quickly.\n- Statewide wildfire activity remains quiet with no active large fires burning, with recent mountain precipitation and light winds keeping fire danger low — none reported in or near the Montrose-area counties.",
+  "lead": "Moderate fire danger holds today, driven by mid-50s ERC/BI percentiles and dry fuels despite cool temperatures.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,17 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Colorado Wildfires: Live Map & Latest Updates (2026)",
-      "url": "https://www.ecohubmap.com/hot-spot/colorado-wildfires/5g4nklihd9kex"
+      "name": "Forest Service - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/forest-service/"
+    },
+    {
+      "name": "Montrose County - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/montrose-county/"
     },
     {
       "name": "Colorado Fires Map",
       "url": "https://fires.cornea.is/state/colorado"
     }
   ],
-  "generated": "Tuesday, November 17"
+  "generated": "Wednesday, November 18"
 }
