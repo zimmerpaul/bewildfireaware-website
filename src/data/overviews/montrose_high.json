@@ -1,6 +1,6 @@
 {
-  "overview": "**Moderate fire danger holds today, driven by mid-50s ERC/BI percentiles and dry fuels despite cool temperatures.**\n- Danger stays Moderate through Friday, then eases to Low for the extended period (Nov 21–24) as ERC drops toward the 36–44% range.\n- NE winds near 12 mph and single-digit overnight humidity keep fuels receptive, though a sunny, calm pattern dominates per NWS, with light rain/snow chances midweek (0.01–0.02\").\n- Local watchout status: 0 of 7 thresholds met, and no Red Flag Warning is posted for this area.\n- No current fire restrictions are reported for Montrose County or the Forest Service's GMUG lands on the West Slope fire-info network; check county pages before burning, as status can change quickly.\n- Statewide wildfire activity remains quiet with no active large fires burning, with recent mountain precipitation and light winds keeping fire danger low — none reported in or near the Montrose-area counties.",
-  "lead": "Moderate fire danger holds today, driven by mid-50s ERC/BI percentiles and dry fuels despite cool temperatures.",
+  "overview": "**Fire danger is Moderate today, driven by mid-50s ERC/BI percentiles even as cool, mostly cloudy weather limits spread potential.**\n- Danger is forecast to ease to Low by Saturday as ERC and BI percentiles drop from the low-50s into the upper-30s/30s through the weekend.\n- Winds are light out of the NE at 11 mph today, but Friday brings gusty west winds up to 45 mph with a slight chance of snow showers and little accumulation expected.\n- None of the 7 local watchout thresholds are currently met, and no Red Flag Warning is in effect for the area.\nStage 1 fire restrictions have been lifted in the Gunnison Field Office, with only standard year-round wildfire prevention rules remaining in effect. No county-level burn restrictions are currently active across the area's counties.\n- Wildfire activity across Colorado remains quiet with no active large fires burning statewide, as recent mountain precipitation and light winds keep fire danger low. The only uncontained large fire nationally is in Wyoming, far from this area.",
+  "lead": "Fire danger is Moderate today, driven by mid-50s ERC/BI percentiles even as cool, mostly cloudy weather limits spread potential.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,17 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Forest Service - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/forest-service/"
-    },
-    {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     },
     {
       "name": "Colorado Fires Map",
       "url": "https://fires.cornea.is/state/colorado"
     }
   ],
-  "generated": "Wednesday, November 18"
+  "generated": "Thursday, November 19"
 }
