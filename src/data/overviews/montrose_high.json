@@ -1,6 +1,6 @@
 {
-  "overview": "**Low fire danger continues today, driven mainly by gusty 19 mph NE winds even as fuels stay seasonally damp.**\n- Fire danger is forecast to stay Low all week, with ERC and BI percentiles easing from the high-40s/high-50s today down into the mid-30s by November 26.\n- Today's wind reading of 19 mph is the only one of seven local watchout thresholds triggered; no other indicators are elevated.\n- No Red Flag Warning is posted for this area; NWS instead calls for snow showers tonight into Saturday with gusts to 30–45 mph and lows near 21°F.\n- Fire restrictions are currently lifted: the Grand Mesa, Uncompahgre and Gunnison National Forests rescinded Stage 1 Fire Restrictions on September 3, and Gunnison County confirmed it remains not under fire restrictions as of September 18; check locally before any burning.\n- No active wildfires are reported in or near Gunnison, Saguache, San Miguel, Hinsdale, Chaffee, Pitkin, Mesa, Delta, Ouray, Montrose, San Juan, Mineral, or Dolores counties today.",
-  "lead": "Low fire danger continues today, driven mainly by gusty 19 mph NE winds even as fuels stay seasonally damp.",
+  "overview": "**Low fire danger continues across the Montrose high-elevation zone, with light moisture and cool temperatures keeping all 7 local watchout thresholds unmet.**\n- Danger stays Low through the week, with fuel moisture indices (ERC/BI) easing further by midweek as the 1000-hr fuel level holds steady at 20%.\n- Today's snow showers and light wind (5-15 mph, becoming NNE overnight) are reinforcing damp conditions, with a cold overnight low near 11°F.\n- No Red Flag Warning is in effect, and no NWS alerts are active for the area.\n- Stage 1 fire restrictions for the BLM Uncompahgre Field Office, covering Montrose, Delta, Mesa, Gunnison, Ouray and San Miguel counties, have been lifted, and the Gunnison Field Office's Stage 1 restrictions were lifted as of September 18, 2026, with only standard year-round rules remaining.\n- No active wildfires are reported in or near the local counties in today's national situation report; the only uncontained large fire nationally is in Wyoming, far outside this area.",
+  "lead": "Low fire danger continues across the Montrose high-elevation zone, with light moisture and cool temperatures keeping all 7 local watchout thresholds unmet.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,13 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
-      "url": "https://www.fs.usda.gov/r02/gmug/newsroom/releases/grand-mesa-uncompahgre-and-gunnison-national-forests-rescind-stage-1"
-    },
-    {
-      "name": "Emergency Response Services",
-      "url": "https://emergency.gunnisoncounty.org/firerestrictions/"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Friday, November 20"
+  "generated": "Saturday, November 21"
 }
