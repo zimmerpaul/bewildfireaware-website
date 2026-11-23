@@ -1,6 +1,6 @@
 {
-  "overview": "**Low fire danger today, with dry fuels but calm winds keeping conditions manageable.**\n- Fire danger holds at Low through the week ahead, with ERC and BI percentiles easing into the upper-30s/mid-40s by midweek before ticking back up late in the period.\n- Light winds (6 mph, NNE) and cool highs near 36°F are limiting fire spread potential, though 1000-hr fuels remain low at 20%.\n- No watchout conditions are active (0 of 7 thresholds met), and no Red Flag Warning or other NWS alerts are in effect for the area.\n- No county, BLM, or U.S. Forest Service fire restrictions are currently reported across Montrose, Gunnison, Delta, Ouray, San Miguel, or neighboring counties, per the latest fall updates.\n- No active wildfires are burning in or near this area; the only uncontained large fire nationally is in Wyoming, well outside Colorado.\n- Monday brings a chance of light snow showers, which should keep fuels and fire activity suppressed into next week.",
-  "lead": "Low fire danger today, with dry fuels but calm winds keeping conditions manageable.",
+  "overview": "**Low fire danger continues Monday as today's snow showers and cool temperatures keep fuels damp across the high country.**\n- The 7-day outlook holds at Low every day, with ERC easing from 45% to 35% and BI holding near 36% by next Sunday.\n- Today brings afternoon snow showers with 1–2 inches possible and a high near 37, clearing to sunny skies Tuesday near 41 with light west winds.\n- No Red Flag Warning is active, and 0 of 7 local watchout thresholds are currently met.\n- No county or BLM fire restrictions are reported in effect across the Montrose, Gunnison, Delta, Ouray, San Miguel or surrounding counties; the GMUG National Forest rescinded its Stage 1 restrictions in early September.\n- No active wildfires are burning in or near this area; the Gold Mountain Fire in Montrose, Ouray and Gunnison counties reached 100% containment earlier this month and is now closed out.",
+  "lead": "Low fire danger continues Monday as today's snow showers and cool temperatures keep fuels damp across the high country.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,13 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
+      "name": "Forest Service - West Slope Fire Info",
+      "url": "https://westslopefireinfo.com/forest-service/"
     },
     {
-      "name": "News Flash • Montrose County",
-      "url": "https://www.montrosecounty.net/m/NewsFlash"
-    },
-    {
-      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
-    },
-    {
-      "name": "Montrose County to enter Stage 2 Fire Restrictions",
-      "url": "https://www.westernslopenow.com/news/montrose-county-to-enter-stage-2-fire-restrictions/"
+      "name": "Gold Mountain Fire Map",
+      "url": "https://app.watchduty.org/i/105034"
     }
   ],
-  "generated": "Sunday, November 22"
+  "generated": "Monday, November 23"
 }
