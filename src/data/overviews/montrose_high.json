@@ -1,6 +1,6 @@
 {
-  "overview": "**Low fire danger continues across the Montrose high-elevation area, held down by cold, moist air and shallow fuels.**\n- The week-ahead outlook holds steady at Low danger through November 30, with ERC easing slightly from 39% to 33%.\n- A cold, dry pattern persists, with lows near 13°F tonight and highs staying in the 30s-40s; winds stay light (5-13 mph) out of the NE.\n- 0 of 7 local watchout thresholds are met today, and no Red Flag Warning or other NWS alerts are active for the area.\n- No county or BLM/Forest Service fire restrictions are currently reported in effect across the Gunnison, Uncompahgre, or Montrose-area jurisdictions.\n- No active wildfires are reported in or near this area's counties; the only uncontained large fire in the national sit report is the Foot Creek Fire in Wyoming, well outside this region.",
-  "lead": "Low fire danger continues across the Montrose high-elevation area, held down by cold, moist air and shallow fuels.",
+  "overview": "**Fire danger remains Low across the Montrose (High Elevation) area today, driven by cool temperatures, light fuels activity, and no meaningful dryness signal.**\n- The 7-day outlook holds steady at Low through December 1, with ERC easing slightly from 37% to 33% as 1000-hr fuels stay near 20%.\n- A cold, dry pattern dominates: highs sit in the 30s-40s with a windier spell Saturday (gusts to 20 mph from the NE) before calming into Thanksgiving week.\n- None of the 7 local watchout thresholds are triggered, and no Red Flag Warning is in effect for the area.\n- BLM's Gunnison Field Office lifted its Stage 1 fire restrictions in September, with only standard year-round wildfire prevention rules remaining in effect; Montrose County likewise shows no active stage restrictions.\n- No wildfires are reported burning in or near the 13-county Montrose area; national preparedness remains at Level 1, Rocky Mountain Area at PL 2, with no nearby incidents listed.",
+  "lead": "Fire danger remains Low across the Montrose (High Elevation) area today, driven by cool temperatures, light fuels activity, and no meaningful dryness signal.",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,21 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Southwest District Fire Restrictions",
-      "url": "https://www.blm.gov/programs/public-safety-and-fire/fire-and-aviation/regional-information/colorado/southwest-district"
-    },
-    {
-      "name": "Montrose County enters Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-enters-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
-    },
-    {
-      "name": "Montrose County, more federal lands enter Stage 1 fire restrictions",
-      "url": "https://www.montrosepress.com/free_access/montrose-county-more-federal-lands-enter-stage-1-fire-restrictions/article_c460c44e-dd1f-42d0-899f-97775ad49957.html"
-    },
-    {
-      "name": "Montrose County - West Slope Fire Info",
-      "url": "https://westslopefireinfo.com/montrose-county/"
+      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
+      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
     }
   ],
-  "generated": "Tuesday, November 24"
+  "generated": "Wednesday, November 25"
 }
