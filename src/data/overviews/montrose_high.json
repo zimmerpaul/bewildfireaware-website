@@ -1,6 +1,6 @@
 {
-  "overview": "**Fire danger remains Low across the Montrose (High Elevation) area today, driven by cool temperatures, light fuels activity, and no meaningful dryness signal.**\n- The 7-day outlook holds steady at Low through December 1, with ERC easing slightly from 37% to 33% as 1000-hr fuels stay near 20%.\n- A cold, dry pattern dominates: highs sit in the 30s-40s with a windier spell Saturday (gusts to 20 mph from the NE) before calming into Thanksgiving week.\n- None of the 7 local watchout thresholds are triggered, and no Red Flag Warning is in effect for the area.\n- BLM's Gunnison Field Office lifted its Stage 1 fire restrictions in September, with only standard year-round wildfire prevention rules remaining in effect; Montrose County likewise shows no active stage restrictions.\n- No wildfires are reported burning in or near the 13-county Montrose area; national preparedness remains at Level 1, Rocky Mountain Area at PL 2, with no nearby incidents listed.",
-  "lead": "Fire danger remains Low across the Montrose (High Elevation) area today, driven by cool temperatures, light fuels activity, and no meaningful dryness signal.",
+  "overview": "**Fire danger remains Low today, held down by cool temps, light winds, and low fuel dryness (ERC 39%, BI 37%).**\n- Danger stays Low through the next 7 days, with ERC drifting slightly lower into early December (39% today to 33% by Dec 2).\n- Weather driver: mild and mostly sunny through Thanksgiving/Friday, with a Friday wind increase (gusts to 25 mph) before a cooler, breezier weekend brings light mountain rain/snow.\n- Watchout status: 0 of 7 local thresholds met — no elevated fire-behavior concerns today.\n- No active fire restrictions are reported in the Montrose-area counties; only standard year-round burning rules apply.\n- The Gold Mountain Fire, which burned 39,747 acres north of Ouray, has reached 100% containment after mop-up confirmed no remaining heat, though burn-scar hazards persist nearby.",
+  "lead": "Fire danger remains Low today, held down by cool temps, light winds, and low fuel dryness (ERC 39%, BI 37%).",
   "sources": [
     {
       "name": "FEMS / NFDRS via BeWildfireAware",
@@ -15,9 +15,9 @@
       "url": "https://www.nifc.gov/nicc-files/sitreprt.pdf"
     },
     {
-      "name": "Programs: Public Safety and Fire: Fire and Aviation: Regional Information: Colorado: Fire Restrictions",
-      "url": "https://www.blm.gov/programs/fire/regional-info/colorado/fire-restrictions"
+      "name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+      "url": "https://www.fs.usda.gov/r02/gmug/newsroom/releases/gold-mountain-fire-reaches-100-containment"
     }
   ],
-  "generated": "Wednesday, November 25"
+  "generated": "Thursday, November 26"
 }
